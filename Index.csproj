@@ -37,10 +37,12 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="docs\README.html" />
     <Content Include="license.txt" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
