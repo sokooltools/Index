@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)file:///C:/Users/rs69287/AppData/Local/Temp/CodeBuilderReport.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Parker Code Builder Report</title>
+	<style type="text/css">
+		body {
+			font-family: "Segoe UI";
+		}
+
+		hr {
+			border: solid 1pt darkgray;
+			margin: 26px 0 16px 0;
+		}
+
+		table {
+			border-collapse: collapse;
+			font-size: small;
+			margin-bottom: 15px;
+		}
+
+		caption {
+			text-align: left;
+			font-size: x-large;
+			margin-bottom: 5px;
+		}
+
+		th {
+			font-weight: 600;
+			padding: 3px 0 3px 12px;
+			text-align: left;
+		}
+
+		tr.a {
+			background-color: #f7f7f7;
+			background-color: rgb(247, 247, 247);
+		}
+
+		tr.c {
+			background-color: #c7f4cc;
+			background-color: rgb(199, 244, 204);
+		}
+
+		td {
+			padding-left: 12px;
+			vertical-align: text-top;
+		}
+
+		.tab1 {
+			width: 100%;
+			border: thin solid gray;
+		}
+
+		.tr1 {
+			border-top: thin solid darkgray;
+		}
+
+		.th1 {
+			width: 200px;
+			border-right: thin solid darkgray;
+		}
+
+		.td1 {
+			padding-top: 6px;
+			width: 100px;
+		}
+
+		.td1, .td2, .td3, .td4, .td5a {
+			border-right: thin solid darkgray;
+			font-size: 9pt;
+			font-weight: 600;
+		}
+
+		.td4 {
+			padding-bottom: 6px;
+		}
+
+		.td5 {
+			border-right: thin solid darkgray;
+		}
+
+		.td6 {
+			word-break: break-all;
+		}
+
+		.btnToggleDiv, .btnScrollToTop, .btnExpandAll, .btnCollapseAll {
+			font-size: 9px;
+		}
+
+		.btnScrollToTop {
+			margin: 0 8px 0 8px;
+		}
+
+		.x {
+			color: red;
+		}
+
+		.ix {
+			font-style: italic;
+			color: #808080;
+		}
+
+		@media print {
+			footer {
+				page-break-before: always;
+			}
+
+			input {
+				display: none !important;
+			}
+
+			.ix {
+				font-style: normal !important;
+				color: black !important;
+			}
+		}
+	</style>
+	<script type="text/javascript">
+		var myclass1 = new RegExp("div1");
+		var myclass2 = new RegExp("ix");
+		var btns = document.getElementsByClassName("btnToggleDiv");
+		var divs = document.getElementsByTagName("div");
+		function ExpandAll() {
+			for(let j = 0; j < divs.length; j++) {
+				const classes = divs[j].className;
+				if(myclass1.test(classes))
+					divs[j].style.display = "none";
+				if(myclass2.test(classes))
+					divs[j].style.display = "block";
+			}
+			for(let i = 0; i < btns.length; i++) {
+				btns[i].value = "- Collapse";
+			}
+		}
+		function CollapseAll() {
+			for(let j = 0; j < divs.length; j++) {
+				const classes = divs[j].className;
+				if(myclass1.test(classes))
+					divs[j].style.display = "block";
+				if(myclass2.test(classes))
+					divs[j].style.display = "none";
+			}
+			for(let i = 0; i < btns.length; i++) {
+				btns[i].value = "+ Expand";
+			}
+		}
+		function toggleDiv(id) {
+			const doc = id != null ? document.getElementById(id) : document;
+			const btns = doc.getElementsByClassName("btnToggleDiv");
+			const divs = doc.getElementsByTagName("div");
+			for(let i = 0; i < btns.length; i++) {
+				btns[i].value = (btns[i].value === "+ Expand"
+					? "- Collapse"
+					: "+ Expand");
+			}
+			for(let j = 0; j < divs.length; j++) {
+				const classes = divs[j].className;
+				if(myclass1.test(classes)) {
+					divs[j].style.display = (divs[j].style.display === "block" ? "none" : "block");
+				}
+			}
+		}
+		function toggle(anId) {
+			const el = document.getElementById(anId);
+			if(el != null) {
+				el.style.display = (el.style.display === "block" ? "none" : "block");
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<a id="__top"></a>
+	<table style="width: 100%; margin-bottom:0;">
+		<tbody><tr>
+			<td style="font-size: xx-large; padding-left: 0;">
+				Parker Code Builder Report
+			</td>
+			<td style="font-size: large; text-align: right;">12-03-2019 11:13:52 AM</td>
+		</tr>
+		<tr style="height: 12px;"></tr>
+		<tr style="height: 18px; font-size: small;">
+			<td></td>
+			<td style="text-align: right;">active command =&nbsp;<span style="background-color: #c7f4cc; ">&nbsp;&nbsp;&nbsp;</span></td>
+		</tr>
+		<tr style="height: 18px; font-size: small;">
+			<td></td>
+			<td style="text-align: right;">invalid command =&nbsp;<span style="background-color: red;  ">&nbsp;&nbsp;&nbsp;</span></td>
+		</tr>
+	</tbody></table>
+	
+
+
+<table style="width: 100%; margin: 15px 0 0 0;">
+	<tbody><tr>
+		<th></th>
+		<th>
+			<span style="float: right;">
+				<input class="btnExpandAll" type="button" value="+ Expand All" onclick="ExpandAll();">
+				<input class="btnCollapseAll" type="button" value="- Collapse All" onclick="CollapseAll();">
+			</span>
+		</th>
+	</tr>
+</tbody></table>
+<table class="tab1" style="margin-top:0;">
+	<caption>Summary</caption>
+	<tbody><tr>
+		<th class="th1">Key</th>
+		<th>
+			Value
+		</th>
+	</tr>
+	<tr class="tr1"><td class="td1" style="width: 200px;">Product Name</td><td>PAC Phase 3 PAM</td></tr>
+	<tr><td class="td2">Product Version</td><td>1.5.0.1032</td></tr>
+	<tr><td class="td2">Project File</td><td>Y:\CodeBuilder\Projects\PAC_Phase3_PAM.xml</td></tr>
+	<tr><td class="td2">Email Local Addresses</td><td class="td6">ronn.sokol@parker.com*;bmhicks@parker.com;sewalter@parker.com</td></tr>
+	<tr><td class="td2">Email Remote Addresses</td><td class="td6">dmcferren@parker.com</td></tr>
+</tbody></table>
+
+<table id="2" class="tab1">
+	<caption>Application Settings</caption>
+	<tbody><tr>
+		<th class="th1">Key</th>
+		<th>
+			Value
+			<span style="float: right;">
+				<input class="btnToggleDiv" type="button" value="+ Expand" onclick="toggleDiv(2);">
+				<input class="btnScrollToTop" type="button" value="Scroll To Top" onclick="window.scrollTo(0, 0);">
+			</span>
+		</th>
+	</tr>
+	<tr class="tr1"><td class="td5">%SOURCE_CONTROL%</td>
+		<td>
+			<div class="div1" style="display: block;">C:\Program Files\TortoiseSVN\bin\svn.exe</div>
+			<div class="ix div1" style="display: none;">C:\Program Files\TortoiseSVN\bin\svn.exe</div>
+		</td>
+	</tr>
+</tbody></table>
+
+<footer></footer>
+<table id="3" class="tab1">
+<caption>Pre-Build Actions</caption>
+<tbody><tr><th></th><th>
+<span style="float: right;">
+<input class="btnToggleDiv" type="button" value="+ Expand" onclick="toggleDiv(3);">
+<input class="btnScrollToTop" type="button" value="Scroll To Top" onclick="window.scrollTo(0, 0);">
+</span>
+</th></tr>
+<tr class="a tr1"><td class="td1">Name</td><td>Test Running a Command File</td></tr>
+<tr class="a"><td class="td2">Description</td><td>Test running a command file.&nbsp;&nbsp;(Look at the log file for result!)</td></tr>
+<tr class="a"><td class="td3">Command</td><td><div class="div1" style="display: block;">%CB_COMMANDS_FOLDER%\test2.cmd</div><div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Commands\test2.cmd</div></td></tr>
+<tr class="a"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">"%PROJ_PRODUCT_NAME%" "%PROJ_BASE_VERSION%" "%PROJ_BUILD_NUMBER%"</div><div class="ix div1" style="display: none;">"PAC Phase 3 PAM" "1.5.0" "1032"</div></td></tr>
+<tr class="b tr1"><td class="td1">Name</td><td>Test Force Stop</td></tr>
+<tr class="b"><td class="td2">Description</td><td>Test force stopping by running this command file.&nbsp;&nbsp;(Click the 'Force Stop' button for this action to finish).</td></tr>
+<tr class="b"><td class="td3">Command</td><td><div class="div1" style="display: block;">%CB_COMMANDS_FOLDER%\test.cmd</div><div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Commands\test.cmd</div></td></tr>
+<tr class="b"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">pause</div><div class="ix div1" style="display: none;">pause</div></td></tr>
+<tr class="a tr1"><td class="td1">Name</td><td>Test Opening Notepad</td></tr>
+<tr class="a"><td class="td2">Description</td><td>Tests opening Notepad.exe using Window's Application path.&nbsp;&nbsp;(You'll need to close Notepad for the action to finish!)</td></tr>
+<tr class="a"><td class="td3">Command</td><td><div class="div1" style="display: block;">Notepad</div><div class="ix div1" style="display: none;">C:\Windows\System32\Notepad.EXE</div></td></tr>
+<tr class="a"><td class="td4">Arguments</td><td><div class="div1" style="display: block;"></div><div class="ix div1" style="display: none;"></div></td></tr>
+<tr class="b tr1"><td class="td1">Name</td><td>Clean ParkerWebCF Output Directory</td></tr>
+<tr class="b"><td class="td2">Description</td><td>Cleans up the Web output directory by simply&nbsp;&nbsp;removing the "S:\Tucson\Release\Web" folder.</td></tr>
+<tr class="b"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(CLEANUP_DIRECTORY)</div><div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Commands\removedirectory.cmd</div></td></tr>
+<tr class="b"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">S:\Tucson\Release\Web</div><div class="ix div1" style="display: none;">S:\Tucson\Release\Web</div></td></tr>
+<tr class="c tr1"><td class="td1">Name</td><td>Clean PAM Install Output Directory</td></tr>
+<tr class="c"><td class="td2">Description</td><td>Cleans up the PAM Install output directory by simply&nbsp;&nbsp;removing the "S:\Tucson\PAM_Setup" folder.</td></tr>
+<tr class="c"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(CLEANUP_DIRECTORY)</div><div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Commands\removedirectory.cmd</div></td></tr>
+<tr class="c"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">S:\Tucson\PAM_Setup</div><div class="ix div1" style="display: none;">S:\Tucson\PAM_Setup</div></td></tr>
+<tr class="b tr1"><td class="td1">Name</td><td>Get Latest ParkerWebCF Source</td></tr>
+<tr class="b"><td class="td2">Description</td><td>Gets the latest ParkerWebCF code from the SVN server.</td></tr>
+<tr class="b"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(SVN)</div><div class="ix div1" style="display: none;">C:\Program Files\TortoiseSVN\bin\svn.exe</div></td></tr>
+<tr class="b"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">update "%TUCSON_TRUNK_FOLDER%\ParkerWebCF"</div><div class="ix div1" style="display: none;">update "Y:\Tucson\trunk\ParkerWebCF"</div></td></tr>
+<tr class="c tr1"><td class="td1">Name</td><td>Get Latest PAM Source</td></tr>
+<tr class="c"><td class="td2">Description</td><td>Gets the latest PAM source code from the SVN server.</td></tr>
+<tr class="c"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(SVN)</div><div class="ix div1" style="display: none;">C:\Program Files\TortoiseSVN\bin\svn.exe</div></td></tr>
+<tr class="c"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">update "%TUCSON_TRUNK_FOLDER%\PAM"</div><div class="ix div1" style="display: none;">update "Y:\Tucson\trunk\PAM"</div></td></tr>
+</tbody></table>
+<footer></footer>
+<table id="4" class="tab1">
+<caption>Build Actions</caption>
+<tbody><tr><th></th><th>
+<span style="float: right;">
+<input class="btnToggleDiv" type="button" value="+ Expand" onclick="toggleDiv(4);">
+<input class="btnScrollToTop" type="button" value="Scroll To Top" onclick="window.scrollTo(0, 0);">
+</span>
+</th></tr>
+<tr class="a tr1"><td class="td1">Name</td><td>Build ParkerWebCF (Globalization)</td></tr>
+<tr class="a"><td class="td2">Description</td><td>Builds the ParkerWebCF Globalization project&nbsp;&nbsp;(using Visual Studio 2008).</td></tr>
+<tr class="a"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(VS2008)</div><div class="ix div1" style="display: none;">C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\devenv.com</div></td></tr>
+<tr class="a"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">"%TUCSON_TRUNK_FOLDER%\ParkerWebCF\Globalization\Globalization.csproj" /rebuild "Release"</div><div class="ix div1" style="display: none;">"Y:\Tucson\trunk\ParkerWebCF\Globalization\Globalization.csproj" /rebuild "Release"</div></td></tr>
+<tr class="b tr1"><td class="td1">Name</td><td>Build ParkerWebCF</td></tr>
+<tr class="b"><td class="td2">Description</td><td>Builds the ParkerWebCF solution&nbsp;&nbsp;(using Visual Studio 2008).</td></tr>
+<tr class="b"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(VS2008)</div><div class="ix div1" style="display: none;">C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\devenv.com</div></td></tr>
+<tr class="b"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">"%TUCSON_TRUNK_FOLDER%\ParkerWebCF\ParkerWebCF.sln" /rebuild "Release"</div><div class="ix div1" style="display: none;">"Y:\Tucson\trunk\ParkerWebCF\ParkerWebCF.sln" /rebuild "Release"</div></td></tr>
+<tr class="c tr1"><td class="td1">Name</td><td>Build PAM</td></tr>
+<tr class="c"><td class="td2">Description</td><td>Builds the Parker Automation Manager solution&nbsp;&nbsp;(using Visual Studio 2019).</td></tr>
+<tr class="c"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(VS2019)</div><div class="ix div1" style="display: none;">C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\devenv.exe</div></td></tr>
+<tr class="c"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">"%TUCSON_TRUNK_FOLDER%\PAM\Parker.Automation.Manager.sln" /rebuild "Release"</div><div class="ix div1" style="display: none;">"Y:\Tucson\trunk\PAM\Parker.Automation.Manager.sln" /rebuild "Release"</div></td></tr>
+<tr class="b tr1"><td class="td1">Name</td><td>Create RevInfo for PAM (Local)</td></tr>
+<tr class="b"><td class="td2">Description</td><td>Create Revision Information file for PAM on Local Archive</td></tr>
+<tr class="b"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(CREATE_REVISION_INFO)</div><div class="ix div1" style="display: none;">--Internal--</div></td></tr>
+<tr class="b"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">"%TUCSON_TRUNK_FOLDER%\PAM" "%PUBLISH_LOCAL%\Tucson\trunk\%PROJ_FULL_VERSION%"</div><div class="ix div1" style="display: none;">"Y:\Tucson\trunk\PAM" "\\emn015f03\builds_archive\Tucson\trunk\1.5.0.1032"</div></td></tr>
+<tr class="a tr1"><td class="td1">Name</td><td>Create RevInfo for PAM (Remote)</td></tr>
+<tr class="a"><td class="td2">Description</td><td>Create Revision Information file for PAM on Remote Archive</td></tr>
+<tr class="a"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(CREATE_REVISION_INFO)</div><div class="ix div1" style="display: none;">--Internal--</div></td></tr>
+<tr class="a"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">"%TUCSON_TRUNK_FOLDER%\PAM" "%PUBLISH_REMOTE%\Tucson\trunk\%PROJ_FULL_VERSION%"</div><div class="ix div1" style="display: none;">"Y:\Tucson\trunk\PAM" "\\emn0d5f01\rp_engineering\sw_engineering\builds_archive\Tucson\trunk\1.5.0.1032"</div></td></tr>
+<tr class="c tr1"><td class="td1">Name</td><td>Create RevInfo for ALL (enabled only)</td></tr>
+<tr class="c"><td class="td2">Description</td><td>Create a Revision Information file for ALL enabled Sources on ALL enabled Archives&nbsp;&nbsp;(i.e. both Local and Remote archives)</td></tr>
+<tr class="c"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(CREATE_REVISION_INFO)</div><div class="ix div1" style="display: none;">--Internal--</div></td></tr>
+<tr class="c"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">"*" "*"</div><div class="ix div1" style="display: none;">"*" "*"</div></td></tr>
+<tr class="a tr1"><td class="td1">Name</td><td>Create RevInfo for ALL</td></tr>
+<tr class="a"><td class="td2">Description</td><td>Create a Revision Information file for ALL Sources on ALL Archives&nbsp;&nbsp;(i.e. both Local and Remote archives)</td></tr>
+<tr class="a"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(CREATE_REVISION_INFO)</div><div class="ix div1" style="display: none;">--Internal--</div></td></tr>
+<tr class="a"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">"**" "**"</div><div class="ix div1" style="display: none;">"**" "**"</div></td></tr>
+</tbody></table>
+<footer></footer>
+<table id="5" class="tab1">
+<caption>Post-Build Actions</caption>
+<tbody><tr><th></th><th>
+<span style="float: right;">
+<input class="btnToggleDiv" type="button" value="+ Expand" onclick="toggleDiv(5);">
+<input class="btnScrollToTop" type="button" value="Scroll To Top" onclick="window.scrollTo(0, 0);">
+</span>
+</th></tr>
+<tr class="c tr1"><td class="td1">Name</td><td>Stamp PAM Version Numbers</td></tr>
+<tr class="c"><td class="td2">Description</td><td>Adds file and product 'Version' information to a list of files&nbsp;&nbsp;(using StampVer.exe)</td></tr>
+<tr class="c"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(STAMP)</div><div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Stamping\StampVer.exe</div></td></tr>
+<tr class="c"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">"%CB_STAMPING_FOLDER%\PAM\PAM_Assemblies.lst"</div><div class="ix div1" style="display: none;">"Y:\CodeBuilder\External\Stamping\PAM\PAM_Assemblies.lst"</div></td></tr>
+<tr class="c tr1"><td class="td1">Name</td><td>Digitally Sign PAM Assemblies</td></tr>
+<tr class="c"><td class="td2">Description</td><td>Digitally signs a list of assemblies&nbsp;&nbsp;(using ParkerDigitalSignTool.exe).</td></tr>
+<tr class="c"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(SIGN)</div><div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Digital-Signing\ParkerDigitalSignTool\bin\Release\ParkerDigitalSignTool.exe</div></td></tr>
+<tr class="c"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">/LIST %CB_SIGNING_FOLDER%\PAM\PAM_Assemblies.lst</div><div class="ix div1" style="display: none;">/LIST Y:\CodeBuilder\External\Digital-Signing\PAM\PAM_Assemblies.lst</div></td></tr>
+<tr class="a tr1"><td class="td1">Name</td><td>UnitTest - ParkerWebCF solution</td></tr>
+<tr class="a"><td class="td2">Description</td><td>Runs a series of unit tests on the Parker Web CF solution&nbsp;&nbsp;(using RunUnitTests.cmd).</td></tr>
+<tr class="a"><td class="td3">Command</td><td><div class="div1" style="display: block;">%TUCSON_TRUNK_FOLDER%\ParkerWebCF\UnitTests\RunUnitTests.cmd</div><div class="ix div1" style="display: none;">Y:\Tucson\trunk\ParkerWebCF\UnitTests\RunUnitTests.cmd</div></td></tr>
+<tr class="a"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">Release</div><div class="ix div1" style="display: none;">Release</div></td></tr>
+<tr class="b tr1"><td class="td1">Name</td><td>Create PAM Help Merge Module</td></tr>
+<tr class="b"><td class="td2">Description</td><td>Creates the PAM Help merge module (.msm file)&nbsp;&nbsp;and copies it to the InstallShield folder ready for&nbsp;&nbsp;integration into the PAM Installer.</td></tr>
+<tr class="b"><td class="td3">Command</td><td><div class="div1" style="display: block;">%CB_COMMANDS_FOLDER%\PAM_CreateOnlineHelpMergeModule.cmd</div><div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Commands\PAM_CreateOnlineHelpMergeModule.cmd</div></td></tr>
+<tr class="b"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">"%PROGRAMFILES(X86)%\InstallShield\2015\System\ISCmdBld.exe" "%TUCSON_ROOT_FOLDER%\MM_CoDeSys_AddFiles.ism" "S:\Tucson\Product Configuration 1\Release 1\DiskImages\DISK1" "%TUCSON_ROOT_FOLDER%\MergeModules"</div><div class="ix div1" style="display: none;">"C:\Program Files (x86)\InstallShield\2015\System\ISCmdBld.exe" "Y:\Tucson\trunk\Tools\InstallShield\phase3\MM_CoDeSys_AddFiles.ism" "S:\Tucson\Product Configuration 1\Release 1\DiskImages\DISK1" "Y:\Tucson\trunk\Tools\InstallShield\phase3\MergeModules"</div></td></tr>
+<tr class="c tr1"><td class="td1">Name</td><td>Create PAM Installer</td></tr>
+<tr class="c"><td class="td2">Description</td><td>Creates the PAM Installer&nbsp;&nbsp;(using InstallShield)&nbsp;&nbsp;-p "project file name" - a "active configuration name" -r "release name" -e "y=include Setup.exe in the build"</td></tr>
+<tr class="c"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(INSTALLSHIELD)</div><div class="ix div1" style="display: none;">C:\Program Files (x86)\InstallShield\2015\System\ISCmdBld.exe</div></td></tr>
+<tr class="c"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">-p "%TUCSON_ROOT_FOLDER%\PAM\PAM.ism" -a "PAM_Setup" -r "Release" -e y</div><div class="ix div1" style="display: none;">-p "Y:\Tucson\trunk\Tools\InstallShield\phase3\PAM\PAM.ism" -a "PAM_Setup" -r "Release" -e y</div></td></tr>
+<tr class="c tr1"><td class="td1">Name</td><td>Digitally Sign PAM Installer</td></tr>
+<tr class="c"><td class="td2">Description</td><td>Digitally signs the PAM Installer&nbsp;&nbsp;(using ParkerDigitialSignTool.exe)</td></tr>
+<tr class="c"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(SIGN)</div><div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Digital-Signing\ParkerDigitalSignTool\bin\Release\ParkerDigitalSignTool.exe</div></td></tr>
+<tr class="c"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">"S:\Tucson\PAM_Setup\Release\DiskImages\DISK1\PAM_Setup.exe"</div><div class="ix div1" style="display: none;">"S:\Tucson\PAM_Setup\Release\DiskImages\DISK1\PAM_Setup.exe"</div></td></tr>
+<tr class="c tr1"><td class="td1">Name</td><td>Publish to Local Archive</td></tr>
+<tr class="c"><td class="td2">Description</td><td>Publish files to the local archive.</td></tr>
+<tr class="c"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(PUBLISH)</div><div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Publishing\Publish.exe</div></td></tr>
+<tr class="c"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">%CB_PUBLISHING_FOLDER%\PAM\PAM_Installer.cbp "%PUBLISH_LOCAL%\Tucson\trunk\%PROJ_FULL_VERSION%"</div><div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Publishing\PAM\PAM_Installer.cbp "\\emn015f03\builds_archive\Tucson\trunk\1.5.0.1032"</div></td></tr>
+<tr class="b tr1"><td class="td1">Name</td><td>Publish to Remote Archive</td></tr>
+<tr class="b"><td class="td2">Description</td><td>Publish files to the remote archive.</td></tr>
+<tr class="b"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(PUBLISH)</div><div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Publishing\Publish.exe</div></td></tr>
+<tr class="b"><td class="td4">Arguments</td><td><div class="div1" style="display: block;">%CB_PUBLISHING_FOLDER%\PAM\PAM_Installer.cbp "%PUBLISH_REMOTE%\Tucson\trunk\%PROJ_FULL_VERSION%"</div><div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Publishing\PAM\PAM_Installer.cbp "\\emn0d5f01\rp_engineering\sw_engineering\builds_archive\Tucson\trunk\1.5.0.1032"</div></td></tr>
+</tbody></table>
+<footer></footer>
+<table id="6" class="tab1">
+<caption>Final-Build Actions</caption>
+<tbody><tr><th></th><th>
+<span style="float: right;">
+<input class="btnToggleDiv" type="button" value="+ Expand" onclick="toggleDiv(6);">
+<input class="btnScrollToTop" type="button" value="Scroll To Top" onclick="window.scrollTo(0, 0);">
+</span>
+</th></tr>
+<tr class="c tr1"><td class="td1">Name</td><td>Increment Build Number</td></tr>
+<tr class="c"><td class="td2">Description</td><td>Automatically increment the build
+&nbsp;&nbsp;number after a successful run.</td></tr>
+<tr class="c"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(INCREMENT_BUILD_NUMBER)</div><div class="ix div1" style="display: none;">--Internal--</div></td></tr>
+<tr class="c"><td class="td4">Arguments</td><td><div class="div1" style="display: block;"></div><div class="ix div1" style="display: none;"></div></td></tr>
+<tr class="c tr1"><td class="td1">Name</td><td>Save Project</td></tr>
+<tr class="c"><td class="td2">Description</td><td>Automatically save the project
+&nbsp;&nbsp;to disk after a successful run.</td></tr>
+<tr class="c"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(SAVE_PROJECT)</div><div class="ix div1" style="display: none;">--Internal--</div></td></tr>
+<tr class="c"><td class="td4">Arguments</td><td><div class="div1" style="display: block;"></div><div class="ix div1" style="display: none;"></div></td></tr>
+<tr class="c tr1"><td class="td1">Name</td><td>Commit Project</td></tr>
+<tr class="c"><td class="td2">Description</td><td>Automatically commit the project
+&nbsp;&nbsp;to Subversion after a successful run.</td></tr>
+<tr class="c"><td class="td3">Command</td><td><div class="div1" style="display: block;">$(COMMIT_PROJECT)</div><div class="ix div1" style="display: none;">--Internal--</div></td></tr>
+<tr class="c"><td class="td4">Arguments</td><td><div class="div1" style="display: block;"></div><div class="ix div1" style="display: none;"></div></td></tr>
+</tbody></table>
+<footer></footer>
+<table id="7" class="tab1">
+<caption>Project Macros</caption>
+<tbody><tr><th class="th1">Key</th><th>Value
+<span style="float: right;">
+<input class="btnToggleDiv" type="button" value="+ Expand" onclick="toggleDiv(7);">
+<input class="btnScrollToTop" type="button" value="Scroll To Top" onclick="window.scrollTo(0, 0);">
+</span></th></tr>
+<tr class="tr1"><td class="td5">%PROJ_FILENAME%</td><td><div class="div1" style="display: block;">PAC_Phase3_PAM.xml</div><div class="ix div1" style="display: none;">PAC_Phase3_PAM.xml</div></td></tr>
+<tr class="tr1"><td class="td5">%PROJ_PRODUCT_NAME%</td><td><div class="div1" style="display: block;">PAC Phase 3 PAM</div><div class="ix div1" style="display: none;">PAC Phase 3 PAM</div></td></tr>
+<tr class="tr1"><td class="td5">%PROJ_BASE_VERSION%</td><td><div class="div1" style="display: block;">1.5.0</div><div class="ix div1" style="display: none;">1.5.0</div></td></tr>
+<tr class="tr1"><td class="td5">%PROJ_BUILD_NUMBER%</td><td><div class="div1" style="display: block;">1032</div><div class="ix div1" style="display: none;">1032</div></td></tr>
+<tr class="tr1"><td class="td5">%PROJ_FULL_VERSION%</td><td><div class="div1" style="display: block;">1.5.0.1032</div><div class="ix div1" style="display: none;">1.5.0.1032</div></td></tr>
+<tr class="tr1"><td class="td5">%TUCSON_ROOT_FOLDER%</td><td><div class="div1" style="display: block;">%BUILD_ROOT%\Tucson\trunk\Tools\InstallShield\phase3</div><div class="ix div1" style="display: none;">Y:\Tucson\trunk\Tools\InstallShield\phase3</div></td></tr>
+<tr class="tr1"><td class="td5">%TUCSON_TRUNK_FOLDER%</td><td><div class="div1" style="display: block;">%BUILD_ROOT%\Tucson\trunk</div><div class="ix div1" style="display: none;">Y:\Tucson\trunk</div></td></tr>
+<tr class="tr1"><td class="td5">%XPRESS_ROOT_FOLDER%</td><td><div class="div1" style="display: block;">%BUILD_ROOT%\Xpress</div><div class="ix div1" style="display: none;">Y:\Xpress</div></td></tr>
+</tbody></table>
+<hr>
+<table id="8" class="tab1">
+<caption>Application Macros</caption>
+<tbody><tr><th class="th1">Key</th><th>Value
+<span style="float: right;">
+<input class="btnToggleDiv" type="button" value="+ Expand" onclick="toggleDiv(8);">
+<input class="btnScrollToTop" type="button" value="Scroll To Top" onclick="window.scrollTo(0, 0);">
+</span></th></tr>
+<tr class="tr1">  <td class="td5">%BUILD_ROOT%</td>  <td>    <div class="div1" style="display: block;">Y:</div>    <div class="ix div1" style="display: none;">Y:</div>  </td></tr>
+<tr class="tr1">  <td class="td5">%CB_FOLDER%</td>  <td>    <div class="div1" style="display: block;">%BUILD_ROOT%\CodeBuilder</div>    <div class="ix div1" style="display: none;">Y:\CodeBuilder</div>  </td></tr>
+<tr class="tr1">  <td class="td5">%CB_COMMANDS_FOLDER%</td>  <td>    <div class="div1" style="display: block;">%CB_FOLDER%\External\Commands</div>    <div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Commands</div>  </td></tr>
+<tr class="tr1">  <td class="td5">%CB_PROJECTS_FOLDER%</td>  <td>    <div class="div1" style="display: block;">%CB_FOLDER%\Projects</div>    <div class="ix div1" style="display: none;">Y:\CodeBuilder\Projects</div>  </td></tr>
+<tr class="tr1">  <td class="td5">%CB_PUBLISHING_FOLDER%</td>  <td>    <div class="div1" style="display: block;">%CB_FOLDER%\External\Publishing</div>    <div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Publishing</div>  </td></tr>
+<tr class="tr1">  <td class="td5">%CB_SIGNING_FOLDER%</td>  <td>    <div class="div1" style="display: block;">%CB_FOLDER%\External\Digital-Signing</div>    <div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Digital-Signing</div>  </td></tr>
+<tr class="tr1">  <td class="td5">%CB_STAMPING_FOLDER%</td>  <td>    <div class="div1" style="display: block;">%CB_FOLDER%\External\Stamping</div>    <div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Stamping</div>  </td></tr>
+<tr class="tr1">  <td class="td5">%PROGRAMFILES%</td>  <td>    <div class="div1" style="display: block;">C:\Program Files</div>    <div class="ix div1" style="display: none;">C:\Program Files</div>  </td></tr>
+<tr class="tr1">  <td class="td5">%PROGRAMFILES(X86)%</td>  <td>    <div class="div1" style="display: block;">C:\Program Files (x86)</div>    <div class="ix div1" style="display: none;">C:\Program Files (x86)</div>  </td></tr>
+<tr class="tr1">  <td class="td5">%PUBLISH_LOCAL%</td>  <td>    <div class="div1" style="display: block;">\\emn015f03\builds_archive</div>    <div class="ix div1" style="display: none;">\\emn015f03\builds_archive</div>  </td></tr>
+<tr class="tr1">  <td class="td5">%PUBLISH_REMOTE%</td>  <td>    <div class="div1" style="display: block;">\\emn0d5f01\rp_engineering\sw_engineering\builds_archive</div>    <div class="ix div1" style="display: none;">\\emn0d5f01\rp_engineering\sw_engineering\builds_archive</div>  </td></tr>
+<tr class="tr1">  <td class="td5">%SOURCE_CONTROL%</td>  <td>    <div class="div1" style="display: block;">C:\Program Files\TortoiseSVN\bin\svn.exe</div>    <div class="ix div1" style="display: none;">C:\Program Files\TortoiseSVN\bin\svn.exe</div>  </td></tr>
+</tbody></table>
+<table id="9" class="tab1">
+<caption>Command Macros</caption>
+<tbody><tr><th class="th1">Key</th><th>Value
+<span style="float: right;">
+<input class="btnToggleDiv" type="button" value="+ Expand" onclick="toggleDiv(9);">
+<input class="btnScrollToTop" type="button" value="Scroll To Top" onclick="window.scrollTo(0, 0);">
+</span></th></tr>
+<tr class="tr1">  <td class="td5">$(CREATE_REVISION_INFO)</td>  <td>    <div class="div1" style="display: block;">--Internal--</div>    <div class="ix div1" style="display: none;">--Internal--</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(SVN)</td>  <td>    <div class="div1" style="display: block;">%SOURCE_CONTROL%</div>    <div class="ix div1" style="display: none;">C:\Program Files\TortoiseSVN\bin\svn.exe</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(BUILD_PLATFORM)</td>  <td>    <div class="div1" style="display: block;">%CB_COMMANDS_FOLDER%\buildplatform.cmd</div>    <div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Commands\buildplatform.cmd</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(CLEANUP_DIRECTORY)</td>  <td>    <div class="div1" style="display: block;">%CB_COMMANDS_FOLDER%\removedirectory.cmd</div>    <div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Commands\removedirectory.cmd</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(GEN_FLASHBACKS)</td>  <td>    <div class="div1" style="display: block;">%CB_COMMANDS_FOLDER%\genflashbacks.cmd</div>    <div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Commands\genflashbacks.cmd</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(INSTALLSHIELD)</td>  <td>    <div class="div1" style="display: block;">%PROGRAMFILES(X86)%\InstallShield\2015\System\ISCmdBld.exe</div>    <div class="ix div1" style="display: none;">C:\Program Files (x86)\InstallShield\2015\System\ISCmdBld.exe</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(INSTALLSHIELD_SAB)</td>  <td>    <div class="div1" style="display: block;">%PROGRAMFILES(X86)%\InstallShield\2015 SAB\System\ISCmdBld.exe</div>    <div class="ix div1" style="display: none;">C:\Program Files (x86)\InstallShield\2015 SAB\System\ISCmdBld.exe</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(PUBLISH)</td>  <td>    <div class="div1" style="display: block;">%CB_PUBLISHING_FOLDER%\Publish.exe</div>    <div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Publishing\Publish.exe</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(SIGN)</td>  <td>    <div class="div1" style="display: block;">%CB_SIGNING_FOLDER%\ParkerDigitalSignTool\bin\Release\ParkerDigitalSignTool.exe</div>    <div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Digital-Signing\ParkerDigitalSignTool\bin\Release\ParkerDigitalSignTool.exe</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(STAMP)</td>  <td>    <div class="div1" style="display: block;">%CB_STAMPING_FOLDER%\StampVer.exe</div>    <div class="ix div1" style="display: none;">Y:\CodeBuilder\External\Stamping\StampVer.exe</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(VS2008)</td>  <td>    <div class="div1" style="display: block;">%PROGRAMFILES(X86)%\Microsoft Visual Studio 9.0\Common7\IDE\devenv.com</div>    <div class="ix div1" style="display: none;">C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\devenv.com</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(VS2010)</td>  <td>    <div class="div1" style="display: block;">%PROGRAMFILES(X86)%\Microsoft Visual Studio 10.0\Common7\IDE\devenv.com</div>    <div class="ix div1" style="display: none;">C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\devenv.com</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(VS2013)</td>  <td>    <div class="div1" style="display: block;">%PROGRAMFILES(X86)%\Microsoft Visual Studio 12.0\Common7\IDE\devenv.com</div>    <div class="ix div1" style="display: none;">C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.com</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(VS2015)</td>  <td>    <div class="div1" style="display: block;">%PROGRAMFILES(X86)%\Microsoft Visual Studio 14.0\Common7\IDE\devenv.com</div>    <div class="ix div1" style="display: none;">C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.com</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(VS2017)</td>  <td>    <div class="div1" style="display: block;">%PROGRAMFILES(X86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\devenv.exe</div>    <div class="ix div1" style="display: none;">C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\devenv.exe</div>  </td></tr>
+<tr class="tr1">  <td class="td5">$(VS2019)</td>  <td>    <div class="div1" style="display: block;">%PROGRAMFILES(X86)%\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\devenv.exe</div>    <div class="ix div1" style="display: none;">C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\devenv.exe</div>  </td></tr>
+</tbody></table>
+<table id="10" class="tab1">
+<caption>Email Settings</caption>
+<tbody><tr><th class="th1">Key</th><th>Value
+<span style="float: right;">
+<input class="btnScrollToTop" type="button" value="Scroll To Top" onclick="window.scrollTo(0, 0);">
+</span></th></tr>
+<tr class="tr1"><td class="td5a">From Address</td><td>noreply@parker.com</td></tr>
+<tr class="tr1"><td class="td5a">Host String 1</td><td>smtp1.us.parker.corp</td></tr>
+<tr class="tr1"><td class="td5a">Host String 2</td><td>smtp2.us.parker.corp</td></tr>
+<tr class="tr1"><td class="td5a">Port Number</td><td>25</td></tr>
+<tr class="tr1"><td class="td5a">Enable SSL</td><td>False</td></tr>
+<tr class="tr1"><td class="td5a">Use Default Credentials</td><td>False</td></tr>
+<tr class="tr1"><td class="td5a">Use Specific Credentials</td><td>False</td></tr>
+<tr class="tr1"><td class="td5a">Username</td><td></td></tr>
+<tr class="tr1"><td class="td5a">Password</td><td></td></tr>
+</tbody></table>
+
+
+</body></html>
