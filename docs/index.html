@@ -1,70 +1,108 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
 	<title>Sokool Tools Index</title>
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
-	<meta name="description" content="Provides a list of hyperlinks to the various web sites and repositories containing many of the SokoolTools currently available to the public." />
+	<meta name="description"
+		content="Provides a list of hyperlinks to the various web sites and repositories containing many of the SokoolTools currently available to the public." />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="styles.css">
 	<style type="text/css">
-		a {color:blue;}         /* Unvisited link */
-		a:visited {color:blue;} /* Visited link */
+		/* Unvisited link */
+		a {
+			color: blue;
+		}
+		/* Visited link */
+		a:visited {
+			color: blue;
+		}
+		a:hover {
+			color: green;
+		}
+		table,
+		th,
+		td {
+			border: 1px solid gray;
+			padding: 0;
+		}
+		th {
+			font-size: 1.5em;
+			padding: 3px 1em 3px 1em;
+			margin: 0 0 1em 0;
+		}
+		ul.listclass {
+			padding-top: .5em;
+		}
 	</style>
 </head>
+
 <body>
-<section class="page-header">
-	<h1 class="project-name">Sokool Tools Index</h1>
-	<h2 class="project-tagline">
-		Following is a list of hyperlinks to the various web sites and repositories containing
-		many of the SokoolTools currently available to the public.
-	</h2>
-</section>
-<section class="main-content">
-	<h2 id="github.io-web-sites">github.io (Web Sites)</h2>
-	<div id="list0"></div>
-	<hr>
-	<h2 id="github.com-repositories">github.com (Repositories)</h2>
-	<div id="list1"></div>
-	<hr>
-	<h2 id="other-projects">Other Projects</h2>
-	<div id="list3">
-		<ul><li><a href="https://sokooltools.github.io/Index/codebuilder/help.htm" title="CodeBuilder" 
-		rel="nofollow">CodeBuilder</a></li></ul>
-	</div>
-	<footer class="site-footer">
-		<span class="site-footer-owner"><a href="https://github.com/sokooltools/Index">Index</a> is maintained by 
-		<a href="https://github.com/sokooltools">sokooltools</a>.</span>
-	</footer>
-</section>
-<script language="javascript">
-	var urls = [
-		"https://sokooltools.github.io/",
-		"https://github.com/sokooltools/"
-	];
-	var repos = [
-		"CleanFolders",
-		"DeleteTempFiles",
-		"DotNetCheck",
-		"InternetProxySettings",
-		"MsiFileReport",
-		"PathToClip",
-		"PdfPageSaver",
-		"RegistryJump",
-		"SwitchTo",
-		"VsClearMrus",
-		"VSTools",
-		"NewHtmlDocument"
-	];
-	createList(0);
-	createList(1);
-	function createList(listNum) {
-		const ul = document.createElement("ul");
-		for (let i = 0; i < repos.length; i++) {
-			ul.innerHTML += `<li><a href="${urls[listNum]}${repos[i]}/" title="${repos[i]}" rel="nofollow">${repos[i]
-				}</a></li>`;
-		}
-		const im = document.getElementById(`list${listNum}`);
-		im.appendChild(ul);
-	};
-</script>
+	<section class="page-header">
+		<h1 class="project-name">Sokool Tools Index</h1>
+		<h2 class="project-tagline">
+			Following is a list of hyperlinks to the various web sites and code repositories containing
+			many of the SokoolTools currently available to the public.
+		</h2>
+	</section>
+	<section class="main-content">
+		<table>
+			<tr>
+				<th>github.io (Web Site)</th>
+				<th>github.com (Code Repository)</th>
+			</tr>
+			<tr>
+				<td id="list0">
+				</td>
+				<td id="list1">
+				</td>
+			</tr>
+		</table>
+		<h2 id="other-projects">Other Projects (Help Files)</h2>
+		<ul>
+			<li><a href="https://sokooltools.github.io/Index/codebuilder/help.htm" title="CodeBuilder"
+					rel="nofollow">CodeBuilder</a></li>
+		</ul>
+		<footer class="site-footer">
+			<span class="site-footer-owner"><a href="https://github.com/sokooltools/Index">Index</a> is maintained by
+				<a href="https://github.com/sokooltools">sokooltools</a>
+			</span>
+		</footer>
+	</section>
+	<script language="javascript">
+		var urls = [
+			"https://sokooltools.github.io/",
+			"https://github.com/sokooltools/"
+		];
+		var repos = [
+			"CleanFolders",
+			"DeleteTempFiles",
+			"DotNetCheck",
+			"InternetProxySettings",
+			"MsiFileReport",
+			"PathToClip",
+			"PdfPageSaver",
+			"RegistryJump",
+			"SwitchTo",
+			"VsClearMrus",
+			"VSTools",
+			"NewHtmlDocument"
+		];
+		createList(0);
+		createList(1);
+
+		function createList(listNum) {
+			const ul = document.createElement("ul");
+			var att = document.createAttribute("class");
+			att.value = "listclass";
+			ul.setAttributeNode(att);   
+			for (let i = 0; i < repos.length; i++) {
+				ul.innerHTML += `<li><a href="${urls[listNum]}${repos[i]}/" title="${repos[i]}" rel="nofollow">${repos[i]}</a></li>`;
+			}
+			const im = document.getElementById(`list${listNum}`);
+			im.appendChild(ul);
+		};
+	</script>
 </body>
+
 </html>
