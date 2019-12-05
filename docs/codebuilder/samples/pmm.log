@@ -1,0 +1,615 @@
+2019-10-30 11:22:17 AM::
+2019-10-30 11:22:17 AM::=================================================================================================
+2019-10-30 11:22:17 AM::[PCB] Parker Code Builder started.                                          10/30/2019 11:22:17 AM
+2019-10-30 11:22:17 AM::=================================================================================================
+2019-10-30 11:22:17 AM::
+2019-10-30 11:22:17 AM::
+2019-10-30 11:22:17 AM:: Estimated time to complete ALL selected actions:              [Est = 08 minutes, 11.000 seconds]
+2019-10-30 11:22:17 AM::
+2019-10-30 11:22:17 AM::
+2019-10-30 11:22:17 AM::*************************************************************************************************
+2019-10-30 11:22:17 AM::[PCB] Pre-Build Actions started.                                            10/30/2019 11:22:17 AM
+2019-10-30 11:22:17 AM::
+2019-10-30 11:22:17 AM:: Action: 'Clean PMM Build Output Directory'... started.                    [Est = 02.000 seconds]
+2019-10-30 11:22:17 AM::
+2019-10-30 11:22:17 AM::		Command = "Y:\CodeBuilder\External\Commands\removedirectory.cmd"
+2019-10-30 11:22:17 AM::		Argmnts = "S:\Parker\PMM\bin"
+2019-10-30 11:22:17 AM::
+2019-10-30 11:22:17 AM::		
+2019-10-30 11:22:17 AM::		Removing "S:\Parker\PMM\bin"...
+2019-10-30 11:22:17 AM::		"S:\Parker\PMM\bin" was removed.
+2019-10-30 11:22:17 AM::		
+2019-10-30 11:22:17 AM::		
+2019-10-30 11:22:17 AM::		Action exited with code = 0.
+2019-10-30 11:22:17 AM::
+2019-10-30 11:22:17 AM::
+2019-10-30 11:22:19 AM:: Action: 'Clean PMM Build Output Directory'... finished.                   [Act = 01.853 seconds]
+2019-10-30 11:22:19 AM::
+2019-10-30 11:22:19 AM:: Action: 'Clean PMM Installer Output Directory'... started.                [Est = 02.000 seconds]
+2019-10-30 11:22:19 AM::
+2019-10-30 11:22:19 AM::		Command = "Y:\CodeBuilder\External\Commands\removedirectory.cmd"
+2019-10-30 11:22:19 AM::		Argmnts = "S:\Parker Motion Manager"
+2019-10-30 11:22:19 AM::
+2019-10-30 11:22:19 AM::		
+2019-10-30 11:22:19 AM::		Removing "S:\Parker Motion Manager"...
+2019-10-30 11:22:19 AM::		"S:\Parker Motion Manager" was removed.
+2019-10-30 11:22:19 AM::		
+2019-10-30 11:22:19 AM::		Action exited with code = 0.
+2019-10-30 11:22:19 AM::
+2019-10-30 11:22:19 AM::
+2019-10-30 11:22:19 AM::		
+2019-10-30 11:22:21 AM:: Action: 'Clean PMM Installer Output Directory'... finished.               [Act = 01.612 seconds]
+2019-10-30 11:22:21 AM::
+2019-10-30 11:22:21 AM:: Action: 'Get Latest PMM Source'... started.                               [Est = 03.000 seconds]
+2019-10-30 11:22:21 AM::
+2019-10-30 11:22:21 AM::		Command = "C:\Program Files\TortoiseSVN\bin\svn.exe"
+2019-10-30 11:22:21 AM::		Argmnts = update "Y:\ParkerMotionManager_nonGov\trunk"
+2019-10-30 11:22:21 AM::
+2019-10-30 11:22:21 AM::		Updating 'Y:\ParkerMotionManager_nonGov\trunk':
+2019-10-30 11:22:22 AM::		U    Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TerminalEmulator\TerminalEmulatorControl.Designer.cs
+2019-10-30 11:22:22 AM::		U    Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TerminalEmulator\TerminalEmulatorControl.cs
+2019-10-30 11:22:22 AM::		U    Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\Status\NumericStatusControl.cs
+2019-10-30 11:22:22 AM::		U    Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ProgramEditor\ProgramEditorDefinesControl.Designer.cs
+2019-10-30 11:22:22 AM::		U    Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ProgramEditor\ProgramEditorDefinesControl.cs
+2019-10-30 11:22:22 AM::		 U   Y:\ParkerMotionManager_nonGov\trunk\Source
+2019-10-30 11:22:22 AM::		Updated to revision 1717.
+2019-10-30 11:22:22 AM::		
+2019-10-30 11:22:22 AM::		
+2019-10-30 11:22:22 AM::		Action exited with code = 0.
+2019-10-30 11:22:22 AM::
+2019-10-30 11:22:22 AM::
+2019-10-30 11:22:24 AM:: Action: 'Get Latest PMM Source'... finished.                              [Act = 02.981 seconds]
+2019-10-30 11:22:24 AM::
+2019-10-30 11:22:24 AM::
+2019-10-30 11:22:24 AM::[PCB] Pre-Build Actions ended.                                              10/30/2019 11:22:24 AM
+2019-10-30 11:22:24 AM::*************************************************************************************************
+2019-10-30 11:22:24 AM::
+2019-10-30 11:22:24 AM::
+2019-10-30 11:22:24 AM::*************************************************************************************************
+2019-10-30 11:22:24 AM::[PCB] Build Actions started.                                                10/30/2019 11:22:24 AM
+2019-10-30 11:22:24 AM::
+2019-10-30 11:22:24 AM:: Action: 'Build PMM'... started.                               [Est = 03 minutes, 08.000 seconds]
+2019-10-30 11:22:24 AM::
+2019-10-30 11:22:24 AM::		Command = "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.com"
+2019-10-30 11:22:24 AM::		Argmnts = "Y:\ParkerMotionManager_nonGov\trunk\Source\PMM.sln" /rebuild "Release"
+2019-10-30 11:22:24 AM::
+2019-10-30 11:22:41 AM::		
+2019-10-30 11:22:41 AM::		Microsoft Visual Studio 2015 Version 14.0.25420.1.
+2019-10-30 11:22:41 AM::		Copyright (C) Microsoft Corp. All rights reserved.
+2019-10-30 11:22:41 AM::		1>------ Rebuild All started: Project: kclass, Configuration: Release Win32 ------
+2019-10-30 11:22:41 AM::		2>------ Rebuild All started: Project: Parker.Common, Configuration: Release x86 ------
+2019-10-30 11:22:41 AM::		3>------ Rebuild All started: Project: Parker.PMM.ACR, Configuration: Release x86 ------
+2019-10-30 11:22:43 AM::		4>------ Rebuild All started: Project: Parker.PMM.CodeEditor, Configuration: Release x86 ------
+2019-10-30 11:23:45 AM::		1>  AcrAni.cpp
+2019-10-30 11:23:46 AM::		3>  Parker.PMM.ACR -> S:\Parker\PMM\bin\Parker.PMM.ACR.dll
+2019-10-30 11:23:46 AM::		5>------ Rebuild All started: Project: Parker.PMM.Database, Configuration: Release x86 ------
+2019-10-30 11:23:48 AM::		4>  Parker.PMM.CodeEditor -> S:\Parker\PMM\bin\Parker.PMM.CodeEditor.dll
+2019-10-30 11:23:49 AM::		6>------ Rebuild All started: Project: Parker.PMM.Osciloscope, Configuration: Release x86 ------
+2019-10-30 11:23:49 AM::		5>  Parker.PMM.Database -> S:\Parker\PMM\bin\Parker.PMM.Database.dll
+2019-10-30 11:23:50 AM::		7>------ Skipped Rebuild All: Project: Parker.UnitTesting, Configuration: Release x86 ------
+2019-10-30 11:23:50 AM::		7>Project not selected to build for this solution configuration 
+2019-10-30 11:23:51 AM::		1>  AcrAxis.cpp
+2019-10-30 11:23:52 AM::		2>  Parker.Common -> S:\Parker\PMM\bin\Parker.Common.dll
+2019-10-30 11:23:53 AM::		8>------ Skipped Rebuild All: Project: Parker.Common.UnitTests, Configuration: Release x86 ------
+2019-10-30 11:23:53 AM::		8>Project not selected to build for this solution configuration 
+2019-10-30 11:23:54 AM::		1>AcrAxis.cpp(1220): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+2019-10-30 11:23:54 AM::		1>AcrAxis.cpp(1222): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+2019-10-30 11:23:55 AM::		1>  AcrCanNode.cpp
+2019-10-30 11:23:56 AM::		6>  Parker.PMM.Osciloscope -> S:\Parker\PMM\bin\Parker.PMM.Osciloscope.dll
+2019-10-30 11:23:58 AM::		1>  AcrController.cpp
+2019-10-30 11:23:59 AM::		1>AcrController.cpp(2094): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2019-10-30 11:23:59 AM::		1>  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+2019-10-30 11:24:01 AM::		1>  AcrMapping.cpp
+2019-10-30 11:24:03 AM::		1>  AcrProfile.cpp
+2019-10-30 11:24:05 AM::		1>  AcrRawConfig.cpp
+2019-10-30 11:24:06 AM::		1>  KClassLib.cpp
+2019-10-30 11:24:09 AM::		1>  Generating Code...
+2019-10-30 11:24:10 AM::		1>y:\parkermotionmanager_nongov\trunk\source\kclasslib\kclasses\kclasslib.cpp(77): warning C4715: 'GenerateFile': not all control paths return a value
+2019-10-30 11:24:22 AM::		1>y:\parkermotionmanager_nongov\trunk\source\kclasslib\kclasses\acrcontroller.cpp(1723): warning C4715: 'AcrController::fromString': not all control paths return a value
+2019-10-30 11:24:27 AM::		1>y:\parkermotionmanager_nongov\trunk\source\kclasslib\kclasses\acraxis.cpp(3284): warning C4715: 'AcrAxis::GetCalcPmScale': not all control paths return a value
+2019-10-30 11:24:42 AM::		1>  ConnectList.cpp
+2019-10-30 11:24:47 AM::		1>  FILE_location.cpp
+2019-10-30 11:24:52 AM::		1>  Generator.cpp
+2019-10-30 11:24:57 AM::		1>  KCalc.cpp
+2019-10-30 11:25:02 AM::		1>  KTags.cpp
+2019-10-30 11:25:06 AM::		1>  KTime.cpp
+2019-10-30 11:25:09 AM::		1>KTime.cpp(110): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2019-10-30 11:25:09 AM::		1>  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(495): note: see declaration of 'gmtime'
+2019-10-30 11:25:09 AM::		1>KTime.cpp(114): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2019-10-30 11:25:09 AM::		1>  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(495): note: see declaration of 'gmtime'
+2019-10-30 11:25:10 AM::		1>KTime.cpp(121): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2019-10-30 11:25:10 AM::		1>  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+2019-10-30 11:25:10 AM::		1>KTime.cpp(129): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2019-10-30 11:25:10 AM::		1>  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+2019-10-30 11:25:10 AM::		1>KTime.cpp(158): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2019-10-30 11:25:10 AM::		1>  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+2019-10-30 11:25:10 AM::		1>KTime.cpp(169): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+2019-10-30 11:25:10 AM::		1>  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(495): note: see declaration of 'gmtime'
+2019-10-30 11:25:12 AM::		1>  KVersionInfo.cpp
+2019-10-30 11:25:16 AM::		1>  RingBuff.cpp
+2019-10-30 11:25:20 AM::		1>  SUB_location.cpp
+2019-10-30 11:25:25 AM::		1>  Sub_Status.cpp
+2019-10-30 11:25:33 AM::		1>  Text_FILE.cpp
+2019-10-30 11:25:36 AM::		1>Text_FILE.cpp(64): warning C4244: '=': conversion from 'std::streamoff' to 'long', possible loss of data
+2019-10-30 11:25:36 AM::		1>Text_FILE.cpp(81): warning C4244: '=': conversion from 'std::streamoff' to 'long', possible loss of data
+2019-10-30 11:25:36 AM::		1>Text_FILE.cpp(122): warning C4244: '=': conversion from 'std::streamoff' to 'long', possible loss of data
+2019-10-30 11:25:36 AM::		1>Text_FILE.cpp(449): warning C4244: '=': conversion from 'std::streamoff' to 'long', possible loss of data
+2019-10-30 11:25:36 AM::		1>Text_FILE.cpp(455): warning C4244: '=': conversion from 'std::streamoff' to 'long', possible loss of data
+2019-10-30 11:25:36 AM::		1>Text_FILE.cpp(462): warning C4244: '=': conversion from 'std::streamoff' to 'long', possible loss of data
+2019-10-30 11:25:38 AM::		1>  Generating Code...
+2019-10-30 11:25:55 AM::		1>     Creating library S:\Parker\PMM\bin\kclass.lib and object S:\Parker\PMM\bin\kclass.exp
+2019-10-30 11:25:57 AM::		1>  kclass.vcxproj -> S:\Parker\PMM\bin\kclass.dll
+2019-10-30 11:25:57 AM::		1>  kclass.vcxproj -> S:\Parker\PMM\bin\kclass.pdb (Full PDB)
+2019-10-30 11:26:12 AM::		9>------ Rebuild All started: Project: Parker.PMM.Communication, Configuration: Release x86 ------
+2019-10-30 11:26:14 AM::		9>  Y:\ParkerMotionManager_nonGov\trunk\Source\ComACRServer\ComACRServer.exe
+2019-10-30 11:26:14 AM::		9>  Y:\ParkerMotionManager_nonGov\trunk\Source\ComACRServer\ComACRServer.pdb
+2019-10-30 11:26:14 AM::		9>  Y:\ParkerMotionManager_nonGov\trunk\Source\ComACRServer\ComACRServer.tlb
+2019-10-30 11:26:14 AM::		9>  Y:\ParkerMotionManager_nonGov\trunk\Source\ComACRServer\kjacrbin.cmp
+2019-10-30 11:26:14 AM::		9>  4 File(s) copied
+2019-10-30 11:26:14 AM::		9>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2399,5): warning MSB3305: Processing COM reference "ComACRServerLib" from path "S:\Parker\PMM\bin\ComACRServer\ComACRServer.exe". At least one of the arguments for 'Channel.FastStatusSetup' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+2019-10-30 11:26:14 AM::		9>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2399,5): warning MSB3305: Processing COM reference "ComACRServerLib" from path "S:\Parker\PMM\bin\ComACRServer\ComACRServer.exe". At least one of the arguments for 'Channel.FastStatusSetup' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+2019-10-30 11:26:14 AM::		9>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2399,5): warning MSB3305: Processing COM reference "ComACRServerLib" from path "S:\Parker\PMM\bin\ComACRServer\ComACRServer.exe". At least one of the arguments for 'IChannel.FastStatusSetup' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+2019-10-30 11:26:14 AM::		9>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2399,5): warning MSB3305: Processing COM reference "ComACRServerLib" from path "S:\Parker\PMM\bin\ComACRServer\ComACRServer.exe". At least one of the arguments for 'IStatus.FastStatusSetup' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+2019-10-30 11:26:14 AM::		9>  Parker.PMM.Communication -> S:\Parker\PMM\bin\Parker.PMM.Communication.dll
+2019-10-30 11:26:14 AM::		10>------ Rebuild All started: Project: Parker.PMM.UI, Configuration: Release x86 ------
+2019-10-30 11:26:14 AM::		11>------ Skipped Rebuild All: Project: Parker.PMM.Communication.UnitTests, Configuration: Release x86 ------
+2019-10-30 11:26:14 AM::		11>Project not selected to build for this solution configuration 
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ServoGain\MoveSettings.cs(251,22,251,33): warning CS0108: 'MoveSettings.TextChanged(object, EventArgs)' hides inherited member 'Control.TextChanged'. Use the new keyword if hiding was intended.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\UserControls\IndicatorControl.cs(46,37,46,48): warning CS0108: 'IndicatorControl.DefaultSize' hides inherited member 'Control.DefaultSize'. Use the new keyword if hiding was intended.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ChangeNotifyControls\ScalingControl.cs(242,21,242,29): warning CS0114: 'ScalingControl.SaveData()' hides inherited member 'ChangeNotifyControl.SaveData()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\Common\ControllerInfo.cs(146,27,146,34): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\MainForm.cs(842,22,842,24): warning CS0168: The variable 'ex' is declared but never used
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\ConfigUtils.cs(295,11,295,18): warning CS0219: The variable 'content' is assigned but its value is never used
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\Dialogs\UploadingDialog.cs(72,22,72,33): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ChangeNotifyControls\AdvanceDriveMotorControl.cs(339,21,339,23): warning CS0168: The variable 'ex' is declared but never used
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ProgramEditor\ProgramEditorDefinesControl.cs(453,9,453,22): warning CS0219: The variable 'isValidDefine' is assigned but its value is never used
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ChangeNotifyControls\DriveMotorControl.cs(410,21,410,23): warning CS0168: The variable 'ex' is declared but never used
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ChangeNotifyControls\ScalingControl.cs(207,25,207,30): warning CS0162: Unreachable code detected
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ProgramEditor\ProgramEditorDefinesControl.cs(604,39,604,41): warning CS0168: The variable 'ex' is declared but never used
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ChangeNotifyControls\ConnectControl.cs(330,21,330,51): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ChangeNotifyControls\ConnectControl.cs(371,28,371,56): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ServoGain\ServoGainsControl.cs(337,14,337,25): warning CS0219: The variable 'paramNumber' is assigned but its value is never used
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ServoGain\ServoGainsControl.cs(650,13,650,48): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\StripChart\StripChartOscilloscope.cs(632,13,632,48): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\StripChart\StripChartOscilloscope.cs(775,25,775,66): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ServoGain\ServoGainsControl.cs(975,21,979,23): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ServoGain\ServoGainsControl.cs(908,28,908,46): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\StripChart\StripChartOscilloscope.cs(789,28,789,44): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\Scopes\Oscilloscope.cs(630,13,630,48): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\Scopes\Oscilloscope.cs(779,25,779,66): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\Scopes\Oscilloscope.cs(793,28,793,44): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ServoGain\ServoGainsControl.cs(1328,25,1328,66): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ServoGain\ServoGainsControl.cs(1342,28,1342,44): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\StripChart\StripChartOscilloscope.cs(1004,21,1008,23): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\StripChart\StripChartOscilloscope.cs(936,22,936,37): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\Scopes\Oscilloscope.cs(1002,21,1006,23): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\Scopes\Oscilloscope.cs(935,22,935,37): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TerminalEmulator\TerminalEmulatorButtonPanel.cs(34,34,34,57): warning CS0169: The field 'TerminalEmulatorButtonPanel._terminalEmulatorScreen' is never used
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TerminalEmulator\TerminalEmulatorScreen.cs(749,40,749,51): warning CS0067: The event 'TerminalEmulatorScreen.CommandSend' is never used
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\ServoGain\ServoGainsControl.cs(72,16,72,30): warning CS0414: The field 'ServoGainsControl._getLastSample' is assigned but its value is never used
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\Scopes\Oscilloscope.cs(76,16,76,30): warning CS0414: The field 'Oscilloscope._getLastSample' is assigned but its value is never used
+2019-10-30 11:26:43 AM::		10>Y:\ParkerMotionManager_nonGov\trunk\Source\Parker.PMM.UI\TreeView\StripChart\StripChartOscilloscope.cs(68,16,68,30): warning CS0414: The field 'StripChartOscilloscope._getLastSample' is assigned but its value is never used
+2019-10-30 11:26:43 AM::		10>  Parker.PMM.UI -> S:\Parker\PMM\bin\Parker.PMM.UI.exe
+2019-10-30 11:26:43 AM::		12>------ Skipped Rebuild All: Project: Parker.PMM.Database.UnitTests, Configuration: Release x86 ------
+2019-10-30 11:26:43 AM::		12>Project not selected to build for this solution configuration 
+2019-10-30 11:26:43 AM::		13>------ Skipped Rebuild All: Project: Parker.PMM.UI.UnitTests, Configuration: Release x86 ------
+2019-10-30 11:26:43 AM::		13>Project not selected to build for this solution configuration 
+2019-10-30 11:26:43 AM::		========== Rebuild All: 8 succeeded, 0 failed, 5 skipped ==========
+2019-10-30 11:26:46 AM::		
+2019-10-30 11:26:46 AM::		Action exited with code = 0.
+2019-10-30 11:26:46 AM::
+2019-10-30 11:26:46 AM::
+2019-10-30 11:26:46 AM::		
+2019-10-30 11:26:47 AM:: Action: 'Build PMM'... finished.                              [Act = 04 minutes, 23.286 seconds]
+2019-10-30 11:26:47 AM::
+2019-10-30 11:26:47 AM:: Action: 'Create RevInfo for PMM (Local)'... started.                      [Est = 05.000 seconds]
+2019-10-30 11:26:47 AM::
+2019-10-30 11:26:47 AM::	SVN Root: "y:\ParkerMotionManager_nonGov\trunk\Source"
+2019-10-30 11:26:50 AM::	Created : "\\emn015f03\builds_archive_nonGov\PMM\trunk\2.0.0.1013\Parker_Motion_Manager [Source].htm"
+2019-10-30 11:26:50 AM::
+2019-10-30 11:26:51 AM:: Action: 'Create RevInfo for PMM (Local)'... finished.                     [Act = 04.394 seconds]
+2019-10-30 11:26:51 AM::
+2019-10-30 11:26:51 AM::
+2019-10-30 11:26:51 AM::[PCB] Build Actions ended.                                                  10/30/2019 11:26:51 AM
+2019-10-30 11:26:51 AM::*************************************************************************************************
+2019-10-30 11:26:51 AM::
+2019-10-30 11:26:51 AM::
+2019-10-30 11:26:51 AM::*************************************************************************************************
+2019-10-30 11:26:51 AM::[PCB] Post-Build Actions started.                                           10/30/2019 11:26:51 AM
+2019-10-30 11:26:51 AM::
+2019-10-30 11:26:51 AM:: Action: 'Version Stamp PMM Files'... started.                             [Est = 04.000 seconds]
+2019-10-30 11:26:51 AM::
+2019-10-30 11:26:51 AM::		Command = "C:\Users\EMN015BuildUser\AppData\Local\Temp\tmp879A.bat"
+2019-10-30 11:26:51 AM::		Argmnts = 
+2019-10-30 11:26:51 AM::
+2019-10-30 11:26:52 AM::		Stamping S:\Parker\PMM\bin\Parker.Common.dll: FileVersion=2.0.0.1 ProductVersion=2.0.0.1013 
+2019-10-30 11:26:52 AM::		Stamping S:\Parker\PMM\bin\Parker.PMM.ACR.dll: FileVersion=2.0.0.1 ProductVersion=2.0.0.1013 
+2019-10-30 11:26:52 AM::		Stamping S:\Parker\PMM\bin\Parker.PMM.CodeEditor.dll: FileVersion=2.0.0.1 ProductVersion=2.0.0.1013 
+2019-10-30 11:26:53 AM::		Stamping S:\Parker\PMM\bin\Parker.PMM.Communication.dll: FileVersion=2.0.0.1 ProductVersion=2.0.0.1013 
+2019-10-30 11:26:53 AM::		Stamping S:\Parker\PMM\bin\Parker.PMM.Database.dll: FileVersion=2.0.0.1 ProductVersion=2.0.0.1013 
+2019-10-30 11:26:53 AM::		Stamping S:\Parker\PMM\bin\Parker.PMM.Osciloscope.dll: FileVersion=2.0.0.1 ProductVersion=2.0.0.1013 
+2019-10-30 11:26:54 AM::		Stamping S:\Parker\PMM\bin\Parker.PMM.UI.exe: FileVersion=2.0.0.1 ProductVersion=2.0.0.1013 
+2019-10-30 11:26:54 AM::		
+2019-10-30 11:26:54 AM::		
+2019-10-30 11:26:54 AM::		Action exited with code = 0.
+2019-10-30 11:26:54 AM::
+2019-10-30 11:26:54 AM::
+2019-10-30 11:26:56 AM:: Action: 'Version Stamp PMM Files'... finished.                            [Act = 04.608 seconds]
+2019-10-30 11:26:56 AM::
+2019-10-30 11:26:56 AM:: Action: 'Digitally Sign PMM Files'... started.                            [Est = 19.000 seconds]
+2019-10-30 11:26:56 AM::
+2019-10-30 11:26:56 AM::		Command = "Y:\CodeBuilder\External\Digital-Signing\ParkerDigitalSignTool\bin\Release\ParkerDigitalSignTool.exe"
+2019-10-30 11:26:56 AM::		Argmnts = /LIST Y:\CodeBuilder\Projects\PMMCodeSigning.lst
+2019-10-30 11:26:56 AM::
+2019-10-30 11:26:58 AM::		Done Adding Additional Store
+2019-10-30 11:26:58 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\Parker.Common.dll
+2019-10-30 11:26:58 AM::		
+2019-10-30 11:26:59 AM::		Done Adding Additional Store
+2019-10-30 11:26:59 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\Parker.PMM.ACR.dll
+2019-10-30 11:26:59 AM::		
+2019-10-30 11:27:00 AM::		Done Adding Additional Store
+2019-10-30 11:27:00 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\Parker.PMM.CodeEditor.dll
+2019-10-30 11:27:00 AM::		
+2019-10-30 11:27:01 AM::		Done Adding Additional Store
+2019-10-30 11:27:01 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\Parker.PMM.Communication.dll
+2019-10-30 11:27:01 AM::		
+2019-10-30 11:27:02 AM::		Done Adding Additional Store
+2019-10-30 11:27:02 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\Parker.PMM.Database.dll
+2019-10-30 11:27:02 AM::		
+2019-10-30 11:27:03 AM::		Done Adding Additional Store
+2019-10-30 11:27:03 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\Parker.PMM.Osciloscope.dll
+2019-10-30 11:27:03 AM::		
+2019-10-30 11:27:07 AM::		Done Adding Additional Store
+2019-10-30 11:27:07 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\Parker.PMM.UI.exe
+2019-10-30 11:27:07 AM::		
+2019-10-30 11:27:08 AM::		Done Adding Additional Store
+2019-10-30 11:27:08 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\SciChart.Charting.dll
+2019-10-30 11:27:08 AM::		
+2019-10-30 11:27:09 AM::		Done Adding Additional Store
+2019-10-30 11:27:09 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\SciChart.Core.dll
+2019-10-30 11:27:09 AM::		
+2019-10-30 11:27:10 AM::		Done Adding Additional Store
+2019-10-30 11:27:10 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\SciChart.Data.dll
+2019-10-30 11:27:10 AM::		
+2019-10-30 11:27:11 AM::		Done Adding Additional Store
+2019-10-30 11:27:11 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\SciChart.Drawing.dll
+2019-10-30 11:27:11 AM::		
+2019-10-30 11:27:14 AM::		Done Adding Additional Store
+2019-10-30 11:27:14 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\Telerik.WinControls.dll
+2019-10-30 11:27:14 AM::		
+2019-10-30 11:27:15 AM::		Done Adding Additional Store
+2019-10-30 11:27:15 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\Telerik.WinControls.RadDock.dll
+2019-10-30 11:27:15 AM::		
+2019-10-30 11:27:16 AM::		Done Adding Additional Store
+2019-10-30 11:27:16 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\Telerik.WinControls.Themes.VisualStudio2012Light.dll
+2019-10-30 11:27:16 AM::		
+2019-10-30 11:27:18 AM::		Done Adding Additional Store
+2019-10-30 11:27:18 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\Telerik.WinControls.UI.dll
+2019-10-30 11:27:18 AM::		
+2019-10-30 11:27:20 AM::		Done Adding Additional Store
+2019-10-30 11:27:20 AM::		Successfully signed and timestamped: S:\Parker\PMM\bin\TelerikCommon.dll
+2019-10-30 11:27:20 AM::		
+2019-10-30 11:27:20 AM::		Action exited with code = 0.
+2019-10-30 11:27:20 AM::
+2019-10-30 11:27:20 AM::
+2019-10-30 11:27:20 AM::		
+2019-10-30 11:27:20 AM::		
+2019-10-30 11:27:21 AM:: Action: 'Digitally Sign PMM Files'... finished.                           [Act = 24.829 seconds]
+2019-10-30 11:27:21 AM::
+2019-10-30 11:27:21 AM:: Action: 'Create PMM Installer'... started.                     [Est = 01 minute, 52.000 seconds]
+2019-10-30 11:27:21 AM::
+2019-10-30 11:27:21 AM::		Command = "C:\Program Files (x86)\InstallShield\2015\System\ISCmdBld.exe"
+2019-10-30 11:27:21 AM::		Argmnts = -p "Y:\ParkerMotionManager_nonGov\trunk\Installations\Installshield\ParkerMotionManager.ism" -a "Parker Motion Manager" -r "Parker Motion Manager" -e y
+2019-10-30 11:27:21 AM::
+2019-10-30 11:28:03 AM::		InstallShield (R)
+2019-10-30 11:28:03 AM::		Release Builder
+2019-10-30 11:28:03 AM::		Copyright (c) 2015 Flexera Software LLC.
+2019-10-30 11:28:03 AM::		
+2019-10-30 11:28:03 AM::		All Rights Reserved.
+2019-10-30 11:28:03 AM::		
+2019-10-30 11:28:03 AM::		Build started at Oct 30 2019 11:27 AM
+2019-10-30 11:28:03 AM::		Building Release: Parker Motion Manager
+2019-10-30 11:28:03 AM::		
+2019-10-30 11:28:03 AM::		Created release folders
+2019-10-30 11:28:03 AM::		InstallShield Script Compiler
+2019-10-30 11:28:03 AM::		Version 22.0.0.330
+2019-10-30 11:28:03 AM::		Copyright (c) 2015 Flexera Software LLC. All Rights Reserved.
+2019-10-30 11:28:03 AM::		
+2019-10-30 11:28:03 AM::		Compiling...
+2019-10-30 11:28:03 AM::		Setup.Rul
+2019-10-30 11:28:03 AM::		Linking...
+2019-10-30 11:28:03 AM::		Setup.inx - 0 error(s), 0 warning(s)
+2019-10-30 11:28:03 AM::		AdminExecuteSequence table successfully built
+2019-10-30 11:28:03 AM::		AdminUISequence table successfully built
+2019-10-30 11:28:03 AM::		AdvtExecuteSequence table successfully built
+2019-10-30 11:28:03 AM::		AdvtUISequence table successfully built
+2019-10-30 11:28:03 AM::		InstallExecuteSequence table successfully built
+2019-10-30 11:28:03 AM::		InstallUISequence table successfully built
+2019-10-30 11:28:03 AM::		Directory table successfully built
+2019-10-30 11:28:03 AM::		Feature table successfully built
+2019-10-30 11:28:03 AM::		FeatureComponents table successfully built
+2019-10-30 11:28:03 AM::		Component table successfully built
+2019-10-30 11:28:03 AM::		Loading File table
+2019-10-30 11:28:03 AM::		Building File table
+2019-10-30 11:28:03 AM::		Adding merge module 'Microsoft C Runtime Library 6.0' that is a dependency of component 'Parker.PMM.Osciloscope.dll'
+2019-10-30 11:28:03 AM::		Adding file 'kclass.dll' that is a dependency of component 'Parker.PMM.UI.exe'
+2019-10-30 11:28:03 AM::		Adding merge module 'Microsoft C Runtime Library 6.0' that is a dependency of component 'Parker.PMM.UI.exe'
+2019-10-30 11:28:03 AM::		ISDEV : warning -6248: Could not find dependent file LINQPad, or one of its dependencies of component Parker.PMM.UI.exe
+2019-10-30 11:28:03 AM::		Adding merge module 'Microsoft C Runtime Library 6.0' that is a dependency of component 'SciChart.Charting.dll'
+2019-10-30 11:28:03 AM::		Adding merge module 'Microsoft C Runtime Library 6.0' that is a dependency of component 'SciChart.Drawing.dll'
+2019-10-30 11:28:03 AM::		Merging modules...
+2019-10-30 11:28:03 AM::		Merging Microsoft (R) C Runtime Library: Y:\ParkerMotionManager_nonGov\trunk\Installations\InstallShield\MergeModules\MSVCRT.MSM
+2019-10-30 11:28:03 AM::		Merging Visual C++ 9.0 ATL (x86) WinSXS MSM: C:\Program Files (x86)\InstallShield\2015\Modules\i386\Microsoft_VC90_ATL_x86.msm
+2019-10-30 11:28:03 AM::		Merging Visual C++ 9.0 CRT (x86) WinSXS MSM: C:\Program Files (x86)\InstallShield\2015\Modules\i386\Microsoft_VC90_CRT_x86.msm
+2019-10-30 11:28:03 AM::		Merging Visual C++ 9.0 MFC (x86) WinSXS MSM: C:\Program Files (x86)\InstallShield\2015\Modules\i386\Microsoft_VC90_MFC_x86.msm
+2019-10-30 11:28:03 AM::		Merging Microsoft OLE 2.40  for Windows NT(TM) and Windows 95(TM) Operating Systems: Y:\ParkerMotionManager_nonGov\trunk\Installations\InstallShield\MergeModules\OLEAUT32.MSM
+2019-10-30 11:28:03 AM::		File table successfully built
+2019-10-30 11:28:03 AM::		Building MsiFileHash table
+2019-10-30 11:28:03 AM::		MsiFileHash table successfully built
+2019-10-30 11:28:03 AM::		Class table successfully built
+2019-10-30 11:28:03 AM::		Extension table successfully built
+2019-10-30 11:28:03 AM::		ODBCDataSource table successfully built
+2019-10-30 11:28:03 AM::		ODBCDriver table successfully built
+2019-10-30 11:28:03 AM::		ISSQLScriptFile table successfully built
+2019-10-30 11:28:03 AM::		ISSQLScriptReplace table successfully built
+2019-10-30 11:28:03 AM::		ISSQLConnectionScript table successfully built
+2019-10-30 11:28:03 AM::		ISSQLConnection table successfully built
+2019-10-30 11:28:03 AM::		ISSQLConnectionDBServer table successfully built
+2019-10-30 11:28:03 AM::		ISSQLRequirement table successfully built
+2019-10-30 11:28:03 AM::		ISComPlusProxy table successfully built
+2019-10-30 11:28:03 AM::		ISComPlusApplication table successfully built
+2019-10-30 11:28:03 AM::		ISComCatalogCollection table successfully built
+2019-10-30 11:28:03 AM::		ISComCatalogCollectionObjects table successfully built
+2019-10-30 11:28:04 AM::		ISComCatalogObject table successfully built
+2019-10-30 11:28:04 AM::		ISComCatalogAttribute table successfully built
+2019-10-30 11:28:04 AM::		ISComPlusApplicationDLL table successfully built
+2019-10-30 11:28:04 AM::		ISComPlusServerFile table successfully built
+2019-10-30 11:28:04 AM::		ISComPlusProxyFile table successfully built
+2019-10-30 11:28:04 AM::		ISComPlusServerDepFile table successfully built
+2019-10-30 11:28:04 AM::		ISComPlusProxyDepFile table successfully built
+2019-10-30 11:28:04 AM::		ISXmlFile table successfully built
+2019-10-30 11:28:04 AM::		ISXmlElement table successfully built
+2019-10-30 11:28:04 AM::		ISXmlElementAttrib table successfully built
+2019-10-30 11:28:04 AM::		ISSearchReplaceSet table successfully built
+2019-10-30 11:28:04 AM::		ISSearchReplace table successfully built
+2019-10-30 11:28:04 AM::		ActionText table successfully built
+2019-10-30 11:28:04 AM::		AppSearch table successfully built
+2019-10-30 11:28:04 AM::		BindImage table successfully built
+2019-10-30 11:28:04 AM::		CCPSearch table successfully built
+2019-10-30 11:28:04 AM::		Condition table successfully built
+2019-10-30 11:28:04 AM::		AppId table successfully built
+2019-10-30 11:28:04 AM::		Started signing A030.tmp ...
+2019-10-30 11:28:04 AM::		Property table successfully built
+2019-10-30 11:28:04 AM::		BBControl table successfully built
+2019-10-30 11:28:04 AM::		Billboard table successfully built
+2019-10-30 11:28:04 AM::		Binary table successfully built
+2019-10-30 11:28:04 AM::		CompLocator table successfully built
+2019-10-30 11:28:04 AM::		Complus table successfully built
+2019-10-30 11:28:04 AM::		ControlCondition table successfully built
+2019-10-30 11:28:04 AM::		ControlEvent table successfully built
+2019-10-30 11:28:04 AM::		CreateFolder table successfully built
+2019-10-30 11:28:04 AM::		CustomAction table successfully built
+2019-10-30 11:28:04 AM::		DrLocator table successfully built
+2019-10-30 11:28:04 AM::		DuplicateFile table successfully built
+2019-10-30 11:28:04 AM::		Environment table successfully built
+2019-10-30 11:28:04 AM::		Error table successfully built
+2019-10-30 11:28:04 AM::		EventMapping table successfully built
+2019-10-30 11:28:04 AM::		FileSFPCatalog table successfully built
+2019-10-30 11:28:04 AM::		Font table successfully built
+2019-10-30 11:28:04 AM::		ISAlias table successfully built
+2019-10-30 11:28:04 AM::		ISChainPackage table successfully built
+2019-10-30 11:28:04 AM::		ISChainPackageData table successfully built
+2019-10-30 11:28:04 AM::		Started signing A264.tmp ...
+2019-10-30 11:28:04 AM::		ProgId table successfully built
+2019-10-30 11:28:04 AM::		ISComponentExtended table successfully built
+2019-10-30 11:28:04 AM::		ISCustomActionReference table successfully built
+2019-10-30 11:28:04 AM::		ISDRMFile table successfully built
+2019-10-30 11:28:04 AM::		ISFeatureExtended table successfully built
+2019-10-30 11:28:04 AM::		ISFileManifests table successfully built
+2019-10-30 11:28:04 AM::		ISIISItem table successfully built
+2019-10-30 11:28:04 AM::		ISIISProperty table successfully built
+2019-10-30 11:28:04 AM::		ISLockPermissions table successfully built
+2019-10-30 11:28:04 AM::		ISNetworkShares table successfully built
+2019-10-30 11:28:04 AM::		ISObjectProperty table successfully built
+2019-10-30 11:28:04 AM::		ISRequiredFeature table successfully built
+2019-10-30 11:28:04 AM::		ISSQLDBMetaData table successfully built
+2019-10-30 11:28:04 AM::		ISSQLScriptError table successfully built
+2019-10-30 11:28:04 AM::		ISScheduledTasks table successfully built
+2019-10-30 11:28:04 AM::		ISSelfReg table successfully built
+2019-10-30 11:28:04 AM::		ISSetupType table successfully built
+2019-10-30 11:28:04 AM::		ISSetupTypeFeatures table successfully built
+2019-10-30 11:28:04 AM::		ISVirtualDirectory table successfully built
+2019-10-30 11:28:04 AM::		ISVirtualFile table successfully built
+2019-10-30 11:28:04 AM::		ISVirtualPackage table successfully built
+2019-10-30 11:28:04 AM::		ISVirtualRegistry table successfully built
+2019-10-30 11:28:04 AM::		ISVirtualRelease table successfully built
+2019-10-30 11:28:04 AM::		ISVirtualShortcut table successfully built
+2019-10-30 11:28:04 AM::		ISXmlLocator table successfully built
+2019-10-30 11:28:04 AM::		IniFile table successfully built
+2019-10-30 11:28:04 AM::		IniLocator table successfully built
+2019-10-30 11:28:04 AM::		IsolatedComponent table successfully built
+2019-10-30 11:28:04 AM::		LaunchCondition table successfully built
+2019-10-30 11:28:04 AM::		LockPermissions table successfully built
+2019-10-30 11:28:04 AM::		MIME table successfully built
+2019-10-30 11:28:04 AM::		MoveFile table successfully built
+2019-10-30 11:28:04 AM::		MsiAssembly table successfully built
+2019-10-30 11:28:04 AM::		MsiAssemblyName table successfully built
+2019-10-30 11:28:04 AM::		MsiDigitalCertificate table successfully built
+2019-10-30 11:28:04 AM::		MsiDigitalSignature table successfully built
+2019-10-30 11:28:04 AM::		MsiDriverPackages table successfully built
+2019-10-30 11:28:04 AM::		MsiEmbeddedChainer table successfully built
+2019-10-30 11:28:04 AM::		MsiEmbeddedUI table successfully built
+2019-10-30 11:28:04 AM::		MsiLockPermissionsEx table successfully built
+2019-10-30 11:28:04 AM::		MsiPackageCertificate table successfully built
+2019-10-30 11:28:04 AM::		MsiPatchCertificate table successfully built
+2019-10-30 11:30:24 AM::		MsiServiceConfig table successfully built
+2019-10-30 11:30:24 AM::		MsiServiceConfigFailureActions table successfully built
+2019-10-30 11:30:24 AM::		MsiShortcutProperty table successfully built
+2019-10-30 11:30:24 AM::		ODBCAttribute table successfully built
+2019-10-30 11:30:24 AM::		ODBCSourceAttribute table successfully built
+2019-10-30 11:30:24 AM::		ODBCTranslator table successfully built
+2019-10-30 11:30:24 AM::		PatchPackage table successfully built
+2019-10-30 11:30:24 AM::		PublishComponent table successfully built
+2019-10-30 11:30:24 AM::		RegLocator table successfully built
+2019-10-30 11:30:24 AM::		Registry table successfully built
+2019-10-30 11:30:24 AM::		RemoveFile table successfully built
+2019-10-30 11:30:24 AM::		RemoveIniFile table successfully built
+2019-10-30 11:30:24 AM::		RemoveRegistry table successfully built
+2019-10-30 11:30:24 AM::		ReserveCost table successfully built
+2019-10-30 11:30:24 AM::		SFPCatalog table successfully built
+2019-10-30 11:30:24 AM::		SelfReg table successfully built
+2019-10-30 11:30:24 AM::		ServiceControl table successfully built
+2019-10-30 11:30:24 AM::		ServiceInstall table successfully built
+2019-10-30 11:30:24 AM::		Started signing A2A6.tmp ...
+2019-10-30 11:30:24 AM::		Started signing A2D7.tmp ...
+2019-10-30 11:30:24 AM::		Shortcut table successfully built
+2019-10-30 11:30:24 AM::		Signature table successfully built
+2019-10-30 11:30:24 AM::		TypeLib table successfully built
+2019-10-30 11:30:25 AM::		UIText table successfully built
+2019-10-30 11:30:25 AM::		Upgrade table successfully built
+2019-10-30 11:30:25 AM::		Verb table successfully built
+2019-10-30 11:30:25 AM::		_Validation table successfully built
+2019-10-30 11:30:25 AM::		Searching project for extract-at-build components...
+2019-10-30 11:30:25 AM::		Building scanned MsiAssembly records
+2019-10-30 11:30:25 AM::		Building scanned MsiAssemblyName records
+2019-10-30 11:30:25 AM::		Validating Custom Action sequencing
+2019-10-30 11:30:25 AM::		Embedding manifest SetupExe.Admin.manifest into setup.exe
+2019-10-30 11:30:25 AM::		Checking string table references...
+2019-10-30 11:30:25 AM::		Generating RC file: _ISUser_0x0409.rc
+2019-10-30 11:30:25 AM::		Building dialog 12030
+2019-10-30 11:30:25 AM::		Building dialog 12033
+2019-10-30 11:30:25 AM::		Built 2 dialogs into resource file: _ISUser_0x0409.rc
+2019-10-30 11:30:25 AM::		Building RES file: _ISUser_0x0409.res
+2019-10-30 11:30:25 AM::		Compiling resource DLL: _isuser_0x0409.dll
+2019-10-30 11:30:25 AM::		Resolving strings...
+2019-10-30 11:30:25 AM::		Language English (United States) built
+2019-10-30 11:30:25 AM::		Embedding manifest SetupExe.Admin.manifest into setup.exe
+2019-10-30 11:30:25 AM::		Building .cab files...
+2019-10-30 11:30:25 AM::		Data1.cab built
+2019-10-30 11:30:25 AM::		Files built
+2019-10-30 11:30:25 AM::		ISDEV : warning -6487: If you intend to distribute this upgrade as a patch, you should author the 'Patch Optimization' setting on the Advanced Settings panel of the Release Wizard.
+2019-10-30 11:30:25 AM::		Media table successfully built
+2019-10-30 11:30:25 AM::		Performing Upgrading and Patching Validation
+2019-10-30 11:30:25 AM::		Setup.exe created
+2019-10-30 11:30:25 AM::		Windows validation is disabled. To enable Windows validation: on the Tools menu, click Options and select the Validation tab.
+2019-10-30 11:30:25 AM::		Automatic update notification disabled
+2019-10-30 11:30:25 AM::		Parker Motion Manager\Parker Motion Manager - 0 error(s), 2 warning(s)
+2019-10-30 11:30:25 AM::		Log file has been created: <file:S:\Parker Motion Manager\Parker Motion Manager\LogFiles\10-30-2019 11-27-36 AM.txt>
+2019-10-30 11:30:25 AM::		
+2019-10-30 11:30:25 AM::		
+2019-10-30 11:30:25 AM::		
+2019-10-30 11:30:25 AM::		Build finished at Oct 30 2019 11:30 AM
+2019-10-30 11:30:25 AM::		
+2019-10-30 11:30:25 AM::		
+2019-10-30 11:30:25 AM::		Action exited with code = 0.
+2019-10-30 11:30:25 AM::
+2019-10-30 11:30:25 AM::
+2019-10-30 11:30:26 AM:: Action: 'Create PMM Installer'... finished.                   [Act = 03 minutes, 05.194 seconds]
+2019-10-30 11:30:26 AM::
+2019-10-30 11:30:26 AM:: Action: 'Version Stamp PMM Installer'... started.                         [Est = 02.000 seconds]
+2019-10-30 11:30:26 AM::
+2019-10-30 11:30:26 AM::		Command = "C:\Users\EMN015BuildUser\AppData\Local\Temp\tmpCE3C.bat"
+2019-10-30 11:30:26 AM::		Argmnts = 
+2019-10-30 11:30:26 AM::
+2019-10-30 11:30:27 AM::		Stamping S:\Parker Motion Manager\Parker Motion Manager\DiskImages\DISK1\setup.exe: FileVersion=2.0.0.1 ProductVersion=2.0.0.1013 
+2019-10-30 11:30:27 AM::		error: Current ProductVersion string is too small to accomodate update.
+2019-10-30 11:30:27 AM::		
+2019-10-30 11:30:27 AM::		Action exited with code = 0.
+2019-10-30 11:30:27 AM::
+2019-10-30 11:30:27 AM::
+2019-10-30 11:30:27 AM::		
+2019-10-30 11:30:28 AM:: Action: 'Version Stamp PMM Installer'... finished.                        [Act = 02.427 seconds]
+2019-10-30 11:30:28 AM::
+2019-10-30 11:30:28 AM:: Action: 'Digitally Sign PMM Installer'... started.                        [Est = 06.000 seconds]
+2019-10-30 11:30:28 AM::
+2019-10-30 11:30:28 AM::		Command = "Y:\CodeBuilder\External\Digital-Signing\ParkerDigitalSignTool\bin\Release\ParkerDigitalSignTool.exe"
+2019-10-30 11:30:28 AM::		Argmnts = /LIST Y:\CodeBuilder\Projects\PMMInstaller.lst
+2019-10-30 11:30:28 AM::
+2019-10-30 11:30:35 AM::		Done Adding Additional Store
+2019-10-30 11:30:35 AM::		Successfully signed and timestamped: S:\Parker Motion Manager\Parker Motion Manager\DiskImages\DISK1\setup.exe
+2019-10-30 11:30:35 AM::		
+2019-10-30 11:30:35 AM::		
+2019-10-30 11:30:35 AM::		
+2019-10-30 11:30:35 AM::		Action exited with code = 0.
+2019-10-30 11:30:35 AM::
+2019-10-30 11:30:35 AM::
+2019-10-30 11:30:36 AM:: Action: 'Digitally Sign PMM Installer'... finished.                       [Act = 07.894 seconds]
+2019-10-30 11:30:36 AM::
+2019-10-30 11:30:36 AM:: Action: 'Publish to Local Archive'... started.                            [Est = 06.000 seconds]
+2019-10-30 11:30:36 AM::
+2019-10-30 11:30:36 AM::		Command = "C:\Users\EMN015BuildUser\AppData\Local\Temp\tmpF6B3.bat"
+2019-10-30 11:30:36 AM::		Argmnts = 
+2019-10-30 11:30:36 AM::
+2019-10-30 11:30:36 AM::		Copying: "S:\Parker Motion Manager\Parker Motion Manager\DiskImages\DISK1\Setup.exe"
+2019-10-30 11:30:36 AM::		     to: "\\emn015f03\builds_archive_nonGov\PMM\trunk\2.0.0.1013\Setup.exe"...
+2019-10-30 11:30:41 AM::		
+2019-10-30 11:30:41 AM::		
+2019-10-30 11:30:41 AM::		
+2019-10-30 11:30:41 AM::		Action exited with code = 0.
+2019-10-30 11:30:41 AM::
+2019-10-30 11:30:41 AM::
+2019-10-30 11:30:42 AM:: Action: 'Publish to Local Archive'... finished.                           [Act = 06.006 seconds]
+2019-10-30 11:30:42 AM::
+2019-10-30 11:30:42 AM:: Action: 'Sending Email'... started.
+2019-10-30 11:30:42 AM::
+2019-10-30 11:30:43 AM::		Email was sent to: "ronn.sokol@parker.com;bmhicks@parker.com;sewalter@parker.com;dhopkins@parker.com;dave.turner@parker.com;ashok.yadav@parker.com;raviteja.balla@parker.com;narasimharao.bandarupalli@parker.com;vidhya.nagarajan@parker.com"
+2019-10-30 11:30:43 AM::
+2019-10-30 11:30:43 AM::		Email saved as: "\\emn015f03\builds_archive_nonGov\PMM\trunk\2.0.0.1013\Parker_Motion_Manager.eml"
+2019-10-30 11:30:43 AM::
+2019-10-30 11:30:43 AM:: Action: 'Sending Email'... finished.
+2019-10-30 11:30:43 AM::
+2019-10-30 11:30:43 AM:: Action: 'Publish to Remote Archive'... started.               [Est = 02 minutes, 23.000 seconds]
+2019-10-30 11:30:43 AM::
+2019-10-30 11:30:43 AM::		Command = "C:\Users\EMN015BuildUser\AppData\Local\Temp\tmpFEF.bat"
+2019-10-30 11:30:43 AM::		Argmnts = 
+2019-10-30 11:30:43 AM::
+2019-10-30 11:30:43 AM::		Copying: "S:\Parker Motion Manager\Parker Motion Manager\DiskImages\DISK1\Setup.exe"
+2019-10-30 11:30:43 AM::		     to: "\\emn0d5f01\rp_engineering\sw_engineering\builds_archive\PMM\trunk\2.0.0.1013\Setup.exe"...
+2019-10-30 11:33:24 AM::		
+2019-10-30 11:33:24 AM::		
+2019-10-30 11:33:24 AM::		Action exited with code = 0.
+2019-10-30 11:33:24 AM::
+2019-10-30 11:33:24 AM::
+2019-10-30 11:33:24 AM::		
+2019-10-30 11:33:25 AM:: Action: 'Publish to Remote Archive'... finished.              [Act = 02 minutes, 42.091 seconds]
+2019-10-30 11:33:25 AM::
+2019-10-30 11:33:25 AM:: Action: 'Sending Email'... started.
+2019-10-30 11:33:25 AM::
+2019-10-30 11:33:25 AM::		Email was sent to: "ronn.sokol@parker.com;dmcferren@parker.com"
+2019-10-30 11:33:25 AM::
+2019-10-30 11:33:25 AM::		Email saved as: "\\emn0d5f01\rp_engineering\sw_engineering\builds_archive\PMM\trunk\2.0.0.1013\Parker_Motion_Manager.eml"
+2019-10-30 11:33:25 AM::
+2019-10-30 11:33:25 AM:: Action: 'Sending Email'... finished.
+2019-10-30 11:33:25 AM::
+2019-10-30 11:33:25 AM::
+2019-10-30 11:33:25 AM::[PCB] Post-Build Actions ended.                                             10/30/2019 11:33:25 AM
+2019-10-30 11:33:25 AM::*************************************************************************************************
+2019-10-30 11:33:25 AM::
+2019-10-30 11:33:29 AM::
+2019-10-30 11:33:29 AM::*************************************************************************************************
+2019-10-30 11:33:29 AM::[PCB] Final-Build Actions started.                                          10/30/2019 11:33:29 AM
+2019-10-30 11:33:29 AM::
+2019-10-30 11:33:29 AM:: Action: 'Increment Build Number'... started.                              [Est = 02.000 seconds]
+2019-10-30 11:33:29 AM::		  Builder number updated to 1014
+2019-10-30 11:33:30 AM:: Action: 'Increment Build Number'... finished.                             [Act = 01.116 seconds]
+2019-10-30 11:33:30 AM::
+2019-10-30 11:33:30 AM:: Action: 'Save Project'... started.                                        [Est = 02.000 seconds]
+2019-10-30 11:33:31 AM::		  Project saved as "Y:\CodeBuilder\Projects\Parker Motion Manager.xml"
+2019-10-30 11:33:32 AM:: Action: 'Save Project'... finished.                                       [Act = 01.491 seconds]
+2019-10-30 11:33:32 AM::
+2019-10-30 11:33:32 AM:: Action: 'Commit Project'... started.                                      [Est = 02.000 seconds]
+2019-10-30 11:33:32 AM::		  Project committed to Subversion as revision 1130.
+2019-10-30 11:33:34 AM:: Action: 'Commit Project'... finished.                                     [Act = 01.721 seconds]
+2019-10-30 11:33:34 AM::
+2019-10-30 11:33:34 AM::
+2019-10-30 11:33:34 AM::[PCB] Final-Build Actions ended.                                            10/30/2019 11:33:34 AM
+2019-10-30 11:33:34 AM::*************************************************************************************************
+2019-10-30 11:33:34 AM::
+2019-10-30 11:33:34 AM::
+2019-10-30 11:33:34 AM:: Actual time to complete ALL selected actions:                 [Act = 11 minutes, 16.681 seconds]
+2019-10-30 11:33:34 AM::
+2019-10-30 11:33:34 AM::
+2019-10-30 11:33:34 AM::=================================================================================================
+2019-10-30 11:33:34 AM::[PCB] Parker Code Builder ended.                                            10/30/2019 11:33:34 AM
+2019-10-30 11:33:34 AM::=================================================================================================
+2019-10-30 11:33:34 AM::

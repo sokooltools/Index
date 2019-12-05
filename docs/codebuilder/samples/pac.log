@@ -1,0 +1,245 @@
+2019-12-03 15:35:50 PM::
+2019-12-03 15:35:50 PM::=================================================================================================
+2019-12-03 15:35:51 PM::[PCB] Parker Code Builder started.                                          12/3/2019 3:35:51 PM
+2019-12-03 15:35:51 PM::=================================================================================================
+2019-12-03 15:35:51 PM::
+2019-12-03 15:35:51 PM::
+2019-12-03 15:35:51 PM:: Estimated time to complete ALL selected actions:              [Est = 05 minutes, 57.000 seconds]
+2019-12-03 15:35:51 PM::
+2019-12-03 15:35:51 PM::
+2019-12-03 15:35:51 PM::*************************************************************************************************
+2019-12-03 15:35:51 PM::[PCB] Pre-Build Actions started.                                            12/3/2019 3:35:51 PM
+2019-12-03 15:35:51 PM::
+2019-12-03 15:35:51 PM::		*** No actions were selected ***
+2019-12-03 15:35:51 PM::
+2019-12-03 15:35:51 PM::[PCB] Pre-Build Actions ended.                                              12/3/2019 3:35:51 PM
+2019-12-03 15:35:51 PM::*************************************************************************************************
+2019-12-03 15:35:51 PM::
+2019-12-03 15:35:51 PM::
+2019-12-03 15:35:51 PM::*************************************************************************************************
+2019-12-03 15:35:51 PM::[PCB] Build Actions started.                                                12/3/2019 3:35:51 PM
+2019-12-03 15:35:51 PM::
+2019-12-03 15:35:52 PM:: Action: 'Generate Flashbacks'... started.                     [Est = 05 minutes, 33.000 seconds]
+2019-12-03 15:35:52 PM::
+2019-12-03 15:35:52 PM::		Command = "Y:\CodeBuilder\External\Commands\genflashbacks.cmd"
+2019-12-03 15:35:52 PM::		Argmnts = Y:\Tucson\trunk\SourceCode\FlashbackBuildDir
+2019-12-03 15:35:52 PM::
+2019-12-03 15:35:54 PM::		
+2019-12-03 15:35:54 PM::		Y:\CodeBuilder\Source\bin>Title Parker Code Builder [GenFlashbacks] 
+2019-12-03 15:35:54 PM::		
+2019-12-03 15:35:54 PM::		Y:\CodeBuilder\Source\bin>echo on 
+2019-12-03 15:35:54 PM::		
+2019-12-03 15:35:54 PM::		Y:\CodeBuilder\Source\bin>rem - Argument passed is FLASHBACK_BASE - base dirve:\path for flashback build files. 
+2019-12-03 15:35:54 PM::		
+2019-12-03 15:35:54 PM::		Y:\CodeBuilder\Source\bin>set FLASHBACK_BASE=Y:\Tucson\trunk\SourceCode\FlashbackBuildDir 
+2019-12-03 15:35:54 PM::		
+2019-12-03 15:35:54 PM::		Y:\CodeBuilder\Source\bin>if (Y:\Tucson\trunk\SourceCode\FlashbackBuildDir) == () (exit) 
+2019-12-03 15:35:54 PM::		
+2019-12-03 15:35:54 PM::		Y:\CodeBuilder\Source\bin>cd /d Y:\Tucson\trunk\SourceCode\FlashbackBuildDir 
+2019-12-03 15:35:54 PM::		
+2019-12-03 15:35:54 PM::		Y:\Tucson\trunk\SourceCode\FlashbackBuildDir>if ERRORLEVEL 1 exit 0 
+2019-12-03 15:35:54 PM::		
+2019-12-03 15:35:54 PM::		Y:\Tucson\trunk\SourceCode\FlashbackBuildDir>rem - Remove any flashbacks stored in S:\Tucson 
+2019-12-03 15:35:54 PM::		
+2019-12-03 15:35:54 PM::		Y:\Tucson\trunk\SourceCode\FlashbackBuildDir>if exist S:\Tucson\flashback*.exe del /f /q S:\Tucson\flashback*.exe 
+2019-12-03 15:35:54 PM::		
+2019-12-03 15:35:55 PM::		Y:\Tucson\trunk\SourceCode\FlashbackBuildDir>set PARTNUM=91-026667-01 
+2019-12-03 15:35:55 PM::		
+2019-12-03 15:35:55 PM::		Y:\Tucson\trunk\SourceCode\FlashbackBuildDir>set IMAGENAME=PAC 
+2019-12-03 15:35:55 PM::		
+2019-12-03 15:35:55 PM::		Y:\Tucson\trunk\SourceCode\FlashbackBuildDir>set DESCRIPTION="PAC" 
+2019-12-03 15:35:55 PM::		
+2019-12-03 15:35:55 PM::		Y:\Tucson\trunk\SourceCode\FlashbackBuildDir>if exist FlashBack_WinCESys\nk.bin del FlashBack_WinCESys\nk.bin 
+2019-12-03 15:35:55 PM::		
+2019-12-03 15:35:55 PM::		Y:\Tucson\trunk\SourceCode\FlashbackBuildDir>if exist S:\Tucson\nk_PAC.bin (
+2019-12-03 15:35:55 PM::		copy S:\Tucson\nk_PAC.bin FlashBack_WinCESys\nk.bin  
+2019-12-03 15:35:55 PM::		 rem mkdir FlashBack_WinCESys\Backup  
+2019-12-03 15:35:55 PM::		 copy S:\Tucson\nk_PAC.bin FlashBack_WinCESys\Backup\nk.bin  
+2019-12-03 15:35:55 PM::		 cd FlashBack_WinCESys  
+2019-12-03 15:35:55 PM::		 if exist WinCESys.exe del WinCESys.exe  
+2019-12-03 15:35:55 PM::		 rem - order of extraction is important.  
+2019-12-03 15:35:55 PM::		 7z a -sfx WinCESys.exe bldr  
+2019-12-03 15:35:55 PM::		 7z a -sfx WinCESys.exe boot.ini  
+2019-12-03 15:35:55 PM::		 7z a -sfx WinCESys.exe nk.bin  
+2019-12-03 15:35:55 PM::		 7z a -sfx WinCESys.exe Backup\nk.bin  
+2019-12-03 15:35:55 PM::		 cd ..  
+2019-12-03 15:35:55 PM::		 move Flashback_WinCESys\WinCESys.exe FlashBack_wrapper  
+2019-12-03 15:35:55 PM::		 cd Flashback_wrapper  
+2019-12-03 15:35:55 PM::		 7z a archive.7z *  
+2019-12-03 15:35:55 PM::		 cd ..  
+2019-12-03 15:35:55 PM::		 start /wait cmd /c make_conf.bat "PAC" 91-026667-01  
+2019-12-03 15:35:55 PM::		 copy /b 7zS.sfx + config.txt + Flashback_wrapper\archive.7z "S:\Tucson\FlashBack_PAC.exe"  
+2019-12-03 15:35:55 PM::		 if exist Flashback_wrapper\archive.7z del Flashback_wrapper\archive.7z  
+2019-12-03 15:35:55 PM::		 del config.txt 
+2019-12-03 15:35:55 PM::		) 
+2019-12-03 15:35:55 PM::		        1 file(s) copied.
+2019-12-03 15:35:55 PM::		        1 file(s) copied.
+2019-12-03 15:36:00 PM::		
+2019-12-03 15:36:00 PM::		7-Zip [64] 15.12 : Copyright (c) 1999-2015 Igor Pavlov : 2015-11-19
+2019-12-03 15:36:00 PM::		
+2019-12-03 15:36:00 PM::		Scanning the drive:
+2019-12-03 15:36:00 PM::		1 file, 20480 bytes (20 KiB)
+2019-12-03 15:36:00 PM::		
+2019-12-03 15:36:00 PM::		Creating archive: WinCESys.exe
+2019-12-03 15:36:00 PM::		
+2019-12-03 15:36:00 PM::		Items to compress: 1
+2019-12-03 15:36:00 PM::		
+2019-12-03 15:36:00 PM::		Write SFX: C:\Program Files\7-Zip\7zCon.sfx : 171520 bytes (168 KiB)
+2019-12-03 15:36:00 PM::		
+2019-12-03 15:36:00 PM::		Files read from disk: 1
+2019-12-03 15:36:00 PM::		Archive size: 178814 bytes (175 KiB)
+2019-12-03 15:36:00 PM::		Everything is Ok
+2019-12-03 15:36:01 PM::		
+2019-12-03 15:36:01 PM::		7-Zip [64] 15.12 : Copyright (c) 1999-2015 Igor Pavlov : 2015-11-19
+2019-12-03 15:36:01 PM::		
+2019-12-03 15:36:01 PM::		Open archive: WinCESys.exe
+2019-12-03 15:36:01 PM::		--
+2019-12-03 15:36:01 PM::		Path = WinCESys.exe
+2019-12-03 15:36:01 PM::		Type = 7z
+2019-12-03 15:36:01 PM::		Offset = 171520
+2019-12-03 15:36:01 PM::		Physical Size = 7294
+2019-12-03 15:36:01 PM::		Headers Size = 114
+2019-12-03 15:36:01 PM::		Method = LZMA2:24k
+2019-12-03 15:36:01 PM::		Solid = -
+2019-12-03 15:36:01 PM::		Blocks = 1
+2019-12-03 15:36:01 PM::		
+2019-12-03 15:36:01 PM::		Scanning the drive:
+2019-12-03 15:36:01 PM::		1 file, 502 bytes (1 KiB)
+2019-12-03 15:36:01 PM::		
+2019-12-03 15:36:01 PM::		Updating archive: WinCESys.exe
+2019-12-03 15:36:01 PM::		
+2019-12-03 15:36:01 PM::		Items to compress: 1
+2019-12-03 15:36:01 PM::		
+2019-12-03 15:36:01 PM::		Write SFX: C:\Program Files\7-Zip\7zCon.sfx : 171520 bytes (168 KiB)
+2019-12-03 15:36:01 PM::		
+2019-12-03 15:36:01 PM::		Files read from disk: 1
+2019-12-03 15:36:01 PM::		Archive size: 179144 bytes (175 KiB)
+2019-12-03 15:36:01 PM::		Everything is Ok
+2019-12-03 15:37:33 PM::		
+2019-12-03 15:37:33 PM::		7-Zip [64] 15.12 : Copyright (c) 1999-2015 Igor Pavlov : 2015-11-19
+2019-12-03 15:37:33 PM::		
+2019-12-03 15:37:33 PM::		Open archive: WinCESys.exe
+2019-12-03 15:37:33 PM::		--
+2019-12-03 15:37:33 PM::		Path = WinCESys.exe
+2019-12-03 15:37:33 PM::		Type = 7z
+2019-12-03 15:37:33 PM::		Offset = 171520
+2019-12-03 15:37:33 PM::		Physical Size = 7624
+2019-12-03 15:37:33 PM::		Headers Size = 169
+2019-12-03 15:37:33 PM::		Method = LZMA2:24k
+2019-12-03 15:37:33 PM::		Solid = -
+2019-12-03 15:37:33 PM::		Blocks = 2
+2019-12-03 15:37:33 PM::		
+2019-12-03 15:37:33 PM::		Scanning the drive:
+2019-12-03 15:37:33 PM::		1 file, 66008691 bytes (63 MiB)
+2019-12-03 15:37:33 PM::		
+2019-12-03 15:37:33 PM::		Updating archive: WinCESys.exe
+2019-12-03 15:37:33 PM::		
+2019-12-03 15:37:33 PM::		Items to compress: 1
+2019-12-03 15:37:33 PM::		
+2019-12-03 15:37:33 PM::		Write SFX: C:\Program Files\7-Zip\7zCon.sfx : 171520 bytes (168 KiB)
+2019-12-03 15:37:33 PM::		
+2019-12-03 15:37:33 PM::		Files read from disk: 1
+2019-12-03 15:37:33 PM::		Archive size: 46471817 bytes (45 MiB)
+2019-12-03 15:37:33 PM::		Everything is Ok
+2019-12-03 15:39:06 PM::		
+2019-12-03 15:39:06 PM::		7-Zip [64] 15.12 : Copyright (c) 1999-2015 Igor Pavlov : 2015-11-19
+2019-12-03 15:39:06 PM::		
+2019-12-03 15:39:06 PM::		Open archive: WinCESys.exe
+2019-12-03 15:39:06 PM::		--
+2019-12-03 15:39:06 PM::		Path = WinCESys.exe
+2019-12-03 15:39:07 PM::		Type = 7z
+2019-12-03 15:39:07 PM::		Offset = 171520
+2019-12-03 15:39:07 PM::		Physical Size = 46300297
+2019-12-03 15:39:07 PM::		Headers Size = 207
+2019-12-03 15:39:07 PM::		Method = LZMA2:24
+2019-12-03 15:39:07 PM::		Solid = -
+2019-12-03 15:39:07 PM::		Blocks = 3
+2019-12-03 15:39:07 PM::		
+2019-12-03 15:39:07 PM::		Scanning the drive:
+2019-12-03 15:39:07 PM::		1 file, 66008691 bytes (63 MiB)
+2019-12-03 15:39:07 PM::		
+2019-12-03 15:39:07 PM::		Updating archive: WinCESys.exe
+2019-12-03 15:39:07 PM::		
+2019-12-03 15:39:07 PM::		Items to compress: 1
+2019-12-03 15:39:07 PM::		
+2019-12-03 15:39:07 PM::		Write SFX: C:\Program Files\7-Zip\7zCon.sfx : 171520 bytes (168 KiB)
+2019-12-03 15:39:08 PM::		
+2019-12-03 15:39:08 PM::		Files read from disk: 1
+2019-12-03 15:39:08 PM::		Archive size: 92764474 bytes (89 MiB)
+2019-12-03 15:39:08 PM::		Everything is Ok
+2019-12-03 15:39:08 PM::		        1 file(s) moved.
+2019-12-03 15:41:15 PM::		
+2019-12-03 15:41:15 PM::		7-Zip [64] 15.12 : Copyright (c) 1999-2015 Igor Pavlov : 2015-11-19
+2019-12-03 15:41:15 PM::		
+2019-12-03 15:41:15 PM::		Scanning the drive:
+2019-12-03 15:41:15 PM::		4 files, 94762692 bytes (91 MiB)
+2019-12-03 15:41:15 PM::		
+2019-12-03 15:41:15 PM::		Creating archive: archive.7z
+2019-12-03 15:41:15 PM::		
+2019-12-03 15:41:15 PM::		Items to compress: 4
+2019-12-03 15:41:15 PM::		
+2019-12-03 15:41:15 PM::		
+2019-12-03 15:41:15 PM::		Files read from disk: 4
+2019-12-03 15:41:16 PM::		Archive size: 93287200 bytes (89 MiB)
+2019-12-03 15:41:16 PM::		Everything is Ok
+2019-12-03 15:41:19 PM::		7zS.sfx
+2019-12-03 15:41:19 PM::		config.txt
+2019-12-03 15:41:19 PM::		Flashback_wrapper\archive.7z
+2019-12-03 15:41:21 PM::		        1 file(s) copied.
+2019-12-03 15:41:21 PM::		
+2019-12-03 15:41:21 PM::		Y:\Tucson\trunk\SourceCode\FlashbackBuildDir>exit 0 
+2019-12-03 15:41:21 PM::		
+2019-12-03 15:41:22 PM:: Action: 'Generate Flashbacks'... finished.                    [Act = 05 minutes, 30.214 seconds]
+2019-12-03 15:41:22 PM::
+2019-12-03 15:41:22 PM::
+2019-12-03 15:41:22 PM::[PCB] Build Actions ended.                                                  12/3/2019 3:41:22 PM
+2019-12-03 15:41:22 PM::*************************************************************************************************
+2019-12-03 15:41:22 PM::
+2019-12-03 15:41:22 PM::
+2019-12-03 15:41:22 PM::*************************************************************************************************
+2019-12-03 15:41:22 PM::[PCB] Post-Build Actions started.                                           12/3/2019 3:41:22 PM
+2019-12-03 15:41:22 PM::
+2019-12-03 15:41:22 PM:: Action: 'Digitally Sign Flashback'... started.                            [Est = 18.000 seconds]
+2019-12-03 15:41:22 PM::
+2019-12-03 15:41:22 PM::		Command = "Y:\CodeBuilder\External\Digital-Signing\ParkerDigitalSignTool\bin\Release\ParkerDigitalSignTool.exe"
+2019-12-03 15:41:22 PM::		Argmnts = S:\Tucson\FlashBack_PAC.exe
+2019-12-03 15:41:22 PM::
+2019-12-03 15:41:22 PM::		
+2019-12-03 15:41:50 PM::		Done Adding Additional Store
+2019-12-03 15:41:50 PM::		Successfully signed and timestamped: S:\Tucson\FlashBack_PAC.exe
+2019-12-03 15:41:51 PM::		
+2019-12-03 15:41:52 PM::		
+2019-12-03 15:41:52 PM::		
+2019-12-03 15:41:52 PM:: Action: 'Digitally Sign Flashback'... finished.                           [Act = 30.514 seconds]
+2019-12-03 15:41:52 PM::
+2019-12-03 15:41:53 PM::
+2019-12-03 15:41:53 PM::[PCB] Post-Build Actions ended.                                             12/3/2019 3:41:53 PM
+2019-12-03 15:41:53 PM::*************************************************************************************************
+2019-12-03 15:41:53 PM::
+2019-12-03 15:41:53 PM::
+2019-12-03 15:41:53 PM::*************************************************************************************************
+2019-12-03 15:41:53 PM::[PCB] Final-Build Actions started.                                          12/3/2019 3:41:53 PM
+2019-12-03 15:41:53 PM::
+2019-12-03 15:41:53 PM:: Action: 'Increment Build Number'... started.                              [Est = 01.000 seconds]
+2019-12-03 15:41:53 PM::		  Builder number updated to 1090
+2019-12-03 15:41:53 PM:: Action: 'Increment Build Number'... finished.                             [Act = 00.248 seconds]
+2019-12-03 15:41:53 PM::
+2019-12-03 15:41:54 PM:: Action: 'Save Project'... started.                                        [Est = 01.000 seconds]
+2019-12-03 15:41:56 PM::		  Project saved as "Y:\CodeBuilder\Projects\PAC_Phase4.xml"
+2019-12-03 15:41:56 PM:: Action: 'Save Project'... finished.                                       [Act = 02.280 seconds]
+2019-12-03 15:41:56 PM::
+2019-12-03 15:41:56 PM:: Action: 'Commit Project'... started.                                      [Est = 07.000 seconds]
+2019-12-03 15:42:12 PM:: Action: 'Commit Project'... finished.                                     [Act = 15.960 seconds]
+2019-12-03 15:42:12 PM::
+2019-12-03 15:42:12 PM::
+2019-12-03 15:42:12 PM::[PCB] Final-Build Actions ended.                                            12/3/2019 3:42:12 PM
+2019-12-03 15:42:12 PM::*************************************************************************************************
+2019-12-03 15:42:12 PM::
+2019-12-03 15:42:12 PM::
+2019-12-03 15:42:12 PM:: Actual time to complete ALL selected actions:                 [Act = 06 minutes, 22.002 seconds]
+2019-12-03 15:42:12 PM::
+2019-12-03 15:42:12 PM::
+2019-12-03 15:42:12 PM::=================================================================================================
+2019-12-03 15:42:12 PM::[PCB] Parker Code Builder ended.                                            12/3/2019 3:42:12 PM
+2019-12-03 15:42:12 PM::=================================================================================================
+2019-12-03 15:42:12 PM::

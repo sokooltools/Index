@@ -38,61 +38,98 @@
 		<ol>
 			<li class="li2"><a>Main window</a>
 				<div class="t1">
-					TEXTTEXTTEXTTEXT <span class="sp1">span1span1span1</span>:
+					Shown here is a typical main window displayed when the <span class="sp1">Parker Code Builder</span> application starts up:
 				</div>
 				<img alt="" src="images\PIC-00.png">
+				<p>The first time the application is opened the fields will contain default values.</p>
+				<p>From then on, whenever the application is opened, the most recent project file which was previously
+				saved will be opened automatically .</p>
 				<div class="t2">
-					texttexttexttext <span class="sp2">span2span2span2</span> texttexttexttext.
+					The Parker Code Builder application has a main menu bar containing File, Edit, Project, Build, Tools, 
+					SVN, and Help along with a full range of sub-menu items for each:
 				</div>
 			</li>
 			<li class="li2"><a>File menu</a>
 				<div class="t1">
-					TEXTTEXTTEXTTEXT <span class="sp1">span1span1span1</span>:
+					This is the <b>File</b> menu
 				</div>
 				<img alt="" src="images\PIC-01.png">
 				<div class="t2">
-					texttexttexttext <span class="sp2">span2span2span2</span> texttexttexttext.
+					It provides commands to :
+					<ul>
+					<li>Create a <b>New</b> project.</li>
+					<li><b>Open</b> an existing project.</li>
+					<li><b>Save</b> the current project.</li>
+					<li><b>Save</b> the current project using a new name and/or location.</li> 
+					<li><b>Revert</b> any changes made to the current project since it was last saved.</li> 
+					<li>select a <b>Recent</b> opened project.</li>
+					<li><b>Exit</b> from the application.</li>
+					</ul>
 				</div>
+				Projects are by default, saved to, and retrieved from a pre-defined ‘Projects’ folder. 
 			</li>
 			<li class="li2"><a>Edit menu</a>
 				<div class="t1">
-					TEXTTEXTTEXTTEXT <span class="sp1">span1span1span1</span>:
+					This is the <b>Edit</b> menu:
 				</div>
 				<img alt="" src="images\PIC-02.png">
 				<div class="t2">
-					texttexttexttext <span class="sp2">span2span2span2</span> texttexttexttext.
+					It provides commands to :
+					<ul>
+					<li><b>Undo</b> the last edit.</li>
+					<li><b>Cut</b> the selected text from the current textbox to the clipboard.</li>
+					<li><b>Copy</b> the selected text from the current textbox to the clipboard.</li>
+					<li><b>Paste</b> the text on the clipboard into the current textbox selection.</li>
+					<li><b>Delete</b> the selected text from the current textbox.</li>
+					<li><b>Select</b> all the text in the current textbox and highlight it.</li>
+					</ul>
 				</div>
 			</li>
 			<li class="li2"><a>Project menu</a>
 				<div class="t1">
-					TEXTTEXTTEXTTEXT <span class="sp1">span1span1span1</span>:
+					This is the <b>Project</b> menu:
 				</div>
 				<img alt="" src="images\PIC-04.png">
 				<div class="t2">
-					texttexttexttext <span class="sp2">span2span2span2</span> texttexttexttext.
+					The Project menu contains commands for working with <i>project</i>-specific items. 
 				</div>
 			</li>
 			<li class="li2"><a>Build menu</a>
 				<div class="t1">
-					TEXTTEXTTEXTTEXT <span class="sp1">span1span1span1</span>:
+					This is the <b>Build</b> menu:
 				</div>
 				<img alt="" src="images\PIC-05.png">
 				<div class="t2">
-					texttexttexttext <span class="sp2">span2span2span2</span> texttexttexttext.
+					The Build menu provides the following commands:
+					<ul>
+					<li><b>Run Now</b> - runs the project immediately.</li>
+					<li><b>Auto-Run</b> - runs the project at a specified time.</li>
+					<li><b>Run Multiple</b> - runs multiple projects one after another 
+					(which at the present time has not been implemented).</li>
+					</ul>
+					Two additional commands become enabled when a project is in the process of running:
+					<ul>
+					<li><b>Stop</b> - ends the run after the current action has finished.</li>
+					<li><b>Force Stop</b> - terminates the run immediately (which should only be used as a last resort).</li>
+					</ul>
 				</div>
 			</li>
 			<li class="li2"><a>Tools menu</a>
 				<div class="t1">
-					TEXTTEXTTEXTTEXT <span class="sp1">span1span1span1</span>:
+					This is the <b>Tools</b> menu:
 				</div>
 				<img alt="" src="images\PIC-06.png">
 				<div class="t2">
-					texttexttexttext <span class="sp2">span2span2span2</span> texttexttexttext.
+					The Tools menu contains the following commands:
+					<ul>
+					<li><b>Generate Report</b> - displays an <a href="https://sokooltools.github.io/Index/codebuilder/samples/report.html">HTML Report</a>   consisting of all information related to 
+					the current project</li>
+					</ul>
 				</div>
 			</li>
 			<li class="li2"><a>SVN menu</a>
 				<div class="t1">
-					TEXTTEXTTEXTTEXT <span class="sp1">span1span1span1</span>:
+					This is the <b>SVN</b> menu:
 				</div>
 				<img alt="" src="images\PIC-07.png">
 				<div class="t2">
@@ -101,7 +138,7 @@
 			</li>
 			<li class="li2"><a>Help menu</a>
 				<div class="t1">
-					TEXTTEXTTEXTTEXT <span class="sp1">span1span1span1</span>:
+					This is the <b>Help</b> menu:
 				</div>
 				<img alt="" src="images\PIC-08.png">
 				<div class="t2">
@@ -110,7 +147,10 @@
 			</li>
 			<li class="li2"><a>File | Recent menu item</a>
 				<div class="t1">
-					TEXTTEXTTEXTTEXT <span class="sp1">span1span1span1</span>:
+					The following shows a typical list of projects which were recently opened by the user. 
+					If a project is opened from a folder other than the default ‘Projects’ folder described above, 
+					the entire path is displayed. Note the current project’s filename is also displayed in the title bar. 
+					This information is particularly helpful when the application is minimized to the taskbar.
 				</div>
 				<img alt="" src="images\PIC-10.png">
 				<div class="t2">
@@ -119,29 +159,40 @@
 			</li>
 			<li class="li2"><a>Mouse Hover example 1</a>
 				<div class="t1">
-					TEXTTEXTTEXTTEXT <span class="sp1">span1span1span1</span>:
+					Shown here is the mouse being hovered over a window control - in this particular example -
+					the <i>Email Remote Addresses</i> field:
 				</div>
 				<img alt="" src="images\PIC-12.png">
 				<div class="t2">
-					texttexttexttext <span class="sp2">span2span2span2</span> texttexttexttext.
+					A tooltip describing the field is displayed temporarily...
 				</div>
 			</li>
 			<li class="li2"><a>Mouse Hover example 2</a>
 				<div class="t1">
-					TEXTTEXTTEXTTEXT <span class="sp1">span1span1span1</span>:
+					The following shows the mouse being hovered over an action - in this particular example -
+					the <i>Test Running a Command File</i> action:
 				</div>
 				<img alt="" src="images\PIC-13.png">
 				<div class="t2">
-					texttexttexttext <span class="sp2">span2span2span2</span> texttexttexttext.
+					For all actions the following information is displayed in the tooltip:
+					<ul>
+					<li>The <i>name</i> of the action.</li>
+					<li>The <i>description</i> of the action.</li>
+					<li>The <i>command</i> to be run.</li>
+					<li>The <i>arguments</i> to the command to be run.</li>
+					<li>The <i>amount of time</i> the action last took to run.</li>
+					</ul>
 				</div>
+				All the actions will display a tooltip
 			</li>
 			<li class="li2"><a>Mouse Hover example 3</a>
 				<div class="t1">
-					TEXTTEXTTEXTTEXT <span class="sp1">span1span1span1</span>:
+					The following shows the mouse being hovered over an action - in this particular example -
+					the <i>Clean PAM Install Output Directory</i> action:
 				</div>
 				<img alt="" src="images\PIC-14.png">
 				<div class="t2">
-					texttexttexttext <span class="sp2">span2span2span2</span> texttexttexttext.
+					Note the information displayed this time is related to this particular action.
 				</div>
 			</li>
 			<li class="li2"><a>Check All button</a>
