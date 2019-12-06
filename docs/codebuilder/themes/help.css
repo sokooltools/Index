@@ -201,6 +201,25 @@ li.li2>a:hover {
 	background-color: #666666;
 }
 
+#hb-gotop{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width:100px;
+	background-color: #EEEEEE;
+	background-color: rgba(238, 238, 238, 0.6);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#99EEEEEE',EndColorStr='#99EEEEEE');
+	text-align:center;
+	padding:5px;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	cursor:pointer;
+	color:#444;
+	text-decoration:none;
+	border:1px solid #C9C9C9;
+	font-size:9pt;
+} 
 /* Printing */
 @media print {
 	.buttonClass {
