@@ -1,0 +1,103 @@
+﻿<!--=================================================================================================-->
+<!--	help.htm                                                                                     -->
+<!--=================================================================================================-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PAC Config Tool</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="themes/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="themes/tabs-no-images.css">
+	<link rel="stylesheet" type="text/css" href="themes/demo.css" />
+	<script type="text/javascript" src="scripts/jquery.js"> </script>
+	<script type="text/javascript" src="scripts/detect.js"></script>
+	<script type="text/javascript" src="scripts/jquery-ui.js"> </script>
+	<!-- The following script must be specified after the preceding script -->
+	<script type="text/javascript" src="scripts/jquery.tools.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$("ul.css-tabs").tabs("div.css-panes > div", {
+				effect: "fade",
+				history: false,
+				onBeforeClick: function(event, i) {
+					var pane = this.getPanes().eq(i);
+					if(pane[0].children.length === 0) {
+						var sel = this.getTabs().eq(i);
+						pane.load(sel.attr("href"));
+					}
+					return true;
+				},
+				onClick: (function(event, i) {
+					$("ul.css-tabs").trigger("tabChanged", i);
+					return true;
+				})
+			});
+			$("body").show();
+			$("button#back").click( function() {
+				history.go(-1);
+				return false;
+			});
+		});
+	</script>
+</head>
+<body style="display: none; min-width:1055px;">
+	<div>
+		<h1>PAC Config Tool Help</h1>
+		<!-- <button id="back" class="demo ui-button ui-corner-all ui-widget">&laquo; Back</button> -->
+		<p>Click on the individual tabs to display a static image representing the actual page content*.</p>
+	</div>
+	
+	<ul class="css-tabs">
+		<li id="T0"><a id="TB0" class="" title="Click this tab to display information related to Login.">Login</a></li>
+		<li id="T1"><a id="TB1" class="" title="Click this tab to display information related to the Network Settings.">Network Settings</a></li>
+		<li id="T2"><a id="TB2" class="" title="Click this tab to display information related to the System Settings.">System Settings</a></li>
+		<li id="T3"><a id="TB3" class="" title="Click this tab to display information related to the Security Settings.">Security Settings</a></li>
+		<li id="T4"><a id="TB4" class="" title="Click this tab to display information related to the Xpress HMI Settings.">Xpress HMI Settings</a></li>
+		<li id="T5"><a id="TB5" class="" title="Click this tab to display information about the PAC.">About the PAC</a></li>
+	</ul>
+	<div class="css-panes">
+		<div>
+			<a href="login.htm" target="_blank">
+				<img src="tabpages/login.png" alt="Login" />
+			</a>
+		</div>
+		<div style="display: block;">
+			<a href="networksettings.htm" target="_blank">
+				<img src="tabpages/networksettings.png" alt="Network Settings">
+			</a>
+		</div>
+		<div>
+			<a href="systemsettings.htm" target="_blank">
+				<img src="tabpages/systemsettings.png" alt="System Settings">
+			</a>
+		</div>
+		<div>
+			<a href="securitysettings.htm" target="_blank">
+				<img src="tabpages/securitysettings.png" alt="Security Settings" />
+			</a>
+		</div>
+		<div>
+			<a href="xpresssettings.htm" target="_blank">
+				<img src="tabpages/xpresshmisettings.png" alt="Xpress HMI Settings" />
+			</a>
+		</div>
+		<div>
+			<a href="aboutinfo.htm" target="_blank">
+				<img src="tabpages/aboutthepac.png" alt="About the PAC" />
+			</a>
+		</div>
+	</div>
+	<div style="clear: both;">
+		<p>* NOTE:  The individual tab page shown in this case, is actually just a representation of the true PAC Configuration tool. 
+		i.e., the information displayed on the page is static inoperable in that it is not physically connected to a back-end server.</p>
+		<p>
+			Normally clicking on the little HELP (?) button at the upper right would open a context-sensitive help page corresponding to the current tab.
+			For the purpose of this demonstration clicking anywhere on the tab page other than the tab itself will open the corresponding help page.
+		</p>
+	</div>
+</body>
+</html>
