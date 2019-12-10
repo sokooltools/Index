@@ -51,9 +51,9 @@
 		<h2 id="other-projects">Other Projects (Help Files)</h2>
 		<ul>
 			<li><a href="https://sokooltools.github.io/Index/codebuilder/help.htm" title="CodeBuilder"
-					rel="nofollow">CodeBuilder</a></li>
+					rel="nofollow" target="_blank">CodeBuilder</a></li>
 			<li><a href="https://sokooltools.github.io/Index/pacconfigtool/help.htm" title="PAC Configuration Tool"
-					rel="nofollow">PAC Configuration Tool</a></li>
+					rel="nofollow" target="_blank">PAC Configuration Tool</a></li>
 		</ul>
 		<footer class="site-footer">
 			<span class="site-footer-owner"><a href="https://github.com/sokooltools/Index">Index</a> is maintained by
@@ -89,7 +89,7 @@
 			att.value = "listclass";
 			ul.setAttributeNode(att);   
 			for (let i = 0; i < repos.length; i++) {
-				ul.innerHTML += `<li><a href="${urls[listNum]}${repos[i]}/" title="${repos[i]}" rel="nofollow">${repos[i]}</a></li>`;
+				ul.innerHTML += `<li><a href="${urls[listNum]}${repos[i]}/" title="${repos[i]}" rel="nofollow" target="_blank">${repos[i]}</a></li>`;
 			}
 			const im = document.getElementById(`list${listNum}`);
 			im.appendChild(ul);
