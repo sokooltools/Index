@@ -13,8 +13,13 @@
 	<link rel="stylesheet" type="text/css" href="../themes/help.css">
 	<script type="text/javascript" src="../scripts/jquery.js"></script>
 	<script type="text/javascript" src="../scripts/help.js"></script>
+	<style type="text/css">
+		.hh{
+			font-weight: 700;
+			color:blue;
+		}
+	</style>
 </head>
-
 <body>
 	<table id="help_Toolbar">
 		<tr>
@@ -101,7 +106,31 @@
 				</div>
 				<img alt="" src="images\PIC-04.png">
 				<div class="t2">
-					The Project menu contains commands for working with <i>project</i>-specific items.
+					The Project menu contains commands for working with <i>project</i>-specific items among them being:
+					<ul>
+						<li><b>New FIle List...</b> -</li>
+						<li><b>View Log</b> - performs the same function as when clicking the <b>View Log</b> button on the main window.
+							<p>Clicking either the menu item or the button results in the current log file being opened using the default text editor.</p>
+							<p>For example :
+								<ul>
+									<li>
+										<a href="https://sokooltools.github.io/Index/codebuilder/samples/pac.log" target="_blank" 
+											class="hh">PAC.log</a>
+									</li>
+									<li>
+										<a href="https://sokooltools.github.io/Index/codebuilder/samples/pam1.log" target="_blank" 
+											class="hh">PAM.log</a>
+									</li>
+									<li>
+										<a href="https://sokooltools.github.io/Index/codebuilder/samples/pmm.log" target="_blank" 
+											class="hh">PMM.log</a>
+									</li>
+								</ul>
+							</p>
+						</li>
+						<li><b>Append Log</b> - performs the same function as when clicking the <b>Append Log</b> checkmark on the main window..</li>
+						Unless this control contains a checkmark, the log file is automatically overwritten every time a Run is performed
+					</ul>
 				</div>
 			</li>
 			<li class="li2">
@@ -137,9 +166,8 @@
 					The Tools menu contains the following commands:
 					<ul>
 						<li><b>Generate Report</b> - displays an <a
-								href="https://sokooltools.github.io/Index/codebuilder/samples/report.html" target="_blank" style="font-weight: 700;color:blue;">HTML Report</a>
-							consisting of all information related to
-							the current project</li>
+								href="https://sokooltools.github.io/Index/codebuilder/samples/report.html" target="_blank" class="hh">HTML Report</a>
+							consisting of all information related to the current project</li>
 					</ul>
 				</div>
 			</li>
@@ -151,7 +179,6 @@
 				</div>
 				<img alt="" src="images\PIC-07.png">
 				<div class="t2">
-					texttexttexttext <span class="sp2">span2span2span2</span> texttexttexttext.
 				</div>
 			</li>
 			<li class="li2">
