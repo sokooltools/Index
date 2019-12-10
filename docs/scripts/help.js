@@ -4,18 +4,20 @@
 $(document).ready(function() {
 
 	// Add tooltips.
-	$("#help_btnScrollToTop").attr('title', "Click to go to the 'Table of Contents'.");
-	$("#help_btnShowCommon").prop("title", 'Click to show "Common Help" (help common to all pages)...');
-	$("#help_btnClose").prop("title", "Click to close this online help...");
-	
-	var pg = getQueryStringByName("tok");
-	$("#help_btnGoBack").text("Back to " + pg ).prop("title", 'Click to go back to the "' + pg + '"');
-	
+	$("#help_btnScrollToTop").attr('title', "Click to go to the 'Table of Contents' at the top of this page.");
+	$("#help_btnShowCommon").prop("title", 'Click to show a help page common to all help pages.');
+	$("#help_btnClose").prop("title", "Click to close this help page.");
+		
+	$("#help_btnShowCommon").text("Go to 'Common' Help");
+
 	$("#help_btnShowCommon").on("click", function() {
 		var pA = window.location.pathname.split("/");
 		location.href = "common.htm?tok=" + document.title + "&ret=" + pA[pA.length - 1];
 		return false;
 	});
+	
+	var pg = getQueryStringByName("tok");
+	$("#help_btnGoBack").text("Back to " + pg + "" ).prop("title", "Click to go back to the " + pg + " page.");
 
 	$("#help_btnGoBack").on("click", function() {
 		location.href = getQueryStringByName("ret");
@@ -27,15 +29,13 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$("#help_btnClose").click(function() {
+	$("#help_btnClose").on("click", function() {
 		window.close();
 	});
 
-	$("#help_btnScrollToTop, .li2 > a").click(function() {
+	$("#help_btnScrollToTop, .li2 > a").on("click", function() {
 		window.scrollTo(0, 0);
 	});
-	
-	$("#help_btnShowCommon").text("Go To Common Help");
 
 	// -------------------------------------------------------------------------------------------
 	// Creates and automatically adds a 'Table of Contents' to the page.
