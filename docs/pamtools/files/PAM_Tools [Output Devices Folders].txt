@@ -1,0 +1,5821 @@
+﻿[DEVICES FOLDERS]
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+C:\ProgramData\ParkerAutomationManager\Devices
+|   devicecache.xml
+|   
+├───15
+|   ├───181015
+|   |   ├───3.5.7.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.12.0
+|   |           device.xml
+|   |           
+|   └───181016
+|       ├───3.5.7.0
+|       |       device.xml
+|       |       
+|       └───3.5.12.0
+|               device.xml
+|               
+├───16
+|   ├───0000 1016
+|   |   └───3.5.7.20
+|   |           device.xml
+|   |           
+|   ├───0000 1017
+|   |   ├───3.5.8.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.10.0
+|   |           CANopenManagerStrings.xml
+|   |           device.xml
+|   |           
+|   ├───0000 1018
+|   |   ├───3.5.7.20
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.10.0
+|   |           CANopenManagerStrings.xml
+|   |           device.xml
+|   |           
+|   └───181016
+|       ├───3.5.7.20
+|       |       device.xml
+|       |       
+|       └───3.5.10.0
+|               CANopenManagerStrings.xml
+|               device.xml
+|               
+├───17
+|   ├───0000 0012
+|   |   ├───3.5.8.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.13.0
+|   |           device.xml
+|   |           
+|   └───0000 0013
+|       ├───3.5.8.0
+|       |       device.xml
+|       |       
+|       └───3.5.11.0
+|               device.xml
+|               
+├───18
+|   ├───0A_200_Enc_SM
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───1D_1706AC_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0012
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───14_859_SM
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───14_859_SM_E
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───14_100004_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───14_100004_SM_E
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───26C_3_SM
+|   |   └───4.2.0.0
+|   |           device.xml
+|   |           
+|   ├───82_200_Enc_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───101A 2F00_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───101A 2F01_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───101A 2F06_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───101A2F02_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───101A2F03_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───101A2F07_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───103D 000A
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───103D 000C
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───103D 000D
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───103D 0001
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───103D 0003
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───103D 0004
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───103D 0006
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───103D 0008
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───103D 0009
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───162C 0001
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───162C 0002
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───205_SM
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───1619 0001
+|   |   ├───4.2.1.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1619 1001
+|   |   ├───4.2.1.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1626 000A
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1626 000B
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1626 0001
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1626 0002
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1626 0003
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1626 0004
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1626 0005
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1626 0006
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1626 0007
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1626 0008
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1626 0009
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───4171_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───800005A_96010_SM
+|   |   └───4.1.0.0
+|   |           device.xml
+|   |           
+|   ├───62065538_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───A_84F_SM
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───A_84F_SM_E
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───A_842_SM
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───A_842_SM_E
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───A_845_SM
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───A_845_SM_E
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───D5_867_SM
+|   |   ├───4.4.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   └───D5_867_SM_E
+|       ├───4.4.0.0
+|       |       device.xml
+|       |       
+|       └───4.6.0.0
+|               device.xml
+|               
+├───24
+|   └───0000 0001
+|       ├───3.5.9.0
+|       |       device.xml
+|       |       
+|       └───3.5.10.0
+|               device.xml
+|               
+├───25
+|   └───0000 0001
+|       └───3.5.9.0
+|               device.xml
+|               
+├───32
+|   ├───0000 0001
+|   |   ├───3.5.6.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.10.0
+|   |           device.xml
+|   |           
+|   ├───0000 0002
+|   |   ├───3.4.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.10.0
+|   |           device.xml
+|   |           
+|   ├───0000 0666
+|   |   ├───3.5.7.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.30
+|   |           device.xml
+|   |           
+|   ├───0000 1002
+|   |   ├───3.5.9.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.30
+|   |           device.xml
+|   |           
+|   └───0000 1006
+|       ├───3.5.1.0
+|       |       device.xml
+|       |       
+|       └───3.5.12.0
+|               device.xml
+|               
+├───33
+|   └───0A12 3S CIFX DP-Slave
+|       └───3S-PBSlave.gsd - Version 1.000 %28HW%3DVersion 1.000  SW%3DVersion 2.000%29
+|               device.xml
+|               
+├───34
+|   ├───0000 6731
+|   |   ├───3.5.9.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.0
+|   |           device.xml
+|   |           
+|   ├───0034
+|   |   └───3.3.0.10
+|   |           device.xml
+|   |           
+|   └───1005
+|       ├───3.5.8.0
+|       |       device.xml
+|       |       
+|       └───3.5.14.30
+|               device.xml
+|               
+├───48
+|   ├───0000 1048
+|   |   └───3.4.0.0
+|   |           device.xml
+|   |           
+|   └───0000 1050
+|       └───3.5.7.0
+|               device.xml
+|               
+├───49
+|   └───0000 1049
+|       └───3.5.1.0
+|               device.xml
+|               
+├───64
+|   ├───0000 0001
+|   |   ├───3.5.5.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───3.5.9.10
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.30
+|   |           device.xml
+|   |           
+|   ├───0000 1002
+|   |   ├───3.5.9.10
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.30
+|   |           device.xml
+|   |           
+|   └───1629 8001
+|       ├───3.5.8.0
+|       |       device.xml
+|       |       
+|       ├───3.5.9.10
+|       |       device.xml
+|       |       
+|       └───3.5.14.30
+|               device.xml
+|               
+├───65
+|   ├───0A_0000030000000022_ENC_SM
+|   |   └───4.6.0.0
+|   |           CMZ_LBD_ETH_V2_2_5.xml
+|   |           device.xml
+|   |           
+|   ├───0A_0000030000000022_SM
+|   |   └───4.6.0.0
+|   |           CMZ_LBD_ETH_V2_2_5.xml
+|   |           device.xml
+|   |           
+|   ├───1B9_0000000200000000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           P0002813E01_20130601.xml
+|   |           
+|   ├───1D_502D415300020000_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       Festo_CMMP-AS_V4p0_CiA402_IP7.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           Festo_CMMP-AS_V4p0_CiA402_IP7.xml
+|   |           
+|   ├───1DD_1030507002040608_SM
+|   |   ├───4.5.1.0
+|   |   |       Delta_ASDA2-E_rev4-00_XML_TSE_20160620.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           Delta_ASDA2-E_rev4-00_XML_TSE_20160620.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A4B30520015000A
+|   |   ├───3.5.9.0
+|   |   |       Beckhoff EL6xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.0
+|   |           Beckhoff EL6xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A4B305200000000
+|   |   └───3.5.14.30
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A4B305200000001
+|   |   └───3.5.14.30
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A4B305200100000
+|   |   └───3.5.14.30
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A4B305200110000
+|   |   └───3.5.14.30
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A4B305200120000
+|   |   └───3.5.14.30
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A4B305200130000
+|   |   └───3.5.14.30
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A4B305200140000
+|   |   ├───3.5.7.0
+|   |   |       Beckhoff EL6xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.30
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A4B305200150000
+|   |   └───3.5.14.30
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A4B305200160000
+|   |   └───3.5.14.30
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A4B305200170000
+|   |   └───3.5.14.30
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A4B305200190000
+|   |   └───3.5.14.30
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A5F305200100000_8
+|   |   ├───3.5.9.0
+|   |   |       Beckhoff EL6xxx.xml
+|   |   |       device.xml
+|   |   |       EL6751_CAN Interface_8Messages.xml
+|   |   |       
+|   |   └───3.5.14.0
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A5F305200100000_32
+|   |   ├───3.5.9.0
+|   |   |       Beckhoff EL6xxx.xml
+|   |   |       device.xml
+|   |   |       EL6751_CAN Interface_32Messages.xml
+|   |   |       
+|   |   └───3.5.14.0
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A5F305200120000_8
+|   |   └───3.5.14.0
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1A5F305200120000_32
+|   |   └───3.5.14.0
+|   |           Beckhoff EL67xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1C2B30520018000B_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff EL72xx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff EL72xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1C2B305200150001_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff EL72xx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff EL72xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1C2130520018000B_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff EL72xx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff EL72xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1C21305200150001_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff EL72xx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff EL72xx.xml
+|   |           device.xml
+|   |           
+|   ├───2_07D0601400001B82_SM
+|   |   ├───4.2.0.0
+|   |   |       Beckhoff AX2xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff AX2xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_07D0601400001B82_SM_Enc
+|   |   ├───4.2.0.0
+|   |   |       Beckhoff AX2xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff AX2xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_09D9305200000000
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff EL2xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           Beckhoff EL2xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_13ED601200CB0000_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff AX5101-xxxx-0203 Dict.xml
+|   |   |       Beckhoff AX5xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff AX5101-xxxx-0203 Dict.xml
+|   |           Beckhoff AX5xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_13ED305200010000
+|   |   └───4.0.0.0
+|   |           Beckhoff EL5xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_13ED601200090000_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff AX5xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff AX5xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_13EF601200CB0000_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff AX5103-xxxx-0203 Dict.xml
+|   |   |       Beckhoff AX5xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff AX5103-xxxx-0203 Dict.xml
+|   |           Beckhoff AX5xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_13EF601200090000_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff AX5xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff AX5xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_13F2601200CB0000_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff AX5106-xxxx-0203 Dict.xml
+|   |   |       Beckhoff AX5xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff AX5106-xxxx-0203 Dict.xml
+|   |           Beckhoff AX5xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_13F8601200CB0000_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff AX5112-xxxx-0203 Dict.xml
+|   |   |       Beckhoff AX5xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff AX5112-xxxx-0203 Dict.xml
+|   |           Beckhoff AX5xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_13F2601200090000_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff AX5xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff AX5xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_13F8601200090000_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff AX5xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff AX5xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_13FE601200CB0000_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff AX5118-xxxx-0203 Dict.xml
+|   |   |       Beckhoff AX5xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff AX5118-xxxx-0203 Dict.xml
+|   |           Beckhoff AX5xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_13FE601200090000_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff AX5xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff AX5xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_19E730520012000A
+|   |   ├───3.5.9.0
+|   |   |       Beckhoff EL6xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.13.0
+|   |           Beckhoff EL6xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_19E7305200120000
+|   |   ├───3.5.9.0
+|   |   |       Beckhoff EL6xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.0
+|   |           Beckhoff EL6xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1405601200CB0000_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff AX5125-xxxx-0203 Dict.xml
+|   |   |       Beckhoff AX5xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff AX5125-xxxx-0203 Dict.xml
+|   |           Beckhoff AX5xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2_1405601200090000_SM
+|   |   ├───4.0.0.0
+|   |   |       Beckhoff AX5xxx.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Beckhoff AX5xxx.xml
+|   |           device.xml
+|   |           
+|   ├───2E1_00000000000000BE_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           Servotronix_CDHD_PC0_Rv0.xml
+|   |           
+|   ├───4A4154_0000000100000002
+|   |   └───4.2.1.0
+|   |           device.xml
+|   |           JAT_GmbH_EcoVario.xml
+|   |           
+|   ├───6A_00414B4400000002_SoftMotion
+|   |   └───4.0.0.0
+|   |           akd_01_07_00_000.xml
+|   |           device.xml
+|   |           
+|   ├───6a_0300060000000001_SM
+|   |   ├───4.1.0.0
+|   |   |       Danaher_S300_S400_S600_S700_V2.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Danaher_S300_S400_S600_S700_V2.xml
+|   |           device.xml
+|   |           
+|   ├───6a_0300060000000001_SM_Enc
+|   |   ├───4.1.0.0
+|   |   |       Danaher_S300_S400_S600_S700_V2.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           Danaher_S300_S400_S600_S700_V2.xml
+|   |           device.xml
+|   |           
+|   ├───7A1259_1234567800000001
+|   |   └───Revision%3D16%2300000001
+|   |           device.xml
+|   |           ParkerDFPEtherCAT.xml
+|   |           
+|   ├───14_0000000500000001_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       KEB_FUs.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           KEB_FUs.xml
+|   |           
+|   ├───14_001000010016E35F_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       KEB_ITMotorB_Generic.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           KEB_ITMotorB_Generic.xml
+|   |           
+|   ├───14_001000010016E35F_SM_E
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       KEB_ITMotorB_Generic.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           KEB_ITMotorB_Generic.xml
+|   |           
+|   ├───14_00100000000004C4_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       H6 drive unit V 1.0.0_PdIn(SM_PD-Layout-DSP402).xml
+|   |   |       
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       H6 drive unit V 1.0.0_PdIn(SM_PD-Layout-DSP402).xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           H6 drive unit V 1.0.0_PdIn(SM_PD-Layout-DSP402).xml
+|   |           
+|   ├───14_00100000000004C5_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       H6 double drive unit V 1.0.0.x-nonMDP.xml
+|   |   |       
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       H6 double drive unit V 1.0.0.x-nonMDP.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           H6 double drive unit V 1.0.0.x-nonMDP.xml
+|   |           
+|   ├───51D_0101010500010000_SM
+|   |   └───4.5.1.0
+|   |           device.xml
+|   |           HITACHI_IES_ADVA-Ecat_1.011.xml
+|   |           
+|   ├───51D_0101010600010000_SM
+|   |   └───4.5.1.0
+|   |           device.xml
+|   |           HITACHI_IES_ADVA-Ecat_1.011.xml
+|   |           
+|   ├───66F_5A3900A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5A4640A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5A39000100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5A39009100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5A39045100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5A46400100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5A46409100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5A46445100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5B3A20A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5B3A200100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5B3A209100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5B3A245100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5B4A20A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5B4A200100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5B4A209100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5B4A245100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5C3B40A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5C3B400100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5C3B409100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5C3B445100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_613C000A00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000B00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000C00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000D00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000E00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000F00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001A00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001B00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001C00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001D00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001E00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001F00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000000010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000100010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000200010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000300010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000400010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000500010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000600010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000700010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000800010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C000900010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001000010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001100010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001200010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001300010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001400010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001500010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001600010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001700010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001800010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C001900010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C002000010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C002100010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C002200010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C002300010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_613C002400010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BF_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BF_V1_3.xml
+|   |           
+|   ├───66F_511050A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_511070A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_515050A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_515070A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_521100A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_524070A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_524120A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_525100A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_531200A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_534200A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_535200A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_535300A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_544300A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_554400A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_555400A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_573640A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_6038000A00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038000B00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038000C00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038000D00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038000E00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038000F00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001A00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001B00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001C00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001D00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001E00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001F00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6054000A00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054000B00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054000C00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054000D00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054000E00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054000F00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001A00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001B00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001C00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001D00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001E00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001F00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6158000A00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158000B00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158000C00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158000D00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158000E00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158000F00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001A00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001B00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001C00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001D00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001E00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001F00010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_5110500100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5110509100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5110545100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5110700100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5110709100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5110745100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5150500100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5150509100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5150545100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5150700100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5150709100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5150745100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5211000100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5211009100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5211045100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5240700100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5240709100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5240745100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5241200100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5241209100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5241245100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5251000100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5251009100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5251045100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5312000100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5312009100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5312045100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5342000100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5342009100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5342045100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5352000100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5352009100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5352045100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5353000100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5353009100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5353045100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5443000100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5443009100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5443045100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5544000100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5544009100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5544045100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5554000100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5554009100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5554045100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5736400100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5736409100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_5736445100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_6038000000010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038000100010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038000200010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038000300010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038000400010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038000500010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038000600010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038000700010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038000800010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038000900010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001000010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001100010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001200010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001300010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001400010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001500010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001600010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001700010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001800010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038001900010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038002000010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038002100010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038002200010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038002300010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6038002400010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BE_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BE_V1_3.xml
+|   |           
+|   ├───66F_6054000000010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054000100010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054000200010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054000300010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054000400010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054000500010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054000600010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054000700010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054000800010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054000900010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001000010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001100010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001200010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001300010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001400010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001500010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001600010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001700010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001800010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054001900010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054002000010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054002100010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054002200010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054002300010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6054002400010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BL_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BL_V1_3.xml
+|   |           
+|   ├───66F_6158000000010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158000100010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158000200010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158000300010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158000400010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158000500010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158000600010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158000700010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158000800010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158000900010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001000010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001100010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001200010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001300010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001400010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001500010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001600010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001700010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001800010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158001900010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158002000010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158002100010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158002200010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158002300010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_6158002400010000_SM
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A6BM_V1_3.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A6BM_V1_3.xml
+|   |           
+|   ├───66F_DB4A20A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_DB4A200100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_DB4A209100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_DB4A245100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_DC3B40A100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_DC3B400100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_DC3B409100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───66F_DC3B445100010000_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       Panasonic_MINAS-A5B_V0_22.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Panasonic_MINAS-A5B_V0_22.xml
+|   |           
+|   ├───82_0000030000000022_ENC_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       Infranor_Xtrapuls_V2_2_4_1_3S.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Infranor_Xtrapuls_V2_2_4_1_3S.xml
+|   |           
+|   ├───82_0000030000000022_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       Infranor_Xtrapuls_V2_2_4_1_3S.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           Infranor_Xtrapuls_V2_2_4_1_3S.xml
+|   |           
+|   ├───83_0000000A00020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000000B00020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000000C00020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000000D00020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000005A00020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000005B00020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000005C00020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000005D00020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000005E00020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000005F00020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000000100020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000000200020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000000300020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000000400020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000000500020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000000600020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000000700020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000000800020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000000900020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000005600020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000005700020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000005800020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───83_0000005900020000_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           ESI_Omron_R88D-KNxxx-ECT_Ver2_0_rev09.xml
+|   |           
+|   ├───539_0220030100080006_SM
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           Yaskawa_SGD7S-xxxxA0x.xml
+|   |           
+|   ├───539_0220040100080004_SM
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           Yaskawa_SGD7S-xxxDA0xxxxF64.xml
+|   |           
+|   ├───622_002938D400000002
+|   |   ├───3.5.9.0
+|   |   |       device.xml
+|   |   |       ifm_AL1030.xml
+|   |   |       
+|   |   └───3.5.13.0
+|   |           device.xml
+|   |           ifm_AL1030.xml
+|   |           
+|   ├───800005A_00016E7200010002_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       Schneider_Electric_LXM32i_V102.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           Schneider_Electric_LXM32i_V102.xml
+|   |           
+|   ├───800005A_000164400001000E_SM
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           Schneider_Electric_LXM32M_V114.xml
+|   |           
+|   ├───800005A_000164400001001A_SM
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           Schneider_Electric_LXM32M_V126_with_EOE.xml
+|   |           
+|   ├───1000089_31444D4900000000
+|   |   └───Revision%3D16%2300000000
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00010001000003E8
+|   |   └───Revision%3D16%23000003E8
+|   |           -Parker Hannifin SBC ServoDrives -AB- R_6_1b_prelim_UNICO_profile_Dictionary - ALL.xml
+|   |           device.xml
+|   |           PH_Dictionary_SLVDN_single_1_0.xml
+|   |           
+|   ├───1000089_00010001000003E8_SM
+|   |   ├───4.0.0.0
+|   |   |       -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |   |       device.xml
+|   |   |       PH_Dictionary_SLVDN_single_1_0.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |           device.xml
+|   |           PH_Dictionary_SLVDN_single_1_0.xml
+|   |           
+|   ├───1000089_00010002000003E8
+|   |   └───Revision%3D16%23000003E8
+|   |           -Parker Hannifin SBC ServoDrives -AB- R_6_1b_prelim_UNICO_profile_Dictionary - ALL.xml
+|   |           device.xml
+|   |           PH_Dictionary_SPDN_1_0.xml
+|   |           
+|   ├───1000089_00010002000003E8_SM
+|   |   ├───4.0.0.0
+|   |   |       -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |   |       device.xml
+|   |   |       PH_Dictionary_SPDN_1_0.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |           device.xml
+|   |           PH_Dictionary_SPDN_1_0.xml
+|   |           
+|   ├───1000089_00010003000003E8
+|   |   └───Revision%3D16%23000003E8
+|   |           -Parker Hannifin SBC ServoDrives -AB- R_6_1b_prelim_UNICO_profile_Dictionary - ALL.xml
+|   |           device.xml
+|   |           PH_Dictionary_HID_1_0.xml
+|   |           
+|   ├───1000089_00010003000003E8_SM
+|   |   ├───4.0.0.0
+|   |   |       -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |   |       device.xml
+|   |   |       PH_Dictionary_HID_1_0.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |           device.xml
+|   |           PH_Dictionary_HID_1_0.xml
+|   |           
+|   ├───1000089_00010004000003E8
+|   |   └───Revision%3D16%23000003E8
+|   |           -Parker Hannifin SBC ServoDrives -AB- R_6_1b_prelim_UNICO_profile_Dictionary - ALL.xml
+|   |           device.xml
+|   |           PH_Dictionary_TPDM_single_1_0.xml
+|   |           
+|   ├───1000089_00010004000003E8_SM
+|   |   ├───4.0.0.0
+|   |   |       -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |   |       device.xml
+|   |   |       PH_Dictionary_TPDM_single_1_0.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |           device.xml
+|   |           PH_Dictionary_TPDM_single_1_0.xml
+|   |           
+|   ├───1000089_00020001000003E8
+|   |   └───Revision%3D16%23000003E8
+|   |           -Parker Hannifin SBC ServoDrives -AB- R_6_1b_prelim_UNICO_profile_Dictionary - ALL.xml
+|   |           device.xml
+|   |           PH_Dictionary_SLVDN_double_1_0.xml
+|   |           
+|   ├───1000089_00020001000003E8_SM
+|   |   ├───4.0.0.0
+|   |   |       -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |   |       device.xml
+|   |   |       PH_Dictionary_SLVDN_double_1_0.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |           device.xml
+|   |           PH_Dictionary_SLVDN_double_1_0.xml
+|   |           
+|   ├───1000089_00020002000003E8
+|   |   └───Revision%3D16%23000003E8
+|   |           -Parker Hannifin SBC ServoDrives -AB- R_6_1b_prelim_UNICO_profile_Dictionary - ALL.xml
+|   |           device.xml
+|   |           PH_Dictionary_TWINN_1_0.xml
+|   |           
+|   ├───1000089_00020002000003E8_SM
+|   |   ├───4.0.0.0
+|   |   |       -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |   |       device.xml
+|   |   |       PH_Dictionary_TWINN_1_0.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |           device.xml
+|   |           PH_Dictionary_TWINN_1_0.xml
+|   |           
+|   ├───1000089_00020004000003E8
+|   |   └───Revision%3D16%23000003E8
+|   |           -Parker Hannifin SBC ServoDrives -AB- R_6_1b_prelim_UNICO_profile_Dictionary - ALL.xml
+|   |           device.xml
+|   |           PH_Dictionary_TPDM_double_1_0.xml
+|   |           
+|   ├───1000089_00020004000003E8_SM
+|   |   ├───4.0.0.0
+|   |   |       -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |   |       device.xml
+|   |   |       PH_Dictionary_TPDM_double_1_0.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |           device.xml
+|   |           PH_Dictionary_TPDM_double_1_0.xml
+|   |           
+|   ├───1000089_00030001000003E8
+|   |   └───Revision%3D16%23000003E8
+|   |           -Parker Hannifin SBC ServoDrives -AB- R_6_1b_prelim_UNICO_profile_Dictionary - ALL.xml
+|   |           device.xml
+|   |           PH_Dictionary_SLVDN_triple_1_0.xml
+|   |           
+|   ├───1000089_00030001000003E8_SM
+|   |   ├───4.0.0.0
+|   |   |       -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |   |       device.xml
+|   |   |       PH_Dictionary_SLVDN_triple_1_0.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |           device.xml
+|   |           PH_Dictionary_SLVDN_triple_1_0.xml
+|   |           
+|   ├───1000089_00030004000003E8
+|   |   └───Revision%3D16%23000003E8
+|   |           -Parker Hannifin SBC ServoDrives -AB- R_6_1b_prelim_UNICO_profile_Dictionary - ALL.xml
+|   |           device.xml
+|   |           PH_Dictionary_TPDM_triple_1_0.xml
+|   |           
+|   ├───1000089_00030004000003E8_SM
+|   |   ├───4.0.0.0
+|   |   |       -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |   |       device.xml
+|   |   |       PH_Dictionary_TPDM_triple_1_0.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           -Parker Hannifin SBC ServoDrives -AA- R_6_1a_prelim_BASIC_profile_Dictionary - ALL_Mapped0x2060.xml
+|   |           device.xml
+|   |           PH_Dictionary_TPDM_triple_1_0.xml
+|   |           
+|   ├───2000089_002E3BF100000000_Enc_SM
+|   |   ├───4.0.0.0
+|   |   |       C3_EtherCAT_OpMode08_V0207.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           C3_EtherCAT_OpMode08_V0209.xml
+|   |           device.xml
+|   |           
+|   ├───2000089_002E3BF100000000_SM
+|   |   ├───4.0.0.0
+|   |   |       C3_EtherCAT_OpMode08_V0207.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           C3_EtherCAT_OpMode08_V0209.xml
+|   |           device.xml
+|   |           
+|   ├───2000089_50314D3100010101
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_single_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_50314D3100010101_SM
+|   |   ├───1.0.0.0
+|   |   |       device.xml
+|   |   |       PH_Dictionary_PSD1_single_V101.xml
+|   |   |       PH_PSD1_ServoDrives_V101.xml
+|   |   |       
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       PH_Dictionary_PSD1_single_V101.xml
+|   |   |       PH_PSD1_ServoDrives_V101.xml
+|   |   |       
+|   |   ├───4.5.0.0
+|   |   |       device.xml
+|   |   |       PH_Dictionary_PSD1_single_V101.xml
+|   |   |       PH_PSD1_ServoDrives_V101.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_single_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_50314D3200010101
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_double_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_50314D3200010101_SM
+|   |   ├───1.0.0.0
+|   |   |       device.xml
+|   |   |       PH_Dictionary_PSD1_double_V101.xml
+|   |   |       PH_PSD1_ServoDrives_V101.xml
+|   |   |       
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       PH_Dictionary_PSD1_double_V101.xml
+|   |   |       PH_PSD1_ServoDrives_V101.xml
+|   |   |       
+|   |   ├───4.5.0.0
+|   |   |       device.xml
+|   |   |       PH_Dictionary_PSD1_double_V101.xml
+|   |   |       PH_PSD1_ServoDrives_V101.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_double_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_50314D3300010101
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_triple_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_50314D3300010101_SM
+|   |   ├───1.0.0.0
+|   |   |       device.xml
+|   |   |       PH_Dictionary_PSD1_triple_V101.xml
+|   |   |       PH_PSD1_ServoDrives_V101.xml
+|   |   |       
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       PH_Dictionary_PSD1_triple_V101.xml
+|   |   |       PH_PSD1_ServoDrives_V101.xml
+|   |   |       
+|   |   ├───4.5.0.0
+|   |   |       device.xml
+|   |   |       PH_Dictionary_PSD1_triple_V101.xml
+|   |   |       PH_PSD1_ServoDrives_V101.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_triple_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_70314D3100010101
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_single_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_70314D3100010101_SM
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_single_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_70314D3200010101
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_double_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_70314D3200010101_SM
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_double_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_70314D3300010101
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_triple_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_70314D3300010101_SM
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_triple_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_5031533100010101
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_unique_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_5031533100010101_SM
+|   |   ├───1.0.0.0
+|   |   |       device.xml
+|   |   |       PH_Dictionary_PSD1_single_V101.xml
+|   |   |       PH_PSD1_ServoDrives_V101.xml
+|   |   |       
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       PH_Dictionary_PSD1_single_V101.xml
+|   |   |       PH_PSD1_ServoDrives_V101.xml
+|   |   |       
+|   |   ├───4.5.0.0
+|   |   |       device.xml
+|   |   |       PH_Dictionary_PSD1_single_V101.xml
+|   |   |       PH_PSD1_ServoDrives_V101.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_unique_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_7031533100010101
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_unique_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_7031533100010101_SM
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           PH_Dictionary_PSD1_unique_V120.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───4000089_0087D95900010004
+|   |   └───Revision%3D16%2300010004
+|   |           device.xml
+|   |           ESI_890_V1_04.XML
+|   |           
+|   ├───4000089_7003EC0000010006
+|   |   └───Revision%3D16%2300010006
+|   |           device.xml
+|   |           ESI_AC30_DEFAULT_V1_06.XML
+|   |           
+|   ├───4000089_7003EC0000010007
+|   |   └───Revision%3D16%2300010007
+|   |           device.xml
+|   |           ESI_AC30_DEFAULT_V1_07.XML
+|   |           
+|   ├───9000089_0002B1EB00000001
+|   |   └───Revision%3D16%2300000001
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_0002B1EC00000001
+|   |   └───Revision%3D16%2300000001
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_00024AB800000001
+|   |   └───Revision%3D16%2300000001
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_00024AB900000003
+|   |   ├───AB_000010B000010003
+|   |   |   └───Revision%3D16%2300010003
+|   |   |           Copley_XE2_1.70.xml
+|   |   |           device.xml
+|   |   |           
+|   |   ├───AB_000010C000010003
+|   |   |   └───Revision%3D16%2300010003
+|   |   |           Copley_BE2_1.68.xml
+|   |   |           device.xml
+|   |   |           
+|   |   ├───AB_000010F000010003
+|   |   |   └───Revision%3D16%2300010003
+|   |   |           Copley_TE2_1.68.xml
+|   |   |           device.xml
+|   |   |           
+|   |   ├───AB_0000038000010002
+|   |   |   └───Revision%3D16%2300010002
+|   |   |           Copley_AEP_3.34.xml
+|   |   |           device.xml
+|   |   |           
+|   |   ├───AB_0000100000010003
+|   |   |   └───Revision%3D16%2300010003
+|   |   |           Copley_XEL_1.60.xml
+|   |   |           device.xml
+|   |   |           
+|   |   ├───AB_0000103000010003
+|   |   |   └───Revision%3D16%2300010003
+|   |   |           Copley_AEM_1.38.xml
+|   |   |           device.xml
+|   |   |           
+|   |   ├───AB_0000105000010003
+|   |   |   └───Revision%3D16%2300010003
+|   |   |           Copley_AE2_1.38.xml
+|   |   |           device.xml
+|   |   |           
+|   |   ├───AB_0000107000010003
+|   |   |   └───Revision%3D16%2300010003
+|   |   |           Copley_SEM_1.38.xml
+|   |   |           device.xml
+|   |   |           
+|   |   ├───AB_0000109000010003
+|   |   |   └───Revision%3D16%2300010003
+|   |   |           Copley_SE2_1.38.xml
+|   |   |           device.xml
+|   |   |           
+|   |   ├───AB_0000111000010003
+|   |   |   └───Revision%3D16%2300010003
+|   |   |           Copley_BEL_1.68.xml
+|   |   |           device.xml
+|   |   |           
+|   |   ├───AB_0000113000010003
+|   |   |   └───Revision%3D16%2300010003
+|   |   |           Copley_TEL_1.68.xml
+|   |   |           device.xml
+|   |   |           
+|   |   └───Revision%3D16%2300000003
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_00024ABA00000002
+|   |   └───Revision%3D16%2300000002
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_00024ABA00000003
+|   |   └───Revision%3D16%2300000003
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_00024ABB00000002
+|   |   └───Revision%3D16%2300000002
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_00024ABB00000003
+|   |   └───Revision%3D16%2300000003
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_00025D9500000001
+|   |   └───Revision%3D16%2300000001
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_00025D9700000001
+|   |   └───Revision%3D16%2300000001
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_00025EE600000002
+|   |   └───Revision%3D16%2300000002
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_00027FA700000001
+|   |   └───Revision%3D16%2300000001
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_043BC77600000001
+|   |   └───Revision%3D16%2300000001
+|   |           device.xml
+|   |           PAC320-XXXXX-XX_BusCoupler.xml
+|   |           
+|   ├───9000089_000248EC00000001
+|   |   └───Revision%3D16%2300000001
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_000276FE00000002
+|   |   └───Revision%3D16%2300000002
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_000279F400000002
+|   |   └───Revision%3D16%2300000002
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_000291E900000003
+|   |   └───Revision%3D16%2300000003
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_0002614A00000001
+|   |   └───Revision%3D16%2300000001
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_0002614C00000002
+|   |   └───Revision%3D16%2300000002
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_0002614F00000002
+|   |   └───Revision%3D16%2300000002
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_0002862A00000001
+|   |   └───Revision%3D16%2300000001
+|   |           device.xml
+|   |           ParkerEtherCATModules.xml
+|   |           
+|   ├───9000089_0000100200000001
+|   |   └───Revision%3D16%2300000001
+|   |           device.xml
+|   |           ECLD_new.xml
+|   |           
+|   ├───9000089_0001000000000001
+|   |   └───Revision%3D16%2300000002
+|   |           device.xml
+|   |           Parker_EtherCAT_PDrive_V0.91e.xml
+|   |           
+|   ├───9000089_0001000100000001
+|   |   └───Revision%3D16%2300000002
+|   |           device.xml
+|   |           Parker_EtherCAT_PDrive_V0.91e.xml
+|   |           
+|   ├───9000089_0001000200000001
+|   |   └───Revision%3D16%2300000002
+|   |           device.xml
+|   |           Parker EtherCAT Drive V0.91e.xml
+|   |           
+|   ├───9000089_0001000300000001
+|   |   └───Revision%3D16%2300000001
+|   |           device.xml
+|   |           Parker EtherCAT Drive PDC.xml
+|   |           
+|   ├───A_0000084B001B0000_SM
+|   |   ├───4.1.0.0
+|   |   |       CMZ_IBD_ETC.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           CMZ_IBD_ETC.xml
+|   |           device.xml
+|   |           
+|   ├───A_0000084B001B0000_SM_E
+|   |   ├───4.1.0.0
+|   |   |       CMZ_IBD_ETC.xml
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           CMZ_IBD_ETC.xml
+|   |           device.xml
+|   |           
+|   ├───AB_000010B000010003
+|   |   └───Revision%3D16%2300010003
+|   |           Copley_XE2_1.62.xml
+|   |           Copley_XE2_1.70.xml
+|   |           device.xml
+|   |           
+|   ├───AB_000010C000010003
+|   |   └───Revision%3D16%2300010003
+|   |           Copley_BE2_1.68.xml
+|   |           device.xml
+|   |           
+|   ├───AB_000010F000010003
+|   |   └───Revision%3D16%2300010003
+|   |           Copley_TE2_1.68.xml
+|   |           device.xml
+|   |           
+|   ├───AB_0000038000010002
+|   |   └───Revision%3D16%2300010002
+|   |           Copley_AEP_3.34.xml
+|   |           device.xml
+|   |           
+|   ├───ab_0000038000010002_SM
+|   |   └───4.0.0.0
+|   |           Copley_AEP.xml
+|   |           device.xml
+|   |           
+|   ├───AB_0000100000010003
+|   |   └───Revision%3D16%2300010003
+|   |           Copley_XEL_1.60.xml
+|   |           device.xml
+|   |           
+|   ├───AB_0000103000010003
+|   |   └───Revision%3D16%2300010003
+|   |           Copley_AEM_1.38.xml
+|   |           device.xml
+|   |           
+|   ├───AB_0000105000010003
+|   |   └───Revision%3D16%2300010003
+|   |           Copley_AE2_1.38.xml
+|   |           device.xml
+|   |           
+|   ├───AB_0000107000010003
+|   |   └───Revision%3D16%2300010003
+|   |           Copley_SEM_1.38.xml
+|   |           device.xml
+|   |           
+|   ├───AB_0000109000010003
+|   |   └───Revision%3D16%2300010003
+|   |           Copley_SE2_1.38.xml
+|   |           device.xml
+|   |           
+|   ├───AB_0000111000010003
+|   |   └───Revision%3D16%2300010003
+|   |           Copley_BEL_1.68.xml
+|   |           device.xml
+|   |           
+|   ├───AB_0000113000010003
+|   |   └───Revision%3D16%2300010003
+|   |           Copley_TEL_1.68.xml
+|   |           device.xml
+|   |           
+|   ├───B9_0000196F000017D4_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       STOBER_SI6LD6_codesys.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           STOBER_SI6SC6.xml
+|   |           
+|   ├───B9_0000196F000017D4_SM_Hires
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       STOBER_SI6LD6_codesys.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           STOBER_SI6SC6.xml
+|   |           
+|   ├───b9_00001388000001F6_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       IP Mode Ethercat.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           IP Mode Ethercat.xml
+|   |           
+|   ├───B9_00001965000017D4_SM
+|   |   ├───4.1.1.0
+|   |   |       device.xml
+|   |   |       STOBER_SI6LD6_codesys.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           STOBER_SI6SC6.xml
+|   |           
+|   ├───B9_00001965000017D4_SM_Hires
+|   |   ├───4.1.1.0
+|   |   |       device.xml
+|   |   |       STOBER_SI6LD6_codesys.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           STOBER_SI6SC6.xml
+|   |           
+|   ├───B9_00001966000017D4_SM
+|   |   ├───4.1.1.0
+|   |   |       device.xml
+|   |   |       STOBER_SI6LD6_codesys.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           STOBER_SI6SC6.xml
+|   |           
+|   ├───B9_00001966000017D4_SM_Hires
+|   |   ├───4.1.1.0
+|   |   |       device.xml
+|   |   |       STOBER_SI6LD6_codesys.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           STOBER_SI6SC6.xml
+|   |           
+|   ├───B9_00001970000017D4_SM
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       STOBER_SI6LD6_codesys.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           STOBER_SI6SC6.xml
+|   |           
+|   ├───B9_00001970000017D4_SM_Hires
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       STOBER_SI6LD6_codesys.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           STOBER_SI6SC6.xml
+|   |           
+|   ├───B9_0000177000001770_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       STOEBER_SD6_CiA402_ControllerBasedMode (Softmotion).xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           STOEBER_SD6.xml
+|   |           
+|   ├───B9_0000177000001770_SM_Hires
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       STOEBER_SD6_CiA402_ControllerBasedMode (Softmotion).xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           STOEBER_SD6.xml
+|   |           
+|   ├───D5_00000868001E0000_SM
+|   |   └───4.4.0.0
+|   |           BMRIBMD.xml
+|   |           device.xml
+|   |           
+|   ├───D5_00000868001E0000_SM_E
+|   |   └───4.4.0.0
+|   |           BMRIBMD.xml
+|   |           device.xml
+|   |           
+|   ├───E4_264860D300020000_SM
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       Metronix_EtherCAT_ARS2000_V3p0.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           Metronix_EtherCAT_ARS2000_V3p0.xml
+|   |           
+|   ├───f9_000000050000006A_SM
+|   |   └───4.1.0.0
+|   |           Control Techniques Commander SK EtherCAT.xml
+|   |           device.xml
+|   |           
+|   ├───f9_000100030000006A
+|   |   └───4.1.0.0
+|   |           Control Techniques Unidrive SP Open Loop EtherCAT.xml
+|   |           device.xml
+|   |           
+|   ├───F9_000103030000006A_SM
+|   |   └───4.1.0.0
+|   |           Control Techniques Affinity EtherCAT.xml
+|   |           device.xml
+|   |           
+|   ├───f9_000300030000006A
+|   |   └───4.1.0.0
+|   |           Control Techniques Unidrive SP Closed Loop EtherCAT.xml
+|   |           device.xml
+|   |           
+|   ├───F9_000303030000006A_SM
+|   |   └───4.1.0.0
+|   |           Control Techniques Affinity With RFC EtherCAT.xml
+|   |           device.xml
+|   |           
+|   ├───f9_000400030000006A
+|   |   └───4.1.0.0
+|   |           Control Techniques Unidrive SP Servo EtherCAT.xml
+|   |           device.xml
+|   |           
+|   ├───f9_000402030000006A_SM
+|   |   └───4.1.0.0
+|   |           Control Techniques Digitax ST EtherCAT.xml
+|   |           device.xml
+|   |           
+|   ├───f9_000500070000006A
+|   |   └───4.1.0.0
+|   |           Control Techniques Mentor MP EtherCAT.xml
+|   |           device.xml
+|   |           
+|   ├───ts60-S1-D25-L200-floor-R1_SM
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           uniVAL_coe_StR.xml
+|   |           
+|   └───tx60-S1-R4_SM
+|       └───4.3.0.0
+|               device.xml
+|               uniVAL_coe_StR.xml
+|               
+├───68
+|   ├───1000089_000F4241__Custom_00001
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000F4242__Custom_00002
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000F4243__Custom_00003
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000F4244__Custom_00004
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000F4245__Custom_00005
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00000001__Profile CoE DS402
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000001F5__Linear Interpolation
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000001F6__Cubic Interpolation -1
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000002BD__QuickStopRamp
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000002BE__CurrentLimit
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000002BF__QuickStopRampAndStayInQuickStop
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000002C0__CurrentLimitAndStayInQuickStop
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000003E9__DynTxPdoConf 1
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000003EA__DynTxPdoConf 2
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000003EB__DynTxPdoConf 3
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000003EC__DynTxPdoConf 4
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000003F3__DynTxPdoConf 11
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000003F4__DynTxPdoConf 12
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000003F5__DynTxPdoConf 13
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000003F6__DynTxPdoConf 14
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000003F7__DynTxPdoConf 15
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000003FD__DynTxPdoConf 21
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000003FE__DynTxPdoConf 22
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000003FF__DynTxPdoConf 23
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00004E21__Velocity 1
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00004E22__Velocity 2
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00004E23__Velocity 3
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00004E24__Velocity 4
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_0000006E__Synchron 10ms
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000007D1__Capture RI1
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000007D2__Capture FI1
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000007D3__Capture RI1 FI1
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000007D4__Capture RI2
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000007D5__Capture FI2
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000007D6__Capture RI2 FI2
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000007D7__Capture RI1 RI2
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000007D8__Capture FI1 FI2
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000009C5__Digital Outputs
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_000009C6__Digital Inputs
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00009C41__Profile Position 1
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00009C42__Profile Position 2
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_0000025A__DisableVoltage
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_0000025B__QuickStop
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00000065__Synchron 1ms
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00000066__Synchron 2ms
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00000068__Synchron 4ms
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00000069__Synchron 5ms
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00000078__Synchron 20ms
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00000259__FaultSignal
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00000321__DisableDrive
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00000322__QuickStopRamp
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00000323__CurrentLimit
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00000400__DynTxPdoConf 24
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00002710__Feedback Only
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00002711__Position 1
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00002712__Position 2
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00002713__Position 3
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00002714__Position 4
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00002715__Position 5
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00002716__Position 6
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00007531__Torque 1
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00007532__Torque 2
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───1000089_00007533__Torque 3
+|   |   └───0
+|   |           -Parker Hannifin EME - MDC - R_2_0.xml
+|   |           device.xml
+|   |           
+|   ├───2000089_534F4431__Safety Process Data%2C No ASF%2C DoubleAxis1
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F4432__Safety Process Data%2C No ASF%2C DoubleAxis2
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F4441__Safety Process Data%2C ASF %2B Position and Speed%2C DoubleAxis1
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F4442__Safety Process Data%2C ASF %2B Position and Speed%2C DoubleAxis2
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F4451__Safety Process Data%2C ASF%2C DoubleAxis1
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F4452__Safety Process Data%2C ASF%2C DoubleAxis2
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5331__Safety Process Data%2C No ASF%2C SingleAxis
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5341__Safety Process Data%2C ASF %2B Position and Speed%2C SingleAxis
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5351__Safety Process Data%2C ASF%2C SingleAxis
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5431__Safety Process Data%2C No ASF%2C TripleAxis1
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5432__Safety Process Data%2C No ASF%2C TripleAxis2
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5433__Safety Process Data%2C No ASF%2C TripleAxis3
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5441__Safety Process Data%2C ASF %2B Position and Speed%2C TripleAxis1
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5442__Safety Process Data%2C ASF %2B Position and Speed%2C TripleAxis2
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5443__Safety Process Data%2C ASF %2B Position and Speed%2C TripleAxis3
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5451__Safety Process Data%2C ASF%2C TripleAxis1
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5452__Safety Process Data%2C ASF%2C TripleAxis2
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5453__Safety Process Data%2C ASF%2C TripleAxis3
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5531__Safety Process Data%2C No ASF%2C UniqueAxis
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5541__Safety Process Data%2C ASF %2B Position and Speed%2C UniqueAxis
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_534F5551__Safety Process Data%2C ASF%2C UniqueAxis
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_5044314D__mAxis1
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_5044324D__mAxis2
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_5044334D__mAxis3
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_41504130__No Acyclic Parameter Access
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_41504134__Acyclic Parameter Access%2C 4 Words
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_41504136__Acyclic Parameter Access%2C 6 Words
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───2000089_50443153__sAxis
+|   |   └───0
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───AB_00000100__Cyclic Position Mode
+|   |   └───0
+|   |           Copley_XE2_1.62.xml
+|   |           Copley_XEL_1.60.xml
+|   |           device.xml
+|   |           
+|   ├───AB_00000200__Cyclic Velocity Mode
+|   |   └───0
+|   |           Copley_XE2_1.62.xml
+|   |           Copley_XEL_1.60.xml
+|   |           device.xml
+|   |           
+|   ├───AB_00000300__Cyclic Torque Mode
+|   |   └───0
+|   |           Copley_XE2_1.62.xml
+|   |           Copley_XEL_1.60.xml
+|   |           device.xml
+|   |           
+|   ├───B9_00000001__FSoE
+|   |   └───4.2.0.0
+|   |           device.xml
+|   |           STOBER_SI6LD6_codesys.xml
+|   |           
+|   ├───B9_29B92B4C__SI6%2FLD6 CiA402 axis A
+|   |   └───0
+|   |           device.xml
+|   |           STOBER_SI6LD6_codesys.xml
+|   |           
+|   ├───B9_29B952C0__SI6%2FLD6 CiA402 axis B
+|   |   └───0
+|   |           device.xml
+|   |           STOBER_SI6LD6_codesys.xml
+|   |           
+|   ├───B9_56DBF9AD__Safety_FSoE
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           STOBER_SI6SC6.xml
+|   |           
+|   ├───B9_CA423C6E__CiA ControllerBased
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           STOBER_SI6SC6.xml
+|   |           
+|   ├───B9_D6F224C8__CiA ControllerBased
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           STOBER_SI6SC6.xml
+|   |           
+|   └───B9_F4289475__CiA ControllerBased
+|       └───4.4.0.0
+|               device.xml
+|               STOEBER_SD6.xml
+|               
+├───70
+|   └───0000 0046
+|       ├───3.5.8.0
+|       |       device.xml
+|       |       
+|       └───3.5.12.0
+|               device.xml
+|               
+├───80
+|   ├───0000 0001
+|   |   ├───3.5.9.10
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.30
+|   |           device.xml
+|   |           
+|   ├───0000 0002
+|   |   ├───3.5.9.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.40
+|   |           device.xml
+|   |           
+|   ├───0000 0777
+|   |   ├───3.5.9.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.30
+|   |           device.xml
+|   |           
+|   └───0000 6631
+|       ├───3.5.9.0
+|       |       device.xml
+|       |       
+|       └───3.5.14.0
+|               device.xml
+|               
+├───81
+|   ├───0x02CC_0x1017_IDD_1
+|   |   └───3.5.13.0
+|   |           device.xml
+|   |           GSDML-V2.32-3S - Smart Software Solutions GmbH-Codesys PLC-20160824.xml
+|   |           
+|   ├───0x011E_0x0103_IDD_1
+|   |   └───SW%3DV1.0.0%2C HW%3D1
+|   |           device.xml
+|   |           GSDML-V2.1-3S - Smart Software Solutions GmbH-Codesys PLC-20120822.xml
+|   |           
+|   └───0x0120_0x19E7_DAP 1
+|       └───SW%3DV1.00%2C HW%3DV1.00
+|               device.xml
+|               GSDML-V2.31-beckhoff-EL6631-20141028.xml
+|               
+├───83
+|   ├───0000 0085
+|   |   ├───3.5.9.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.30
+|   |           device.xml
+|   |           
+|   ├───0000 1017
+|   |   └───3.5.14.40
+|   |           device.xml
+|   |           GSDML-V2.32-3S - Smart Software Solutions GmbH-Codesys PLC-20160824.xml
+|   |           
+|   ├───0000 2017
+|   |   └───3.5.14.30
+|   |           device.xml
+|   |           GSDML-V2.33-3S - Smart Software Solutions GmbH-CIFX Codesys PLC-20170801.xml
+|   |           
+|   └───0000 6631
+|       ├───3.5.9.0
+|       |       device.xml
+|       |       GSDML-V2.31-beckhoff-EL6631-20141028.xml
+|       |       
+|       └───3.5.13.0
+|               device.xml
+|               GSDML-V2.31-beckhoff-EL6631-20141028.xml
+|               
+├───88
+|   └───0000 0003
+|       ├───3.5.9.0
+|       |       device.xml
+|       |       
+|       └───3.5.14.0
+|               device.xml
+|               
+├───89
+|   └───0000 0005
+|       ├───3.5.7.0
+|       |       device.xml
+|       |       
+|       └───3.5.12.0
+|               device.xml
+|               
+├───90
+|   └───0000 0002
+|       ├───3.5.9.0
+|       |       device.xml
+|       |       
+|       └───3.5.14.0
+|               device.xml
+|               
+├───91
+|   └───0000 0001
+|       ├───3.5.4.0
+|       |       device.xml
+|       |       
+|       └───3.5.10.30
+|               device.xml
+|               
+├───92
+|   └───0000 0001
+|       ├───3.4.0.0
+|       |       device.xml
+|       |       
+|       └───3.5.11.20
+|               device.xml
+|               
+├───94
+|   └───0000 0001
+|       ├───3.5.9.0
+|       |       device.xml
+|       |       
+|       └───3.5.14.0
+|               device.xml
+|               
+├───100
+|   ├───0000 100A
+|   |   ├───3.5.9.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.12.0
+|   |           device.xml
+|   |           
+|   └───0000 100B
+|       ├───3.5.9.10
+|       |       device.xml
+|       |       
+|       └───3.5.14.10
+|               device.xml
+|               
+├───101
+|   ├───0000 1001
+|   |   └───3.5.8.0
+|   |           device.xml
+|   |           
+|   └───1285_12_120_1
+|       └───Major Revision%3D16%231%2C Minor Revision %3D 16%231
+|               device.xml
+|               
+├───102
+|   └───0000 1016
+|       ├───3.5.8.10
+|       |       device.xml
+|       |       
+|       └───3.5.14.0
+|               device.xml
+|               
+├───110
+|   └───0000 0002
+|       ├───3.5.9.0
+|       |       device.xml
+|       |       
+|       └───3.5.14.0
+|               device.xml
+|               
+├───115
+|   └───0000 0002
+|       ├───3.5.9.0
+|       |       device.xml
+|       |       
+|       └───3.5.14.0
+|               device.xml
+|               
+├───120
+|   └───0000 1016
+|       ├───3.5.9.0
+|       |       device.xml
+|       |       
+|       └───3.5.14.10
+|               device.xml
+|               
+├───151
+|   ├───PSD1M Double FSoE FSoE %23x0FDA4AEF
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Double FSoE FSoE %23x5DF8E213
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Double FSoE FSoE %23x79FC0499
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Double FSoE FSoE %23x449EE9F4
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Double FSoE FSoE %23x628E8D19
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Double FSoE FSoE %23x73668C1A
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Single FSoE FSoE %23xB6916A9C
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Single FSoE FSoE %23xCD0BF28D
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Single FSoE FSoE %23xE7CC51BC
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Triple FSoE FSoE %23x2B8FA20E
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Triple FSoE FSoE %23x32E9A9E9
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Triple FSoE FSoE %23x70CADF78
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Triple FSoE FSoE %23x6122DE7B
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Triple FSoE FSoE %23x18763B15
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Triple FSoE FSoE %23xA0CD9E7C
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Triple FSoE FSoE %23xA1A69874
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Triple FSoE FSoE %23xD780D602
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1M Triple FSoE FSoE %23xFB103A41
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1S Unique FSoE FSoE %23x9FA9BB39
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1S Unique FSoE FSoE %23x084F6DA8
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───PSD1S Unique FSoE FSoE %23xE582D6C1
+|   |   └───Revision%3D16%2300010101
+|   |           device.xml
+|   |           PH_PSD1_Modules_V120.sdd.xml
+|   |           PH_PSD1_Modules_V120.xml
+|   |           
+|   ├───SI6%2FSC6 1Ax Y Safety FSoE %23x4BFC780D
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           STOBER_SI6SC6_codesys_V4.4.0.0.sdd.xml
+|   |           STOBER_SI6SC6_codesys_V4.4.0.0.xml
+|   |           
+|   ├───SI6%2FSC6 2Ax Y Safety FSoE %23x4BFC780D
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           STOBER_SI6SC6_codesys_V4.4.0.0.sdd.xml
+|   |           STOBER_SI6SC6_codesys_V4.4.0.0.xml
+|   |           
+|   ├───SI6-LD6-DoubleAx-FSoE FSoE %23x7EDE675E
+|   |   └───4.2.0.0
+|   |           device.xml
+|   |           STOBER_SI6LD6_codesys_V4.1.1.0.sdd.xml
+|   |           STOBER_SI6LD6_codesys_V4.1.1.0.xml
+|   |           
+|   └───SI6-LD6-SingleAx-FSoE FSoE %23x7EDE675E
+|       └───4.2.0.0
+|               device.xml
+|               STOBER_SI6LD6_codesys_V4.1.1.0.sdd.xml
+|               STOBER_SI6LD6_codesys_V4.1.1.0.xml
+|               
+├───176
+|   ├───0000 0010
+|   |   ├───3.5.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.11.0
+|   |           device.xml
+|   |           
+|   └───0000 0011
+|       ├───3.5.0.0
+|       |       device.xml
+|       |       
+|       └───3.5.11.0
+|               device.xml
+|               
+├───1024
+|   └───FFFF 0001
+|       └───4.0.0.0
+|               device.xml
+|               
+├───1025
+|   └───0000 0001
+|       ├───4.2.0.0
+|       |       device.xml
+|       |       
+|       ├───4.4.0.0
+|       |       device.xml
+|       |       
+|       └───4.6.0.0
+|               device.xml
+|               
+├───1026
+|   ├───0000 0001
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0001
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0002
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0004
+|   |   ├───4.4.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0010
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0013
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───101A 2F00
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───101A 2F01
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───101A 2F02
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───101A 2F03
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───101A 2F04
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───101A 2F07
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───101A 2F09
+|   |   └───4.1.0.0
+|   |           device.xml
+|   |           
+|   ├───102F 0001
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───103D 0001
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───103D 0003
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           
+|   ├───162C 0001
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───162C 0002
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───162C 0010
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───1010 0002
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───1010 0003
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───1010 0006
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───1061 0001
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───1061 0002
+|   |   └───4.2.0.0
+|   |           device.xml
+|   |           
+|   ├───1619 0001
+|   |   ├───4.2.1.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   └───1626 0001
+|       ├───4.0.0.0
+|       |       device.xml
+|       |       
+|       └───4.4.0.0
+|               device.xml
+|               
+├───1027
+|   ├───0000 0001
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───0000 0100
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0003
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0006
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0014
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0015
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───10F8 0001
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           
+|   ├───16A9 0001
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───16A9 0002
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───16B7 0001
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───16B7 0002
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───16B7 0003
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───16B7 0004
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───16B7 0005
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───16B7 0006
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───16F7 0001
+|   |   ├───4.5.1.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───16F9 0001
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           
+|   ├───101A 0001
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───101A 0002
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───103D 0001
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───162C 0003
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───162C 0011
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───162D 0001
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           
+|   ├───162F 0001
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           
+|   ├───1002 0002
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1002 0003
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───1002 0004
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───1010 0001
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1010 0004
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───1010 9003
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───1010 9004
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.3.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───1027 0001
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───1029 0001
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───1029 0002
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1029 0004
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1029 0006
+|   |   ├───4.1.1.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           
+|   ├───1029 0007
+|   |   ├───4.1.1.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           
+|   ├───1029 0008
+|   |   ├───4.1.1.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           
+|   ├───1029 0010
+|   |   ├───4.1.1.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           
+|   ├───1041 0001
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           
+|   ├───1060 0001
+|   |   └───4.1.0.0
+|   |           device.xml
+|   |           
+|   ├───1085 0001
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           
+|   ├───1619 0001
+|   |   └───4.2.1.0
+|   |           device.xml
+|   |           
+|   ├───1626 1000
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───1629 0001
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1629 0002
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1629 0003
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1629 0004
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1629 0005
+|   |   ├───1.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.4.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───1629 0006
+|   |   ├───1.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.5.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───1629 0007
+|   |   ├───1.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.5.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───1629 0008
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           
+|   └───1671 0001
+|       └───4.5.1.0
+|               device.xml
+|               
+├───1030
+|   └───0000 0001
+|       ├───4.0.0.0
+|       |       device.xml
+|       |       
+|       └───4.3.0.0
+|               device.xml
+|               
+├───1152
+|   └───FFFF 0001
+|       └───3.5.5.0
+|               device.xml
+|               
+├───1154
+|   ├───10F7 0001
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0003
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0005
+|   |   ├───4.4.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0008
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0009
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0011
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───162C 0007
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───162C 0008
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───162C 0009
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───1010 0003
+|   |   └───4.2.0.0
+|   |           device.xml
+|   |           
+|   ├───1010 0004
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   └───1010 0007
+|       └───4.3.0.0
+|               device.xml
+|               
+├───1155
+|   ├───10F7 0003
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0007
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0016
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0017
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───10F7 0018
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───162C 0004
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───162C 0005
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───162C 0006
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.6.0.0
+|   |           device.xml
+|   |           
+|   ├───1002 0001
+|   |   └───4.0.0.0
+|   |           device.xml
+|   |           
+|   ├───1002 0003
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───1010 0005
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───1027 0001
+|   |   ├───4.1.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.3.0.0
+|   |           device.xml
+|   |           
+|   ├───1029 0003
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1029 0005
+|   |   ├───4.0.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.4.0.0
+|   |           device.xml
+|   |           
+|   ├───1029 0009
+|   |   ├───4.1.1.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           
+|   ├───1029 0011
+|   |   ├───4.1.1.0
+|   |   |       device.xml
+|   |   |       
+|   |   ├───4.2.0.0
+|   |   |       device.xml
+|   |   |       
+|   |   └───4.5.0.0
+|   |           device.xml
+|   |           
+|   └───1629 0001
+|       ├───4.0.0.0
+|       |       device.xml
+|       |       
+|       └───4.4.0.0
+|               device.xml
+|               
+├───1184
+|   └───0000 0001
+|       └───3.5.7.0
+|               device.xml
+|               
+├───1185
+|   └───0000 0001
+|       ├───3.5.7.0
+|       |       device.xml
+|       |       
+|       └───4.3.0.0
+|               device.xml
+|               
+├───1248
+|   └───FFFF 0001
+|       └───3.5.5.0
+|               device.xml
+|               
+├───4096
+|   ├───0000 0001
+|   |   ├───3.5.9.10
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.40
+|   |           device.xml
+|   |           
+|   ├───0000 0002
+|   |   ├───3.5.9.10
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.40
+|   |           device.xml
+|   |           
+|   ├───0000 0004
+|   |   ├───3.5.9.10
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.40
+|   |           device.xml
+|   |           
+|   ├───0000 0022
+|   |   ├───3.5.9.10
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.40
+|   |           device.xml
+|   |           
+|   └───1629 2000
+|       ├───3.5.5.20
+|       |       device.xml
+|       |       
+|       ├───3.5.5.21
+|       |       device.xml
+|       |       
+|       ├───3.5.9.10
+|       |       device.xml
+|       |       
+|       ├───3.5.9.11
+|       |       device.xml
+|       |       
+|       └───3.5.14.40
+|               device.xml
+|               
+├───4097
+|   ├───0000 000a
+|   |   └───3.5.14.40
+|   |           device.xml
+|   |           
+|   ├───0000 0002
+|   |   ├───3.5.9.10
+|   |   |       device.xml
+|   |   |       
+|   |   └───3.5.14.40
+|   |           device.xml
+|   |           
+|   └───0000 0004
+|       ├───3.5.9.10
+|       |       device.xml
+|       |       
+|       └───3.5.14.40
+|               device.xml
+|               
+├───4099
+├───4101
+|   └───0000 0001
+|       ├───3.5.9.10
+|       |       device.xml
+|       |       
+|       └───3.5.14.40
+|               device.xml
+|               
+└───4102
+    ├───0000 0001
+    |   ├───3.5.9.10
+    |   |       device.xml
+    |   |       
+    |   └───3.5.14.40
+    |           device.xml
+    |           
+    ├───0000 0002
+    |   ├───3.5.9.10
+    |   |       device.xml
+    |   |       
+    |   └───3.5.14.40
+    |           device.xml
+    |           
+    ├───0000 0004
+    |   ├───3.5.9.10
+    |   |       device.xml
+    |   |       
+    |   └───3.5.14.40
+    |           device.xml
+    |           
+    ├───0000 0022
+    |   ├───3.5.9.10
+    |   |       device.xml
+    |   |       
+    |   └───3.5.14.40
+    |           device.xml
+    |           
+    ├───1629 2002
+    |   ├───3.5.5.20
+    |   |       device.xml
+    |   |       
+    |   ├───3.5.5.21
+    |   |       device.xml
+    |   |       
+    |   ├───3.5.9.10
+    |   |       device.xml
+    |   |       
+    |   ├───3.5.9.11
+    |   |       device.xml
+    |   |       
+    |   └───3.5.14.40
+    |           device.xml
+    |           
+    └───1629 2004
+        ├───3.5.5.20
+        |       device.xml
+        |       
+        ├───3.5.5.21
+        |       device.xml
+        |       
+        ├───3.5.9.10
+        |       device.xml
+        |       
+        ├───3.5.9.11
+        |       device.xml
+        |       
+        └───3.5.14.40
+                device.xml
+                
+─────────────────────────────────────────────────────────────────────────────────────────────────────

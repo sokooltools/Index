@@ -1,0 +1,1038 @@
+﻿[PLUGINS FOLDERS]
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+C:\Program Files (x86)\Parker Hannifin\ParkerAutomationManager\CODESYS\PlugIns
+├───00a2d14c-1a16-46f6-a68f-903e403182d2
+|   └───3.5.14.0
+|           RedundancyObject.plugin.dll
+|           
+├───0a3f2eaa-2964-4a8d-8df9-f680054bc9e0
+|   └───3.5.14.0
+|           ResourceEditor.plugin.dll
+|           
+├───0ab632c1-82e0-43ce-b014-230e698d1580
+|   └───3.5.14.0
+|           DeviceCategories.plugIn.dll
+|           
+├───0b00de0e-1319-451c-9699-1ade7bda25a0
+|   └───3.5.14.0
+|           Code186.plugin.dll
+|           
+├───0d21e0be-b65b-4905-8237-f5d63ecae26f
+|   └───3.5.14.0
+|           NVLObject.plugin.dll
+|           
+├───0d042b04-7e57-4ba9-bdce-975f096f79c3
+|   └───3.5.14.10
+|           DeviceEditorSercos3.plugin.dll
+|           
+├───0f4ad9d9-84cb-4d5b-b4ba-957657e0764f
+|   ├───4.2.0.0
+|   |       CAMEditor.plugin.dll
+|   |       
+|   ├───4.5.0.0
+|   |       CAMEditor.plugin.dll
+|   |       
+|   └───4.6.0.0
+|           CAMEditor.plugin.dll
+|           
+├───0ff7f246-3b78-4a0c-9dc1-94105ddd563b
+|   └───3.5.14.0
+|           VarDeclObject.plugin.dll
+|           
+├───1a4c1944-0e54-4497-8ebf-0a4d4f9d63e7
+|   └───3.5.14.0
+|           ApplicationObject.plugin.dll
+|           
+├───1b06fe26-53d1-44f4-b578-47373eb3eb1b
+|   └───3.5.14.0
+|           TrendRecordingObjects.plugin.dll
+|           
+├───01bcdb4a-ca85-4787-a389-8185653db706
+|   └───3.5.14.20
+|           VisualEditor.plugin.dll
+|           
+├───001d3aae-3a36-4295-b1af-9bf8faea511d
+|   └───3.5.14.20
+|           RecipeManObject.plugin.dll
+|           
+├───1eebe15a-c061-462c-807f-a9f1bf59a58e
+|   └───3.5.14.0
+|           CodeMIPS.plugin.dll
+|           
+├───2a785a6d-f546-47d1-9107-6bcaa0f232cf
+|   └───3.5.14.30
+|           DeviceObject.plugin.dll
+|           
+├───02bee02c-bf40-4a9c-ae71-f4e5c92c5d9c
+|   └───3.5.14.10
+|           DataSourcesProviderSymbolic.plugin.dll
+|           
+├───2f0b106f-8321-4f09-bc84-908660b0a52a
+|   └───3.5.14.0
+|           ApplicationComposerDedication.plugin.dll
+|           
+├───2f6a52a3-f00f-4d58-8749-5174233352b4
+|   └───3.5.14.10
+|           InterfaceEditor.plugin.dll
+|           
+├───2ffbd975-2032-4737-84ef-adcf377f99ba
+|   └───3.5.14.0
+|           OnlineExpressionInterpreter.plugin.dll
+|           
+├───3a4dbd46-1b92-4c22-9a2e-f5bee6366764
+|   └───1.5.0.0
+|           PAM.Branding.plugin.dll
+|           
+├───3a25a2c0-5c79-483b-8c9c-0c7e5a7a075d
+|   └───3.5.14.0
+|           TargetSettings.plugin.dll
+|           
+├───3b45811d-224a-47c8-a748-24fbcb76ffa2
+|   └───3.5.14.0
+|           DeviceEditorNetX.plugin.dll
+|           
+├───3c90b672-65ce-4998-b4d1-9f5ca3acf41e
+|   └───3.5.14.0
+|           AlarmConfigurationObjects.plugin.dll
+|           
+├───4d549abe-432f-4f5a-9a63-c999e08184b1
+|   └───3.5.14.0
+|           Code386.plugin.dll
+|           
+├───4e5bfa8e-d548-4012-b62e-739fbfb4b9e7
+|   └───3.5.14.0
+|           LanguageModelManagerLegacy.plugin.dll
+|           
+├───4ef52280-6fbe-4fec-9605-5f5cfd4dc01d
+|   └───3.5.14.0
+|           ProjectLocalization.plugin.dll
+|           
+├───4ffccb81-ba39-42c0-bf1b-6bb623c824a2
+|   ├───4.2.1.2
+|   |       SoftMotion.plugin.dll
+|   |       
+|   ├───4.5.1.0
+|   |       SoftMotion.plugin.dll
+|   |       
+|   └───4.6.0.0
+|           SoftMotion.plugin.dll
+|           
+├───5c88ca7b-06a0-4c65-bc8e-a2578c17e839
+|   └───3.5.14.0
+|           PackageManagementUI.plugin.dll
+|           
+├───5c890cf8-1c05-4325-90b8-3cc3e85e54ca
+|   └───3.5.14.0
+|           VisuElementImplementationExtensions.plugin.dll
+|           
+├───5c97662f-3c99-44b7-912b-9398c9b97999
+|   └───3.5.14.0
+|           CodexPIC.plugin.dll
+|           
+├───5cb4e9ab-7d18-4c52-adc7-42fe9cf5222a
+|   └───3.5.14.0
+|           CODESYSProjectConverter.plugin.dll
+|           
+├───5d6cb671-a13f-45ee-83af-637912133704
+|   └───3.5.14.0
+|           BinaryArchive.plugin.dll
+|           
+├───5d17b187-2367-4813-89af-a30890487b3b
+|   └───3.5.14.40
+|           SmartCodingOptions.plugin.dll
+|           
+├───5e7a5a99-a87c-4126-84ae-68e2a445b6df
+|   └───3.5.14.40
+|           RepositoryElementsResolver.plugin.dll
+|           
+├───5ed28305-4127-4040-bf0e-84ff3843dd50
+|   └───3.5.14.0
+|           TaskConfigUtilities.plugin.dll
+|           
+├───6ae7fc36-6147-4c05-a1cb-a799b5181575
+|   └───3.5.14.0
+|           ObjectCommands.plugin.dll
+|           
+├───6b3f49ec-831b-4626-91d0-9cb5673ace27
+|   └───3.5.14.0
+|           ApplicationComposerSequenceEditor.plugin.dll
+|           
+├───6bce30ee-c8aa-4914-9b19-b00199995f25
+|   └───3.5.14.0
+|           UnitConversionObject.plugin.dll
+|           
+├───6c08473a-63c9-4952-92a6-ff0692897de9
+|   └───3.5.14.0
+|           Refactoring.plugin.dll
+|           
+├───6cae542a-3a13-45c2-89d2-b651dc67a651
+|   └───3.5.14.0
+|           HMIProjectWizard.plugin.dll
+|           
+├───6d7aad57-169a-4942-bce3-5a30d2057aec
+|   └───3.5.14.10
+|           POUObject.plugin.dll
+|           
+├───6dbce70a-2f05-462d-b3b0-f32644908b14
+|   ├───3.4.0.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.4.1.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.4.1.10
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.4.2.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.4.3.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.4.4.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.4.4.10
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.0.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.0.20
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.0.30
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.1.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.2.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.2.10
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.3.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.3.40
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.3.141
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.4.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.4.30
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.5.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.6.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.6.60
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.7.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.7.40
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───3.5.8.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───4.0.0.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───4.1.0.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───4.1.1.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───4.2.0.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───4.2.1.3
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───4.2.2.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───4.3.0.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───4.3.2.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───4.4.0.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───4.5.0.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   ├───4.5.1.0
+|   |       CNCFunctionBlocks.plugin.dll
+|   |       
+|   └───4.6.0.0
+|           CNCFunctionBlocks.plugin.dll
+|           
+├───06dcd183-2735-4d47-a612-72b607029714
+|   └───3.5.14.0
+|           BrowserCommands.plugin.dll
+|           
+├───06f73429-a723-4f3c-9b49-1b8ce52a0486
+|   └───3.5.14.40
+|           OnlineManager.plugin.dll
+|           
+├───7a7aa487-a028-43fa-8948-f5f7b3607c54
+|   └───3.5.14.0
+|           DUTEditor.plugin.dll
+|           
+├───7a807e44-1a24-49f1-9799-154dd253ac8e
+|   └───3.5.14.0
+|           ScriptDriverDeviceObject.plugin.dll
+|           
+├───7ae4ae00-401f-49c5-8d34-62b0186c75bd
+|   └───3.5.14.0
+|           TargetSettingsExport.plugin.dll
+|           
+├───07be82cd-3680-4bcb-a957-5e99570843d7
+|   └───3.5.14.0
+|           RISCFrontEnd.plugin.dll
+|           
+├───7e343689-9a5f-46aa-bf56-5903c4efec59
+|   └───3.5.14.0
+|           DeviceEditorModbus.plugin.dll
+|           
+├───07ed2588-0115-47c3-affa-eb61926d9b4e
+|   └───3.5.14.0
+|           CodeARM.plugin.dll
+|           
+├───7ee3127e-66bb-46e5-8734-30767c1e2996
+|   └───3.5.14.40
+|           LanguageModelManagerConfigurators.plugin.dll
+|           
+├───7f2108af-1d6d-46c6-8106-7bd1190bb96a
+|   └───3.5.14.30
+|           WatchList.plugin.dll
+|           
+├───8a14b6a9-5b0a-4440-880b-aad1f0aa6478
+|   └───3.5.14.10
+|           TaskEditor.plugin.dll
+|           
+├───8f05b65d-c5e1-4ab8-99d2-df0e9ea43f55
+|   └───3.5.14.20
+|           Trace.plugin.dll
+|           
+├───8f72f97a-04ba-467b-a8ca-2fe57ef1801e
+|   └───3.5.14.10
+|           UserManagementUI.plugin.dll
+|           
+├───8f33458b-b754-4ae7-b805-7e841c23781a
+|   └───3.5.14.0
+|           MessageStorage.plugin.dll
+|           
+├───9e0f51a0-d1da-42cc-ab70-094358dbaa81
+|   └───3.5.14.0
+|           LanguageModelUtilities.plugin.dll
+|           
+├───9fcfbd1c-b152-4bd8-8bc2-9773bb566084
+|   └───3.5.14.0
+|           ScriptDriverProjects.plugin.dll
+|           
+├───12e05a0a-f126-4a60-9876-fa3c036e6841
+|   └───3.5.14.30
+|           DocExport.plugin.dll
+|           
+├───16c29ebf-40a2-4a16-91b5-b15f8c6247ab
+|   └───4.2.0.0
+|           ScriptDriverSoftMotion.plugin.dll
+|           
+├───016ce8b2-c18d-4f78-aecc-6f3bcf7d8aa5
+|   └───3.5.14.40
+|           DeviceEditorEthercat.plugin.dll
+|           
+├───26d33842-24f3-4c11-a54f-7238896ee99b
+|   └───3.5.14.10
+|           ImagePool.plugin.dll
+|           
+├───29f34b14-e0a5-4fa5-8737-c8baef201b6a
+|   └───3.5.14.0
+|           CommonIcons.plugin.dll
+|           
+├───30a290bb-01c9-43cf-8fd1-8c11177b74e1
+|   └───3.5.14.10
+|           GVLObject.plugin.dll
+|           
+├───030ab0a3-baa6-45d4-bc50-181dab16cbf4
+|   └───3.5.14.0
+|           Logging.plugin.dll
+|           
+├───30fbd6bb-13d1-407c-985e-df09dd731941
+|   └───3.5.14.0
+|           VisualStyles.plugin.dll
+|           
+├───36ab5cff-2a55-4aff-8777-f67d0c5540a1
+|   └───3.5.14.0
+|           CodeColdFire.plugin.dll
+|           
+├───37ab439e-8423-4828-9f96-1b59849c249b
+|   └───3.5.14.0
+|           ProjectInfoObject.plugin.dll
+|           
+├───40cfcfd4-fbba-4fa4-8b4b-6dec9ed97404
+|   └───3.5.14.20
+|           InputAssistant.plugin.dll
+|           
+├───41df01ad-5852-45a9-a472-3c9dba5fc33d
+|   └───3.5.14.0
+|           TaskConfigEditor.plugin.dll
+|           
+├───42dd28c7-a216-41a9-97e5-b68a28cea2eb
+|   └───3.5.14.0
+|           SFCObject.plugin.dll
+|           
+├───44dd7712-82e0-4185-ab1f-c294afe826fd
+├───47aa741c-db49-4ed3-9283-5680eda038fa
+|   └───3.5.14.0
+|           CodeTIC28x.plugin.dll
+|           
+├───55da38af-e78a-46ae-915b-7686657f6fac
+|   └───3.5.14.40
+|           Frame.plugin.dll
+|           
+├───61ab8bb0-eb6d-4008-bde6-1bc5387e1654
+|   └───3.5.14.10
+|           RecipeManEditor.plugin.dll
+|           
+├───63cc50c1-aabf-4ca8-9654-b3822c231126
+|   └───3.5.14.0
+|           XmlArchive.plugin.dll
+|           
+├───63d6ec35-36ac-42c6-b7cd-e465aed24c51
+|   └───3.5.14.0
+|           Environment.plugin.dll
+|           
+├───65ac5a36-099c-4700-b501-e56f13e0b4d3
+|   └───3.5.14.30
+|           DeviceEditorProfinetIO.plugin.dll
+|           
+├───66d4547f-203c-4ea2-b3fb-517714dafc38
+|   ├───4.2.1.3
+|   |       CAMObject.plugin.dll
+|   |       
+|   ├───4.5.0.0
+|   |       CAMObject.plugin.dll
+|   |       
+|   └───4.6.0.0
+|           CAMObject.plugin.dll
+|           
+├───66f42804-6b4f-4457-9bc3-dce709c2fb72
+|   └───3.5.14.0
+|           LibManObject.plugin.dll
+|           
+├───68d80244-7f4d-4c65-a4a9-0566531e6456
+|   └───3.5.14.0
+|           RedundancyEditor.plugin.dll
+|           
+├───71d51045-6366-4155-a1f5-f0a1a4b6230a
+|   └───3.5.14.20
+|           DeviceEditorCIP.plugin.dll
+|           
+├───78ab6a30-7c7e-4ad4-b69b-f59d6d14b6ae
+|   ├───4.2.1.3
+|   |       CNCEditor.plugin.dll
+|   |       
+|   ├───4.5.0.0
+|   |       CNCEditor.plugin.dll
+|   |       
+|   └───4.6.0.0
+|           CNCEditor.plugin.dll
+|           
+├───83d9882b-8a00-4124-be6e-a23c9f9db637
+|   └───3.5.14.10
+|           LogicalExchangeGVLEditor.plugin.dll
+|           
+├───88b8f003-7842-43cf-9635-79db56e614df
+|   └───3.5.14.0
+|           ScriptDriverLibManObject.plugin.dll
+|           
+├───89d073a8-8201-4162-bf4c-7f5fd57eaeac
+|   └───3.5.14.20
+|           CFCEditor.plugin.dll
+|           
+├───90d7f9d2-27c9-4789-8250-6c18262b4a0e
+|   └───3.5.14.10
+|           PackageManagement.plugin.dll
+|           
+├───93afde7f-fae2-4904-813a-c3d252d02699
+|   └───3.5.14.0
+|           PlcLogicObject.plugin.dll
+|           
+├───96e91d5c-60fb-4631-93f4-8f67e0243dc6
+|   └───3.5.14.0
+|           DataSourceObject.plugin.dll
+|           
+├───97fdbcee-afa9-427f-853e-0fafecdb478b
+|   └───3.5.14.0
+|           TextEditorBase.plugin.dll
+|           
+├───98b642a9-90af-4563-9358-5f007ce19839
+|   └───3.5.14.0
+|           CodePPC.plugin.dll
+|           
+├───99afa4ab-eefe-427c-b853-2fc30c05a9a2
+|   └───3.5.14.0
+|           CodeBlackfin.plugin.dll
+|           
+├───107b569d-c9c3-4ee0-a26b-f5b5b72ca878
+|   └───3.5.14.0
+|           UndoManager.plugin.dll
+|           
+├───108e8974-276a-4f0c-9865-280e52999083
+|   └───3.5.14.0
+|           PLCopenXML.plugin.dll
+|           
+├───119fa4a3-8dba-4595-986d-aabba8700524
+|   └───3.5.14.0
+|           TraceObject.plugin.dll
+|           
+├───180bf1aa-4c34-4e89-91d3-96da715c0ca9
+|   └───3.5.14.0
+|           DeviceEditorJ1939.plugin.dll
+|           
+├───336b5f67-f2b5-4c11-93df-d8a25bebb2a8
+|   └───3.5.14.0
+|           ExternalFileObject.plugin.dll
+|           
+├───413c6883-f43f-4820-a3b2-366307375252
+|   └───3.5.14.0
+|           ObjectManagerUtilities.plugin.dll
+|           
+├───448dbf96-87b2-41c3-923c-fb01e9c54d0e
+|   └───3.5.14.10
+|           UnitConversionEditor.plugin.dll
+|           
+├───536b18a6-dc9d-4692-b963-ee19f573d984
+|   └───3.5.14.0
+|           ApplicationComposerCFCGenerator.plugin.dll
+|           
+├───554d49de-db05-4357-b471-1c9ec51cdc04
+|   └───3.5.14.0
+|           VisuGenerated.plugin.dll
+|           
+├───568ba54b-4638-4ad1-af1c-dd9209a939fd
+|   └───3.5.14.10
+|           StaticAnalysisManager.plugin.dll
+|           
+├───707ed618-0713-49e6-a6d6-bbd287feb88e
+|   └───3.5.14.0
+|           DefaultNavigators.plugin.dll
+|           
+├───0909fc6d-a6a4-4794-94f3-53cabc9879af
+|   └───3.5.14.0
+|           EmbeddedRuntimeExtension.plugin.dll
+|           
+├───923f87e0-cc1f-4ec9-a759-0bbea15ac87b
+|   └───3.5.14.0
+|           STSnippetProvider.plugin.dll
+|           
+├───953c3763-ac4a-4b48-a6ca-2e22c3a0a992
+|   └───3.5.14.0
+|           EdsConverter.plugin.dll
+|           
+├───969ab52c-c00e-4e99-b69d-7bd77cfdfb3f
+|   └───3.5.14.0
+|           CodeNios.plugin.dll
+|           
+├───1748b90a-28c4-471f-b0f2-9446d060a059
+|   └───3.5.14.30
+|           DeviceCommunicationEditor.plugin.dll
+|           
+├───2081d217-b969-40d1-b1bb-3211b3024395
+|   └───3.5.14.0
+|           DeviceEditorModbusTCPSlave.plugin.dll
+|           
+├───3493e6f7-5c57-4266-a8b0-43862c09332f
+|   └───3.5.14.10
+|           PropertyEditor.plugin.dll
+|           
+├───5769c554-e6ad-41fe-aafc-aa722b1c8e13
+|   └───3.5.14.30
+|           SymbolConfigObject.plugin.dll
+|           
+├───6516b443-cdab-41f6-a35b-633734078c06
+|   └───3.5.14.0
+|           Code166.plugin.dll
+|           
+├───9276b3dc-bbc5-4800-a39e-5c6937e09d92
+|   └───3.5.14.0
+|           MemoryView.plugin.dll
+|           
+├───10748bcb-f9a1-4ff1-a534-46e73ccfe984
+|   └───3.5.14.30
+|           TabularDeclarationEditor.plugin.dll
+|           
+├───22801da2-108c-4463-b6e7-410cb5e86957
+|   └───3.5.14.10
+|           POUEditor.plugin.dll
+|           
+├───30979db2-a205-4067-80b1-c99b1c3dfbf3
+|   └───3.5.14.0
+|           ScriptDriverOnline.plugin.dll
+|           
+├───42881ef1-23f4-4394-8186-3617db1032ac
+|   └───3.5.14.10
+|           DeviceEditorCANbusDevice.plugin.dll
+|           
+├───45070fed-d4a4-4cf0-a0f7-5f8a9fedde8d
+|   └───3.5.14.0
+|           UsageAnalysis.plugin.dll
+|           
+├───46510e41-f0cb-4551-b8f1-eec725db5f17
+|   └───3.5.14.0
+|           CSourceCodeObject.plugin.dll
+|           
+├───56184f7c-712c-49ca-b23c-cb85f35e8c54
+|   └───3.5.14.20
+|           ObjectManager.plugin.dll
+|           
+├───80717d89-16cc-4c0e-b0a2-8960d14e6de7
+|   └───3.5.14.0
+|           ScriptDriverSymbolConfigObject.plugin.dll
+|           
+├───87348fe8-dbf9-4144-bcd3-36a3c5d7f007
+|   └───3.5.14.0
+|           CodeCortexM3.plugin.dll
+|           
+├───89074c97-0ca3-4469-bf01-5f6ae956ef76
+|   └───3.5.14.0
+|           DeviceEditorProfibusSlave.plugin.dll
+|           
+├───231416a4-6c71-4303-af93-1b3a6f731076
+|   └───3.5.14.0
+|           ApplicationComposerDeviceDiagnosis.plugin.dll
+|           
+├───466600ac-e31a-4489-8dfb-900a42f2f7b9
+|   └───3.5.14.0
+|           UsageAnalysisUI.plugin.dll
+|           
+├───492799c5-e7c6-4318-a79c-c74fcbab5419
+|   └───3.5.14.0
+|           MessageView.plugin.dll
+|           
+├───2680452f-c443-4208-8893-06b6c5adc55b
+|   └───3.5.14.30
+|           ProjectInfoEditor.plugin.dll
+|           
+├───4147103a-02e6-44a8-9015-3e929c508d0c
+|   └───3.5.14.10
+|           DataSourcesProviderApplicationV3.plugin.dll
+|           
+├───06876139-91d7-4c06-91cc-a27b856619c5
+|   └───3.5.14.0
+|           TextDocument.plugin.dll
+|           
+├───56719006-da81-45dd-8edb-c0db99178f38
+|   └───3.5.14.40
+|           OnlineCommands.plugin.dll
+|           
+├───77783778-10a2-4249-a5ba-8638e876fae4
+|   └───3.5.14.30
+|           CodeARM64.plugin.dll
+|           
+├───79408841-4f7f-4ef4-913f-63e64d929e3c
+|   └───3.5.14.0
+|           TransitionObject.plugin.dll
+|           
+├───81652516-4967-4f8a-9ff5-36e3150c622d
+|   └───3.5.14.0
+|           UserManagement.plugin.dll
+|           
+├───a3e8ffd6-e48c-45ed-9844-81d95f71df06
+|   └───3.5.14.0
+|           VisualPaintCommands.plugin.dll
+|           
+├───a5bc6914-568b-4aec-88fd-53a95516a79b
+|   └───3.5.14.10
+|           AutoDeclare.plugin.dll
+|           
+├───a6fb21c6-efb1-4987-a6bc-f2dc1752c254
+|   └───3.5.14.0
+|           STObject.plugin.dll
+|           
+├───a7be1fca-f1c0-4e20-9d37-c555ef61bd16
+|   └───3.5.14.0
+|           InterfaceObject.plugin.dll
+|           
+├───a9ac277e-1e42-4d3a-975a-34ef7a0779ef
+|   └───3.5.14.0
+|           ScriptDriverVisuRelated.plugin.dll
+|           
+├───a75ff553-9f1e-4298-b8d7-cdaa03ed0665
+|   └───3.5.14.0
+|           DeviceEditorCANbus.plugin.dll
+|           
+├───a79f2b35-391c-412c-b803-a1d2e4d5713a
+|   └───3.5.14.40
+|           FileCommands.plugin.dll
+|           
+├───a228b750-9d95-43af-b6a7-828efff4f738
+|   └───3.5.14.10
+|           Breakpoints.plugin.dll
+|           
+├───a638eb6a-e7e3-4fb1-8496-c0343943ffc2
+|   └───3.5.14.0
+|           PropertyObject.plugin.dll
+|           
+├───a0683e9c-3382-4a78-a1da-e2e456a137b5
+|   └───3.5.14.0
+|           SecurityManager.plugin.dll
+|           
+├───a1322e8f-cb72-4938-ad68-c0dd2cd39b44
+|   └───3.5.14.0
+|           ApplicationComposerTrendGenerator.plugin.dll
+|           
+├───a3404fa3-559f-4fb3-9ed6-36d2a195fc36
+|   └───3.5.14.0
+|           Simulation.plugin.dll
+|           
+├───a2833297-500f-4941-b712-4b3640f1fc78
+|   └───3.5.14.0
+|           DataSourcesObject.plugin.dll
+|           
+├───ab86dd0d-2a90-4e30-90e9-a2cff706c245
+|   └───3.5.14.0
+|           VersionCompatibilityManager.plugin.dll
+|           
+├───acb93b70-4b96-439a-aa06-4be77dcbde1b
+|   └───3.5.14.40
+|           Bookmarks.plugin.dll
+|           
+├───acc807af-a410-4644-b6d1-3b800224bcc9
+|   └───3.5.14.20
+|           CFCObject.plugin.dll
+|           
+├───ae3bb56d-5b98-4706-8cb6-5bfeaa00ade0
+|   └───3.5.14.0
+|           WorkspaceEditor.plugin.dll
+|           
+├───ae30b345-aacb-43a4-8fde-4214cc576211
+|   └───3.5.14.0
+|           StandardProjectWizard.plugin.dll
+|           
+├───ae39e352-e0e1-4e31-b954-8655238db190
+|   └───3.5.14.0
+|           PrintEngine.plugin.dll
+|           
+├───af94ec5a-fd92-418e-a791-b97b58a72a07
+|   └───3.5.14.0
+|           OptionStorage.plugin.dll
+|           
+├───afcd5446-4914-4fe7-bb78-9bffeb70fd17
+|   └───3.5.14.40
+|           VisualObject.plugin.dll
+|           
+├───afe8900e-f053-4ece-83aa-932a84b004b0
+|   └───3.5.14.0
+|           TrendRecordingEditors.plugin.dll
+|           
+├───b0c1f5f5-6e5a-4924-92b7-95b8e0953b29
+|   └───3.5.14.0
+|           STEditor.plugin.dll
+|           
+├───b1caf0cb-cc18-4710-b4a3-b54edfc48e52
+|   └───3.5.14.10
+|           AlarmConfigurationEditors.plugin.dll
+|           
+├───b2bbffd4-a107-4a58-a3db-9c78f513d9c9
+|   └───3.5.14.0
+|           ResourceObject.plugin.dll
+|           
+├───b4f729fb-467c-4d38-8ceb-709fd262b4de
+|   └───3.5.14.0
+|           TaskConfigObject.plugin.dll
+|           
+├───b39f2f7b-6e0c-4902-ab14-b2b85a0160db
+|   └───3.5.14.20
+|           NWLEditor.plugin.dll
+|           
+├───b78ea415-7479-4a4b-bd0f-0d4f7d10cfad
+|   └───3.5.14.0
+|           ScriptDriverApplicationComposer.plugin.dll
+|           
+├───b91f459a-c34c-4143-b3f2-4531e51d8c10
+|   └───3.5.14.0
+|           CommonUtility.plugin.dll
+|           
+├───b02507b2-5231-4754-a146-78957d99f604
+|   └───3.5.14.0
+|           NavigatorControl.plugin.dll
+|           
+├───b0819851-70c4-40c9-8ad6-fe59ee147822
+|   └───3.5.14.0
+|           ExtensionSafetyOnline.plugin.dll
+|           
+├───b6325904-2258-4ca3-9512-a4e253940589
+├───b8464656-5102-4236-a8fb-8f0224072058
+|   └───3.5.14.0
+|           DeviceEditorProfibus.plugin.dll
+|           
+├───baaf1c20-0638-447c-982f-67ffa5be4ab3
+|   └───3.5.14.0
+|           ActionObject.plugin.dll
+|           
+├───bdbe31c7-0bd7-4a9a-a417-f5133e8fcd69
+|   └───3.5.14.10
+|           MethodEditor.plugin.dll
+|           
+├───bf8e6be2-43a8-45a1-8a24-53776e2d3cd4
+|   └───3.5.14.10
+|           DeviceEditor.plugin.dll
+|           
+├───c0c95d25-7d59-431e-a9f4-2caeb961f812
+|   └───3.5.14.0
+|           VisualElemRepository.plugin.dll
+|           
+├───c1b57535-f0b7-419f-9b76-46a4f830b770
+|   └───3.5.14.0
+|           MethodObject.plugin.dll
+|           
+├───c3c0212e-15bd-471d-97f3-2d0141f8fed7
+|   └───3.5.14.10
+|           GVLEditor.plugin.dll
+|           
+├───c5b6e3bc-15ac-4a78-8b8b-3bed641b398d
+|   └───3.5.14.10
+|           VisualManagerEditor.plugin.dll
+|           
+├───c49b0c15-ed1c-4d9b-8432-febb80bbf6cb
+|   └───3.5.14.0
+|           DeviceScan.plugin.dll
+|           
+├───c65e8ac3-6c2c-49c6-b772-bb31b2b1f2a0
+|   └───3.5.14.30
+|           Codex86-64.plugin.dll
+|           
+├───c105ac21-b519-4753-9982-b541bcb69c91
+|   └───3.5.14.0
+|           Store.plugin.dll
+|           
+├───c724d1be-7710-4834-946a-761189eacfa1
+|   └───3.5.14.10
+|           NVLEditor.plugin.dll
+|           
+├───c4435224-39cd-45ed-a907-975f634ec402
+|   ├───4.2.1.3
+|   |       AxisGroupEditor.plugin.dll
+|   |       
+|   ├───4.5.1.0
+|   |       AxisGroupEditor.plugin.dll
+|   |       
+|   └───4.6.0.0
+|           AxisGroupEditor.plugin.dll
+|           
+├───cb8db54f-00e8-4a7a-8a4d-b78cbeea6143
+|   └───3.5.14.0
+|           LicenseManager.plugin.dll
+|           
+├───cb99beb3-41d4-4636-a3dc-745ca6c08bcc
+|   └───3.5.14.10
+|           FindReplace.plugin.dll
+|           
+├───cbb032e0-75c3-4bb9-bcde-b6c9ff1d6dd6
+|   └───3.5.14.10
+|           IECTextEditor.plugin.dll
+|           
+├───cbeea127-2aa5-4162-85db-e26272030ee9
+|   └───3.5.14.30
+|           SymbolConfigEditor.plugin.dll
+|           
+├───cc6a7b21-7322-47f7-9814-21dd48e183bf
+|   └───3.5.14.0
+|           ProjectArchive.plugin.dll
+|           
+├───cd9a7ff5-3ec1-45f6-a5b0-a5331abe2d1d
+|   └───3.5.14.0
+|           WebBrowserIntegration.plugin.dll
+|           
+├───cfa28293-cc74-40a7-bdfd-dd24c1faf5d9
+|   └───3.5.14.40
+|           DUTObject.plugin.dll
+|           
+├───d1a72f78-4813-48a1-86d0-91334865f04f
+|   └───3.5.14.40
+|           VisualElem.plugin.dll
+|           
+├───d034d0bb-7542-4179-8497-853052bcdb5b
+|   └───3.5.14.10
+|           TransitionEditor.plugin.dll
+|           
+├───d35e1e67-69fb-49df-84d6-4d5b46453adf
+|   └───3.5.14.10
+|           NWLObject.plugin.dll
+|           
+├───d55b2d52-0f1c-4eda-a109-ec19a2544978
+|   └───3.5.14.0
+|           ScriptDriverSystem.plugin.dll
+|           
+├───d84a0da8-80d0-4622-81e7-25b0f0360b42
+|   └───3.5.14.0
+|           CodeRX.plugin.dll
+|           
+├───d91ee1e8-d16b-4776-ad93-1de0d9e6e5bd
+|   ├───1.4.0.1
+|   └───1.5.0.0
+|           PAM.Developer.plugin.dll
+|           
+├───d291c27a-a794-4a0c-9580-d4d3afa4d73d
+|   └───3.5.14.10
+|           TextList.plugin.dll
+|           
+├───d329d17a-8ffe-4378-aa2d-1d6f10272c8d
+|   ├───4.2.0.0
+|   |       DeviceEditorSoftMotion.plugin.dll
+|   |       
+|   ├───4.5.1.0
+|   |       DeviceEditorSoftMotion.plugin.dll
+|   |       
+|   └───4.6.0.0
+|           DeviceEditorSoftMotion.plugin.dll
+|           
+├───d664d00b-1e88-482c-bf1b-39f505dc12d4
+|   └───3.5.14.0
+|           ItemSelectionEditor.plugin.dll
+|           
+├───d932d289-4f0a-4f76-b0e7-6d03f7a7e776
+|   └───3.5.14.0
+|           ToolBox.plugin.dll
+|           
+├───d4407f2e-9379-4c1b-8884-bba7a5e8185f
+|   └───3.5.14.10
+|           Engine.plugin.dll
+|           
+├───d63725c5-bcb3-4bf9-b2d0-f38d4d524085
+|   └───3.5.14.0
+|           OnlineHelp.plugin.dll
+|           
+├───d347885e-4634-4134-9fbf-e5c33e6ade12
+|   └───3.5.14.0
+|           CSourceComponentBuilder.plugin.dll
+|           
+├───dc937c18-e9f0-434d-85b7-1b8f499e378a
+|   └───3.5.14.0
+|           ScriptEngine.plugin.dll
+|           
+├───dd74694c-1be4-4482-88aa-17ce62cbaaca
+|   └───3.5.14.0
+|           DataSourceEditor.plugin.dll
+|           
+├───df2aa450-fae8-49c7-a498-7b1f30c11e3f
+|   └───1.5.0.0
+|           PAM.Simulation.plugin.dll
+|           
+├───df9e2e73-f615-4c37-b50d-679ad2a3a433
+|   └───3.5.14.0
+|           ApplicationComposerAlarmGenerator.plugin.dll
+|           
+├───e0ad7f8e-f4cb-4c1e-bbff-7b972fe18551
+|   └───3.5.14.40
+|           ProjectCompare.plugin.dll
+|           
+├───e1b7da35-7bdb-41d4-82b5-4e538c1b1c82
+|   └───3.5.14.0
+|           POUImage.plugin.dll
+|           
+├───e2a16d6c-20e0-44d4-ad31-22ada0a08240
+|   └───3.5.14.0
+|           CodeSH.plugin.dll
+|           
+├───e3a5a72b-4afa-472c-85d7-ccbbb0f526ba
+|   └───3.5.14.0
+|           CodeTriCore.plugin.dll
+|           
+├───e3e47cdc-6ebd-472f-9090-8041104f15c6
+|   └───3.5.14.10
+|           ActionEditor.plugin.dll
+|           
+├───e92ef582-5a77-43af-85fc-1e6949f69db3
+|   └───3.5.14.0
+|           BuildCommands.plugin.dll
+|           
+├───edb57405-2414-4d5a-b9fe-9258ad4eae0a
+|   └───3.5.14.0
+|           TaskObject.plugin.dll
+|           
+├───ede87986-8d34-4baf-8653-2a8d31270889
+|   └───3.5.14.0
+|           DeviceEditorEthernetAdapter.plugin.dll
+|           
+├───efcd1ed8-8eb7-4d92-851d-45fe1a455b79
+|   └───3.5.14.10
+|           ApplicationComposer.plugin.dll
+|           
+├───f0b1693d-58ca-4ef3-a79f-d3cb923ff030
+|   └───3.5.14.40
+|           LanguageModelManager.plugin.dll
+|           
+├───f1a2b688-f1ca-4235-8a24-e19aef53f035
+|   └───3.5.14.0
+|           CoreDump.plugin.dll
+|           
+├───f4bd064b-5292-453d-8632-c3f5c448cea7
+|   └───3.5.14.0
+|           EditCommands.plugin.dll
+|           
+├───f5d619ba-9237-4535-9e8f-6e5ce61f259b
+|   └───3.5.14.0
+|           DeviceRepository.plugin.dll
+|           
+├───f5f9ba65-d338-4467-aec4-8c9529d423c7
+|   └───3.5.14.10
+|           LibManEditor.plugin.dll
+|           
+├───f6db1904-5280-4a3d-aab4-11491bdc71ea
+|   └───3.5.14.10
+|           CrossReferenceView.plugin.dll
+|           
+├───f733e945-8541-42ad-a2e7-b95d006ae093
+|   ├───4.2.0.0
+|   |       AxisGroupObject.plugin.dll
+|   |       
+|   ├───4.5.0.0
+|   |       AxisGroupObject.plugin.dll
+|   |       
+|   └───4.6.0.0
+|           AxisGroupObject.plugin.dll
+|           
+├───f748fa99-96ae-4e3c-bade-2573feea581b
+|   └───3.5.14.20
+|           DataSourcesEditor.plugin.dll
+|           
+├───f6874726-e52b-43cd-aa84-bd093bfc111a
+|   └───3.5.14.0
+|           DeviceEditorIOLink.plugin.dll
+|           
+├───facd0fbb-ab10-4fc8-9057-8f022b0f0a3e
+|   └───3.5.14.10
+|           SFCEditor.plugin.dll
+|           
+├───fee534fc-ad05-457d-818d-014cd259c40f
+|   └───3.5.14.0
+|           DeviceEditorModbusSerialSlave.plugin.dll
+|           
+├───ff422f0f-9077-454d-83ac-f08958449d75
+|   └───3.5.14.0
+|           DefaultGatewayClient.plugin.dll
+|           
+└───ff337941-370e-4176-b3d1-c64d224eb166
+    └───3.5.14.0
+            PropertyView.plugin.dll
+            
+─────────────────────────────────────────────────────────────────────────────────────────────────────

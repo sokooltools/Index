@@ -1,0 +1,605 @@
+﻿=============================================================================================================================================
+SYSTEM INFORMATION                        Created on: Friday, December 13, 2019 at 10:16 AM
+=============================================================================================================================================
+Default Profile Name:.................... Parker Automation Manager v1.5.0
+Is Startup Profile:...................... yes
+Effective Culture:....................... en-US
+Machine Name:............................ EMN015URS69287A
+User Name:............................... RS69287
+User Domain Name:........................ USPHC
+Operating System:........................ Microsoft Windows NT 6.1.7601 Service Pack 1
+Is 64 Bit:............................... yes
+Processor:............................... Intel(R) Core(TM) i7-2700K CPU @ 3.50GHz
+Processor Count:......................... 8
+Physical Memory:......................... 16 MB (10 MB Free)
+Storage (C-drive):....................... 783 GB (385 GB Free)
+System Directory:........................ %SystemRoot%\system32
+Latest .NET Version:..................... 4.5.50709
+Current Runtime Version:................. 4.0.30319.42000
+=============================================================================================================================================
+
+
+=============================================================================================================================================
+PAM FOLDERS
+=============================================================================================================================================
+Program Files Folder:.................... %ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager
+Program Data Folder:..................... %ProgramData%\ParkerAutomationManager
+App Data Folder:......................... %APPDATA%\ParkerAutomationManager
+Default Projects Folder:................. %PUBLIC%\Documents\Parker Hannifin\Parker Automation Manager\Projects
+
+Root Folder:............................. %ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\CODESYS
+Common Folder:........................... %ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\CODESYS\Common
+Profiles Folder:......................... %ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\CODESYS\Profiles
+PlugIns Folder:.......................... %ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\CODESYS\PlugIns
+=============================================================================================================================================
+
+
+=============================================================================================================================================
+PAM CACHE AND OPTION FILES
+=============================================================================================================================================
+Plugin Cache File:....................... %ProgramData%\AP\PlugInCaches\CODESYS-F86CB45D.cache
+Device Cache File:....................... %ProgramData%\ParkerAutomationManager\Devices\devicecache.xml
+Library Cache File:...................... %ProgramData%\ParkerAutomationManager\Managed Libraries\cache
+Option (.opt) Files:..................... %ProgramData%\ParkerAutomationManager\Options\CommonOptions-F86CB45D\ParkerAutomationManager.opt
+                                          %ProgramData%\ParkerAutomationManager\Options\CommonOptions-F86CB45D\ParkerAutomationManagerProjectDefaults.opt
+                                          %ProgramData%\ParkerAutomationManager\Options\CommonOptions-F86CB45D\ParkerAutomationManagerUser.opt
+                                          %APPDATA%\ParkerAutomationManager\UserOptions-F86CB45D\ParkerAutomationManager (Parker Automation Manager v1.5.0).opt.keyb
+                                          %APPDATA%\ParkerAutomationManager\UserOptions-F86CB45D\ParkerAutomationManager (Parker Automation Manager v1.5.0).opt.menu
+                                          %APPDATA%\ParkerAutomationManager\UserOptions-F86CB45D\ParkerAutomationManager (Parker Automation Manager v1.5.0).opt.tbar
+                                          %APPDATA%\ParkerAutomationManager\UserOptions-F86CB45D\ParkerAutomationManager.opt
+=============================================================================================================================================
+
+
+=============================================================================================================================================
+DEPENDENCY CACHE FILES (182 Total)
+=============================================================================================================================================
+Dependency Caches Folder:................ %ProgramData%\AP\DependencyCaches\
+
+
+=============================================================================================================================================
+PAM COMMON ASSEMBLY FILES (7 total)
+=============================================================================================================================================
+[ %ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\CODESYS\Common ]
+
+                                          Product     File      
+Assembly Name                             Version     Size      Date Modified
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+PAM.exe                                   1.5.0.9999  176.0 KB  10/11/2019 21:40:56
+PAM.Codesys.dll                           1.5.0.9999  206.0 KB  10/29/2019 12:05:40
+PAM.NamedPipes.dll                        1.5.0.9999   15.5 KB  10/11/2019 21:40:19
+PAM.Service.Common.dll                    1.5.0.9999   38.5 KB  10/11/2019 21:40:25
+PAM.Service.Control.exe                   1.5.0.9999   33.5 KB  10/11/2019 21:40:29
+PAM.Tools.exe                             1.5.0.9999  112.5 KB  10/29/2019 14:20:42
+Parker.Common.dll                         1.5.0.1033  260.9 KB  10/18/2019 11:55:24
+=============================================================================================================================================
+
+
+=============================================================================================================================================
+CODESYS COMMON ASSEMBLY FILES (140 total)
+=============================================================================================================================================
+[ %ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\CODESYS\Common ]
+
+                                          Product     File      
+Assembly Name                             Version     Size      Date Modified
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ActionEditor.dll                          3.5.14.0     23.8 KB  08/19/2019 11:39:10
+ActionObject.dll                          3.5.15.0     23.8 KB  07/26/2019 13:09:42
+AlarmConfigurationObjects.dll             3.5.14.0     35.3 KB  08/19/2019 11:39:12
+ApplicationComposer.dll                   3.5.14.0     55.8 KB  08/19/2019 11:39:12
+ApplicationComposerAlarmGenerator.dll     3.5.14.0     16.3 KB  08/19/2019 11:39:12
+ApplicationComposerAuthoring.dll          3.5.14.0     12.3 KB  08/19/2019 11:39:12
+ApplicationComposerCFCGenerator.dll       3.5.14.0     14.8 KB  08/19/2019 11:39:12
+ApplicationComposerTrendGenerator.dll     3.5.14.0     14.8 KB  08/19/2019 11:39:12
+ApplicationObject.dll                     3.5.14.0     27.8 KB  08/19/2019 16:26:50
+AutoDeclare.dll                           3.5.14.0     27.8 KB  08/19/2019 11:39:14
+AxisGroupEditor.dll                       4.5.0.0       7.0 KB  09/06/2019 07:48:24
+AxisGroupObject.dll                       4.6.0.0      20.0 KB  09/06/2019 07:48:22
+Bookmarks.dll                             3.5.14.0     27.8 KB  08/19/2019 11:39:14
+Breakpoints.dll                           3.5.14.0     31.8 KB  08/19/2019 11:39:14
+BrowserCommands.dll                       3.5.14.0     12.8 KB  08/19/2019 11:39:14
+BuildCommands.dll                         3.5.14.0     12.3 KB  08/19/2019 11:39:14
+CAMObject.dll                             4.0.0.0      24.0 KB  09/06/2019 07:48:30
+CFCEditor.dll                             3.5.14.0     21.3 KB  08/19/2019 11:39:14
+CFCObject.dll                             3.5.15.0     47.8 KB  07/26/2019 13:09:42
+CNCEditor.dll                             4.0.0.0       5.0 KB  09/06/2019 07:48:30
+CNCFBInstance.dll                         4.3.0.0      32.0 KB  09/06/2019 07:48:30
+CoDeSysProjectConverter.dll               3.5.14.0     23.8 KB  08/19/2019 11:39:16
+CommonIcons.dll                           3.5.14.0     23.8 KB  08/19/2019 11:39:18
+CommonUtility.dll                         3.5.14.0     27.8 KB  07/26/2019 13:09:42
+ConvertedIECCode.dll                      3.5.14.0     34.3 KB  07/26/2019 13:09:42
+Core.dll                                  3.5.14.10   963.8 KB  08/19/2019 16:26:50
+CrossReferenceView.dll                    3.5.14.0     12.8 KB  08/19/2019 11:39:20
+CSourceCodeObject.dll                     3.5.14.0     13.3 KB  08/19/2019 11:39:14
+CSourceComponentBuilder.dll               3.5.14.0     15.3 KB  08/19/2019 11:39:16
+DataSourceObject.dll                      3.5.14.0     35.8 KB  08/19/2019 11:39:22
+DataSourcesObject.dll                     3.5.14.0     33.8 KB  08/19/2019 11:39:22
+DataSourcesProviderApplicationV3.dll      3.5.14.0     14.3 KB  08/19/2019 11:39:22
+DeviceCommunicationEditor.dll             3.5.14.0     20.3 KB  08/19/2019 16:26:52
+DeviceEditor.dll                          3.5.15.0     35.8 KB  07/26/2019 13:09:44
+DeviceEditorCANbus.dll                    3.5.14.0     21.3 KB  08/19/2019 11:39:22
+DeviceEditorCANbusDevice.dll              3.5.14.0     12.3 KB  08/19/2019 11:39:22
+DeviceEditorEthercat.dll                  3.5.15.0     21.3 KB  07/26/2019 13:09:44
+DeviceEditorProfibus.dll                  3.5.14.0     23.8 KB  08/19/2019 11:39:22
+DeviceEditorProfinetIO.dll                3.5.14.0     18.8 KB  08/19/2019 11:39:24
+DeviceEditorSercos3.dll                   3.5.14.0     13.3 KB  08/19/2019 11:39:24
+DeviceEditorSoftMotion.dll                4.0.0.0      16.0 KB  09/06/2019 07:48:22
+DeviceObject.dll                          3.5.14.0    127.8 KB  08/19/2019 16:26:52
+DeviceScan.dll                            3.5.14.0     27.3 KB  08/19/2019 11:39:24
+DiagnosisToolEngine.dll                   3.5.13.0     67.8 KB  08/19/2019 13:37:18
+DocExport.dll                             3.5.14.0     12.3 KB  07/26/2019 13:09:44
+DUTObject.dll                             3.5.15.0     23.8 KB  07/26/2019 13:09:44
+Environment.dll                           3.5.14.0     12.8 KB  08/19/2019 11:39:24
+EthercatModularDevice.dll                 3.5.14.0     15.3 KB  08/19/2019 11:39:24
+ExternalFileObject.dll                    3.5.14.0     23.8 KB  07/26/2019 13:09:44
+FdtCommunicationManager.dll               3.5.14.0     18.3 KB  08/19/2019 11:39:24
+FdtIntegration.dll                        3.5.14.0     24.8 KB  08/19/2019 11:39:26
+FileCommands.dll                          3.5.14.0     12.8 KB  08/19/2019 11:39:26
+GatewayService.dll                        3.5.14.0     12.3 KB  08/19/2019 11:39:26
+GVLObject.dll                             3.5.14.0     31.8 KB  08/19/2019 16:26:52
+IECCodeConverter.dll                      3.5.14.0     53.3 KB  08/19/2019 11:39:26
+IECTextEditor.dll                         3.5.15.0     35.8 KB  07/26/2019 13:09:44
+IecVarAccessBrowsing.dll                  3.5.14.40     1.8 MB  08/19/2019 13:37:14
+ImagePool.dll                             3.5.15.0     27.8 KB  07/26/2019 13:09:44
+ImplementationObject.dll                  3.5.14.0     23.8 KB  08/19/2019 16:26:52
+InputAssistant.dll                        3.5.14.0     39.8 KB  08/19/2019 16:26:52
+InterfaceObject.dll                       3.5.14.0     23.8 KB  07/26/2019 13:09:44
+ItemSelectionEditor.dll                   3.5.14.0     20.3 KB  08/19/2019 11:39:28
+LanguageModelUtilities.dll                3.5.14.0     41.3 KB  08/19/2019 16:26:52
+LegacyOnlineManager.dll                   3.5.14.0     15.8 KB  08/19/2019 11:39:28
+LibManEditor.dll                          3.5.14.0     27.8 KB  08/19/2019 11:39:28
+LibManObject.dll                          3.5.14.0     55.8 KB  08/19/2019 16:26:52
+LicenseManagement.dll                     3.5.14.0     15.8 KB  08/19/2019 11:39:28
+Logging.dll                               3.5.14.0     17.8 KB  08/19/2019 11:39:30
+MethodEditor.dll                          3.5.14.0     23.8 KB  08/19/2019 11:39:30
+MethodObject.dll                          3.5.14.0     23.8 KB  07/26/2019 13:09:44
+NavigatorControl.dll                      3.5.14.0     35.8 KB  08/19/2019 16:26:52
+NVLObject.dll                             3.5.14.0     13.8 KB  08/19/2019 11:39:30
+NWLObject.dll                             3.5.14.0     43.8 KB  07/26/2019 13:09:44
+ObjectCommands.dll                        3.5.14.0     17.8 KB  08/19/2019 11:39:30
+ObjectManagerUtilities.dll                3.5.14.0     16.3 KB  08/19/2019 11:39:30
+OnlineCommands.dll                        3.5.15.0     25.3 KB  07/26/2019 13:09:44
+OnlineExpressionInterpreter.dll           3.5.14.0     17.3 KB  08/19/2019 16:26:54
+OnlineUI.dll                              3.5.14.0     27.8 KB  08/19/2019 16:26:54
+PackageManagement.dll                     3.5.14.0     46.3 KB  08/19/2019 16:26:54
+PlcLogicObject.dll                        3.5.14.0     23.8 KB  07/26/2019 13:09:44
+PLCopenXML.dll                            3.5.15.0     24.3 KB  07/26/2019 13:09:44
+POUEditor.dll                             3.5.14.0     23.8 KB  08/19/2019 11:39:32
+POUImage.dll                              3.5.14.0     23.8 KB  08/19/2019 11:39:32
+POUObject.dll                             3.5.14.0     23.8 KB  07/26/2019 13:09:44
+ProjectArchive.dll                        3.5.14.0     16.3 KB  07/26/2019 13:09:44
+ProjectCompare.dll                        3.5.14.0     35.8 KB  08/19/2019 16:26:54
+ProjectInfoObject.dll                     3.5.14.0     27.8 KB  08/19/2019 16:26:54
+ProjectLocalization.dll                   3.5.14.0     17.3 KB  08/19/2019 11:39:36
+PropertyEditor.dll                        3.5.14.0     23.8 KB  08/19/2019 11:39:36
+PropertyObject.dll                        3.5.14.0     23.8 KB  07/26/2019 13:09:44
+PropertyView.dll                          3.5.14.0     39.8 KB  08/19/2019 16:26:54
+RecipeManObject.dll                       3.5.14.0     35.8 KB  08/19/2019 11:39:36
+RedundancyEditor.dll                      3.5.14.0     18.3 KB  08/19/2019 11:39:36
+RedundancyObject.dll                      3.5.14.0     26.8 KB  08/19/2019 11:39:36
+Refactoring.dll                           3.5.14.0     35.3 KB  08/19/2019 16:26:54
+RepositoryElementsResolver.dll            3.5.14.0     13.3 KB  08/19/2019 11:39:38
+ResourceObject.dll                        3.5.14.0     23.8 KB  08/19/2019 11:39:38
+RevisionControlSystemHooks.dll            3.5.14.0     19.8 KB  08/19/2019 11:39:38
+RuntimeStorage.dll                        3.5.14.0     14.3 KB  08/19/2019 11:39:38
+ScriptEngine.dll                          3.5.15.0    330.8 KB  07/26/2019 13:09:44
+SFCObject.dll                             3.5.14.0     39.8 KB  07/26/2019 13:09:44
+Simulation.dll                            3.5.14.0     13.8 KB  08/19/2019 11:39:40
+SoftMotion.dll                            4.6.0.0      16.0 KB  09/06/2019 07:48:24
+SourceControl.dll                         3.5.14.0     27.8 KB  08/19/2019 11:39:40
+StaticAnalysisManager.dll                 3.5.14.0     17.8 KB  08/19/2019 11:39:40
+STObject.dll                              3.5.14.0     23.8 KB  07/26/2019 13:09:44
+Store.dll                                 3.5.14.0     23.8 KB  08/19/2019 11:39:40
+STSnippetProvider.dll                     3.5.14.0     23.8 KB  08/19/2019 11:39:38
+SubversionIntegration.dll                 3.5.4.0     102.3 KB  08/19/2019 11:39:40
+SymbolConfigObject.dll                    3.5.15.0     21.3 KB  07/26/2019 13:09:44
+TabularDeclarationEditor.dll              3.5.14.0     13.8 KB  08/19/2019 11:39:40
+TaskConfig.dll                            3.5.14.0     51.8 KB  08/19/2019 16:26:56
+TaskConfigUtilities.dll                   3.5.14.0     12.8 KB  08/19/2019 11:39:42
+TextDocument.dll                          3.5.14.10    23.8 KB  08/19/2019 16:26:56
+TextList.dll                              3.5.14.0     31.8 KB  08/19/2019 11:39:42
+ToolBox.dll                               3.5.14.0     27.8 KB  07/26/2019 13:09:44
+TopologyEditor.dll                        3.5.14.0     19.8 KB  08/19/2019 11:39:42
+TraceConfigInterface.dll                  3.5.14.0     39.8 KB  08/19/2019 16:26:56
+TraceEditor.dll                           3.5.14.0     23.8 KB  08/19/2019 11:39:42
+TransitionEditor.dll                      3.5.14.0     23.8 KB  08/19/2019 11:39:42
+TransitionObject.dll                      3.5.14.0     23.8 KB  07/26/2019 13:09:44
+TrendRecordingObjects.dll                 3.5.14.0     13.8 KB  08/19/2019 11:39:44
+UnitConversionObject.dll                  3.5.14.0     21.8 KB  08/19/2019 11:39:44
+UsageAnalysis.dll                         3.5.14.0     12.8 KB  08/19/2019 11:39:44
+UserManagement.dll                        3.5.15.0     51.8 KB  07/26/2019 13:09:44
+VarDeclObject.dll                         3.5.14.0     23.8 KB  08/19/2019 16:26:56
+VersionCompatibilityManager.dll           3.5.15.0     15.8 KB  07/26/2019 13:09:44
+VisualEditor.dll                          3.5.14.0     31.8 KB  08/19/2019 16:26:56
+VisualElem.dll                            3.5.14.0    151.8 KB  08/19/2019 16:26:56
+VisualElemRepository.dll                  3.5.14.0     67.8 KB  08/19/2019 11:39:50
+VisualObject.dll                          3.5.14.10    91.8 KB  08/19/2019 16:26:56
+VisualPaintCommands.dll                   3.5.14.0     27.8 KB  08/19/2019 16:26:56
+VisualStyles.dll                          3.5.14.0     26.3 KB  08/19/2019 16:26:56
+VisuElementToolkit.dll                    3.5.14.0     23.8 KB  08/19/2019 11:39:46
+VisuGenerated.dll                         3.5.14.0    189.8 KB  08/19/2019 11:39:46
+VisuInterfaceExtensions.dll               3.5.14.0    221.3 KB  08/19/2019 11:39:48
+WatchList.dll                             3.5.14.0     23.8 KB  08/19/2019 11:39:52
+WebBrowserIntegration.dll                 3.5.14.0     12.3 KB  08/19/2019 11:39:52
+WorkspaceEditor.dll                       3.5.14.0     23.8 KB  08/19/2019 11:39:52
+WorkspaceObject.dll                       3.5.14.0     23.8 KB  07/26/2019 13:09:44
+=============================================================================================================================================
+
+
+=============================================================================================================================================
+CODESYS LACBINARIES
+=============================================================================================================================================
+[ %ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\CODESYS\LacBinaries\GAC_MSIL ]
+
+                                          Product       File        Date the assembly  * Date added to the
+Assembly Name                             Version       Size        was created          LACBinaries folder  Sub-Path                                               
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CanEdsFile.dll                            3.0.34.0        56.3 KB  08/12/2019 02:00 PM                       CanEdsFile\3.0.34.0__83380e73b2486719                  
+CodeMeter.dll                             3.0.17.0       442.3 KB  08/12/2019 02:00 PM                       CodeMeter\3.0.17.0__83380e73b2486719                   
+CodeMeter.dll                             3.0.17.1       441.8 KB  08/19/2019 11:39 AM                       CodeMeter\3.0.17.1__83380e73b2486719                   
+Compression.dll                           3.0.29.0       136.3 KB  02/11/2019 12:40 PM  09/19/2019 01:32 PM  Compression\3.0.29.0__83380e73b2486719                 
+Compression.dll                           3.1.0.0        136.3 KB  07/10/2018 11:21 AM  08/12/2019 02:00 PM  Compression\3.1.0.0__83380e73b2486719                  
+Controls.dll                              3.0.29.0         1.0 MB  11/26/2015 01:01 AM  09/19/2019 01:48 PM  Controls\3.0.29.0__83380e73b2486719                    
+Controls.dll                              3.1.0.0        656.3 KB  02/11/2019 12:40 PM  09/19/2019 01:32 PM  Controls\3.1.0.0__83380e73b2486719                     
+Controls.dll                              3.1.4.0        672.3 KB  08/12/2019 01:59 PM                       Controls\3.1.4.0__83380e73b2486719                     
+Controls.dll                              3.1.4.1        674.4 KB  08/12/2019 01:59 PM                       Controls\3.1.4.1__83380e73b2486719                     
+Controls.dll                              3.1.4.2        674.4 KB  08/12/2019 01:59 PM                       Controls\3.1.4.2__83380e73b2486719                     
+Controls.dll                              3.1.5.0        670.4 KB  06/14/2019 02:32 PM  09/24/2019 06:56 PM  Controls\3.1.5.0__83380e73b2486719                     
+ControlsContrib.dll                       3.0.0.0        388.3 KB  02/11/2019 12:40 PM  09/19/2019 01:32 PM  ControlsContrib\3.0.0.0__83380e73b2486719              
+ControlsContrib.dll                       3.1.0.0        420.3 KB  08/12/2019 02:00 PM                       ControlsContrib\3.1.0.0__83380e73b2486719              
+ControlsContrib.dll                       3.2.0.0        418.4 KB  05/23/2019 02:01 PM  09/24/2019 06:57 PM  ControlsContrib\3.2.0.0__83380e73b2486719              
+FPlot.dll                                 3.0.18.0        72.3 KB  08/12/2019 02:00 PM                       FPlot\3.0.18.0__83380e73b2486719                       
+HtmlHelp.dll                              3.1.1.0        244.3 KB  08/12/2019 02:00 PM                       HtmlHelp\3.1.1.0__83380e73b2486719                     
+IECVarAccessCommon.dll                    3.1.4.0         15.8 KB  08/12/2019 02:00 PM                       IECVarAccessCommon\3.1.4.0__83380e73b2486719           
+IniFile.dll                               3.0.27.0        24.0 KB  11/05/2015 10:35 AM  09/19/2019 01:49 PM  IniFile\3.0.27.0__83380e73b2486719                     
+IniFile.dll                               3.0.30.0        32.3 KB  02/11/2019 12:40 PM  09/19/2019 01:33 PM  IniFile\3.0.30.0__83380e73b2486719                     
+IniFile.dll                               3.0.34.0        32.3 KB  08/12/2019 01:59 PM                       IniFile\3.0.34.0__83380e73b2486719                     
+IniFile.dll                               3.0.35.0        30.4 KB  04/09/2019 09:08 AM  09/24/2019 06:58 PM  IniFile\3.0.35.0__83380e73b2486719                     
+IronPython.Modules.dll                    2.7.7.0        742.3 KB  08/12/2019 02:00 PM                       IronPython.Modules\2.7.7.0__83380e73b2486719           
+IronPython.dll                            2.7.7.0          1.7 MB  08/12/2019 02:00 PM                       IronPython\2.7.7.0__83380e73b2486719                   
+Microsoft.Dynamic.dll                     1.1.2.22       995.3 KB  08/12/2019 02:00 PM                       Microsoft.Dynamic\1.1.2.22__83380e73b2486719           
+Microsoft.Scripting.Metadata.dll          1.1.2.22        94.8 KB  08/12/2019 01:59 PM                       Microsoft.Scripting.Metadata\1.1.2.22__83380e73b2486719
+Microsoft.Scripting.dll                   1.1.2.22       142.8 KB  08/12/2019 01:59 PM                       Microsoft.Scripting\1.1.2.22__83380e73b2486719         
+Newtonsoft.Json.dll                       4.5.0.0        373.3 KB  04/09/2019 09:08 AM  08/12/2019 01:59 PM  Newtonsoft.Json\4.5.0.0__30ad4fe6b2a6aeed              
+PInvoke.dll                               3.0.27.0        96.0 KB  11/05/2015 10:36 AM  09/19/2019 01:48 PM  PInvoke\3.0.27.0__83380e73b2486719                     
+PInvoke.dll                               3.0.30.0       100.3 KB  02/11/2019 12:40 PM  09/19/2019 01:32 PM  PInvoke\3.0.30.0__83380e73b2486719                     
+PInvoke.dll                               3.0.34.0       100.3 KB  05/16/2018 05:56 PM  08/12/2019 02:00 PM  PInvoke\3.0.34.0__83380e73b2486719                     
+PInvoke.dll                               3.0.36.0        98.4 KB  04/09/2019 09:08 AM  09/24/2019 06:56 PM  PInvoke\3.0.36.0__83380e73b2486719                     
+PlotLib.dll                               3.0.27.0        76.0 KB  11/05/2015 10:35 AM  09/19/2019 01:49 PM  PlotLib\3.0.27.0__83380e73b2486719                     
+PlotLib.dll                               3.0.30.0        84.3 KB  02/11/2019 12:40 PM  09/19/2019 01:32 PM  PlotLib\3.0.30.0__83380e73b2486719                     
+PlotLib.dll                               3.0.34.0        84.3 KB  08/12/2019 01:59 PM                       PlotLib\3.0.34.0__83380e73b2486719                     
+PlotLib.dll                               3.0.35.0        82.4 KB  04/09/2019 09:10 AM  09/24/2019 06:57 PM  PlotLib\3.0.35.0__83380e73b2486719                     
+SandBar.dll                               1.4.0.1        220.0 KB  12/07/2006 07:32 PM  08/12/2019 01:59 PM  SandBar\1.4.0.1__75b7ec17dd7c14c3                      
+SandDock.dll                              3.0.3.1        336.3 KB  08/12/2019 02:00 PM                       SandDock\3.0.3.1__75b7ec17dd7c14c3                     
+SciChart.Charting.dll                     4.2.3.9872       1.4 MB  03/13/2017 02:04 PM  09/20/2019 03:18 PM  SciChart.Charting\4.2.3.9872__b55dd9efe817e823         
+SciChart.Core.dll                         4.2.3.9872     402.5 KB  03/13/2017 02:04 PM  09/20/2019 03:18 PM  SciChart.Core\4.2.3.9872__b55dd9efe817e823             
+SciChart.Data.dll                         4.2.3.9872     887.5 KB  03/13/2017 02:04 PM  09/20/2019 03:18 PM  SciChart.Data\4.2.3.9872__b55dd9efe817e823             
+SciChart.Drawing.dll                      4.2.3.9872       1.2 MB  03/13/2017 02:04 PM  09/20/2019 03:18 PM  SciChart.Drawing\4.2.3.9872__b55dd9efe817e823          
+SQLite3Wrapper.dll                        3.1.0.0         20.8 KB  08/12/2019 01:59 PM                       SQLite3Wrapper\3.1.0.0__83380e73b2486719               
+SVGRendererCommon.dll                     3.1.4.1         19.9 KB  08/12/2019 01:59 PM                       SVGRendererCommon\3.1.4.1__83380e73b2486719            
+Utilities.dll                             3.0.26.0       292.0 KB  11/05/2015 10:35 AM  09/19/2019 01:48 PM  Utilities\3.0.26.0__83380e73b2486719                   
+Utilities.dll                             3.1.0.0        312.3 KB  02/11/2019 12:40 PM  09/19/2019 01:32 PM  Utilities\3.1.0.0__83380e73b2486719                    
+Utilities.dll                             3.1.4.0        312.3 KB  11/20/2018 05:07 PM  08/12/2019 01:59 PM  Utilities\3.1.4.0__83380e73b2486719                    
+Utilities.dll                             3.1.5.0        326.4 KB  06/14/2019 02:32 PM  09/24/2019 06:56 PM  Utilities\3.1.5.0__83380e73b2486719                    
+UtilitiesContrib.dll                      3.0.0.0         27.8 KB  04/09/2019 09:09 AM  08/12/2019 01:59 PM  UtilitiesContrib\3.0.0.0__83380e73b2486719             
+WibuCmNET.dll                             6.70.271.500   688.9 KB  08/12/2019 01:59 PM                       WibuCmNET\6.60.256.500__01d86e1eb0c69c23               
+wupi.net.dll                              9.20.8.500      20.4 KB  09/29/2016 08:13 PM                       wupi.net\9.20.8.500__5f399135ee0c35d4                  
+=============================================================================================================================================
+* displayed only when the 'Added Date' is different from the 'Creation date'
+
+
+=============================================================================================================================================
+PAM PLUGINS (220 total)
+=============================================================================================================================================
+[ %ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\CODESYS\Plugins ]
+
+  Plugin Name                               Version   Guid                                   Description
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  186 Codegenerator........................ 3.5.14.0  0b00de0e-1319-451c-9699-1ade7bda25a0 ¥ Codegenerator for 186 processors
+  Action Editor............................ 3.5.14.10 e3e47cdc-6ebd-472f-9090-8041104f15c6   An action editor control which can contain any implementation editor
+  Action Object............................ 3.5.14.0  baaf1c20-0638-447c-982f-67ffa5be4ab3 ¥ The action object
+  Alarm Configuration Editors.............. 3.5.14.10 b1caf0cb-cc18-4710-b4a3-b54edfc48e52 ¥ All the editors of the alarm management.
+º Alarm Configuration Objects.............. 3.5.14.0  3c90b672-65ce-4998-b4d1-9f5ca3acf41e ¥ All the objects of the alarm management.
+º Application Composer..................... 3.5.14.10 efcd1ed8-8eb7-4d92-851d-45fe1a455b79   This plug-in contains the basic application composer functionality
+  Application Composer Alarm Generator..... 3.5.14.0  df9e2e73-f615-4c37-b50d-679ad2a3a433   This plug-in contains an extension for the application composer: Alarm Generator
+  Application Composer CFC Generator....... 3.5.14.0  536b18a6-dc9d-4692-b963-ee19f573d984 ¥ This Plugin provides the CFC Generator for extending the CODESYS Application Composer.
+  Application Composer Device Diagnosis.... 3.5.14.0  231416a4-6c71-4303-af93-1b3a6f731076 ¥ This plug-in contains an extension for the application composer: Device Diagnosis
+  Application Composer Sequence Editor..... 3.5.14.0  6b3f49ec-831b-4626-91d0-9cb5673ace27 ¥ This plug-in contains an extension for the application composer: Sequence Editor
+  Application Composer Trend Generator..... 3.5.14.0  a1322e8f-cb72-4938-ad68-c0dd2cd39b44 ¥ This plug-in contains an extension for the application composer: Trend Generator
+º Application Object....................... 3.5.14.0  1a4c1944-0e54-4497-8ebf-0a4d4f9d63e7 ¥ The application object
+  ARM Codegenerator........................ 3.5.14.0  07ed2588-0115-47c3-affa-eb61926d9b4e ¥ Codegenerator for ARM processors
+  ARM64 Codegenerator...................... 3.5.14.30 77783778-10a2-4249-a5ba-8638e876fae4 ¥ Codegenerator for ARM 64Bit processors
+  AutoDeclare.............................. 3.5.14.10 a5bc6914-568b-4aec-88fd-53a95516a79b ¥ Contains functionality for AutoDeclare.
+º AxisGroup Editor......................... 4.6.0.0   c4435224-39cd-45ed-a907-975f634ec402 ¥ Editor for SoftMotion axis groups
+º AxisGroup Object......................... 4.6.0.0   f733e945-8541-42ad-a2e7-b95d006ae093   Object that represents a SoftMotion axis group
+  Binary Archive........................... 3.5.14.0  5d6cb671-a13f-45ee-83af-637912133704 ¥ Contains functionality to serialize and deserialize object graphs to/from a binary stream.
+  Blackfin Codegenerator................... 3.5.14.0  99afa4ab-eefe-427c-b853-2fc30c05a9a2 ¥ Codegenerator for Blackfin processors
+º Bookmarks................................ 3.5.14.40 acb93b70-4b96-439a-aa06-4be77dcbde1b ¥ Commands enabling bookmark functionality for editors.
+º Breakpoints.............................. 3.5.14.10 a228b750-9d95-43af-b6a7-828efff4f738 ¥ Contains breakpoint and stepping commands, the breakpoint view, and the callstack view
+  BrowserCommands.......................... 3.5.14.0  06dcd183-2735-4d47-a612-72b607029714 ¥ Contains commands for source code browsing
+  Build Commands........................... 3.5.14.0  e92ef582-5a77-43af-85fc-1e6949f69db3   Commands for performing builds
+  C16x Codegenerator....................... 3.5.14.0  6516b443-cdab-41f6-a35b-633734078c06 ¥ Codegenerator for C16x processors
+  C28x Codegenerator....................... 3.5.14.0  47aa741c-db49-4ed3-9283-5680eda038fa ¥ Codegenerator for Texas Instruments TMS320C28x DSP CPU
+  Cam Editor............................... 4.6.0.0   0f4ad9d9-84cb-4d5b-b4ba-957657e0764f ¥ SoftMotion editor for electronic Cams
+º Cam Implementation Object................ 4.6.0.0   66d4547f-203c-4ea2-b3fb-517714dafc38 ¥ SoftMotion Cam Implementation Object
+  CFC Editor............................... 3.5.14.20 89d073a8-8201-4162-bf4c-7f5fd57eaeac ¥ Editor views for POUs, actions, and methods in Continuous Function Chart (CFC)
+  CFC Implementation Object................ 3.5.14.20 acc807af-a410-4644-b6d1-3b800224bcc9 ¥ Continuous Function Chart (CFC) implementation object
+º CNC Editor............................... 4.6.0.0   78ab6a30-7c7e-4ad4-b69b-f59d6d14b6ae ¥ Editor for SoftMotion CNC Programs
+  CNC function blocks...................... 4.6.0.0   6dbce70a-2f05-462d-b3b0-f32644908b14 ¥ SoftMotion CNC function blocks
+  Codegenerator for x86-64 architecture.... 3.5.14.30 c65e8ac3-6c2c-49c6-b772-bb31b2b1f2a0 ¥ Codegenerator for x86-64 architecture
+º CODESYS Frame............................ 3.5.14.40 55da38af-e78a-46ae-915b-7686657f6fac ¥ The user interface frame window of the programming system.
+  CoDeSys Project Converter................ 3.5.14.0  5cb4e9ab-7d18-4c52-adc7-42fe9cf5222a ¥ Imports old CoDeSys project files (before V3.0)
+  ColdFire Codegenerator................... 3.5.14.0  36ab5cff-2a55-4aff-8777-f67d0c5540a1 ¥ Codegenerator for ColdFire processors
+  Common Icons............................. 3.5.14.0  29f34b14-e0a5-4fa5-8737-c8baef201b6a ¥ Provides commonly used icons
+  Common Utilities......................... 3.5.14.0  b91f459a-c34c-4143-b3f2-4531e51d8c10 ¥ Contains some common utilities which need references to other plugins.
+º CoreDump................................. 3.5.14.0  f1a2b688-f1ca-4235-8a24-e19aef53f035   Create and use Core-Dumps for debugging applications
+  Cortex-M3 Codegenerator.................. 3.5.14.0  87348fe8-dbf9-4144-bcd3-36a3c5d7f007 ¥ Codegenerator for Cortex-M3 processors
+  Cross Reference View..................... 3.5.14.10 f6db1904-5280-4a3d-aab4-11491bdc71ea   Shows all references of a selected variable
+º CSourceCodeObject........................ 3.5.14.0  46510e41-f0cb-4551-b8f1-eec725db5f17 ¥ Represents a set of source files written in C
+  CSourceComponentBuilder.................. 3.5.14.0  d347885e-4634-4134-9fbf-e5c33e6ade12   Bundles all information and tools necessary to build C source components for targets
+º Data Sources ApplicationV3 Provider...... 3.5.14.10 4147103a-02e6-44a8-9015-3e929c508d0c ¥ Implementation of a provider for Data Sources allowing the access to CODESYS PLCs by address info from an application compile context.
+  Data Sources Editors..................... 3.5.14.20 f748fa99-96ae-4e3c-bade-2573feea581b   Editors for data sources objects
+º Data Sources Objects..................... 3.5.14.0  a2833297-500f-4941-b712-4b3640f1fc78 ¥ All the objects of the data sources.
+  Data Sources Symbolic Provider........... 3.5.14.10 02bee02c-bf40-4a9c-ae71-f4e5c92c5d9c ¥ Implementation of a provider for Data Sources allowing the access to CODESYS PLCs in a symbolic way
+  DataSource Editor........................ 3.5.14.0  dd74694c-1be4-4482-88aa-17ce62cbaaca   An editor for a data source
+º DataSource Object........................ 3.5.14.0  96e91d5c-60fb-4631-93f4-8f67e0243dc6 ¥ An object which can be used to include data sources under an application
+  Default Gateway client................... 3.5.14.0  ff422f0f-9077-454d-83ac-f08958449d75   Implements the CoDeSys online layer
+º Default Navigators....................... 3.5.14.0  707ed618-0713-49e6-a6d6-bbd287feb88e ¥ Some default navigators: Devices, POUs, Modules, All
+º Device CANbus............................ 3.5.14.0  a75ff553-9f1e-4298-b8d7-cdaa03ed0665 ¥ CANbus Configuration
+º Device CANBus Local Device............... 3.5.14.10 42881ef1-23f4-4394-8186-3617db1032ac ¥ CAN Local Device Configuration
+  Device Categories........................ 3.5.14.0  0ab632c1-82e0-43ce-b014-230e698d1580 ¥ The Device Categories
+º Device CIP............................... 3.5.14.20 71d51045-6366-4155-a1f5-f0a1a4b6230a ¥ CIP Configuration
+º Device Communication Editor.............. 3.5.14.30 1748b90a-28c4-471f-b0f2-9446d060a059 ¥ Editor for the communication settings of a device object
+  Device Editor............................ 3.5.14.10 bf8e6be2-43a8-45a1-8a24-53776e2d3cd4 ¥ Editor for the device object
+º Device Editor J1939...................... 3.5.14.0  180bf1aa-4c34-4e89-91d3-96da715c0ca9 ¥ J1939 Configuration
+º Device Ethercat.......................... 3.5.14.40 016ce8b2-c18d-4f78-aecc-6f3bcf7d8aa5 ¥ Ethercat Configuration
+  Device Ethernet Adapter.................. 3.5.14.0  ede87986-8d34-4baf-8653-2a8d31270889   Ethernet Adapter Configuration
+º Device IOLink............................ 3.5.14.0  f6874726-e52b-43cd-aa84-bd093bfc111a   IO-Link support for CoDeSys
+º Device Modbus............................ 3.5.14.0  7e343689-9a5f-46aa-bf56-5903c4efec59 ¥ Modbus Configuration
+º Device Modbus Serial Slave............... 3.5.14.0  fee534fc-ad05-457d-818d-014cd259c40f   Modbus Serial Slave Configuration
+º Device Modbus TCP Slave.................. 3.5.14.0  2081d217-b969-40d1-b1bb-3211b3024395 ¥ Modbus TCP Slave Configuration
+º Device NetX.............................. 3.5.14.0  3b45811d-224a-47c8-a748-24fbcb76ffa2 ¥ NetX Configuration
+º Device Object............................ 3.5.14.30 2a785a6d-f546-47d1-9107-6bcaa0f232cf ¥ The Device object
+º Device Profibus DP....................... 3.5.14.0  b8464656-5102-4236-a8fb-8f0224072058 ¥ Profibus-DP device with generic GSD converter
+º Device Profibus Slave.................... 3.5.14.0  89074c97-0ca3-4469-bf01-5f6ae956ef76 ¥ Profibus Slave Configuration
+º Device Profinet IO....................... 3.5.14.30 65ac5a36-099c-4700-b501-e56f13e0b4d3 ¥ Plug-in for Profinet IO Configurator
+º Device Repository........................ 3.5.14.0  f5d619ba-9237-4535-9e8f-6e5ce61f259b   Repository that handles all installed devices
+º Device Scan.............................. 3.5.14.0  c49b0c15-ed1c-4d9b-8432-febb80bbf6cb ¥ Plug-in for Device Scan
+º Device Sercos3........................... 3.5.14.10 0d042b04-7e57-4ba9-bdce-975f096f79c3 ¥ Sercos3 Configuration
+º Device SoftMotion........................ 4.6.0.0   d329d17a-8ffe-4378-aa2d-1d6f10272c8d   SoftMotion Device Configuration
+º Documentation Export..................... 3.5.14.30 12e05a0a-f126-4a60-9876-fa3c036e6841 ¥ Documentation export functionality
+  DUT Editor............................... 3.5.14.0  7a7aa487-a028-43fa-8948-f5f7b3607c54 ¥ A DUT editor control
+  DUT Object............................... 3.5.14.40 cfa28293-cc74-40a7-bdfd-dd24c1faf5d9 ¥ The Data Unit Type object
+  Edit Commands............................ 3.5.14.0  f4bd064b-5292-453d-8632-c3f5c448cea7   Commands for undo/redo and clipboard functionality
+  Eds-File Converter....................... 3.5.14.0  953c3763-ac4a-4b48-a6ca-2e22c3a0a992 ¥ Converter for CANopen I/O-Module Description Files (*.eds)
+º EmbeddedRuntimeExtension................. 3.5.14.0  0909fc6d-a6a4-4794-94f3-53cabc9879af ¥ Plugin implementing certain functionality needed for embedded runtimes
+º Engine................................... 3.5.14.10 d4407f2e-9379-4c1b-8884-bba7a5e8185f   The engine is a runtime component which holds things together.
+º Environment.............................. 3.5.14.0  63d6ec35-36ac-42c6-b7cd-e465aed24c51 ¥ Plugin for configuring various service and backend plugins of the Automation Platform
+  Extension SafetyOnline................... 3.5.14.0  b0819851-70c4-40c9-8ad6-fe59ee147822 ¥ SafetyOnline extension for communication over e.g. EtherCAT
+  External File Object..................... 3.5.14.0  336b5f67-f2b5-4c11-93df-d8a25bebb2a8 ¥ The External File object
+º File Commands............................ 3.5.14.40 a79f2b35-391c-412c-b803-a1d2e4d5713a ¥ Basic project file handling commands
+  Find/Replace............................. 3.5.14.10 cb99beb3-41d4-4636-a3dc-745ca6c08bcc ¥ Contains the Find and Replace features
+  GVL Editor............................... 3.5.14.10 c3c0212e-15bd-471d-97f3-2d0141f8fed7 ¥ An editor control for global variable lists
+  GVL Object............................... 3.5.14.10 30a290bb-01c9-43cf-8fd1-8c11177b74e1 ¥ The Global Variable List object
+  Hitachi SH Codegenerator................. 3.5.14.0  e2a16d6c-20e0-44d4-ad31-22ada0a08240   Codegenerator for Hitachi SH processors
+  HMI Project Wizard....................... 3.5.14.0  6cae542a-3a13-45c2-89d2-b651dc67a651 ¥ This wizard appears when the user creates a new project and selects the 'HMI Project' template
+  IEC 61131-3 Text Editor.................. 3.5.14.10 cbb032e0-75c3-4bb9-bcde-b6c9ff1d6dd6 ¥ A text editor which can handle the textual languages of the IEC 61131-3 standard.
+º Image pool............................... 3.5.14.10 26d33842-24f3-4c11-a54f-7238896ee99b ¥ Provides functionality to add images to a pool
+  Input Assistant.......................... 3.5.14.20 40cfcfd4-fbba-4fa4-8b4b-6dec9ed97404 ¥ Browser for language entities like variables, calls, operators, and keywords.
+  Interface Editor......................... 3.5.14.10 2f6a52a3-f00f-4d58-8749-5174233352b4 ¥ An interface editor control
+  Interface Object......................... 3.5.14.0  a7be1fca-f1c0-4e20-9d37-c555ef61bd16 ¥ The Interface object
+  Item Selection Editor.................... 3.5.14.0  d664d00b-1e88-482c-bf1b-39f505dc12d4   An implementation of a generic editor for the selection of a subset of items.
+º Language Model Manager................... 3.5.14.40 f0b1693d-58ca-4ef3-a79f-d3cb923ff030   The codegenerator front-end
+  Language Model Manager Configurators..... 3.5.14.40 7ee3127e-66bb-46e5-8734-30767c1e2996 ¥ This component provides several graphical configurators for settins related to the Language Model Manager
+º Language Model Manager Legacy............ 3.5.14.0  4e5bfa8e-d548-4012-b62e-739fbfb4b9e7 ¥ A legacy interface for the language model manager
+º Language Model Utilities................. 3.5.14.0  9e0f51a0-d1da-42cc-ab70-094358dbaa81 ¥ This component provides access to several commonly used functions doing evaluations of the language model.
+º Library Manager Editor................... 3.5.14.10 f5f9ba65-d338-4467-aec4-8c9529d423c7   The library manager
+º Library Manager Object................... 3.5.14.0  66f42804-6b4f-4457-9bc3-dce709c2fb72 ¥ The library manager object
+  License Manager.......................... 3.5.14.0  cb8db54f-00e8-4a7a-8a4d-b78cbeea6143 ¥ Tool to edit licenses on a Wibu CodeMeter(TM) dongle
+º Logging Component........................ 3.5.14.0  030ab0a3-baa6-45d4-bc50-181dab16cbf4 ¥ Contains the implementation of the logging mechanism.
+  Logical Exchange GVL Editor.............. 3.5.14.10 83d9882b-8a00-4124-be6e-a23c9f9db637 ¥ Logical Exchange  GVL Editor
+  MemoryView............................... 3.5.14.0  9276b3dc-bbc5-4800-a39e-5c6937e09d92 ¥ View a raw memory area of an IEC-Application
+º Message Storage.......................... 3.5.14.0  8f33458b-b754-4ae7-b805-7e841c23781a ¥ Stores categorized messages dumped by various components.
+  Message View............................. 3.5.14.0  492799c5-e7c6-4318-a79c-c74fcbab5419 ¥ Contains a view for dumped messages.
+  Method Editor............................ 3.5.14.10 bdbe31c7-0bd7-4a9a-a417-f5133e8fcd69 ¥ An editor control which is able to edit both interface methods (interface part only) and POU methods (interface and implementation part)
+  Method Object............................ 3.5.14.0  c1b57535-f0b7-419f-9b76-46a4f830b770 ¥ The method object
+  MIPS Codegenerator....................... 3.5.14.0  1eebe15a-c061-462c-807f-a9f1bf59a58e ¥ Codegenerator for MIPS processors
+º Navigator Control........................ 3.5.14.0  b02507b2-5231-4754-a146-78957d99f604 ¥ Contains a control for navigating through the project structure.
+  Network List Editor...................... 3.5.14.20 b39f2f7b-6e0c-4902-ab14-b2b85a0160db ¥ A combined editor which can display IL/LD/FBD.
+º Network List Object...................... 3.5.14.10 d35e1e67-69fb-49df-84d6-4d5b46453adf   Implements the CoDeSys langauges for IL/LD/FBD
+  Nios II Codegenerator.................... 3.5.14.0  969ab52c-c00e-4e99-b69d-7bd77cfdfb3f ¥ Codegenerator for the Nios II processors
+  NVL Editor............................... 3.5.14.10 c724d1be-7710-4834-946a-761189eacfa1 ¥ An editor control for network global variable lists
+  NVL Object............................... 3.5.14.0  0d21e0be-b65b-4905-8237-f5d63ecae26f ¥ The Network Global Variable List object
+  Object Commands.......................... 3.5.14.0  6ae7fc36-6147-4c05-a1cb-a799b5181575 ¥ Contains basic object handling commands
+º Object Manager........................... 3.5.14.20 56184f7c-712c-49ca-b23c-cb85f35e8c54 ¥ Implements the CoDeSys project and object handling
+º Object Manager Utilities................. 3.5.14.0  413c6883-f43f-4820-a3b2-366307375252 ¥ This component provides access to several commonly used functions related to the object manager.
+º Online Commands.......................... 3.5.14.40 56719006-da81-45dd-8edb-c0db99178f38 ¥ Implements the CoDeSys online commands
+º Online Expression Interpreter............ 3.5.14.0  2ffbd975-2032-4737-84ef-adcf377f99ba ¥ Evaluates complex expressions in online mode and determines the effective value
+  Online Help.............................. 3.5.14.0  d63725c5-bcb3-4bf9-b2d0-f38d4d524085   The integrated online help system
+º Online Manager........................... 3.5.14.40 06f73429-a723-4f3c-9b49-1b8ce52a0486 ¥ Implements the CoDeSys online layer
+º Option Storage........................... 3.5.14.0  af94ec5a-fd92-418e-a791-b97b58a72a07 ¥ Provides an unified view to all options, regardless of where they are stored.
+º Package Management....................... 3.5.14.10 90d7f9d2-27c9-4789-8250-6c18262b4a0e ¥ The integrated Package Manager implementation
+  Package Management UI.................... 3.5.14.0  5c88ca7b-06a0-4c65-bc8e-a2578c17e839 ¥ User interface plug-in for the integrated Package Manager
+º PAM Branding Plugin...................... 1.5.0.0   3a4dbd46-1b92-4c22-9a2e-f5bee6366764 ¥ PAM plugin providing functionality for Branding.
+º PAM Developer Plugin..................... 1.5.0.0   d91ee1e8-d16b-4776-ad93-1de0d9e6e5bd   PAM plugin providing functionality for use by developers.
+º PAM Simulation Plugin.................... 1.5.0.0   df2aa450-fae8-49c7-a498-7b1f30c11e3f   PAM plugin providing functionality used for Simulation Mode.
+  Plc Logic Object......................... 3.5.14.0  93afde7f-fae2-4904-813a-c3d252d02699 ¥ Implementation of the Plc Logic object
+  PLCopenXML............................... 3.5.14.0  108e8974-276a-4f0c-9865-280e52999083 ¥ Functionality to export and import project data in the PLCopenXML format
+  POU Editor............................... 3.5.14.10 22801da2-108c-4463-b6e7-410cb5e86957 ¥ An editor control which provides which is splitted horizontally, with an interface editor in the top pane and an implementation editor in the bottom pane
+  POU Image................................ 3.5.14.0  e1b7da35-7bdb-41d4-82b5-4e538c1b1c82   Allows the user to associate images with POUs to be displayed within graphical editors.
+  POU Object............................... 3.5.14.10 6d7aad57-169a-4942-bce3-5a30d2057aec ¥ The POU object
+  PowerPC Codegenerator.................... 3.5.14.0  98b642a9-90af-4563-9358-5f007ce19839 ¥ Codegenerator for PowerPC processors
+  Print Engine............................. 3.5.14.0  ae39e352-e0e1-4e31-b954-8655238db190 ¥ Provides controlling functionality for printing projects
+  Project Archive.......................... 3.5.14.0  cc6a7b21-7322-47f7-9814-21dd48e183bf ¥ Functionality for storing and extracting a project with all its dependencies within a single archive file
+º Project Compare.......................... 3.5.14.40 e0ad7f8e-f4cb-4c1e-bbff-7b972fe18551   Contains functions to compare two projects with each other
+  Project Information Editor............... 3.5.14.30 2680452f-c443-4208-8893-06b6c5adc55b ¥ A dialog box which edits a Project Information object
+  Project Information Object............... 3.5.14.0  37ab439e-8423-4828-9f96-1b59849c249b ¥ The object containing user-defined project information
+º Project Localization..................... 3.5.14.0  4ef52280-6fbe-4fec-9605-5f5cfd4dc01d ¥ Services for localization of a project.
+  Property editor.......................... 3.5.14.10 3493e6f7-5c57-4266-a8b0-43862c09332f ¥ An property editor control which can contain any implementation editor
+  Property object.......................... 3.5.14.0  a638eb6a-e7e3-4fb1-8496-c0343943ffc2 ¥ An object for properties
+  Property View............................ 3.5.14.0  ff337941-370e-4176-b3d1-c64d224eb166   The property view displays properties of different objects.
+º RecipeManagement Editor.................. 3.5.14.10 61ab8bb0-eb6d-4008-bde6-1bc5387e1654 ¥ An editor for the RecipeManagement
+º RecipeManagement Object.................. 3.5.14.20 001d3aae-3a36-4295-b1af-9bf8faea511d ¥ An object which can be used for RecipeManagement
+º Redundancy Editor........................ 3.5.14.0  68d80244-7f4d-4c65-a4a9-0566531e6456 ¥ The redundancy configuration editor
+  Redundancy Object........................ 3.5.14.0  00a2d14c-1a16-46f6-a68f-903e403182d2 ¥ The redundancy configuration object
+º Refactoring.............................. 3.5.14.0  6c08473a-63c9-4952-92a6-ff0692897de9 ¥ Refactoring service and basic functions.
+º Repository Elements Resolver............. 3.5.14.40 5e7a5a99-a87c-4126-84ae-68e2a445b6df ¥ An internal helper plugin that maps names to devicedescriptions and libraries
+  Resource Editor.......................... 3.5.14.0  0a3f2eaa-2964-4a8d-8df9-f680054bc9e0 ¥ An editor control which is able to edit Resource objects
+  Resource Object.......................... 3.5.14.0  b2bbffd4-a107-4a58-a3db-9c78f513d9c9 ¥ The resource object
+  RISC codegenerator frontend.............. 3.5.14.0  07be82cd-3680-4bcb-a957-5e99570843d7 ¥ A codegenerator frontend for RISC processores
+  RX Codegenerator......................... 3.5.14.0  d84a0da8-80d0-4622-81e7-25b0f0360b42   Codegenerator for RX processors
+  Script Driver Application Composer....... 3.5.14.0  b78ea415-7479-4a4b-bd0f-0d4f7d10cfad ¥ This plug-in contains the Python-Script-Driver for Application Composer Objects and Usage
+  Script Driver DeviceObject............... 3.5.14.0  7a807e44-1a24-49f1-9799-154dd253ac8e ¥ Provides DeviceObject functionality for CoDeSys scripts
+  Script Driver LibManObject............... 3.5.14.0  88b8f003-7842-43cf-9635-79db56e614df ¥ Provides LibManObject functionality for CoDeSys scripts
+  Script Driver Online..................... 3.5.14.0  30979db2-a205-4067-80b1-c99b1c3dfbf3 ¥ Provides online functionality for CoDeSys scripts
+  Script Driver Projects................... 3.5.14.0  9fcfbd1c-b152-4bd8-8bc2-9773bb566084 ¥ Provides iProject functionality for CoDeSys scripts
+  Script Driver SoftMotion................. 4.2.0.0   16c29ebf-40a2-4a16-91b5-b15f8c6247ab ¥ Provides SoftMotion functionality for CODESYS scripts
+  Script Driver SymbolConfigObject......... 3.5.14.0  80717d89-16cc-4c0e-b0a2-8960d14e6de7 ¥ Provides SymbolConfigObject functionality for CoDeSys scripts
+  Script Driver System..................... 3.5.14.0  d55b2d52-0f1c-4eda-a109-ec19a2544978   Provides system functionality for CoDeSys plugins
+  Script Driver Visualization.............. 3.5.14.0  a9ac277e-1e42-4d3a-975a-34ef7a0779ef ¥ Provides scripting access functionality for CODESYS scripts to visualization related components 
+º Script Engine Plugin..................... 3.5.14.0  dc937c18-e9f0-434d-85b7-1b8f499e378a   Provides scripting functionality for CoDeSys
+º Security Manager......................... 3.5.14.0  a0683e9c-3382-4a78-a1da-e2e456a137b5 ¥ Implements various security-related functionalities
+  SFC Editor............................... 3.5.14.10 facd0fbb-ab10-4fc8-9057-8f022b0f0a3e   Editor views for POUs, actions, and methods in Sequential Function Chart (SFC)
+  SFC Implementation Object................ 3.5.14.0  42dd28c7-a216-41a9-97e5-b68a28cea2eb ¥ Sequential Function Chart (SFC) implementation object
+  SFC Transition Editor.................... 3.5.14.10 d034d0bb-7542-4179-8497-853052bcdb5b ¥ A SFC transition editor control which can contain any implementation editor
+  SFC Transition Object.................... 3.5.14.0  79408841-4f7f-4ef4-913f-63e64d929e3c ¥ The sfc transition object
+º Simulation............................... 3.5.14.0  a3404fa3-559f-4fb3-9ed6-36d2a195fc36 ¥ Provides functionality for accessing the simulation features of CoDeSys
+  SmartCoding Options...................... 3.5.14.40 5d17b187-2367-4813-89af-a30890487b3b ¥ Options for globally enabling/disabling IntelliSense, AutoDeclare etc.
+º SoftMotion Plug-In....................... 4.6.0.0   4ffccb81-ba39-42c0-bf1b-6bb623c824a2 ¥ Basic SoftMotion functions (SoftMotion version, version profiles)
+  ST Editor................................ 3.5.14.0  b0c1f5f5-6e5a-4924-92b7-95b8e0953b29 ¥ Editor view factories for POUs, actions, and methods in Structured Text (ST)
+  ST Implementation Object................. 3.5.14.0  a6fb21c6-efb1-4987-a6bc-f2dc1752c254 ¥ Structured Text (ST) implementation object
+  ST Snippet Provider...................... 3.5.14.0  923f87e0-cc1f-4ec9-a759-0bbea15ac87b ¥ Contains a service class which provides the language model snippet for a ST-like language.
+  Standard Project Wizard.................. 3.5.14.0  ae30b345-aacb-43a4-8fde-4214cc576211 ¥ This wizard appears when the user creates a new project and selects the 'Standard Project' template
+º Static Analysis Manager.................. 3.5.14.10 568ba54b-4638-4ad1-af1c-dd9209a939fd ¥ A manager for static analysis tools
+  Store.................................... 3.5.14.0  c105ac21-b519-4753-9982-b541bcb69c91 ¥ Browser based plugin component for the online store
+  Symbol Configuration Editor.............. 3.5.14.30 cbeea127-2aa5-4162-85db-e26272030ee9 ¥ Contains the editor for the symbol configuration object
+  Symbol Configuration Object.............. 3.5.14.30 5769c554-e6ad-41fe-aafc-aa722b1c8e13 ¥ Contains the application symbol configuration object
+  Tabular Declaration Editor............... 3.5.14.30 10748bcb-f9a1-4ff1-a534-46e73ccfe984 ¥ An editor implementation which provides a tabular view on declaration parts.
+º Target Settings.......................... 3.5.14.0  3a25a2c0-5c79-483b-8c9c-0c7e5a7a075d ¥ The Target Settings system component
+º Target Settings Documentation Export..... 3.5.14.0  7ae4ae00-401f-49c5-8d34-62b0186c75bd ¥ Target Settings Documentation export functionality
+  Task Config Utilities.................... 3.5.14.0  5ed28305-4127-4040-bf0e-84ff3843dd50 ¥ This component provides access to several commonly used functions related to the task config object.
+º Task Editor.............................. 3.5.14.10 8a14b6a9-5b0a-4440-880b-aad1f0aa6478 ¥ The task editor
+º Task Object.............................. 3.5.14.0  edb57405-2414-4d5a-b9fe-9258ad4eae0a   The task object
+º TaskConfig Editor........................ 3.5.14.0  41df01ad-5852-45a9-a472-3c9dba5fc33d ¥ An editor control that allows for the configuration of a projects tasks
+º TaskConfig Object........................ 3.5.14.0  b4f729fb-467c-4d38-8ceb-709fd262b4de ¥ The task configuration object
+  Text Document............................ 3.5.14.0  06876139-91d7-4c06-91cc-a27b856619c5 ¥ An implementation of a generic text document with line IDs.
+º Text Editor Basics....................... 3.5.14.0  97fdbcee-afa9-427f-853e-0fafecdb478b ¥ Basic functionality for text editors.
+º Text lists for multi language support.... 3.5.14.10 d291c27a-a794-4a0c-9580-d4d3afa4d73d   Text lists for multi language support
+  ToolBox View............................. 3.5.14.0  d932d289-4f0a-4f76-b0e7-6d03f7a7e776   Contains a ToolBox view.
+  Trace Editor............................. 3.5.14.20 8f05b65d-c5e1-4ab8-99d2-df0e9ea43f55 ¥ Implements a Trace Editor
+  Trace Object............................. 3.5.14.0  119fa4a3-8dba-4595-986d-aabba8700524 ¥ Contains the Trace Object
+  Trend Recording Editors.................. 3.5.14.0  afe8900e-f053-4ece-83aa-932a84b004b0 ¥ All the editors of the trend recording.
+º Trend Recording Objects.................. 3.5.14.0  1b06fe26-53d1-44f4-b578-47373eb3eb1b ¥ All the objects of the trend recording.
+  TriCore Codegenerator.................... 3.5.14.0  e3a5a72b-4afa-472c-85d7-ccbbb0f526ba   Codegenerator for TriCore processors
+  Undo Manager............................. 3.5.14.0  107b569d-c9c3-4ee0-a26b-f5b5b72ca878 ¥ A reusable implementation of the IUndoManager interface.
+  Unit Conversion Editor................... 3.5.14.10 448dbf96-87b2-41c3-923c-fb01e9c54d0e ¥ Editor to manage unit conversions
+º Unit Conversion Object................... 3.5.14.0  6bce30ee-c8aa-4914-9b19-b00199995f25 ¥ Object for unit conversion
+º Usage Analysis........................... 3.5.14.0  45070fed-d4a4-4cf0-a0f7-5f8a9fedde8d ¥ Collecting anonymous data for improving the user experience.
+º Usage Analysis UI........................ 3.5.14.0  466600ac-e31a-4489-8dfb-900a42f2f7b9 ¥ User interface for Usage Analysis.
+º User Management.......................... 3.5.14.0  81652516-4967-4f8a-9ff5-36e3150c622d ¥ This is the core user and rights management system which allows controlling access to functions and objects.
+  User Management UI....................... 3.5.14.10 8f72f97a-04ba-467b-a8ca-2fe57ef1801e ¥ The user interface for the user and rights management.
+  Variable Declaration Object.............. 3.5.14.0  0ff7f246-3b78-4a0c-9dc1-94105ddd563b ¥ Variable declaration object
+º Version Compatibility Manager............ 3.5.14.0  ab86dd0d-2a90-4e30-90e9-a2cff706c245 ¥ Implements certain functionality to control version handling in CoDeSys projects
+º Visu Generated Code...................... 3.5.14.0  554d49de-db05-4357-b471-1c9ec51cdc04 ¥ Interaction between the generated code of the visualization and the standard assemblies.
+  Visual Element Implementation Extensions. 3.5.14.0  5c890cf8-1c05-4325-90b8-3cc3e85e54ca ¥ IComplexElementCall implementation for visual elements for the integrated visualization.
+º Visualelement Repository................. 3.5.14.0  c0c95d25-7d59-431e-a9f4-2caeb961f812 ¥ The repository for visual elements.
+º Visualization editor..................... 3.5.14.20 01bcdb4a-ca85-4787-a389-8185653db706 ¥ Visualization editor
+º Visualization element.................... 3.5.14.40 d1a72f78-4813-48a1-86d0-91334865f04f   Visualization element
+º Visualization object..................... 3.5.14.40 afcd5446-4914-4fe7-bb78-9bffeb70fd17 ¥ Visualization object
+º Visualization Paint Commands............. 3.5.14.0  a3e8ffd6-e48c-45ed-9844-81d95f71df06 ¥ Contains all available Paintcommands that can be used to draw onto a Graphics Context
+º Visualization Styles..................... 3.5.14.0  30fbd6bb-13d1-407c-985e-df09dd731941 ¥ Contains the storage, management and editing mechanisms for styles used by the visualization.
+  VisualizationManagement editor........... 3.5.14.10 c5b6e3bc-15ac-4a78-8b8b-3bed641b398d ¥ VisualizationManagement editor
+  Watchlist View........................... 3.5.14.30 7f2108af-1d6d-46c6-8106-7bd1190bb96a ¥ Contains a view for monitoring expressions.
+º Web Browser Integration.................. 3.5.14.0  cd9a7ff5-3ec1-45f6-a5b0-a5331abe2d1d ¥ Plugin for providing an embedded web browser
+  Workspace Editor......................... 3.5.14.0  ae3bb56d-5b98-4706-8cb6-5bfeaa00ade0 ¥ Contains an editor for project-specific settings.
+  x86 Codegenerator........................ 3.5.14.0  4d549abe-432f-4f5a-9a63-c999e08184b1 ¥ Codegenerator for x86 processors
+  XML Archive.............................. 3.5.14.0  63cc50c1-aabf-4ca8-9654-b3822c231126 ¥ Contains functionality to serialize and deserialize object graphs to/from an XML stream.
+  xPIC Codegenerator....................... 3.5.14.0  5c97662f-3c99-44b7-912b-9398c9b97999 ¥ Codegenerator for xPIC processors
+
+º Indicates the plugin is a system plugin.
+¥ Indicates the plugin has an associated dependency cache file.
+=============================================================================================================================================
+
+
+=============================================================================================================================================
+PAM REGISTRY SETTINGS (Services)
+--------------------------------------------------------------------------------------------------------------
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\CODESYS Gateway V3]
+DisplayName     = CODESYS Gateway V3 Version 3.5.14.40
+Description     = Gateway Server as a Windows service to connect to CODESYS programmable devices
+ObjectName      = LocalSystem
+ImagePath       = "%ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\GatewayPLC\GatewayService.exe"
+ErrorControl    = 1
+Start           = 2
+Type            = 16
+WOW64           = 
+--------------------------------------------------------------------------------------------------------------
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\CODESYS Control Win V3]
+DisplayName     = CODESYS Control Win V3 Version 3.5.14.40
+Description     = Windows soft realtime runtime system based on a Windows service that is running with REALTIME process priority in user mode.
+ObjectName      = LocalSystem
+ImagePath       = "%ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\GatewayPLC\CODESYSControlService.exe"
+ErrorControl    = 1
+Start           = 3
+Type            = 16
+WOW64           = 
+DependOnService = CodeMeter.exe
+--------------------------------------------------------------------------------------------------------------
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\CODESYS ServiceControl]
+DisplayName     = CODESYS ServiceControl Version 3.5.14.0
+Description     = Service for starting/stopping the services of CODESYS Control Win V3 and CODESYS Gateway Service V3
+ObjectName      = LocalSystem
+ImagePath       = "%ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\GatewayPLC\ServiceControl.exe"
+ErrorControl    = 1
+Start           = 2
+Type            = 16
+WOW64           = 
+--------------------------------------------------------------------------------------------------------------
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\PAM_Service_Control]
+DisplayName     = PAM Service Control
+Description     = Service used by PAM for managing various 'SysTray' applications, 'File Associations', and other related services such as 'CODESYS Control Win V3', 'CODESYS Gateway Service V3', etc.
+ObjectName      = LocalSystem
+ImagePath       = "%ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\PamServiceControl\PAM.Service.Control.exe"
+ErrorControl    = 1
+Start           = 2
+Type            = 16
+WOW64           = 
+--------------------------------------------------------------------------------------------------------------
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\PAM_EOE_Service]
+DisplayName     = PAM EOE Service
+Description     = Service used by PAM for managing EOE, etc.
+ObjectName      = LocalSystem
+ImagePath       = "%ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\PamEoeService\PAM.EOE.Service.exe"
+ErrorControl    = 1
+Start           = 3
+Type            = 16
+WOW64           = 
+
+=============================================================================================================================================
+
+
+=============================================================================================================================================
+PAM REGISTRY SETTINGS (AutoRuns)
+--------------------------------------------------------------------------------------------------------------
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+GatewaySysTray        = %ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\GatewayPLC\GatewaySysTray.exe
+CODESYSControlSysTray = %ProgramFiles(x86)%\Parker Hannifin\ParkerAutomationManager\GatewayPLC\CODESYSControlSysTray.exe
+
+=============================================================================================================================================
+
+
+Files with file extensions: '.project', '.projectarchive', and '.libraryfile' are currently associated with 'PAM'.
+
+
+=============================================================================================================================================
+Installed Packages
+=============================================================================================================================================
+Name                           Version      Installation DateTime
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CODESYS SoftMotion             4.5.1.0      9/19/2019 1:29:25 PM
+CODESYS SoftMotion             4.2.1.4      9/19/2019 1:48:29 PM
+Parker Drive Library           1.0.0.14     9/19/2019 2:03:55 PM
+Parker Temp Ctrl Library       1.0.0.5      9/19/2019 2:14:36 PM
+PSD ServoManager for PAM       1.4.0.59     9/19/2019 2:16:21 PM
+CODESYS SoftMotion             4.6.0.0      9/24/2019 6:54:57 PM
+
+

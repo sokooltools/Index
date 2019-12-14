@@ -1,0 +1,98 @@
+﻿[LAUNCH COMMAND EDITOR]
+
+Loading individual components... (Please wait ~ this may take awhile).
+
+Security Manager                         3.5.14.0
+RecipeManagement Object                  3.5.14.20
+Device Ethercat                          3.5.14.40
+Visualization editor                     3.5.14.20
+Logging Component                        3.5.14.0
+Online Manager                           3.5.14.40
+EmbeddedRuntimeExtension                 3.5.14.0
+Device Sercos3                           3.5.14.10
+Documentation Export                     3.5.14.30
+Device Communication Editor              3.5.14.30
+Device Editor J1939                      3.5.14.0
+Application Object                       3.5.14.0
+Trend Recording Objects                  3.5.14.0
+Device Modbus TCP Slave                  3.5.14.0
+Image pool                               3.5.14.10
+Device Object                            3.5.14.30
+Online Expression Interpreter            3.5.14.0
+Visualization Styles                     3.5.14.0
+Target Settings                          3.5.14.0
+PAM Branding Plugin                      1.5.0.0
+Device NetX                              3.5.14.0
+Alarm Configuration Objects              3.5.14.0
+Object Manager Utilities                 3.5.14.0
+Data Sources ApplicationV3 Provider      3.5.14.10
+TaskConfig Editor                        3.5.14.0
+Device CANBus Local Device               3.5.14.10
+Usage Analysis                           3.5.14.0
+CSourceCodeObject                        3.5.14.0
+Usage Analysis UI                        3.5.14.0
+Language Model Manager Legacy            3.5.14.0
+Project Localization                     3.5.14.0
+SoftMotion Plug-In                       4.6.0.0
+Visu Generated Code                      3.5.14.0
+CODESYS Frame                            3.5.14.40
+Object Manager                           3.5.14.20
+Online Commands                          3.5.14.40
+Static Analysis Manager                  3.5.14.10
+Repository Elements Resolver             3.5.14.40
+RecipeManagement Editor                  3.5.14.10
+Environment                              3.5.14.0
+Device Profinet IO                       3.5.14.30
+Cam Implementation Object                4.6.0.0
+Library Manager Object                   3.5.14.0
+Redundancy Editor                        3.5.14.0
+Unit Conversion Object                   3.5.14.0
+Refactoring                              3.5.14.0
+Default Navigators                       3.5.14.0
+Device CIP                               3.5.14.20
+CNC Editor                               4.6.0.0
+Target Settings Documentation Export     3.5.14.0
+Device Modbus                            3.5.14.0
+User Management                          3.5.14.0
+Device Profibus Slave                    3.5.14.0
+Task Editor                              3.5.14.10
+Message Storage                          3.5.14.0
+Package Management                       3.5.14.10
+DataSource Object                        3.5.14.0
+Text Editor Basics                       3.5.14.0
+Language Model Utilities                 3.5.14.0
+Breakpoints                              3.5.14.10
+Data Sources Objects                     3.5.14.0
+Simulation                               3.5.14.0
+Visualization Paint Commands             3.5.14.0
+Device CANbus                            3.5.14.0
+File Commands                            3.5.14.40
+Version Compatibility Manager            3.5.14.0
+Bookmarks                                3.5.14.40
+Option Storage                           3.5.14.0
+Visualization object                     3.5.14.40
+Navigator Control                        3.5.14.0
+TaskConfig Object                        3.5.14.0
+Device Profibus DP                       3.5.14.0
+Visualelement Repository                 3.5.14.0
+AxisGroup Editor                         4.6.0.0
+Device Scan                              3.5.14.0
+Web Browser Integration                  3.5.14.0
+Visualization element                    3.5.14.40
+Text lists for multi language support    3.5.14.10
+Device SoftMotion                        4.6.0.0
+Network List Object                      3.5.14.10
+Engine                                   3.5.14.10
+PAM Developer Plugin                     1.5.0.0
+Script Engine Plugin                     3.5.14.0
+PAM Simulation Plugin                    1.5.0.0
+Project Compare                          3.5.14.40
+Task Object                              3.5.14.0
+Application Composer                     3.5.14.10
+Language Model Manager                   3.5.14.40
+CoreDump                                 3.5.14.0
+Device Repository                        3.5.14.0
+Library Manager Editor                   3.5.14.10
+Device IOLink                            3.5.14.0
+AxisGroup Object                         4.6.0.0
+Device Modbus Serial Slave               3.5.14.0

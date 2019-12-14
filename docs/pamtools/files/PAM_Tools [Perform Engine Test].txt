@@ -1,0 +1,1405 @@
+﻿[SYSTEM INSTANCES ENGINE TEST]
+
+
+Categories [49]
+-------------------------------------+--------------------------------------
+Category Guid                        | Name
+-------------------------------------+--------------------------------------
+bfd25178-601a-4c58-9309-2da9e11c70e3 | Alarm configuration
+ca50b792-d182-424a-a638-e7de46cd202c | Bookmarks
+e35de37d-ba0a-4096-bd8d-77e39cdf85bc | Breakpoints
+17416da3-1630-4ab1-b220-0325594825f3 | Browse Project
+414200ce-c35b-4217-93a1-2d86f73732b0 | Build
+4ebc6691-b26b-4788-97ab-6ef6327744d3 | C Integration
+d5742efc-f5e7-4afa-80aa-70f0d0946949 | Cam
+f5614d69-b692-4b91-ba8b-f64121dda81c | CFC
+0e4fe93e-ceda-46d8-abe8-4cfa20d57ec5 | Clipboard
+23226e40-e990-44dc-a09f-0c18732e9f6b | CNC
+42645d08-79c8-4c26-8194-d34a74605945 | Composer
+ae822353-0192-4008-bef3-8cf9031d41dc | Core Dump
+753efa0c-dbb9-4398-ba3a-d87152304d83 | Data Sources
+033a8621-611f-4ddb-a98e-6979055a41f1 | Declaration
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | Device Communication
+61aca6d6-f298-47be-972e-99601e7e9410 | Devices
+36eeca66-590c-46d1-a8af-354162cbd2ec | Documentation
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | FBD/LD/IL
+933fd0d8-81ea-4955-b480-24146f7ddd40 | File
+d805d57c-8b85-4d83-9437-bcc81c4dfca3 | Find/Replace
+82cbba3f-6998-4468-bd65-97e38f6006fa | GVL Commands
+ab91ad5b-a221-457b-b0a7-04dec62342cb | Help
+1c2e9f16-9d60-4b9b-b468-49a44156482e | Image Pool
+5d307819-752a-4ea4-bcac-d96d23491133 | Installation
+ad0b4c59-2bdc-4c59-af24-0347972cc4e8 | Library Manager
+6d26a0cc-3bfd-4dc8-9df0-7617b5fe4001 | Message View
+02abb186-7154-49dd-9b61-6357ac0d60ee | Objects
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | Online
+76e0174b-ce4e-4c6c-8779-5dcb5e11bdc5 | PAM Developer
+a5af936c-aeb4-4467-ad07-a8f333e08490 | Persistent variables
+1ad19a5c-cc4a-400a-ba50-29328b8eefb8 | Preferences
+21ed0fee-175d-48ac-afb4-18a6b1fd884f | Print
+2a491184-c7c5-4794-8e34-f2c1642fca4c | Project Localization
+737b5cab-ca01-49b1-b766-1c41d35645df | Recipe commands
+9b02afe2-8120-4067-8d26-04a648a1e608 | Redundancy commands
+b0461969-9735-498f-b05d-4520385bede5 | Refactoring
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | ScriptEngine Commands
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | SFC
+ef2c3a50-5ba7-4f7d-a0e1-e702df97c610 | Smart Coding
+b8586cd8-c056-4b29-98bd-7ccc6ad80521 | Static Analysis
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | Text Editor
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | Text List
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | Trace
+5b8b9130-d935-4c5b-a7b8-c2c0a10ffd52 | Undo/Redo
+ec6d0a8d-67ec-4fe5-bf8a-2e1d83be1847 | User Management
+7550cc92-8a35-4635-a6a8-7b1882215928 | View 
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | Visual Commands
+9238ba34-691e-47fa-ab85-9fc5919e74f1 | Visualization Manager
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | Window
+
+
+Commands [743]
+-------------------------------------+--------------------------------------+------------------------------------------------------------
+Category Guid                        | Command Guid                         | Name
+-------------------------------------+--------------------------------------+------------------------------------------------------------
+737b5cab-ca01-49b1-b766-1c41d35645df | 2cb3fd15-500c-4a2a-b018-f6c4ee04ab94 | Update Recipe GUIDs
+61aca6d6-f298-47be-972e-99601e7e9410 | 4f4611ee-4a7f-4d83-b59b-ad0469b2e32b | Generate EtherCAT XML
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 782e71ea-2b8d-400e-a630-404a21fc699b | Replace old trace elements by new ones for all visualizations of project
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 3ac8548f-0329-415b-a538-f3ae25496ebf | Replace old trace elements by new ones
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | df2eb79b-29da-4c1c-84af-cc6d606890cc | Background
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 04f25b75-8ebf-41f2-86b5-8a7b4153c1d2 | Select All
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 85a0df4a-d8eb-4790-8f05-70b0b54458ed | Select None
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | c2b51fc7-2f6a-4035-9e17-15a524fe49c0 | Align Left
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 55c24226-d2d4-440f-a29a-17fec9cfc21d | Align Right
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 66bca50b-1c93-4879-9832-b975e60d7742 | Align Horizontal Center
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | bd93da1c-7d70-46c1-be3c-d48071d3d6a2 | Align Top
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | bde710de-7a41-45a7-b4d5-082472669f11 | Align Bottom
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | c5f3a3e1-0cb7-4410-acc2-b823d593f198 | Align Vertical Center
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 55ca4c71-6007-4fae-ac3d-7fbb8884f9a3 | Make vertical spacing equal
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 5c240f3d-b7b9-44e8-9c77-b52385d1fc9e | Make horizontal spacing equal
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 0346538f-3106-42fa-b8f0-b0277244a346 | Increase horizontal spacing
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 6ee794bf-fb33-47ee-a62e-206dd85e5992 | Decrease horizontal spacing
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | f91bb024-d4c8-49af-8174-d61dfbb3fc0d | Remove horizontal spacing
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 8d2938fa-9778-4534-ba80-625f5025f330 | Increase vertical spacing
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 4d512295-a029-4280-8a6a-631fcb039ec2 | Decrease vertical spacing
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 9cfbb0ff-e581-455c-99db-60b82eeae22b | Remove vertical spacing
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | c48e34a3-bcae-44e0-9241-1289b50c587b | Make same width
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | dd45c127-14d2-47e3-90ec-d0ffb009a6f5 | Make same heigth
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 04afcb66-352f-495e-83b4-bed29eeb4ecf | Make same size
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | dec2e780-98e8-4f46-9bdc-d02b70de060e | Size to grid
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 85b7c280-5694-4dcb-919e-04d29148d982 | Bring to Front
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 6332a20e-28fe-4a3b-9034-85d4916ce35f | Send to Back
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 88a3e153-32c6-4cf6-bc37-ec58877a4852 | Bring One to Front
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 83c320b9-49ca-4fbc-846a-1f685656c6ae | Send One to Back
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | db667872-2795-444c-9846-2b4e579026c4 | Add Visualelement
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 37463fcb-a66a-4c0e-b7d6-409ca3093de0 | Interface Editor
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 5417f0ca-4f99-40ee-976f-f065b5b4e5e3 | Hotkeys Editor
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 929e7f56-d41d-4b3b-a6c3-d21507aace8b | Visual Element List Editor
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | c48013da-64ff-4095-847c-ceb603e76efd | Merge Languagemodel in Visualizations
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 21cf650f-3a94-4390-9953-024d662930da | Trim visual element texts
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 0042d1d1-ef6f-42f2-840d-baf6bd55545f | Frame Selection 
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | b26c72b9-1aa8-4882-a43b-cae565bb58db | TODO: Set Visualobject-Guid
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 643cf6b6-2bc2-4b14-a68a-8a8d88dfe414 | TODO: Update Languagemodel
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 1456daa8-d2c9-4b3d-96c6-5aae44216c4b | TODO: Visualization stress
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 9ef5e7a1-8c81-456e-966d-73dd73379102 | Update The Toolbox
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 219bb226-08d1-428d-95ce-fc83379c8839 | Update Frame Parameters in <None>
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 071b20a3-cd40-446d-896d-857833e0e46c | Update all Frame Parameters
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 42bea518-f57d-4e91-9d13-60e3f161cd70 | Group
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | cdb9d5f2-91f6-4e67-b031-a27f5d6abc7e | Ungroup
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | e4c98a2e-d47a-4e78-9fc5-3e63abfac7ff | Activate keyboard usage
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 9b42b33d-28dc-4634-b160-ed979d93ad43 | Remove not supported visu light properties
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 0cadca12-2cbe-435d-bb5a-51e7bd41abee | Edit trend recording
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 7cf1acce-5a50-479b-8c25-8c1e2e1088fa | Configure display settings of trend...
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 543524b5-7950-4c6f-9589-e5913ae3d403 | Insert elements for controlling the trend...
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | c2737c84-cead-4248-9229-7325cbc9141e | Configure trace...
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | f2cd205f-eb42-4261-a439-1ea69934332a | Insert elements for controlling trace...
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 31468817-3cf4-4002-8383-a935452d6a05 | Insert elements for acknowledging alarms...
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | c4ad8f39-d56b-401c-a801-6af1b2293254 | Insert elements for scrolling alarms...
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 984b26ee-e427-4c2f-836f-32a02f9a95e7 | Multiply visu element
+17416da3-1630-4ab1-b220-0325594825f3 | d19a9182-fc62-4ea5-bd01-cad58e092281 | Go To Definition
+17416da3-1630-4ab1-b220-0325594825f3 | 017b821e-e365-4bb6-9585-e45ba4d33dba | Go To Instance
+17416da3-1630-4ab1-b220-0325594825f3 | ba061b2b-1f0a-40c8-88bf-f139afdc3191 | Go To Reference
+61aca6d6-f298-47be-972e-99601e7e9410 | 29c6da36-26ad-4802-a4da-a5ef6bc059a2 | Generate  Sercos SCI xml
+033a8621-611f-4ddb-a98e-6979055a41f1 | 7dbc3c49-db16-4208-91d5-8c4aa3b20ac2 | Insert
+033a8621-611f-4ddb-a98e-6979055a41f1 | 4cbeebb2-181f-40eb-83ee-4073f5323fa1 | Move up
+033a8621-611f-4ddb-a98e-6979055a41f1 | 77d89f0d-5e4e-49b7-af9a-82140f4b0055 | Move down
+033a8621-611f-4ddb-a98e-6979055a41f1 | b40d9966-fab5-4b1f-9f87-087d8fcac68c | Edit Declaration Header...
+02abb186-7154-49dd-9b61-6357ac0d60ee | b1550f09-29a6-4547-b460-f5619f66b82c | Export PLCopenXML...
+02abb186-7154-49dd-9b61-6357ac0d60ee | 9d207f52-78c1-4325-9e6a-1ba7cef5c42a | Import PLCopenXML...
+ad0b4c59-2bdc-4c59-af24-0347972cc4e8 | 568fd0a6-6c90-470e-a086-31140c3462e5 | Doc Export
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | 6245bbb6-d3ff-447d-a4ac-f4fc9c2b0b64 | Delete selected Device
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | 284b1a83-0ed5-48ba-9b3d-12d1616d2f5d | Edit Gateway...
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | 6fe816a8-5b43-48b0-9020-5061d0a97647 | Add Gateway...
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | 4879aa57-2806-4e89-b881-2a9a021a0e8c | Add Device...
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | 35628516-e52e-47c3-a189-cb21fd417380 | Scan for device by name
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | a7b4adcf-98fe-4f29-aacd-f23422cde222 | Scan for device by address
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | 7393b1f2-ee94-46ae-b58f-d93a24c2b847 | Scan for Device by IP Address
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | a101e9ea-181f-4f34-b417-59e36089bf09 | Change Device Name...
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | cd05dc11-af96-4815-b6bc-ae2739f9be9f | Configure the local Gateway...
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | ddee7c46-285a-447d-a1f2-7957e324dea5 | Scan Network
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | 9f63b399-3ea1-4e38-afc2-a7b042bc29df | Set Active Path
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | 03178cc9-c563-4066-9d26-3f374adbbae4 | Remove applications from device
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | f6818f3a-4bb9-43e5-98b9-f122ee191717 | Remove application from device
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | a3e5a0d0-32d6-49de-8823-2aec8e7f1a24 | Send echo service...
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | 3dcff463-8241-4096-9a2c-4447417832e9 | Add configuration setting...
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | b65bc14d-f685-44c4-8830-c59036ea12e3 | Add sub level interface...
+35b7bdbb-0cde-4d4a-a81b-09a7cb73d0a7 | 4ce6d9ee-fa9f-4674-885f-0b095c6ad30c | Add top level interface...
+933fd0d8-81ea-4955-b480-24146f7ddd40 | 4581a3ae-8888-4afa-8c65-4db81cb66597 | Project Information...
+1c2e9f16-9d60-4b9b-b468-49a44156482e | 19a6b56e-424a-40bf-a954-0e3da6ae917e | Insert Image
+61aca6d6-f298-47be-972e-99601e7e9410 | 99c26731-71f6-42cd-8184-434991a5bbc2 | Insert Device...
+61aca6d6-f298-47be-972e-99601e7e9410 | b3ffc7be-394a-4e9c-8e85-2fe445849ef6 | Add Device...
+61aca6d6-f298-47be-972e-99601e7e9410 | 361c88a2-559e-4893-9fc5-c2fc635dcbc4 | Update Device...
+61aca6d6-f298-47be-972e-99601e7e9410 | 3c9bacd6-cc7d-4ae7-90a6-d35fe7685028 | Plug Device...
+61aca6d6-f298-47be-972e-99601e7e9410 | 53bb412d-8007-4439-9af9-5708da68aa48 | Disable Device
+61aca6d6-f298-47be-972e-99601e7e9410 | e898828e-47a5-4e5c-bc0f-4008ff1999eb | Export mappings to CSV...
+61aca6d6-f298-47be-972e-99601e7e9410 | 6aa1fb55-612d-4295-af34-77ffd904fa44 | Import mappings from CSV...
+61aca6d6-f298-47be-972e-99601e7e9410 | e4e9aa66-6467-45be-a112-9086f990f4bc | Online Config Mode...
+61aca6d6-f298-47be-972e-99601e7e9410 | f34abcf8-4944-41fc-a57e-d9a5efc1d00e | Read PLC parameter file to configuration
+61aca6d6-f298-47be-972e-99601e7e9410 | f78aa927-46c8-46a5-8925-776cc25877ff | Export device...
+5d307819-752a-4ea4-bcac-d96d23491133 | 90fc44e5-75a1-474f-9385-e829baab7b53 | Visualization Style Repository...
+ab91ad5b-a221-457b-b0a7-04dec62342cb | a4c9daaa-eda6-4faf-841c-ec3fc62c9c48 | PSD Product Page
+ab91ad5b-a221-457b-b0a7-04dec62342cb | f247deac-4d8a-4ae0-bca0-93f38092cefe | PAC Support Page
+ab91ad5b-a221-457b-b0a7-04dec62342cb | b06fdbd6-0197-4c42-b288-9cf1c8e4922b | PSD Support Page
+ab91ad5b-a221-457b-b0a7-04dec62342cb | 62340d3f-a6c1-4e77-9d84-30826240eec0 | PAC Online Help
+ab91ad5b-a221-457b-b0a7-04dec62342cb | 9235211c-72b2-4b7a-8763-51881ff7b14d | PAC Online FAQ
+107b6c5d-22b2-46ea-8932-ea5c5f4080cb | 06f8fa6a-fd4c-4c7e-a3f5-513c191efbcb | Feedback
+ef2c3a50-5ba7-4f7d-a0e1-e702df97c610 | 1c74f00c-6a9b-47b9-99be-e74b1d767545 | Input Assistant...
+4ebc6691-b26b-4788-97ab-6ef6327744d3 | 3a4e06f2-24eb-46dc-ab48-245ff170eb93 | Open in IDE
+4ebc6691-b26b-4788-97ab-6ef6327744d3 | 519feeb1-8958-4a77-81ed-450b3e3f2362 | Create IEC interface
+4ebc6691-b26b-4788-97ab-6ef6327744d3 | b10a9cd9-93a0-4a61-86ad-e80a7a7705b5 | Create stub implementation in C
+4ebc6691-b26b-4788-97ab-6ef6327744d3 | dc2ce945-6253-4921-9ca6-f74218e6fd40 | Export C sources
+4ebc6691-b26b-4788-97ab-6ef6327744d3 | 640243dd-12d4-4ea0-afc7-5ea22287ee52 | Update C sources
+ab91ad5b-a221-457b-b0a7-04dec62342cb | 3dc60ccd-b0c3-4dc5-baf2-84aa38da12c9 | Display Usage Analysis Data...
+7550cc92-8a35-4635-a6a8-7b1882215928 | ac4e98fe-8ff9-4055-8002-93a451800bac | Messages
+6d26a0cc-3bfd-4dc8-9df0-7617b5fe4001 | 15d4c1ab-a1f4-44f4-bb71-a46b8b7355db | Go To Source Position
+6d26a0cc-3bfd-4dc8-9df0-7617b5fe4001 | 126cbd4c-05da-4ac8-94e8-8b6f8bff23a7 | Next Message
+6d26a0cc-3bfd-4dc8-9df0-7617b5fe4001 | 213cee13-e457-468b-9313-4279fc8e7134 | Previous Message
+7550cc92-8a35-4635-a6a8-7b1882215928 | c68c34e5-e785-4a83-8c66-2d1ebc96b6e9 | Show Message View (from status bar)
+2a491184-c7c5-4794-8e34-f2c1642fca4c | a8e7e21b-fb2b-41fb-954e-f52a8347971a | Create Localization Template...
+2a491184-c7c5-4794-8e34-f2c1642fca4c | 05446ccf-ca2d-4812-8901-12c42b85b7f9 | Localize Project...
+2a491184-c7c5-4794-8e34-f2c1642fca4c | d026b784-b5cb-48ff-8df0-7aa7c396b318 | Toggle Localization
+2a491184-c7c5-4794-8e34-f2c1642fca4c | 7c7cff1c-730f-4273-8cd2-ff3fe8d1d6c1 | Manage Localizations...
+7550cc92-8a35-4635-a6a8-7b1882215928 | 748e63e2-68e6-4364-b7dc-8c09a4891a15 | Properties...
+7550cc92-8a35-4635-a6a8-7b1882215928 | d156c692-3203-40a4-958b-fe14bd80edad | Full Screen
+1ad19a5c-cc4a-400a-ba50-29328b8eefb8 | 3e80809e-1bbe-4f49-8667-74991e16fe82 | Options...
+1ad19a5c-cc4a-400a-ba50-29328b8eefb8 | 98f9e1bd-125f-4590-96a9-24150e53c5bf | Customize...
+ab91ad5b-a221-457b-b0a7-04dec62342cb | ec181567-c559-445f-b629-77e6752d12da | About...
+ab91ad5b-a221-457b-b0a7-04dec62342cb | 96897abe-7708-40af-b691-002366d5cacf | CODESYS Homepage...
+ab91ad5b-a221-457b-b0a7-04dec62342cb | e44f7974-9393-45ed-8a51-8380331a4683 | Automation Alliance Homepage...
+ab91ad5b-a221-457b-b0a7-04dec62342cb | 4c49ab7e-91a6-46ff-8bdb-72662497d2b8 | Enter The Next Level...
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 6c40286f-cfb5-414f-b204-04a8cc91f403 | Close editor
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 7053192d-1cfa-40ad-b4b2-6e838c362b6a | Close all editors
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | e689224f-106c-4145-b788-b2f66ac66a20 | Close all editors but this
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 0172e873-4b9e-407e-8707-045498e24c3d | Close all editors of inactive applications
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 488224f9-d71a-47a6-8d7b-aa9116ab3b7a | Next Editor
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 5df425b5-cad5-4277-9613-fec44ae43f52 | Previous Editor
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 9561d563-8bf4-42f5-bcea-82dbab9f85fa | Windows...
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 7b061d57-120e-4897-b840-7e3251ec70a2 | Next Pane
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 1be534fc-2cba-43d3-a9a6-f925d9b6fe5c | Previous Pane
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 6123d86d-029c-402e-8a33-fc823e57d02b | New Horizontal Tab Group
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 53e779a9-4d53-4999-a7b8-e5a88a5a6b34 | New Vertical Tab Group
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 7fec924d-b521-4a4f-9d1a-07d23c774f33 | Float
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 09018b75-686e-4371-bf94-a4c6939fdff5 | Dock
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 51c48cf0-0e09-4533-aa10-502150eb4d9d | Auto Hide
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 2da43148-03ab-46bc-a4df-48dcc4c838f9 | 1   (Window 1)
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 5888f929-8a48-465a-89ac-c30e3d3aa095 | 2   (Window 2)
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 42c24446-d49a-4333-90fd-035bbc0e07ae | 3   (Window 3)
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 82c8af46-39b0-454d-a717-ca5225442809 | 4   (Window 4)
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | fc7d0415-bfd8-4a33-8d27-b1b132836f09 | 5   (Window 5)
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | ec945740-b20b-42c7-bb5a-5fc6850df60f | 6   (Window 6)
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 8581325c-3240-4c5e-9368-ae0b18dc6a4f | 7   (Window 7)
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | e2067782-932d-4db2-8c06-c2283edfd1ee | 8   (Window 8)
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | cfd7252f-7a73-4980-a75d-1cf80d9889f4 | 9   (Window 9)
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | b3b523d5-cc57-45a4-ac2d-d1d2d640f1d9 | 10   (Window 10)
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 1ce18f41-c205-4cb3-a28d-0b8fc7a794ad | Reset Window Layout
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 40456f7f-b524-4d0b-a554-44504113965c | Select Object in Navigator
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | 64f5ee05-fa53-4dd3-9f90-70b813442f4c | Select Parent Object in Navigator
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | edc5891d-22c6-460f-9d58-6f7d30d5f928 | Toggle First Pane
+f5e1f8e5-8eb7-481a-aa37-562f7bc9c464 | a43ebcfc-17a2-40c1-82b5-0cfeec258f4e | Toggle Second Pane
+ab91ad5b-a221-457b-b0a7-04dec62342cb | 10bac8f5-2ad9-4ebb-b525-93003b1a4f40 | Show all commands
+1ad19a5c-cc4a-400a-ba50-29328b8eefb8 | 73c3e5ee-5d7e-425f-880d-04934c7cb323 | Import and Export Options...
+02abb186-7154-49dd-9b61-6357ac0d60ee | 72a2f7c2-a650-4feb-ada4-a8a9beff1291 | Edit Object (Offline)
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | ede62c94-9e06-4d0e-b713-01c9c66351eb | File download
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | b099ed07-d6d3-4e2b-aed2-bf15b59c2f35 | File upload
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | f112e292-5944-49c0-bf7f-e67658573eb9 | Connect to []
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 99ff1305-c130-43dc-9fe6-ac5ecb436359 | Disconnect from []
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | cc9ad1e5-fe78-4dc6-a4be-b1991bf068ea | Download
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | fe09b175-5f71-413a-b5ed-253520184b64 | Multiple Download...
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 515e05ec-aece-47d7-98a6-5c582ba392fb | Simulation
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | b74a8b9c-0335-4303-a2cc-27034ba12fb6 | Simulation
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | f6b049e7-6c27-4736-9a45-4cc93c3e8c9d | Online Change
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | c6fccd24-b0db-4eab-a4b4-c9068340fac2 | Online Change
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | c7a2dcea-d175-45b1-a85b-4d589bcdbcbe | Login
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | d796bf41-64f2-400d-bff7-6ac496ba2ffc | Login
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | cf46872e-7cf6-484e-acee-f8b9da763449 | Create boot application
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | ad6955d2-2713-4828-9d6c-1c0cf20abdbe | Logout
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | f3d51d16-1cd3-4c92-9d92-612482fe3f55 | Login all applications
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | a7d25c5b-4506-4263-941b-f28ba2740f92 | Logout all applications
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | da5d1e17-d842-422d-9aaf-71096ce816ab | Start all applications
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 1fbe6d20-c5c1-4dc1-80a6-de5b384f0357 | Stop all applications
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | ec6352e2-715a-4349-8004-75b09fd3adc0 | Reset warm all applications
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | e43329ca-ce4d-4368-b345-733b89fa4557 | Reset cold all applications
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | b534bc77-e731-47a3-8a5e-93c57ed3e2a2 | Start
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | a8c25d44-4b83-4d05-8bcb-574e64eae4a1 | Start
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 285207b7-3503-4338-9c8d-b73c42d99ee3 | Single Cycle
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | fd2ae898-05a5-478c-9b31-20c0c112cab1 | Stop
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | d8ee4c28-e09b-4ace-ad55-600a8a3c906f | Stop
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | d887b9d2-d1ed-4dd9-9aba-dd796ec80b4b | Reset warm
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | c25ccb8f-a743-4cbb-9ff9-697838f49e62 | Reset cold
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | ecc6fbeb-d37f-4171-887b-c07635bb6302 | Reset origin
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | ec20a2f0-fa6f-488d-8b1b-3fe5fafac6b5 | Reset origin device [<none>]
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | e7ee1ac1-2e71-4465-aa6b-3a808cd4d78d | Release Forcelist
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 87cf633b-c70d-4e11-b40a-61bd7008fc78 | Logout
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 5f5ed4ad-72e1-4d7c-b638-2dc19ecfa5bc | Binary
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 6a2e1650-7459-4a0f-8e38-45ee2e80cd95 | Decimal
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | b8b0b06c-daf4-4fa8-9ec2-5826bd8e15c6 | Hexadecimal
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 975591c7-7bc5-46ee-9b49-2940d6c13003 | Write values
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | dcea4a16-b0ea-476b-9e44-1eb7569ca360 | Write values to all online applications
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | dcda7402-d805-460d-ab87-48c4a3d31c37 | Force values
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 92bd0446-3916-48cc-a50b-9e445ea4f21d | Force all values [selected application]
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | e0e61d96-c56d-4129-a041-8a9768426da7 | Write all values [selected application]
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | fcd3d68c-509a-4c36-8925-d9422c68c437 | Unforce all values [selected application]
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 4344c8cf-1db3-4bf8-a609-6ac6f7c6aeaa | Force values to all online applications
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | e2427937-56d2-4699-a2e8-1007d9620ce4 | Unforce values 
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 311e81c3-c31a-48f9-b48b-0f6b6ea99713 | Unforce all values on all online applications
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 3e908575-08b7-4d45-a7e0-3a74a456c403 | Toggle Flow Control mode
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 63406a8b-dd43-4fb3-8f16-c270c15f5558 | Stop execution on handled exceptions
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | ab1f8435-ce2e-4a75-af9e-26e3dfbd9e2c | Logoff current device user
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 0de2be1f-b649-4b00-a3e9-aa1ac6209806 | Add device user...
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 81fc1dbd-081a-4027-ae70-182c55192798 | Remove device user...
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | b2d833cc-c429-4305-8a62-4effeea604e5 | Change Password Device User...
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | f1957746-e8f9-43d4-91f0-5edd7c57e38e | Debug
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | c39db5b0-9e3e-463c-9fbe-ea760895a195 | Locked
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 12434183-b7b6-4e9b-b754-81e2c13b2dd2 | Operational
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | b5b39990-da62-4568-9c64-d27a0c89680f | Wink
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | ec0de984-12e7-462c-b2f4-1dd7c5ac7537 | Delete application from device
+00000000-0000-0000-0000-000000000000 | 6ff9ffdb-8572-4b73-96f3-9f9404d11bcf | Show details of offline code changes
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 42545c70-5715-41de-b98d-cc3fec79f536 | Source download to connected device
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 9904594c-7a74-4da7-9efb-1918cad98b3f | Source download...
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 5637cd44-cb3d-4f7c-ba9a-80e81482cd7b | Source upload...
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | d0b4ff00-397f-48ac-82b6-2c2fd4b63579 | Open log page...
+b8586cd8-c056-4b29-98bd-7ccc6ad80521 | ae97b6f4-dc9a-480e-aac8-6061e684f3c0 | Run static analysis
+b8586cd8-c056-4b29-98bd-7ccc6ad80521 | 4a787366-a156-403a-803c-b2826128b709 | View standard metrics
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | e3e55eeb-4706-4834-a075-4bc2188c7313 | Update symbol configuration
+5d307819-752a-4ea4-bcac-d96d23491133 | 7d20f8e2-a557-47ff-abab-70d417887ac3 | Package Manager...
+737b5cab-ca01-49b1-b766-1c41d35645df | 237b4c62-b131-4961-b2dc-5574cd16584d | Add a new recipe
+737b5cab-ca01-49b1-b766-1c41d35645df | 0be2aee7-875a-47b9-858f-62611d759911 | Remove recipe
+737b5cab-ca01-49b1-b766-1c41d35645df | bfe30ca3-69e4-4181-809e-b2b584628b51 | Read Recipe
+737b5cab-ca01-49b1-b766-1c41d35645df | 2c0ea133-3bf5-459c-a209-b227ea2d0675 | Write Recipe
+737b5cab-ca01-49b1-b766-1c41d35645df | 6cc1e0eb-87fc-4b01-a7b5-504b10ba4145 | Load Recipe...
+737b5cab-ca01-49b1-b766-1c41d35645df | 11513c0b-4303-46ac-aa82-4d1fc0e6423a | Save Recipe...
+737b5cab-ca01-49b1-b766-1c41d35645df | 8daee6ac-3dff-452d-9601-c8f369702979 | Load and write Recipe...
+737b5cab-ca01-49b1-b766-1c41d35645df | 370d5925-eb68-4491-9822-74c6fc685be4 | Read and save Recipe ...
+737b5cab-ca01-49b1-b766-1c41d35645df | f3b0f291-8fb5-4790-b008-5fbaaf7049eb | Insert Variable
+737b5cab-ca01-49b1-b766-1c41d35645df | 381acf35-b8ec-4fae-9cb7-b2346d0cb042 | Add to recipe definition
+737b5cab-ca01-49b1-b766-1c41d35645df | d64adc74-f199-4eb8-b126-c4d453c7d673 | Upload recipes from device
+737b5cab-ca01-49b1-b766-1c41d35645df | 714fa2c5-b677-45b2-85d8-3144aba5d531 | Update structured variables
+737b5cab-ca01-49b1-b766-1c41d35645df | 09340be0-b3f1-4215-948f-ea57ae40298c | Add child
+737b5cab-ca01-49b1-b766-1c41d35645df | ffab8ae9-5702-4169-822e-a5045f3b4e0a | Add sibling
+737b5cab-ca01-49b1-b766-1c41d35645df | cd43ae46-1b40-4df0-a033-231619868692 | Add a variable
+737b5cab-ca01-49b1-b766-1c41d35645df | ddf7742b-f688-48f5-99c6-3bc539440733 | Remove variables
+61aca6d6-f298-47be-972e-99601e7e9410 | 18e1ec9d-b571-4cfb-9e3d-d94dd05b3f7f | Sync Config
+9b02afe2-8120-4067-8d26-04a648a1e608 | 98f771a1-2f58-4923-afcb-f385ad179726 | Write settings
+9b02afe2-8120-4067-8d26-04a648a1e608 | 60075872-eaaf-4a8a-81ea-fd6b07c92f3d | Read settings
+9b02afe2-8120-4067-8d26-04a648a1e608 | f650dc12-df2f-407a-bca5-52c2ac549c40 | Switch to passive
+9b02afe2-8120-4067-8d26-04a648a1e608 | 942f2075-e08c-4de6-b652-04964787131f | Switch to simulation
+9b02afe2-8120-4067-8d26-04a648a1e608 | 9da0ad37-7598-445d-8f26-45e6452146dc | Synchronize
+9b02afe2-8120-4067-8d26-04a648a1e608 | 70680993-7873-4a54-a149-53ec0d3b1f06 | Switch to standalone
+9b02afe2-8120-4067-8d26-04a648a1e608 | 3ab9b46e-1191-43ef-8cb5-00c897c83bd2 | Switch to active
+9b02afe2-8120-4067-8d26-04a648a1e608 | a128faa3-7fd6-4de9-ab26-e034ff8474b9 | Set active path plc 2
+02abb186-7154-49dd-9b61-6357ac0d60ee | c03a1a6f-d66e-4bca-8866-e281f901cce6 | Add Object...
+02abb186-7154-49dd-9b61-6357ac0d60ee | a960311a-5fd0-4db6-8368-bd1caf82e967 | Add Object
+02abb186-7154-49dd-9b61-6357ac0d60ee | 42f6acb9-bd6e-42e7-94bb-6e2a03973b83 | Edit Object
+02abb186-7154-49dd-9b61-6357ac0d60ee | 27d7527d-cfe3-485a-83b4-fa64b7b7a29e | Edit Object With...
+02abb186-7154-49dd-9b61-6357ac0d60ee | 2b5ca59b-ba1d-457d-8f49-0016a3f0e4d7 | Export...
+02abb186-7154-49dd-9b61-6357ac0d60ee | 97f08523-ff6e-4c15-a0c3-c0084fc5fe55 | Import...
+02abb186-7154-49dd-9b61-6357ac0d60ee | 10d76368-2418-4935-b52e-4eea72cedbe8 | Import...
+02abb186-7154-49dd-9b61-6357ac0d60ee | 7e8c3a96-bbf1-441a-b6a2-aa0a08954a76 | Set Active Application
+42645d08-79c8-4c26-8194-d34a74605945 | 1a10a0d9-deee-4a5b-9460-8e7b8534bd44 | Add Step after
+42645d08-79c8-4c26-8194-d34a74605945 | 9732ea69-46ec-47a9-807e-c952d98426f6 | Set Reference
+42645d08-79c8-4c26-8194-d34a74605945 | 55f525eb-fa9b-402d-bbfb-47ce9394c46b | Show all References (Debug)
+42645d08-79c8-4c26-8194-d34a74605945 | ad75e779-432d-442f-92c5-43077c17c7d6 | Add Step after closed Subsequences
+42645d08-79c8-4c26-8194-d34a74605945 | 09b025b6-2bd0-4153-8f5b-affa3eda88fb | Add Comment
+42645d08-79c8-4c26-8194-d34a74605945 | 4df7182d-b5a8-46aa-9452-e43f8838ea3f | Set Jump Reference
+42645d08-79c8-4c26-8194-d34a74605945 | 4be620f9-7ed8-4b72-96a8-aa252c4c07a5 | Toggle Breakpoint
+42645d08-79c8-4c26-8194-d34a74605945 | 511263bb-d091-40aa-b85d-3e97d17e84b6 | Active Breakpoints to Next Step
+42645d08-79c8-4c26-8194-d34a74605945 | e4a50f87-08d7-45e5-ba05-d9b0800ae85e | Center View to Breakpoints
+b0461969-9735-498f-b05d-4520385bede5 | 569a419b-0526-4edf-a1fb-951c50a978a1 | Update Referenced Pins
+b0461969-9735-498f-b05d-4520385bede5 | 80a9336e-d2c1-4d25-b814-dc2fdaf9e53b | Reorder variables...
+b0461969-9735-498f-b05d-4520385bede5 | eea6d3f9-7b35-4843-8d5b-911b5e6d2dab | Rename ''...
+b0461969-9735-498f-b05d-4520385bede5 | fa5b07c7-638a-4b09-b56c-bd0f8d1d8741 | Remove ''...
+b0461969-9735-498f-b05d-4520385bede5 | 541c9eec-d74b-4cb7-b311-0093247ca835 | Add variable...
+02abb186-7154-49dd-9b61-6357ac0d60ee | 33a0dd76-f43a-4e2c-bbc6-113810643a0a | Implement interfaces...
+7550cc92-8a35-4635-a6a8-7b1882215928 | 92d4ebf6-b699-42ee-ac5e-3c533024eb69 | POUs
+7550cc92-8a35-4635-a6a8-7b1882215928 | 954125ec-3a22-4054-84fb-10609b9f1f5c | Devices
+7550cc92-8a35-4635-a6a8-7b1882215928 | 321f5799-b306-4556-b7b7-dca9429a0436 | Visualizations
+7550cc92-8a35-4635-a6a8-7b1882215928 | 36c3ebca-445e-4946-8011-026e62be9790 | Datasources
+7550cc92-8a35-4635-a6a8-7b1882215928 | b9dca5dc-1772-4d17-828e-ef23a5b53fc8 | HMI Features
+7550cc92-8a35-4635-a6a8-7b1882215928 | a37956b2-67c2-44fa-82b9-c062cddb36db | Programming
+7550cc92-8a35-4635-a6a8-7b1882215928 | 89fca65b-a68e-45e2-b53a-ea24d078d1d2 | HMI Perspective
+7550cc92-8a35-4635-a6a8-7b1882215928 | 76cbcb67-3dda-4b8b-9854-641d25f19ac4 | CODESYS Perspective
+7550cc92-8a35-4635-a6a8-7b1882215928 | cb65a30d-212c-4492-9881-4edbd0cc60bb | All applications list
+02abb186-7154-49dd-9b61-6357ac0d60ee | 10de7ed7-34fe-4ac3-97d1-97ed66e7874e | Add Folder...
+36eeca66-590c-46d1-a8af-354162cbd2ec | e8b67168-ae63-459e-93f4-deb66ce956ac | Target Settings Doc Export
+7550cc92-8a35-4635-a6a8-7b1882215928 | ca5b4f8a-6be8-4ed3-9494-e1d99e716c8b | Online Change Memory Reserve Settings
+7550cc92-8a35-4635-a6a8-7b1882215928 | eecbee66-648b-4e9c-a738-4e5c09ab7c50 | Watch 1
+7550cc92-8a35-4635-a6a8-7b1882215928 | 7cae844f-6685-43cb-9575-a7206be83f31 | Watch 2
+7550cc92-8a35-4635-a6a8-7b1882215928 | 325b3dcf-24ee-459c-ac41-f8bb1a158d23 | Watch 3
+7550cc92-8a35-4635-a6a8-7b1882215928 | 6bbe615c-8fe4-493f-87da-976a7461e568 | Watch 4
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 8ee117eb-a14c-48f2-aef6-e44c5b2a6931 | Add All Forces To Watchlist
+7550cc92-8a35-4635-a6a8-7b1882215928 | d2cc2ad7-fc8d-49a4-aeed-c8cf9f5a8ccf | Watch all Forces
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 0aacf5ae-1d29-4140-9922-144527cdb752 | Unforce and keep all selected values
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 2187ff0a-d565-452b-a410-c261bd0109ca | Unforce and restore all selected values 
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | 5728f0bb-f39a-4892-a23a-5ee1b76ae095 | Add Watch
+f5614d69-b692-4b91-ba8b-f64121dda81c | 2ab34d33-e8d6-48f6-85a0-22954b4efde9 | View Language Model...
+f5614d69-b692-4b91-ba8b-f64121dda81c | 6d149712-6c0a-4585-a2f4-12cd3e9f2b35 | Negate
+f5614d69-b692-4b91-ba8b-f64121dda81c | 67e38578-22ca-42a3-a6cd-de9d32b71362 | EN/ENO
+f5614d69-b692-4b91-ba8b-f64121dda81c | b67d035f-4f87-4e69-bcb8-ed7807df818d | None
+f5614d69-b692-4b91-ba8b-f64121dda81c | 818368cb-9be2-4fd4-b5c2-7b38820b304e | S (Set)
+f5614d69-b692-4b91-ba8b-f64121dda81c | ae8b8369-9a02-4114-b1dd-dc5d4f5fe820 | R (Reset)
+f5614d69-b692-4b91-ba8b-f64121dda81c | 4c60a44c-2aa9-477d-b20e-af08a6fd1eb5 | REF= (Reference Assignment)
+f5614d69-b692-4b91-ba8b-f64121dda81c | 9ceabf91-60be-4711-a0be-ce7e75a0fd4b | Move Down
+f5614d69-b692-4b91-ba8b-f64121dda81c | 780b7875-6e64-4843-8edc-8fce2808a6c5 | Move Up
+f5614d69-b692-4b91-ba8b-f64121dda81c | e10d8193-fce7-4685-a814-98845abd5655 | Send To Front
+f5614d69-b692-4b91-ba8b-f64121dda81c | ce0330c5-aca3-4d2c-92d6-19bf906fa145 | Send To Back
+f5614d69-b692-4b91-ba8b-f64121dda81c | 48ecdf88-05ec-4b1f-8c25-4259cbfdcd75 | Order By Data Flow
+f5614d69-b692-4b91-ba8b-f64121dda81c | 31a3f1e1-57d8-4c4c-8777-e78117f272df | Order By Topology
+f5614d69-b692-4b91-ba8b-f64121dda81c | ec69198b-62cc-4fc8-bf25-9d9b5fe0cf5e | Edit Parameters...
+f5614d69-b692-4b91-ba8b-f64121dda81c | e254a5b9-46b4-4e09-95d2-1cba49fb7929 | Reset Pins
+f5614d69-b692-4b91-ba8b-f64121dda81c | c812f0ee-5f4e-4de8-bbea-0c620eff4a96 | Remove Unused Pins
+f5614d69-b692-4b91-ba8b-f64121dda81c | dcf1cb68-c372-4898-afe5-abedc50ba9c8 | Set Execution Order...
+f5614d69-b692-4b91-ba8b-f64121dda81c | 8ba75516-d455-48d6-a26b-3007a11baf2b | Connect Selected Pins
+f5614d69-b692-4b91-ba8b-f64121dda81c | 607b5a49-16bf-4948-812d-33b24ccd20ea | Edit Worksheet...
+f5614d69-b692-4b91-ba8b-f64121dda81c | 26d06a2d-442e-42a1-af76-0343579319cc | Edit Page Size...
+f5614d69-b692-4b91-ba8b-f64121dda81c | 46ae2ab9-c159-427a-a903-99c241109a94 | Connection Mark
+f5614d69-b692-4b91-ba8b-f64121dda81c | 9ab88d68-4791-4f8b-92d3-d7252e4895f8 | Select Connected Pins
+f5614d69-b692-4b91-ba8b-f64121dda81c | 08ea4856-29fd-40ad-a1dd-090070662cf3 | Route All Connections
+f5614d69-b692-4b91-ba8b-f64121dda81c | af46eb34-b5d0-4226-a30a-cd4b08aad3ab | Create Control Point
+f5614d69-b692-4b91-ba8b-f64121dda81c | 28e7cac5-babe-4996-af04-ea8159a8c4c3 | Remove Control Point
+f5614d69-b692-4b91-ba8b-f64121dda81c | 4cf0815a-85e8-4a9c-aee6-fb7621c1eb83 | Clear Control Points
+f5614d69-b692-4b91-ba8b-f64121dda81c | edc96a5c-81ef-4c64-8808-7d879543a929 | Create group
+f5614d69-b692-4b91-ba8b-f64121dda81c | c162f204-c7e0-4e1c-bc04-95d7aab64d09 | Ungroup
+f5614d69-b692-4b91-ba8b-f64121dda81c | ffa7cb58-c0bc-4ac1-8d6a-6670891945b9 | Add Input Pin
+f5614d69-b692-4b91-ba8b-f64121dda81c | d308ab34-8d2b-4dfd-abf5-de7fc3da39b1 | Add Output Pin
+f5614d69-b692-4b91-ba8b-f64121dda81c | 89b3df8c-9456-4b60-a1dc-36eb3a1ae2ff | Unlock Connection
+f5614d69-b692-4b91-ba8b-f64121dda81c | 59be6273-9882-4656-b832-92a1f57bbfe1 | Save Prepared Parameters to Project
+f5614d69-b692-4b91-ba8b-f64121dda81c | 5ea86f85-21ab-427f-b927-654b649463ad | Prepare Box For Forcing
+f5614d69-b692-4b91-ba8b-f64121dda81c | 730a3273-d2f8-48a7-8fab-b2ff64d83e52 | Force Function Block Input...
+f5614d69-b692-4b91-ba8b-f64121dda81c | dd8275f0-be78-4432-81d9-54cd01e71b3a | Use Attributed Member As Input
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | f8dd345d-8324-432d-9243-5e4506bd20d2 | Reset trigger
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | 32f81dc9-4d2d-4059-aa2f-fa56e4a0e3ab | Start Trace
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | 33e0e114-0372-4ae2-b97f-2049c5f7b9e6 | Stop Trace
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | 1781907e-cf91-424e-a5b3-8a5b34a10194 | Download Trace
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | 296fd49a-40da-42d6-8a78-e37a440c4cc2 | Reset view
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | 16566b26-64e0-42d2-918a-fa565ec3429a | Autoscroll
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | abaaa310-da09-42b9-8cd7-5581d0e31c5f | AutoFit
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | fb328d82-b7c7-405f-b2ad-4bd1dfe3c8e3 | Convert to multi channel
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | 1caf4463-d319-486b-bd77-d55d051bc7f6 | Convert to single channel
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | f0762521-cc64-46a7-8af0-1badae2ac571 | Mouse Zooming
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | f9eb11a8-6afb-4b0c-b1df-163281879cd7 | Cursor
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | 28015cfa-91cb-47ad-9e91-22fad58bd53b | Save Trace...
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | 7169b8a8-aff7-42f4-a23d-b86de0bca6d8 | Load Trace...
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | 14b3a241-26e3-449f-95b7-c23a64508063 | Stretch
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | 83cf72a4-f49b-471d-b729-e5848575a8b3 | Compress
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | 9e374088-6236-44fc-b420-2597cc030bb8 | Upload Trace
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | 29a319fe-0fd4-4858-89f8-df002919ee6f | Online list ...
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | 863ff542-ae52-4596-aff3-3783f9d69685 | Add Variable
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | d704adf2-6117-406e-8841-7c553cb078d9 | Export symbolic trace config
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | aad586d7-8313-431d-a91c-052e5310b96f | Configuration
+935c8124-71b3-4956-ac90-0a9b2624dcb6 | 4b20a9fa-177b-4bc6-ba10-59ef28b9a7ca | Statistics
+ec6d0a8d-67ec-4fe5-bf8a-2e1d83be1847 | c0130d68-f78b-4e12-9c50-ac27371eea79 | User Logon...
+ec6d0a8d-67ec-4fe5-bf8a-2e1d83be1847 | aa65559b-3bcb-40b3-a6fe-871e3baa8191 | Change user
+ec6d0a8d-67ec-4fe5-bf8a-2e1d83be1847 | 70c28e64-65d9-498b-a80a-2f9ccbc09e5a | User Logoff
+ec6d0a8d-67ec-4fe5-bf8a-2e1d83be1847 | 7a979090-1138-4b26-aabc-9a10983d6b4d | Permissions...
+7550cc92-8a35-4635-a6a8-7b1882215928 | 61100c15-6780-423d-a699-4315387a91c7 | Memory
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | ebcbef0d-2e08-4112-a63c-0c45d30a0e14 | TODO: Update data source guids
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | 012502ca-abfb-41cb-90fa-ebd2dcad1813 | Overwrite Mode
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | dfbfd10a-9d9c-4aff-a296-e7d3bdf07193 | Go To Line...
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | c1e88c90-0294-491c-9e36-73710f679b18 | Insert File As Text...
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | e6e57377-ecd1-4991-a5f0-c835cfc526b8 | Make Uppercase
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | 74516663-f8b7-4c49-83e1-54bb800e8eec | Make Lowercase
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | 8199691f-d4b1-4de8-9d2a-9b10f2bb9bb5 | Go To Matching Bracket
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | 3879487e-90c3-4b9b-a3c6-086bade55040 | Select To Matching Bracket
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | 59b7c9f4-8d9b-404c-910c-866e372f6237 | View Whitespace
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | 59eecf81-1a83-40cb-b08a-6b135e1ece73 | View Indentation Guides
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | 047e2304-dd4f-4dae-a3f4-15ce8f817b63 | Expand All Folds
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | d72f221d-3ad3-4682-9f72-1ad877b1085c | Collapse All Folds
+7550cc92-8a35-4635-a6a8-7b1882215928 | f3812737-3d28-455f-81e0-f85fcd212aba | Security Screen
+7550cc92-8a35-4635-a6a8-7b1882215928 | 8008cd5a-234d-49f6-b2fc-9f6c5d6c87a7 | Breakpoints
+7550cc92-8a35-4635-a6a8-7b1882215928 | e4b1fa4f-62fd-4972-9242-43f6828a3ebb | Call Stack
+e35de37d-ba0a-4096-bd8d-77e39cdf85bc | 48764ee6-13fc-4fbb-9d39-a0acc26fbf41 | New Breakpoint...
+e35de37d-ba0a-4096-bd8d-77e39cdf85bc | a7189c5b-c8da-42c5-8e21-903286a5d471 | New Data Breakpoint...
+e35de37d-ba0a-4096-bd8d-77e39cdf85bc | 12289edb-4f13-400c-9e9d-35aa46946c51 | Step Into
+e35de37d-ba0a-4096-bd8d-77e39cdf85bc | 0e79e9b0-7516-456f-b201-c056a02c4876 | Step Over
+e35de37d-ba0a-4096-bd8d-77e39cdf85bc | d7690922-1594-4dfa-8260-8a14213cf7f2 | Set next Statement
+e35de37d-ba0a-4096-bd8d-77e39cdf85bc | 3040e1af-a3d0-444f-8905-db5643f7bfbc | Run to Cursor
+e35de37d-ba0a-4096-bd8d-77e39cdf85bc | 417b5c5c-2bb4-4eb6-b19d-4513281bacb0 | Step Out
+e35de37d-ba0a-4096-bd8d-77e39cdf85bc | 8de52f68-1388-4fc5-b2e1-d640c4c5a3d6 | Edit Breakpoint...
+e35de37d-ba0a-4096-bd8d-77e39cdf85bc | 54cbcd5f-8edb-4261-90c2-9d3b83758b58 | Enable Breakpoint
+e35de37d-ba0a-4096-bd8d-77e39cdf85bc | 79f0a788-5e37-4f60-8c12-a320b09194c1 | Disable Breakpoint
+e35de37d-ba0a-4096-bd8d-77e39cdf85bc | 16992649-ce8c-42ab-8650-1fc941f95afe | Toggle Breakpoint
+e35de37d-ba0a-4096-bd8d-77e39cdf85bc | 0d232328-c966-41a2-9869-b86ed063b225 | Show next Statement
+ef2c3a50-5ba7-4f7d-a0e1-e702df97c610 | a0d49995-418d-4935-bf03-7803e7d1ec06 | Auto Declare...
+933fd0d8-81ea-4955-b480-24146f7ddd40 | 142063ff-039a-46ff-afd8-16c0c4afaacd | New Project...
+933fd0d8-81ea-4955-b480-24146f7ddd40 | 9d09e965-6254-46fd-9c21-b27fd2e97b52 | Open Project...
+933fd0d8-81ea-4955-b480-24146f7ddd40 | 7b7d5056-5cd3-4132-9e49-d64781bf4a7c | Close Project
+933fd0d8-81ea-4955-b480-24146f7ddd40 | 0e1415d3-e28c-46ec-93b1-10a1d470f9df | Save Project
+933fd0d8-81ea-4955-b480-24146f7ddd40 | aa561b90-e851-48a8-9fed-bc7669c5e1d3 | Save Project And Install Into Library Repository
+933fd0d8-81ea-4955-b480-24146f7ddd40 | 82d40622-dcc1-414c-ade2-2068c2c1808a | Save Project As Compiled Library...
+933fd0d8-81ea-4955-b480-24146f7ddd40 | 6d0d9cc5-67a2-46fd-9d29-fdfa326321e5 | Save Project As...
+933fd0d8-81ea-4955-b480-24146f7ddd40 | caa0ef1f-6563-49ae-b0e0-80095fb233ef | Exit
+00000000-0000-0000-0000-000000000000 | 6cd635de-b047-4402-8ef2-973aa9c415df | Recent Projects
+7550cc92-8a35-4635-a6a8-7b1882215928 | 86b061d8-a4f4-4e58-9177-16ed9001c9ff | Start Page
+933fd0d8-81ea-4955-b480-24146f7ddd40 | a19fda3a-9040-47ba-a191-9f80a46388a6 | Project Environment...
+ca50b792-d182-424a-a638-e7de46cd202c | 487bb961-3672-4ece-ae9d-32afb6fc5f9a | Toggle Bookmark
+ca50b792-d182-424a-a638-e7de46cd202c | 407ec07a-080d-498b-9e03-b1e79c7a1034 | Next Bookmark (active editor)
+ca50b792-d182-424a-a638-e7de46cd202c | d349ba1c-bd27-4ede-88f2-e0f7bc0a4def | Previous Bookmark (active editor)
+ca50b792-d182-424a-a638-e7de46cd202c | 80c4e466-e5cf-47ff-8c13-05966527a04c | Clear All Bookmarks (active editor)
+ca50b792-d182-424a-a638-e7de46cd202c | 8cd4adb4-ed58-4f39-b44a-e8067dbde106 | Next Bookmark
+ca50b792-d182-424a-a638-e7de46cd202c | f08f50f2-4ba5-47c6-90df-9b7ed495e34a | Previous Bookmark
+ca50b792-d182-424a-a638-e7de46cd202c | f6c56795-bf5e-4973-8291-71ba66597c16 | Clear All Bookmarks
+7550cc92-8a35-4635-a6a8-7b1882215928 | da81b3d6-010f-447e-b96c-dc8f921d0317 | Bookmarks
+21ed0fee-175d-48ac-afb4-18a6b1fd884f | 7d2665c9-3f4a-4df1-a514-899fb70df440 | Print...
+21ed0fee-175d-48ac-afb4-18a6b1fd884f | 06af8574-32ba-4ef2-a9fa-da024e0a9311 | Document...
+21ed0fee-175d-48ac-afb4-18a6b1fd884f | 85e0c017-3844-4550-9668-09cc4baf5611 | Page Setup...
+21ed0fee-175d-48ac-afb4-18a6b1fd884f | 4dae020b-79a4-4cde-af3d-0fd1d276e887 | Print Preview...
+933fd0d8-81ea-4955-b480-24146f7ddd40 | f97dfcb1-28a0-4af5-ac78-d20e8f17249a | Project Settings...
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 372c6df1-9777-495f-a2b4-80c2a0f53351 | TODO: Reset and update languagemodelguids
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 5994913b-cc23-4594-b2ac-7f3ae727837f | TODO: DumpAllVisualizations
+bfd25178-601a-4c58-9309-2da9e11c70e3 | 38716407-76e2-4154-b993-0275057cd204 | CSV export of Alarm Storage
+bfd25178-601a-4c58-9309-2da9e11c70e3 | d883c5f7-2e05-4b16-b0c9-ca36f1da2b80 | Add latch var column
+bfd25178-601a-4c58-9309-2da9e11c70e3 | 6676bf55-d697-4f23-98f6-9458ca36e91e | Add message column
+bfd25178-601a-4c58-9309-2da9e11c70e3 | 55ff7ef1-f578-4a3b-aebe-769818f63c3f | Remove message column
+bfd25178-601a-4c58-9309-2da9e11c70e3 | b418f669-2194-4f06-a388-a4b262893cd0 | Remove latch var column
+bfd25178-601a-4c58-9309-2da9e11c70e3 | 1714ccd5-eccb-4dcc-b9a5-f2619b03bb06 | Import alarms
+bfd25178-601a-4c58-9309-2da9e11c70e3 | 7003635c-e8d3-4184-8a1b-4442522a3f9e | Export alarms
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | fa85edd6-a520-4f44-8427-0ed1d370952b | Insert Box with EN/ENO
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 133c60c9-905c-48d2-a19f-e99a38954ba9 | Insert Execute Box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 3e1a1cde-f53d-4761-a144-aeb0d3089786 | Insert Empty Box with EN/ENO
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | e73ed671-b674-4513-8b07-2ec380ab02b9 | Insert conversion operator
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 8049e5bc-5777-440a-991a-ceb553ee83e5 | Insert Coil
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | e9d08357-25be-4b20-a312-198f879462b6 | Insert Set coil
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | a8c3e6b3-3a14-4a9b-a3ea-f47ae446c824 | Insert Reset coil
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | f749f995-845e-440c-985b-d5d96480aec2 | Negation
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | bbefd975-2bce-4e70-959f-8ff2d29e9d96 | Edge Detection
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | eb93457f-ca4e-4454-9227-26fba297a10d | Set/Reset
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | d56fefd5-f979-4f09-8d4e-51f1b6ecb70a | Insert Branch
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 1b56dd12-8853-4946-bfb2-acd130c29e79 | Paste below
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 60574203-d998-4709-8af5-996bb8133f65 | Paste above
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 182eeb9a-1b55-4e6d-b1d7-bc7319d0f196 | Paste right (after)
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 0f4655b0-906c-4c58-8c20-47417af9a4a4 | Insert Contact
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 3aed1635-6d8a-4d26-b062-256e61aaf943 | Insert Negated Contact
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 8c389d15-902b-4694-825e-1eb9ec36a1a0 | Insert Contact (right)
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 57f76100-3afa-4631-8d4c-244c02d4eed2 | Insert Contact Parallel (above)
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | df2a16c4-c74a-42d9-931c-2a009269c353 | Insert Contact Parallel (below)
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 6429bc1b-164b-48ae-adc1-c41d837d5dbf | Insert Negated Contact Parallel (below)
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | c88fce6e-76b5-41d3-982d-07e7aeabfff5 | Repair POU
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | c149bb3a-494f-48fa-a3bb-0de28140fbe8 | Add/remove EN/ENO
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | e0a53b0f-161c-4119-93d8-ffbeec57ee63 | Insert IL line below
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | ed36be20-2e35-46de-a1e9-939c104be5b5 | Delete IL line
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 1675e063-0eb0-400c-9d13-eb22410abcc3 | Modify Text
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | e3245d0e-49bc-4272-9d6a-a49c7c65fbd9 | View as ladder logic
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 13e3c3bf-8a66-4bf3-afde-69e6a3b09c53 | View as function block diagram
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | f2d9d994-7393-43c4-9283-538c8f219761 | View as instruction list
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 7391dd33-08d9-4644-94bd-bd9895bcf41d | View Language Model...
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 7906b723-7ca2-4353-85ca-ecd91011b1db | Insert Branch above
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | d9f255d2-cd6f-4fc5-b720-d780965f1a91 | Insert Branch below
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 8559f03a-8929-4ce9-8c8e-0289960b9342 | Set Branch Start/End Point
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | cfe30982-951a-4e58-a2ce-14a8e547cb60 | Go To...
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 8d411c80-2911-41e8-ae58-f57ab45b3cce | Insert ADD box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 7c44f816-1be6-4338-a1c7-08bc2d5ef85e | Insert SUB box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | a7bd4d8e-9307-4ab3-a391-8516f3c33989 | Insert MUL box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | ebad8acf-6fe7-4255-8db6-d01fe7459583 | Insert DIV box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 1344c07c-4910-4b89-aacd-2be569a5a21f | Insert LT box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | a49bd0ff-9522-4ea3-b9dc-ee263bc53822 | Insert LE box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 8d0e714d-8f1f-408d-8cde-738e23699403 | Insert EQ box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | b9678884-1ee9-4179-adcb-f6d501330f73 | Insert GE box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 95bac5f2-356c-4d79-8e6a-b72b6962cbd1 | Insert GT box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | d5f6ceb4-e426-4d77-9f84-26ecbf415139 | Insert NE box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 06e97d7f-15d7-4d95-a80c-da4479909d1e | Insert SR box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | acd2ef91-4eb2-4130-b350-0556dffc8438 | Insert RS box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | b4b8fad8-b5fa-4899-a513-fb9459b60bc2 | Insert CTU box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 00b6ddb3-c26d-4034-a42c-6fe999305614 | Insert CTD box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 18c9ff01-8217-498f-be41-130608f3711e | Insert CTUD box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 73f6fd46-20c7-4e90-b578-2115eb66740e | Insert TON box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | ee6c0373-e4de-4b29-b7db-b5f5585f5282 | Insert TOF box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 79cdbf56-bb69-4c8c-a5cd-7fbeb0f25505 | Insert TP box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 9e917516-ca6b-499b-83dd-5b3f82a09ae4 | Insert F_TRIG box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | e5eb885d-1461-45c3-84bb-cd73e5cacafb | Insert R_TRIG box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | fa03ba14-0b13-4df5-b5a5-aab8c45d165b | Insert CustomBox20 box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 2c5bb3fe-b457-4c00-9b46-80c1542ca4ae | Insert CustomBox21 box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 136b3fae-c2b5-470a-9438-3ffdc341da61 | Insert CustomBox22 box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 13b4c840-3b4f-4ddc-aaf7-c12c02860901 | Insert CustomBox23 box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 59c4d9d8-687d-42c0-ad7c-b8cc23bb9184 | Insert CustomBox24 box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 903b5b63-be4a-4653-b6e5-5bb1b3091eba | Insert CustomBox25 box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | f777d452-8ff8-4aba-b4b0-cbc4a27fb72b | Insert CustomBox26 box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | ca9f10e2-c53d-40d3-a92c-6e2f6e077b6d | Insert CustomBox27 box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | a86fc6e8-0b02-4644-938b-d30ffd4a1657 | Insert CustomBox28 box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 3d0fd931-0da6-4198-9ba9-c9259d483f5e | Insert CustomBox29 box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | db016884-1ba9-418c-98a5-6b49d9f06f6d | Insert CustomBox30 box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | ab2e1fdd-efcd-44e3-becc-a781eeb4fd06 | Insert CustomBox31 box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 01f3425e-f0d3-4f45-be69-1228a9f2219a | Insert Box Parallel (below)
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 305efbbe-d6bb-4e36-a849-aa2bad95d840 | Toggle Parallel Mode
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 30e83ee9-fc64-4a97-894a-c861b60334d1 | Insert Network
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 31d4a564-01c1-4c05-b3c5-1855409261a0 | Insert Network (below)
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 1a674948-25a4-4420-8669-3660b1b9b51d | Insert Box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 5ba28864-e061-472b-86eb-6e056f990f09 | Insert Empty Box
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 03d27e8b-f285-4463-a986-f5e9b262338d | Insert Assignment
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 971eeac5-e8e6-45ae-8c70-1c657e4ef38b | Insert Input
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 97ff5a07-94e9-4e01-b9f1-b40929fb83ad | Set output connection
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 075b228e-f28a-4cb0-8d71-818e86cb9213 | Insert Jump
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 855887f9-51c7-4517-a9e1-c844e9dc040f | Insert Return
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | e37fc81a-2694-408e-aea7-95a6440346da | Insert label
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 147c903a-e420-40b4-9146-8a8b043e907e | Toggle network comment state
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | e52c8a1c-6cd3-4215-a65c-3ca0b0fcf8dc | Update parameters
+9a3ac02c-24aa-4a7b-9718-e8f20eda26a0 | 8ee67f5c-1758-405c-b94c-60b2577d2364 | Remove unused FB call parameters
+61aca6d6-f298-47be-972e-99601e7e9410 | 778be21d-a863-415b-a19b-cb8c432980db | Edit IO mapping
+5d307819-752a-4ea4-bcac-d96d23491133 | 3841219e-e84b-4c48-bc1d-1384b84a4dc6 | Visual Element Repository
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | 8de1b44e-6065-4fd8-8e10-490ea0168f7c | Add Visual Element Development Libraries
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | f7eda3c8-0f6a-4138-b4be-b8d84d40234e | Check Visual Elements
+7550cc92-8a35-4635-a6a8-7b1882215928 | a4fff062-c69e-4619-8c1e-f36c0c2b22b0 | Store
+82cbba3f-6998-4468-bd65-97e38f6006fa | 6ca69045-2e11-409d-b160-81ef1d7705f8 | Add all instance paths
+a5af936c-aeb4-4467-ad07-a8f333e08490 | 88b99e55-2d0d-4385-8329-104da9403895 | Save current values to recipe
+a5af936c-aeb4-4467-ad07-a8f333e08490 | 9fbe59ca-5228-4342-9118-b73cbb065ea4 | Restore values from recipe
+a5af936c-aeb4-4467-ad07-a8f333e08490 | e6fd1bfd-16e8-4b72-8674-cbf23a018243 | Reorder list and clear gaps
+a5af936c-aeb4-4467-ad07-a8f333e08490 | 76fad7fd-c8ab-417e-9a60-67fca40baeda | Add all instance paths
+61aca6d6-f298-47be-972e-99601e7e9410 | 73b2ca6f-8b4e-45cb-9533-eaa108aaf7f7 | Scan For Devices...
+a1e02de2-f18a-4ea4-b2dc-56537264bc62 | b047c96d-79cc-4186-87db-155d942507e8 | Set colorvariables fully opaque
+9238ba34-691e-47fa-ab85-9fc5919e74f1 | dd791567-8ac4-4c9a-912e-a382320b8d7a | Delete language
+9238ba34-691e-47fa-ab85-9fc5919e74f1 | 5c2f7c99-f95e-4d18-84fd-f30cc8f4a356 | Copy language settings
+9238ba34-691e-47fa-ab85-9fc5919e74f1 | b1279d33-fc9a-41fe-872e-2abd59a51799 | Paste language settings
+5d307819-752a-4ea4-bcac-d96d23491133 | 6b980099-a6e4-429b-9f64-c2c5191f2440 | License Manager...
+5d307819-752a-4ea4-bcac-d96d23491133 | 2ce5552c-3f08-4fe4-bd85-e76d04c89a27 | License Repository...
+d805d57c-8b85-4d83-9437-bcc81c4dfca3 | ed3f69cc-af4f-431b-9f41-9edad09e4734 | Find Next
+d805d57c-8b85-4d83-9437-bcc81c4dfca3 | fee78da4-bcd3-47db-885d-286af5c6dab7 | Find Next (Selected)
+d805d57c-8b85-4d83-9437-bcc81c4dfca3 | e62ddd24-032b-4928-84ab-f4fa9fe6da02 | Find Previous
+d805d57c-8b85-4d83-9437-bcc81c4dfca3 | f7e547e5-2c17-4988-af2a-4b8ba566e8ea | Find Previous (Selected)
+d805d57c-8b85-4d83-9437-bcc81c4dfca3 | 6e684418-bfb4-4ff0-ab89-385aa724bb03 | Find
+d805d57c-8b85-4d83-9437-bcc81c4dfca3 | bb8cc53c-9f28-46ea-a8df-0db140c2b325 | Find in Project
+d805d57c-8b85-4d83-9437-bcc81c4dfca3 | 1b03871f-4700-48c4-904f-adcaa4a5bc6d | Replace
+d805d57c-8b85-4d83-9437-bcc81c4dfca3 | 0d375192-1cd8-4207-8f2a-3640f4f2d031 | Replace in Project
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | 35a166ee-6a30-44f3-a37a-94f7a096a080 | Enable inline monitoring
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | 5e0619de-d6f4-4f62-a9a0-9c60d44a311d | Comment out selected lines
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | 012e6601-fc48-457f-8280-19f59b6c4a51 | Uncomment selected lines
+457acee4-2a8f-4ea1-a351-8fa9a7a982d3 | 08c97f66-b323-4d64-a6eb-565b6b30fb7a | Toggle Field for Incremental Search
+933fd0d8-81ea-4955-b480-24146f7ddd40 | 8184767e-1ae4-4071-a04d-a7e9d5a678f1 | Save/Send Archive...
+933fd0d8-81ea-4955-b480-24146f7ddd40 | 82cfec92-88b8-4c43-803d-839d2905e589 | Extract Archive...
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 3b079581-ec53-400c-88cb-79e702354d5b | Create Global Text List
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 82c0c3fc-24fa-48cc-9895-a528315b4e66 | Create system textlist
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 1a26a308-9a8a-4e4e-94d9-bc40e2b92caf | Add Language
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | a36e8f54-4cd8-44c5-b8b4-e537ac822bef | Remove Language
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 83bf10ba-df48-4ee3-a7dd-abccf2fcdc3f | Rename Language
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | bf3179be-a7d9-4214-8fa7-56af10e7fe9e | Insert Text
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 79f702f4-a03f-4a0d-b7ea-d0f50c0f3113 | Import All Unicode .txt Text List Files
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 71775307-438e-4d4e-896a-a9f3082a9aa2 | Export All Unicode .txt Text List Files
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 91cc8d4f-eb03-48ec-b54d-6d6fd92c2623 | Export All .txt Text List Files
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 78599c10-e4de-4521-9653-257f02f520fb | Export All .xml Text List Files
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 5fe4c666-c36b-4885-aa1f-a814604143ad | Export All Unicode .xml Text List Files
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 96ffc394-37e6-4438-a5d6-d77983a6354b | Import Unicode .txt Text List
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 297b936c-ba12-438c-ae3f-d65e24b1e369 | Check Visualization Text Ids
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 808087ad-caff-4c87-9d7a-ec417b14f904 | Update Visualization Text Ids
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | d75434a7-7d1a-4add-8f10-7cff82d18cf6 | Import/Export Text Lists
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 8f79c0ea-8087-42bc-b1ea-7a68481cbdea | Remove Unused Text List Entries
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 592ad39b-097b-47f2-83e6-b59e8c590c3d | Add text list support
+c9d546b1-4e1f-47ac-91a8-da252ae3927a | 85ce4cc9-aa5d-44f5-a06e-76e6ce4516db | Remove text list support
+ab91ad5b-a221-457b-b0a7-04dec62342cb | fd5aed6e-7f03-49f0-90bb-b6b623bfbc13 | Index
+ab91ad5b-a221-457b-b0a7-04dec62342cb | c77b06ec-960b-41b7-b53a-66fd0b835665 | Contents
+ab91ad5b-a221-457b-b0a7-04dec62342cb | 91993a5c-588e-4552-a45e-a4d8a8e1b850 | Search
+02abb186-7154-49dd-9b61-6357ac0d60ee | f3c94502-3f43-4638-8f43-95fba66253d8 | GVL Import
+76e0174b-ce4e-4c6c-8779-5dcb5e11bdc5 | f4e1c5da-3818-479f-87e3-863b3441b49a | Editor View Info
+76e0174b-ce4e-4c6c-8779-5dcb5e11bdc5 | 51e40495-1f99-43ee-8b7d-1efa774562a0 | Display Remote IP Addresses
+76e0174b-ce4e-4c6c-8779-5dcb5e11bdc5 | e9f7e3ea-cbf4-4869-9985-2f095f9c8c09 | Test Command
+76e0174b-ce4e-4c6c-8779-5dcb5e11bdc5 | 90c92148-f2a3-43a6-8a31-e71fbac0b5cc | Clear Parker Messages
+76e0174b-ce4e-4c6c-8779-5dcb5e11bdc5 | 0541d3f3-73b0-4ad8-8e4a-5f3ea458503d | Open Command Editor
+76e0174b-ce4e-4c6c-8779-5dcb5e11bdc5 | dcc70973-f2e6-409b-b7a3-c3a4788ba403 | List Toolbar Button
+76e0174b-ce4e-4c6c-8779-5dcb5e11bdc5 | b203011d-6efd-4cc3-aee3-085732f0c284 | Toggle
+7550cc92-8a35-4635-a6a8-7b1882215928 | e5a57296-ac20-41b8-86ca-0e997a2ddae9 | ToolBox
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | d5d3f463-e55c-4c4e-b557-e56beb397207 | Script0 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 747a61d0-23b7-4d36-86e8-d40be44756bd | Script1 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 133280df-960a-4ec7-b767-e4d562515ed0 | Script2 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 58af3c0b-9ff8-4e3b-ba41-32e3134b1d1a | Script3 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 53f7102b-1b30-4540-b848-be06df03b179 | Script4 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | e287d6b7-9e9b-4db2-88be-101cff9c1d3f | Script5 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 2817fd46-e7f6-43cc-a4e2-3ded0b0bf4fe | Script6 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | a841f175-9c71-4206-857b-07eddca0ab9a | Script7 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 16895bb3-b3fa-4cec-8ca8-184312c210f4 | Script8 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | f1b3b408-f152-4ea4-a504-8405cdfe73e1 | Script9 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | d53e26f4-dae3-460b-9a05-be4b6d89d70c | Script10 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 58301487-e584-47d8-be33-1b61298c6cb5 | Script11 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | c2712d76-7b36-41f1-ac7a-28ca2fedcc28 | Script12 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 3bd716d8-22e3-412d-8907-ef769dc637d7 | Script13 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 4819c37a-fec8-4195-bb13-6dc3fa3e5322 | Script14 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | d355a0ea-d59e-4c1e-8424-0697c9974a04 | Script15 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | ea88ff69-1e93-446d-a4db-58718b3f507c | Script16 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | ac633e0f-4b35-4ba7-9397-c17dae2fab17 | Script17 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | b0b9ca45-b3a2-43be-aaba-ffe94dbcb67f | Script18 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 0e6ddc68-3c42-41b6-9d09-74bd95b46912 | Script19 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | a49611f9-5849-4207-8b30-42edb411fc8c | Script20 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | cf8f02cd-5116-4d79-be09-f3421e2a7157 | Script21 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 0a0efe72-fbc8-4100-9355-aab9e39275cf | Script22 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | e59343ce-24ea-4fe9-b6b2-d4ac4afbe2f3 | Script23 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | ebbf03a2-9997-4cc1-93a5-3601cf2995e0 | Script24 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | e27ecef9-c8c6-47a5-85ed-00ea1d10a2cf | Script25 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 0d29f393-3fa0-4bb2-9742-1144a3f12ad8 | Script26 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 222e3ddc-2e90-413b-93ff-eb154a91b26d | Script27 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 50ebb99c-6df0-4ae6-8006-5415f0a1b5fc | Script28 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 06e8d918-19cb-471a-9e61-5e852e108cb7 | Script29 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 0cbc7dbe-6956-482a-ad0f-663aa78bad74 | Script30 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 24baca81-1add-4779-855c-140a89b4c679 | Script31 (unavailable)
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 69a25ff7-1630-4169-9a82-3e2776426487 | A
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | c53c2b61-976b-49f7-a24a-90b99addca7d | B
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 82357d9d-824a-4056-a0af-3ec60e9bb6ec | C
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 61d39ae4-2048-4df2-8101-225ac3022235 | D
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | dc4b5558-f1fa-49da-a2fc-81029bb50a98 | E
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 9de3537c-95db-4140-9987-7b20186f0c53 | F
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 734c40ed-5686-4e09-9e35-1555d736d622 | G
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | fb344cf3-02aa-4d8f-8f07-348189c78995 | H
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 60943ab6-ea7a-4d4a-a145-2b9d3a7a6b20 | I
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 04e26429-5ced-4180-a2ae-9bc3aa6645f2 | J
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 4bd3469a-dc77-4433-ac1e-0fd2f73c9db1 | K
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 5fd900c0-1dae-48b8-8d98-598f5ffc67b5 | L
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | abf0377c-b942-43b8-a2c4-0ae3eb3e70a9 | M
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 36852754-42b0-4bc3-8946-aac1fd5c0c07 | N
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 83090639-60f6-461c-aa76-16991219d4b9 | O
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | a9b65152-0c1c-458c-bef7-655dc955aea8 | P
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 30332ba1-5bdc-46e2-b395-b7cbd7c938cf | Q
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 424fae55-05cd-429a-af63-0c2a1a7a0347 | R
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 4cd726c9-2a74-46e7-8429-4994b005fcd5 | S
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 2f5c43ea-5ae9-4953-be64-2852757a64f4 | T
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 1da7a098-c6a1-4e65-8661-376fcffdfe35 | U
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | c19800a9-d11c-42e3-b0fe-2fd55c2eb8b0 | V
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 43ffc3ce-a574-40a6-9016-6ff50f80fe78 | W
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 9f778172-f7be-41de-9be0-cf8a964344e0 | X
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | be9982e1-c23f-4080-973b-28f2124f89ac | Y
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 5210847c-98b3-4a56-93d3-234e03996c5c | Z
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | ade5b54c-58ed-4855-a7b1-3f6b0ad17cdc | ...
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 974e36d0-d2ed-4dcc-9505-2e4f2fb9c70d | Execute Script File...
+4466600d-c2d6-4ac5-9c66-b33d4688adaa | 016de37c-8107-4b72-ad6b-f84775a45d44 | Enable Script Tracing 
+933fd0d8-81ea-4955-b480-24146f7ddd40 | 2aca1cfd-c5b0-420f-904e-96ee3754d8f4 | Compare...
+933fd0d8-81ea-4955-b480-24146f7ddd40 | 11d3f774-3adc-40ff-aa18-b08c3e43d6cc | Commit accepted changes
+414200ce-c35b-4217-93a1-2d86f73732b0 | a0da4287-64ed-459e-81f0-98ab3667a58f | Build
+414200ce-c35b-4217-93a1-2d86f73732b0 | 83524479-d23b-4e4c-96f4-3e89898e7277 | Clean
+414200ce-c35b-4217-93a1-2d86f73732b0 | 024a0dc9-987d-42be-add4-5775c60d128a | Clean all
+414200ce-c35b-4217-93a1-2d86f73732b0 | 50dc8f97-9e21-4b15-a504-ea2549ab61e0 | Rebuild
+414200ce-c35b-4217-93a1-2d86f73732b0 | 095eb048-7e69-4a49-8c7c-3b3efb494bc5 | Generate code
+414200ce-c35b-4217-93a1-2d86f73732b0 | a5283c89-09b8-4e4b-a920-cc80f1f2adb8 | Generate hex file
+414200ce-c35b-4217-93a1-2d86f73732b0 | b27f0b92-83ec-43a4-b7ea-ad705ba57c21 | Generate disassembly file
+414200ce-c35b-4217-93a1-2d86f73732b0 | b2948d00-e68d-4a5e-a0f2-fa9b53753969 | Check all Pool Objects
+414200ce-c35b-4217-93a1-2d86f73732b0 | f165bf3d-e77a-4ab8-b1bd-3b6aa9233459 | Check all Application Objects
+414200ce-c35b-4217-93a1-2d86f73732b0 | 5b1db5f4-dc0d-4484-aeea-8c41e9b26a6c | Check Library Compatibility 
+414200ce-c35b-4217-93a1-2d86f73732b0 | 5ec8443b-9818-42dd-a488-c56ceaa16835 | Generate runtime system files...
+42645d08-79c8-4c26-8194-d34a74605945 | 5a8291aa-370e-4dfb-8253-52c5a5ad5c65 | Modules
+42645d08-79c8-4c26-8194-d34a74605945 | 32b0eb92-ce70-43b8-83d8-1aeacd8181e2 | Scan
+42645d08-79c8-4c26-8194-d34a74605945 | 917acb80-e8a4-4c60-b3c5-c6289b9b9687 | Generate
+42645d08-79c8-4c26-8194-d34a74605945 | b54e8177-8d3d-4b20-ac21-dd29f8d7c016 | Hide empty optional Slots
+42645d08-79c8-4c26-8194-d34a74605945 | 71a572d0-95b0-4bd7-8e62-98e3185ba148 | Show hidden Slots
+42645d08-79c8-4c26-8194-d34a74605945 | ec0a0269-2ad0-447c-b553-8f799aeb97e6 | Update Module Instance
+42645d08-79c8-4c26-8194-d34a74605945 | aeec5feb-245f-4bc9-a5a8-bcb56d19ca8c | Add Toplevel Module Instance
+42645d08-79c8-4c26-8194-d34a74605945 | c503703d-87b9-4bc2-9135-687336c7e898 | Add Submodule Instance
+42645d08-79c8-4c26-8194-d34a74605945 | 88da4a12-ae27-4a2c-a89a-9884427899fc | Reference Module Instance
+42645d08-79c8-4c26-8194-d34a74605945 | dd6b0770-eadf-4a04-be59-e7fbbe928da8 | Generator Configuration...
+42645d08-79c8-4c26-8194-d34a74605945 | bd2b5bd3-d4a7-4106-8048-b1080bf254f2 | Map I/Os
+42645d08-79c8-4c26-8194-d34a74605945 | 185c9b2f-890c-4e9d-8aa2-769c5442ee8d | Go to Target
+42645d08-79c8-4c26-8194-d34a74605945 | d7716e93-8620-433e-bcb4-e0e2c5fb9ed9 | Update all Instances
+42645d08-79c8-4c26-8194-d34a74605945 | e8bad280-939d-4bd4-98ea-54b8578e7c95 | Move up
+42645d08-79c8-4c26-8194-d34a74605945 | 09b29d04-49f8-4e81-b74d-edbaf9249105 | Move down
+42645d08-79c8-4c26-8194-d34a74605945 | e559831b-9a4c-498d-b8f7-1a14b7bd1234 | Reset text of toplevel tabs
+42645d08-79c8-4c26-8194-d34a74605945 | cb199140-b2ad-4780-b313-d59fb5f087e1 | Removes I/O Mappings
+42645d08-79c8-4c26-8194-d34a74605945 | 981c0825-b7de-4ec2-8e82-1ae092b5c28c | Check for unkown Entries
+42645d08-79c8-4c26-8194-d34a74605945 | 43f6f72b-cf2b-4f2d-85ef-6d05e91d6e1f | Differing Parameter values
+42645d08-79c8-4c26-8194-d34a74605945 | b91a3aa4-5445-480c-96c9-8e10b03378e1 | Generate, Build and Login
+42645d08-79c8-4c26-8194-d34a74605945 | d1479a9d-ba1c-4f99-ae10-924504b5d862 | Add Module Library to Project
+42645d08-79c8-4c26-8194-d34a74605945 | 8165a51a-a9d1-488f-b918-3862a2aac4d3 | Goto Module FB
+42645d08-79c8-4c26-8194-d34a74605945 | fae24103-e3d8-46c8-a23e-b1464cafd019 | Go to Module Instance
+42645d08-79c8-4c26-8194-d34a74605945 | 542f125b-ccd7-4a60-8f01-6b63e6504d84 | Create DataLogManager
+42645d08-79c8-4c26-8194-d34a74605945 | f8fd87a8-01c0-43ed-9dac-7d48838cb776 | Create missing Image Pool Entries
+42645d08-79c8-4c26-8194-d34a74605945 | 0c5ba7cf-2156-4b7c-bd4f-e365013d6f16 | Create Module from selected FB
+42645d08-79c8-4c26-8194-d34a74605945 | e7f85b26-3f14-44e0-9d95-d5690bbf2658 | Go to Definition
+42645d08-79c8-4c26-8194-d34a74605945 | 3df3488f-3f58-42c1-8d92-7f920fcd6603 | Create missing Text List Entries
+42645d08-79c8-4c26-8194-d34a74605945 | 75ff31ca-b1fa-4947-9f5b-d32fc87657d6 | Show Module References View
+42645d08-79c8-4c26-8194-d34a74605945 | 8ba25795-3425-47e0-97db-c52fd683749b | Create Macro Module
+42645d08-79c8-4c26-8194-d34a74605945 | c359b64c-3121-4ec9-ac63-7935f9d6be9a | Create Extension Module
+42645d08-79c8-4c26-8194-d34a74605945 | 2f1a1d38-b8d9-4b73-824c-1737e859aa65 | Wildcard Selection
+42645d08-79c8-4c26-8194-d34a74605945 | 4dcad734-fc5c-43c5-a2b5-596f2ff5219b | (DEBUG) Delete all hidden/transient devices
+42645d08-79c8-4c26-8194-d34a74605945 | 97e0dafc-9997-4dbf-ba07-932df6c9844c | Sign all selected Modules
+42645d08-79c8-4c26-8194-d34a74605945 | 4c0128e7-9ce6-4846-8abb-36a2be3676af | Toggle child index visibility (DEBUG)
+42645d08-79c8-4c26-8194-d34a74605945 | 6e9bb326-c01b-45ee-8df8-e686fe123def | Create PersistenceManager
+ae822353-0192-4008-bef3-8cf9031d41dc | 98e47539-7806-42d2-80a2-3a052944d468 | Create Core Dump
+ae822353-0192-4008-bef3-8cf9031d41dc | 09378f3a-5156-4ef1-85ae-9d06b5e5a6ef | Load Core Dump
+ae822353-0192-4008-bef3-8cf9031d41dc | 7b3bd753-4e10-4dfa-a71a-a4b2e640a5bc | Close Core Dump
+ae822353-0192-4008-bef3-8cf9031d41dc | 777fa26b-dbe6-434e-a72d-00ca7ff0907f | Load device log from Core Dump
+5b8b9130-d935-4c5b-a7b8-c2c0a10ffd52 | 9eccaf22-3293-4165-943e-88c2c40b4a58 | Undo
+5b8b9130-d935-4c5b-a7b8-c2c0a10ffd52 | 871b29a1-9e9f-47f9-a5ce-d56c40976743 | Redo
+0e4fe93e-ceda-46d8-abe8-4cfa20d57ec5 | 586fb001-60ca-4dd1-a2f9-f9319ee13c95 | Cut
+0e4fe93e-ceda-46d8-abe8-4cfa20d57ec5 | e76b8e0b-9247-41e7-93d5-80fe36af9449 | Copy
+0e4fe93e-ceda-46d8-abe8-4cfa20d57ec5 | 73a7678b-2707-44f6-963b-8a4b3c05a331 | Paste
+0e4fe93e-ceda-46d8-abe8-4cfa20d57ec5 | c5aaecf0-f55a-4864-871e-4584d1ccc9af | Delete
+0e4fe93e-ceda-46d8-abe8-4cfa20d57ec5 | 1c36ca5e-e26d-4edc-9ab7-c7d87690c328 | Select All
+61aca6d6-f298-47be-972e-99601e7e9410 | 9790ad8b-5ecd-4840-8cce-be68aaf1d5e9 | Device Repository...
+61aca6d6-f298-47be-972e-99601e7e9410 | a3cb0388-da1d-40d7-8455-de494fb0e527 | Download missing device description
+5d307819-752a-4ea4-bcac-d96d23491133 | c748310a-0784-46c2-8475-0439c495869b | Library Repository...
+ad0b4c59-2bdc-4c59-af24-0347972cc4e8 | 4f2952df-747f-4c91-9f8d-46f87680faa2 | Add Library...
+ad0b4c59-2bdc-4c59-af24-0347972cc4e8 | 074427ab-e05a-4680-92c4-86b069ae881c | Properties...
+ad0b4c59-2bdc-4c59-af24-0347972cc4e8 | 73d6ea58-232c-47dd-ad9e-7f608518ec27 | Try To Reload Library
+ad0b4c59-2bdc-4c59-af24-0347972cc4e8 | c8d936b4-32b6-47ca-bafd-ead29338deb4 | Placeholders...
+ad0b4c59-2bdc-4c59-af24-0347972cc4e8 | 4ff87f84-9524-45e9-a19f-a6b3c55c59fa | Export Library...
+7550cc92-8a35-4635-a6a8-7b1882215928 | 356e4a32-5638-4565-915a-de143fe91bfc | Classic Cross Reference List
+17416da3-1630-4ab1-b220-0325594825f3 | 94201411-71c8-4a93-a861-a2887db6bc1e | Browse Cross References in Classic View
+7550cc92-8a35-4635-a6a8-7b1882215928 | 5ed0375d-1278-4af6-b4c8-29beaff95f43 | Cross Reference List
+7550cc92-8a35-4635-a6a8-7b1882215928 | 0a1c8a75-99da-47fe-a1f1-2eb258f623df | Call Tree
+17416da3-1630-4ab1-b220-0325594825f3 | 2d499d13-af93-43b4-afda-e98349935b51 | Browse Cross References
+17416da3-1630-4ab1-b220-0325594825f3 | 3f4567d6-13e3-463c-8c7c-6edfefe488a4 | Browse Call Tree
+753efa0c-dbb9-4398-ba3a-d87152304d83 | cb7c20d0-19b8-45f5-ae50-0f2f806efeab | Go To Mapping
+753efa0c-dbb9-4398-ba3a-d87152304d83 | 54b1e3a7-47bc-47d6-974d-82e5cd6e2867 | Convert data server to data sources manager
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 940b1721-68ab-4786-825a-819566daa5b3 | Insert step-transition
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 351754c0-5b83-4218-80e1-f0e80e657f72 | Insert step-transition after
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 5bd1ab71-27dc-403e-9c56-2e9579ae5fc2 | Insert transition
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | bbc7bc6a-e9c3-4e40-b88f-bddb6c9befb0 | Insert transition after
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 59f1042a-27fb-453d-893b-a88e39a18c51 | Insert step
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 65c3faca-ef86-4694-a171-3d9f28dc8b6f | Insert step after
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 85936005-4d28-49ff-95c2-41e58bd3945d | Insert branch
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | dd65dd13-00b0-45ed-91b8-64211859e1f5 | Insert branch right
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 05badf67-3260-4987-b35d-7e91e65405d1 | Insert jump
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | bb80384b-5f04-4f43-a475-aee2d3d45b1e | Insert jump after
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 059bd758-bf2b-4bd8-8eaf-6043f98ccb49 | Insert macro
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 12b42af1-741b-416d-a24c-0c643592f72f | Insert macro after
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 2a4fa2c6-c583-4de4-89e6-9932798859c6 | Insert action association
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | f0830a30-cc43-4de5-ac6a-2e0462076faa | Insert action association after
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 1360e7e6-4106-42ad-8635-9b46fdfc20ac | Zoom into macro
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 2c92dd9c-ce1a-4e30-a1c1-a7e44f512cad | Zoom out of macro
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | d62daf72-21c9-4c8d-ad23-6b70ccd4bee1 | Parallel
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | db8a975d-3aa8-432c-92f8-069d3395a48b | Alternative
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | acef1039-3caa-49e0-b712-7194fd005368 | Init step
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 376046e4-f3b0-4824-aa09-0359e558c665 | Add entry action
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | f8889734-074a-4c26-b8dd-7e32f6578c1b | Add exit action
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 88c0076a-6560-476c-9cba-078604d44473 | Paste after
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 1e3e7143-9a10-4082-88fc-3bfd4ff4491a | Set
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | 2a53ee11-e83b-4e1f-a402-a87f5ae7acab | Remove
+9e811437-f3bd-4e49-b879-480f1dfbdf81 | dcd1ee27-6f0f-482f-b8a3-cf4d7d051887 | Hide embedded objects
+7550cc92-8a35-4635-a6a8-7b1882215928 | 79d46924-f2b6-454d-8c0e-500222a234f0 | Element properties
+61aca6d6-f298-47be-972e-99601e7e9410 | 775bc19d-226e-484b-bd53-c330620b085b | Create Planning Task
+d5742efc-f5e7-4afa-80aa-70f0d0946949 | 3cf0021b-6732-4212-95ff-b8800d92de14 | Read Cam Data from ASCII Table
+d5742efc-f5e7-4afa-80aa-70f0d0946949 | 18917806-7809-4176-9840-9170c61c4db5 | Write Cam Data into ASCII Table
+d5742efc-f5e7-4afa-80aa-70f0d0946949 | 894aa1f7-7e5b-4a72-bb74-93e5bb829d06 | Read Cam Online File
+d5742efc-f5e7-4afa-80aa-70f0d0946949 | 85e190b2-8534-4041-a719-185616504303 | Write Cam Online File
+d5742efc-f5e7-4afa-80aa-70f0d0946949 | 6a1e5d38-2d0d-4ed1-832e-e5cf622e38eb | Display generated Code
+23226e40-e990-44dc-a09f-0c18732e9f6b | 06ea453d-5927-49a6-9401-9655164f6843 | Show preprocessed Path
+23226e40-e990-44dc-a09f-0c18732e9f6b | 52e36646-a188-4c4b-a831-9b291acf3b3f | Show Interpolation Points
+23226e40-e990-44dc-a09f-0c18732e9f6b | ee5bfa75-59ea-4437-8dbc-daeacdd6b908 | Step Suppression
+23226e40-e990-44dc-a09f-0c18732e9f6b | 66e7a180-84c6-410c-b892-5f2cf54d731e | Show Grid
+23226e40-e990-44dc-a09f-0c18732e9f6b | 969cd8bd-c5c5-44b8-ba03-f41c52608966 | CNC Info
+23226e40-e990-44dc-a09f-0c18732e9f6b | a5915b1b-303e-4fdf-a2e1-b359a0e1cd96 | Load Program from ASCII File
+23226e40-e990-44dc-a09f-0c18732e9f6b | 665ecf38-7a22-473c-990b-8a9ba0831504 | Write Program to ASCII File
+23226e40-e990-44dc-a09f-0c18732e9f6b | 574efe02-1219-4694-b70d-e51bd8bab92d | Import from DXF File
+23226e40-e990-44dc-a09f-0c18732e9f6b | 4d870f0d-007c-4d0d-9bdf-deb22596fb2a | Show End points
+23226e40-e990-44dc-a09f-0c18732e9f6b | 33ec10ea-3503-4f83-b0a2-608ac01ae4c9 | Move Program
+23226e40-e990-44dc-a09f-0c18732e9f6b | 5d50205e-f7cb-4690-ae42-315471d4bf71 | Rotate Program
+23226e40-e990-44dc-a09f-0c18732e9f6b | 2bdce0ff-e737-4c9d-b5fd-7742c2042a65 | Scale Program
+23226e40-e990-44dc-a09f-0c18732e9f6b | dd6fc36e-91e5-4834-a5ac-8b5ebd7eb859 | Reverse Direction
+23226e40-e990-44dc-a09f-0c18732e9f6b | d6260578-3827-41af-8045-7197513ca0dc | Renumber CNC Program
+23226e40-e990-44dc-a09f-0c18732e9f6b | 25bf20a9-6c65-4afa-9c90-4d1b6597cbad | Scroll Path View
+23226e40-e990-44dc-a09f-0c18732e9f6b | d6de1efb-110a-481c-b507-0aa1c015c056 | Analyze Dynamics
+23226e40-e990-44dc-a09f-0c18732e9f6b | d374416a-628f-4ec9-8b90-c245ab5c19cd | Set Variables
+23226e40-e990-44dc-a09f-0c18732e9f6b | 24f63495-edd0-477e-b328-50486a83bd52 | Perspective Projection
+61aca6d6-f298-47be-972e-99601e7e9410 | a9b7850c-b309-4931-838a-bb8c928a2528 | Add SoftMotion CiA402 Axis
+61aca6d6-f298-47be-972e-99601e7e9410 | 9a7bdc11-af13-4478-adb8-967943652ed6 | Add SoftMotion Sercos Axis
+61aca6d6-f298-47be-972e-99601e7e9410 | 2dea501c-f290-4930-9a54-11b266889c07 | Add SoftMotion SoE Axis
+61aca6d6-f298-47be-972e-99601e7e9410 | 6bacca9e-b0e1-4d69-934e-6ab2767471fa | Add SoftMotionLight CiA402 Axis
+
+Attempting to add the commands to a dictionary...
+Commands were successfully added to the dictionary.
+
+Batch Commands [582]
+----------------------------------------------------+--------------------------------------------------------------------------------
+Batch Command (Key)                                 | Name (Value)
+----------------------------------------------------+--------------------------------------------------------------------------------
+                                                    | Download missing device description
+AlarmConfig|AddLatchVarColumn                       | Add latch var column
+AlarmConfig|AddMessageColumn                        | Add message column
+AlarmConfig|AlarmStorageCsvExport                   | CSV export of Alarm Storage
+AlarmConfig|exportAlarms                            | Export alarms
+AlarmConfig|importAlarms                            | Import alarms
+AlarmConfig|RemoveLatchVarColumn                    | Remove latch var column
+AlarmConfig|RemoveMessageColumn                     | Remove message column
+autodeclare                                         | Auto Declare...
+bookmark|clearall                                   | Clear All Bookmarks (active editor)
+bookmark|clearallglobal                             | Clear All Bookmarks
+bookmark|next                                       | Next Bookmark (active editor)
+bookmark|nextglobal                                 | Next Bookmark
+bookmark|previous                                   | Previous Bookmark (active editor)
+bookmark|previousglobal                             | Previous Bookmark
+bookmark|toggle                                     | Toggle Bookmark
+breakpoints|edit                                    | Edit Breakpoint...
+breakpoints|enable                                  | Disable Breakpoint
+breakpoints|new                                     | New Breakpoint...
+breakpoints|runtocursor                             | Run to Cursor
+breakpoints|setnextstatement                        | Set next Statement
+breakpoints|showcurrentstatement                    | Show next Statement
+breakpoints|stepinto                                | Step Into
+breakpoints|stepout                                 | Step Out
+breakpoints|stepover                                | Step Over
+breakpoints|toggle                                  | Toggle Breakpoint
+browse|calltree                                     | Browse Call Tree
+browse|crossreferences                              | Browse Cross References
+browse|gotodefinition                               | Go To Definition
+browse|gotoinstance                                 | Go To Instance
+browse|gotoreference                                | Go To Reference
+browse|legacycrossreferences                        | Browse Cross References in Classic View
+cfc|addinputpin                                     | Add Input Pin
+cfc|addoutputpin                                    | Add Output Pin
+cfc|clearcheckpoints                                | Clear Control Points
+cfc|connectionmark                                  | Connection Mark
+cfc|connectselectedpins                             | Connect Selected Pins
+cfc|createcheckpoint                                | Create Control Point
+cfc|createelementgroup                              | Create group
+cfc|editpagesize                                    | Edit Page Size...
+cfc|editparameters                                  | Edit Parameters...
+cfc|editworkingsheet                                | Edit Worksheet...
+cfc|eneno                                           | EN/ENO
+cfc|forcevalue                                      | Force Function Block Input...
+cfc|incurparametervalues                            | Save Prepared Parameters to Project
+cfc|movedown                                        | Move Down
+cfc|moveup                                          | Move Up
+cfc|negate                                          | Negate
+cfc|order|dataflow                                  | Order By Data Flow
+cfc|order|topology                                  | Order By Topology
+cfc|prepareforce                                    | Prepare Box For Forcing
+cfc|removecheckpoint                                | Remove Control Point
+cfc|removeunusedpins                                | Remove Unused Pins
+cfc|resetpins                                       | Reset Pins
+cfc|routeallconnections                             | Route All Connections
+cfc|selectconnectedpins                             | Select Connected Pins
+cfc|sendtoback                                      | Send To Back
+cfc|sendtofront                                     | Send To Front
+cfc|setexecutionorder                               | Set Execution Order...
+cfc|setreset|none                                   | None
+cfc|setreset|ref                                    | REF= (Reference Assignment)
+cfc|setreset|reset                                  | R (Reset)
+cfc|setreset|set                                    | S (Set)
+cfc|ungroupelements                                 | Ungroup
+cfc|unlockconnection                                | Unlock Connection
+cfc|useattributedmemberasinput                      | Use Attributed Member As Input
+cfc|viewlanguagemodel                               | View Language Model...
+Clear                                               | Reorder list and clear gaps
+compile|ShowCompileChangeDetails                    | Show details of offline code changes
+Composer|Generate                                   | Generate
+Composer|GeneratorConfig                            | Generator Configuration...
+Composer|ReadModules                                | Scan
+Composer|UpdateAll                                  | Update all Instances
+coredump|close                                      | Close Core Dump
+coredump|create                                     | Create Core Dump
+coredump|load                                       | Load Core Dump
+coredump|loadlog                                    | Load device log from Core Dump
+csourcecomponent|exportiecfunctions                 | Create stub implementation in C
+csourcecomponent|exportproject                      | Export C sources
+csourcecomponent|listfunctions                      | Create IEC interface
+csourcecomponent|openide                            | Open in IDE
+csourcecomponent|updatesources                      | Update C sources
+databreakpoints|new                                 | New Data Breakpoint...
+datasourceseditor|convertdataservertodatasources    | Convert data server to data sources manager
+datasourceseditor|gototypedefinition                | Go To Mapping
+debug|addwatch                                      | Add Watch
+device|add                                          | Add Device...
+device|exportcsv                                    | Export mappings to CSV...
+device|importcsv                                    | Import mappings from CSV...
+device|insert                                       | Insert Device...
+device|plug                                         | Plug Device...
+device|replace                                      | Update Device...
+device|scan                                         | Scan For Devices...
+device|simplemapping                                | Edit IO mapping
+devicecommunication|adddevice                       | Add Device...
+devicecommunication|addgateway                      | Add Gateway...
+devicecommunication|changedevicename                | Change Device Name...
+devicecommunication|connectgateway                  | Configure the local Gateway...
+devicecommunication|deletedevice                    | Delete selected Device
+devicecommunication|editgateway                     | Edit Gateway...
+devicecommunication|removeapplication               | Remove applications from device
+devicecommunication|removeapplications              | Remove application from device
+devicecommunication|resolveaddress                  | Scan for device by address
+devicecommunication|resolveipaddress                | Scan for Device by IP Address
+devicecommunication|resolvename                     | Scan for device by name
+devicecommunication|scannetwork                     | Scan Network
+devicecommunication|send_echo_service               | Send echo service...
+devicecommunication|setactivepath                   | Set Active Path
+edit|copy                                           | Copy
+edit|cut                                            | Cut
+edit|delete                                         | Delete
+edit|find                                           | Find
+edit|find|project                                   | Find in Project
+edit|findnext                                       | Find Next
+edit|findnextselected                               | Find Next (Selected)
+edit|findprevious                                   | Find Previous
+edit|findpreviousselected                           | Find Previous (Selected)
+edit|paste                                          | Paste
+edit|redo                                           | Redo
+edit|replace                                        | Replace
+edit|replace|project                                | Replace in Project
+edit|selectall                                      | Select All
+edit|undo                                           | Undo
+enum|convert_to_text_list_enum                      | Add text list support
+export|xml                                          | Generate  Sercos SCI xml
+file|archive|extract                                | Extract Archive...
+file|archive|save                                   | Save/Send Archive...
+file|close                                          | Close Project
+file|exit                                           | Exit
+file|new                                            | New Project...
+file|open                                           | Open Project...
+file|projectinfo                                    | Project Information...
+file|projectsettings                                | Project Settings...
+file|save                                           | Save Project
+file|saveandinstall                                 | Save Project And Install Into Library Repository
+file|saveas                                         | Save Project As...
+file|saveascompiledlibrary                          | Save Project As Compiled Library...
+forcelist|watchallforces                            | Watch all Forces
+frame|about                                         | About...
+frame|autohide                                      | Auto Hide
+frame|closealleditors                               | Close all editors
+frame|closealleditorsbutthis                        | Close all editors but this
+frame|closealleditorsofinactiveapplications         | Close all editors of inactive applications
+frame|closeeditor                                   | Close editor
+frame|customize                                     | Customize...
+frame|dock                                          | Dock
+frame|float                                         | Float
+frame|newhorztabgroup                               | New Horizontal Tab Group
+frame|newverttabgroup                               | New Vertical Tab Group
+frame|nexteditor                                    | Next Editor
+frame|nextpane                                      | Next Pane
+frame|options                                       | Options...
+frame|options|import_export                         | Import and Export Options...
+frame|previouseditor                                | Previous Editor
+frame|previouspane                                  | Previous Pane
+frame|properties                                    | Properties...
+frame|selectobjectinnavigator                       | Select Object in Navigator
+frame|selectparentobjectinnavigator                 | Select Parent Object in Navigator
+frame|togglefirstpane                               | Toggle First Pane
+frame|togglefullscreen                              | Full Screen
+frame|togglesecondpane                              | Toggle Second Pane
+frame|window0                                       | 1   (Window 1)
+frame|window1                                       | 2   (Window 2)
+frame|window2                                       | 3   (Window 3)
+frame|window3                                       | 4   (Window 4)
+frame|window4                                       | 5   (Window 5)
+frame|window5                                       | 6   (Window 6)
+frame|window6                                       | 7   (Window 7)
+frame|window7                                       | 8   (Window 8)
+frame|window8                                       | 9   (Window 9)
+frame|window9                                       | 10   (Window 10)
+frame|windows                                       | Windows...
+gw_config_form|add_main_net                         | Add top level interface...
+gw_config_form|add_setting                          | Add configuration setting...
+gw_config_form|add_sub_net                          | Add sub level interface...
+help|contents                                       | Contents
+help|index                                          | Index
+help|search                                         | Search
+help|usageanalysis                                  | Display Usage Analysis Data...
+imagepool|insertimage                               | Insert Image
+inputassistant                                      | Input Assistant...
+installation|devicerepository                       | Device Repository...
+installation|libraryrepository                      | Library Repository...
+installation|packagemanager                         | Package Manager...
+installation|visualelementrepository                | Visual Element Repository
+installation|visualizationstylesrepository          | Visualization Style Repository...
+internal|dumpallvisualizations                      | TODO: DumpAllVisualizations
+internal|updatedatasourceguids                      | TODO: Update data source guids
+internal|updatelmguids                              | TODO: Reset and update languagemodelguids
+libman|add                                          | Add Library...
+libman|export                                       | Export Library...
+libman|exportlibdoc                                 | Doc Export
+libman|placeholders                                 | Placeholders...
+libman|properties                                   | Properties...
+libman|reload                                       | Try To Reload Library
+localize|createfile                                 | Create Localization Template...
+localize|project                                    | Localize Project...
+manage|localization                                 | Manage Localizations...
+messages|gotosourcepos                              | Go To Source Position
+messages|next                                       | Next Message
+messages|prev                                       | Previous Message
+network|adden                                       | Add/remove EN/ENO
+network|changetext                                  | Modify Text
+network|deleteilline                                | Delete IL line
+network|goto                                        | Go To...
+network|insertassign                                | Insert Assignment
+network|insertbox                                   | Insert Box
+network|insertboxeneno                              | Insert Box with EN/ENO
+network|insertboxparallel                           | Insert Box Parallel (below)
+network|insertbranch                                | Insert Branch
+network|insertbranchabove                           | Insert Branch above
+network|insertbranchbelow                           | Insert Branch below
+network|insertcoil                                  | Insert Coil
+network|insertcontact                               | Insert Contact
+network|insertcontactparallel                       | Insert Contact Parallel (above)
+network|insertcontactparallelbelow                  | Insert Contact Parallel (below)
+network|insertcontactright                          | Insert Contact (right)
+network|insertconversionbox                         | Insert conversion operator
+network|insertcustombox0                            | Insert ADD box
+network|insertcustombox1                            | Insert SUB box
+network|insertcustombox10                           | Insert SR box
+network|insertcustombox11                           | Insert RS box
+network|insertcustombox12                           | Insert CTU box
+network|insertcustombox13                           | Insert CTD box
+network|insertcustombox14                           | Insert CTUD box
+network|insertcustombox15                           | Insert TON box
+network|insertcustombox16                           | Insert TOF box
+network|insertcustombox17                           | Insert TP box
+network|insertcustombox18                           | Insert F_TRIG box
+network|insertcustombox19                           | Insert R_TRIG box
+network|insertcustombox2                            | Insert MUL box
+network|insertcustombox20                           | Insert CustomBox20 box
+network|insertcustombox21                           | Insert CustomBox21 box
+network|insertcustombox22                           | Insert CustomBox22 box
+network|insertcustombox23                           | Insert CustomBox23 box
+network|insertcustombox24                           | Insert CustomBox24 box
+network|insertcustombox25                           | Insert CustomBox25 box
+network|insertcustombox26                           | Insert CustomBox26 box
+network|insertcustombox27                           | Insert CustomBox27 box
+network|insertcustombox28                           | Insert CustomBox28 box
+network|insertcustombox29                           | Insert CustomBox29 box
+network|insertcustombox3                            | Insert DIV box
+network|insertcustombox30                           | Insert CustomBox30 box
+network|insertcustombox31                           | Insert CustomBox31 box
+network|insertcustombox4                            | Insert LT box
+network|insertcustombox5                            | Insert LE box
+network|insertcustombox6                            | Insert EQ box
+network|insertcustombox7                            | Insert GE box
+network|insertcustombox8                            | Insert GT box
+network|insertcustombox9                            | Insert NE box
+network|insertemptybox                              | Insert Empty Box
+network|insertemptyboxeneno                         | Insert Empty Box with EN/ENO
+network|insertexecutebox                            | Insert Execute Box
+network|insertilline                                | Insert IL line below
+network|insertinput                                 | Insert Input
+network|insertjump                                  | Insert Jump
+network|insertlabel                                 | Insert label
+network|insertnegatedcontact                        | Insert Negated Contact
+network|insertnegatedcontactparallelbelow           | Insert Negated Contact Parallel (below)
+network|insertnetwork                               | Insert Network
+network|insertnetworkbelow                          | Insert Network (below)
+network|insertresetcoil                             | Insert Reset coil
+network|insertreturn                                | Insert Return
+network|insertsetcoil                               | Insert Set coil
+network|negate                                      | Negation
+network|pasteabove                                  | Paste above
+network|pastebelow                                  | Paste below
+network|pasteright                                  | Paste right (after)
+network|removeunusedfbparams                        | Remove unused FB call parameters
+network|repair                                      | Repair POU
+network|set                                         | Set/Reset
+network|setbranchpoint                              | Set Branch Start/End Point
+network|setoutput                                   | Set output connection
+network|togglenetworkoutcomment                     | Toggle network comment state
+network|trigger                                     | Edge Detection
+network|updatefbparams                              | Update parameters
+network|viewasfbd                                   | View as function block diagram
+network|viewasil                                    | View as instruction list
+network|viewasladder                                | View as ladder logic
+nwl|viewlanguagemodel                               | View Language Model...
+object|add                                          | Add Object...
+object|addfolder                                    | Add Folder...
+object|addlist                                      | Add Object
+object|edit                                         | Edit Object
+object|editoffline                                  | Edit Object (Offline)
+object|editwith                                     | Edit Object With...
+object|implementinterfaces                          | Implement interfaces...
+online|addonlineuser                                | Add device user...
+online|changepasswordonlineuser                     | Change Password Device User...
+online|connectDevice                                | Connect to []
+online|createbootproject                            | Create boot application
+online|disconnectDevice                             | Disconnect from []
+online|display|bin                                  | Binary
+online|display|dec                                  | Decimal
+online|display|hex                                  | Hexadecimal
+online|downloadactiveapp                            | Download
+online|fileDownload                                 | File download
+online|fileUpload                                   | File upload
+online|flowcontrolactiveapp                         | Toggle Flow Control mode
+online|forceactiveaplication                        | Force values
+online|forceselectedaplication                      | Force all values [selected application]
+online|forcevalues                                  | Force values to all online applications
+online|loginactiveapp                               | Login
+online|loginCascading                               | Login all applications
+online|loginmultiapp                                | Login
+online|logoffuser                                   | Logoff current device user
+online|logoutactiveapp                              | Logout
+online|logoutCascading                              | Logout all applications
+online|logoutMultiapp                               | Logout
+online|modedebug                                    | Debug
+online|modelocked                                   | Locked
+online|modeoperational                              | Operational
+online|multidownload                                | Multiple Download...
+online|onlinechangeactiveapp                        | Online Change
+online|onlinechangeselectedapp                      | Online Change
+online|open_logger_page                             | Open log page...
+online|releaseforcelistactiveapp                    | Release Forcelist
+online|removeapplicationfromdevice                  | Delete application from device
+online|removeonlineuser                             | Remove device user...
+online|resetcoldactiveapp                           | Reset cold
+online|resetColdCascading                           | Reset cold all applications
+online|resetoriginactiveapp                         | Reset origin
+online|resetorigindevice                            | Reset origin device [<none>]
+online|resetwarmactiveapp                           | Reset warm
+online|resetWarmCascading                           | Reset warm all applications
+online|simulate_active_app                          | Simulation
+online|singlecycleactiveapp                         | Single Cycle
+online|sourcedownload                               | Source download to connected device
+online|sourcedownloadex                             | Source download...
+online|sourceupload                                 | Source upload...
+online|startactiveapp                               | Start
+online|startCascading                               | Start all applications
+online|startMultiapp                                | Start
+online|stopactiveapp                                | Stop
+online|stopCascading                                | Stop all applications
+online|stopMultiapp                                 | Stop
+online|unforceactiveapplication                     | Unforce values 
+online|unforceselectedaplication                    | Unforce all values [selected application]
+online|unforcevalues                                | Unforce all values on all online applications
+online|wink                                         | Wink
+online|writeactiveapplication                       | Write values
+online|writeselectedaplication                      | Write all values [selected application]
+online|writevalues                                  | Write values to all online applications
+pam_branding|customerfeedback                       | Feedback
+pam_branding|paconlinefaq                           | PAC Online FAQ
+pam_branding|paconlinehelp                          | PAC Online Help
+pam_branding|pacsupportpage                         | PAC Support Page
+pam_branding|psdproductpage                         | PSD Product Page
+pam_branding|psdsupportpage                         | PSD Support Page
+pam_developer|clearparkermessagesarea               | Clear Parker Messages
+pam_developer|commandeditorcommand                  | Open Command Editor
+pam_developer|commandsmenulist                      | List Toolbar Button
+pam_developer|displayremoteipaddresses              | Display Remote IP Addresses
+pam_developer|editorviewinfo                        | Editor View Info
+pam_developer|importgvl                             | GVL Import
+pam_developer|testcommand                           | Test Command
+pam_developer|togglebutton                          | Toggle
+parallel|togglemode                                 | Toggle Parallel Mode
+plcopenxml|export                                   | Export PLCopenXML...
+plcopenxml|import                                   | Import PLCopenXML...
+print|document                                      | Document...
+print|pagesetup                                     | Page Setup...
+print|print                                         | Print...
+print|printpreview                                  | Print Preview...
+project|buildactiveapp                              | Build
+project|checkall                                    | Check all Pool Objects
+project|checkallapplicationobjects                  | Check all Application Objects
+project|checkavailableversions                      | Project Environment...
+project|checklibrarycompatibility                   | Check Library Compatibility 
+project|cleanactiveapp                              | Clean
+project|cleanall                                    | Clean all
+project|commit_accepted_changes                     | Commit accepted changes
+project|compare                                     | Compare...
+project|export                                      | Export...
+project|generatecodeactiveapp                       | Generate code
+project|generatedisassemblyactiveapp                | Generate disassembly file
+project|generateextlibm4                            | Generate runtime system files...
+project|generatehexfileactiveapp                    | Generate hex file
+project|import                                      | Import...
+project|import2                                     | Import...
+project|rebuildactiveapp                            | Rebuild
+project|setactiveappl                               | Set Active Application
+recipes|addrecipe                                   | Add a new recipe
+recipes|addvariable                                 | Add a variable
+recipes|addvariablestorecipedefinition              | Add to recipe definition
+recipes|insertvariable                              | Insert Variable
+recipes|loadrecipe                                  | Load Recipe...
+recipes|loadwriterecipe                             | Load and write Recipe...
+recipes|readrecipe                                  | Read Recipe
+recipes|readsaverecipe                              | Read and save Recipe ...
+recipes|recipevariableaddchild                      | Add child
+recipes|recipevariableaddsibling                    | Add sibling
+recipes|removerecipes                               | Remove recipe
+recipes|removevariables                             | Remove variables
+recipes|saverecipe                                  | Save Recipe...
+recipes|updateguids                                 | Update Recipe GUIDs
+recipes|updatestructuredvariables                   | Update structured variables
+recipes|uploadrecipesfromdevice                     | Upload recipes from device
+recipes|writerecipe                                 | Write Recipe
+redundancy|readsettings                             | Read settings
+redundancy|setactivepathplc2                        | Set active path plc 2
+redundancy|switchactivetopassive                    | Switch to passive
+redundancy|switchpassivetosimulation                | Switch to simulation
+redundancy|switchsimulationtoactive                 | Switch to active
+redundancy|switchsimulationtostandalone             | Switch to standalone
+redundancy|synchronize                              | Synchronize
+redundancy|writesettings                            | Write settings
+refactor|addvariable                                | Add variable...
+refactor|globalupdatepins                           | Update Referenced Pins
+refactor|removevariable                             | Remove ''...
+refactor|rename                                     | Rename ''...
+refactor|reorderVariables                           | Reorder variables...
+Restore|values                                      | Restore values from recipe
+Save|acutal|values                                  | Save current values to recipe
+script|execute                                      | Execute Script File...
+script|executewithletter                            | ...
+script|tracing                                      | Enable Script Tracing 
+security_manager|show_security_screen               | Security Screen
+sfc|addentryaction                                  | Add entry action
+sfc|addexitaction                                   | Add exit action
+sfc|alternative                                     | Alternative
+sfc|duplicationremove                               | Remove
+sfc|insertactionassociation                         | Insert action association
+sfc|insertactionassociationafter                    | Insert action association after
+sfc|insertbranch                                    | Insert branch
+sfc|insertbranchright                               | Insert branch right
+sfc|insertjump                                      | Insert jump
+sfc|insertjumpafter                                 | Insert jump after
+sfc|insertmacro                                     | Insert macro
+sfc|insertmacroafter                                | Insert macro after
+sfc|insertstep                                      | Insert step
+sfc|insertstepafter                                 | Insert step after
+sfc|inserttrans                                     | Insert transition
+sfc|inserttransafter                                | Insert transition after
+sfc|inserttransstep                                 | Insert step-transition
+sfc|inserttransstepafter                            | Insert step-transition after
+sfc|parallel                                        | Parallel
+sfc|pasteafter                                      | Paste after
+sfc|setduplicate                                    | Set
+sfc|setinitstep                                     | Init step
+sfc|toggleshowembeddedobjects                       | Hide embedded objects
+sfc|zoommacroin                                     | Zoom into macro
+sfc|zoommacroout                                    | Zoom out of macro
+staticanalysis|run                                  | Run static analysis
+staticanalysis|standardmetrics                      | View standard metrics
+tabulardeclaration|editheader                       | Edit Declaration Header...
+tabulardeclaration|insert                           | Insert
+tabulardeclaration|movedown                         | Move down
+tabulardeclaration|moveup                           | Move up
+targetsettings|exportdoc                            | Target Settings Doc Export
+text_editor_base|comment_in_selected_lines          | Uncomment selected lines
+text_editor_base|comment_out_selected_lines         | Comment out selected lines
+text_editor_base|toggle_incrementalsearch           | Toggle Field for Incremental Search
+text_editor_base|toggle_inline_monitoring           | Enable inline monitoring
+text_list_enum|convert_to_enum                      | Remove text list support
+text|collapseallfolds                               | Collapse All Folds
+text|expandallfolds                                 | Expand All Folds
+text|gotoline                                       | Go To Line...
+text|gotomatchingbracket                            | Go To Matching Bracket
+text|insertfile                                     | Insert File As Text...
+text|makelowercase                                  | Make Lowercase
+text|makeuppercase                                  | Make Uppercase
+text|selecttomatchingbracket                        | Select To Matching Bracket
+text|toggleinsertmode                               | Overwrite Mode
+text|viewindentationguides                          | View Indentation Guides
+text|viewwhitespace                                 | View Whitespace
+textlist|addlanguage                                | Add Language
+textlist|checktextids                               | Check Visualization Text Ids
+textlist|createglobaltextlist                       | Create Global Text List
+textlist|createsystemtextlist                       | Create system textlist
+textlist|exportalltxtfiles                          | Export All .txt Text List Files
+textlist|exportallunicodetxtfiles                   | Export All Unicode .txt Text List Files
+textlist|exportallunicodexmlfiles                   | Export All Unicode .xml Text List Files
+textlist|exportallxmlfiles                          | Export All .xml Text List Files
+textlist|import                                     | Import Unicode .txt Text List
+textlist|import_export                              | Import/Export Text Lists
+textlist|importalltxtfiles                          | Import All Unicode .txt Text List Files
+textlist|inserttext                                 | Insert Text
+textlist|remove_unused_items                        | Remove Unused Text List Entries
+textlist|removelanguage                             | Remove Language
+textlist|renamelanguage                             | Rename Language
+textlist|updatetextids                              | Update Visualization Text Ids
+toggle|localization                                 | Toggle Localization
+tools|licensemanager                                | License Manager...
+tools|licenserepository                             | License Repository...
+trace|ExportSymbolicConfig                          | Export symbolic trace config
+trace|load                                          | Load Trace...
+trace|save                                          | Save Trace...
+usermgmt|changeuser                                 | Change user
+usermgmt|login                                      | User Logon...
+usermgmt|logout                                     | User Logoff
+usermgmt|permissions                                | Permissions...
+var_config|addallinstpaths                          | Add all instance paths
+var_persistent|addallinstpaths                      | Add all instance paths
+view|allocationplus                                 | Online Change Memory Reserve Settings
+view|applicationlistcommand                         | All applications list
+view|bookmarks                                      | Bookmarks
+view|breakpoints                                    | Breakpoints
+view|callstack                                      | Call Stack
+view|calltree                                       | Call Tree
+view|crossref                                       | Cross Reference List
+view|devices                                        | Devices
+view|elementproperties                              | Element properties
+view|hmidatasourcesview                             | Datasources
+view|hmifeaturesview                                | HMI Features
+view|hmiprogrammingview                             | Programming
+view|hmivisualizationsview                          | Visualizations
+view|legacycrossref                                 | Classic Cross Reference List
+view|memory_prompt_move                             | Memory
+view|messages                                       | Messages
+view|modulereferences                               | Show Module References View
+view|modules                                        | Modules
+view|pous                                           | POUs
+view|sethmiperspective                              | HMI Perspective
+view|setstandardperspective                         | CODESYS Perspective
+view|startpage                                      | Start Page
+view|toolbox                                        | ToolBox
+view|watch1                                         | Watch 1
+view|watch2                                         | Watch 2
+view|watch3                                         | Watch 3
+view|watch4                                         | Watch 4
+visu|mulitplyelements                               | Multiply visu element
+visual|activatekeyboardusage                        | Activate keyboard usage
+visual|addelement                                   | Add Visualelement
+visual|alarmbannerwizard                            | Insert elements for scrolling alarms...
+visual|alarmtablewizard                             | Insert elements for acknowledging alarms...
+visual|alignbottom                                  | Align Bottom
+visual|alignhorizontalcenter                        | Align Horizontal Center
+visual|alignleft                                    | Align Left
+visual|alignright                                   | Align Right
+visual|aligntop                                     | Align Top
+visual|alignverticalcenter                          | Align Vertical Center
+visual|backgroundbitmapcolor                        | Background
+visual|bringonetofront                              | Bring One to Front
+visual|bringtofront                                 | Bring to Front
+visual|decreasehorizontalspacing                    | Decrease horizontal spacing
+visual|decreaseverticalspacing                      | Decrease vertical spacing
+visual|frameselection                               | Frame Selection 
+visual|groupelements                                | Group
+visual|increasehorizontalspacing                    | Increase horizontal spacing
+visual|increaseverticalspacing                      | Increase vertical spacing
+visual|insertvisuelementplaceholders                | Add Visual Element Development Libraries
+visual|makehorizontalspacingequal                   | Make horizontal spacing equal
+visual|makesameheigth                               | Make same heigth
+visual|makesamesize                                 | Make same size
+visual|makesamewidth                                | Make same width
+visual|makeverticalspacingequal                     | Make vertical spacing equal
+visual|mergelanguagemodel                           | Merge Languagemodel in Visualizations
+visual|removehorizontalspacing                      | Remove horizontal spacing
+visual|removenotsupportedtargetvisulightproperties  | Remove not supported visu light properties
+visual|removeverticalspacing                        | Remove vertical spacing
+visual|replacealltraceelement                       | Replace old trace elements by new ones for all visualizations of project
+visual|replacetraceelement                          | Replace old trace elements by new ones
+visual|selectall                                    | Select All
+visual|selectnone                                   | Select None
+visual|sendonetoback                                | Send One to Back
+visual|sendtoback                                   | Send to Back
+visual|setobjectguids                               | TODO: Set Visualobject-Guid
+visual|showelementlist                              | Visual Element List Editor
+visual|showhotkeys                                  | Hotkeys Editor
+visual|showinterface                                | Interface Editor
+visual|sizetogrid                                   | Size to grid
+visual|stresstest                                   | TODO: Visualization stress
+visual|traceconfig                                  | Configure trace...
+visual|tracewizard                                  | Insert elements for controlling trace...
+visual|trendconfig                                  | Configure display settings of trend...
+visual|trendrecordingconfig                         | Edit trend recording
+visual|trendwizard                                  | Insert elements for controlling the trend...
+visual|trimvisualelementtexts                       | Trim visual element texts
+visual|ungroupelements                              | Ungroup
+visual|updateframeparametersall                     | Update all Frame Parameters
+visual|updateframeparameterscurrent                 | Update Frame Parameters in <None>
+visual|updatelanguagemodel                          | TODO: Update Languagemodel
+visual|updatetoolbox                                | Update The Toolbox
+VisualManagerEditor|setcolorvariablesfullopaque     | Set colorvariables fully opaque
+VisualManagerTextlistSettings|copylanguagesetting   | Copy language settings
+VisualManagerTextlistSettings|deletelanguage        | Delete language
+VisualManagerTextlistSettings|pastelanguagesetting  | Paste language settings
+watchlist|addallforces                              | Add All Forces To Watchlist
+watchlist|unforce_all_selected_keep_values          | Unforce and keep all selected values
+watchlist|unforce_all_selected_restore_values       | Unforce and restore all selected values 
+window|resetwindowlayout                            | Reset Window Layout
+
+Customized Commands [8]
+933fd0d8-81ea-4955-b480-24146f7ddd40 | New Project...
+933fd0d8-81ea-4955-b480-24146f7ddd40 | Open Project...
+933fd0d8-81ea-4955-b480-24146f7ddd40 | Save Project
+02abb186-7154-49dd-9b61-6357ac0d60ee | Add Object
+ab91ad5b-a221-457b-b0a7-04dec62342cb | CODESYS Homepage...
+7550cc92-8a35-4635-a6a8-7b1882215928 | Store
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | Simulation
+8ddbe3c7-2966-4ba9-a27b-7db46265241d | Simulation
