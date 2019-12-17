@@ -9,6 +9,10 @@ p {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+pre {
+	font-size:smaller;
+}
+
 body {
 	color: #000000;
 	background-color: #FFFFF1;
@@ -97,6 +101,11 @@ li.li2>a:hover {
 	font-weight: 700;
 	width: 95%;
 	padding: 10px 10px 5px 10px;
+}
+
+.hh{
+	font-weight: 700;
+	color:blue;
 }
 
 #help_toc_table {
