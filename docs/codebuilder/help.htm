@@ -53,12 +53,22 @@
 					The Parker Code Builder application has a main menu bar containing File, Edit, Project, Build, Tools,
 					SVN, and Help along with a full range of sub-menu items for each:
 				</div>
+				<div>
+				<p>The entire application window can be resized at any time. Similarly the ‘output field’ and simultaneously 
+				the ’actions area’ can be resized by clicking on the divider located in between the two areas and dragging 
+				it up or down. Double-clicking either of the dividers automatically sets it back to its default location which 
+				is roughly midway between the two panes.</p>		
+				<p>A status bar located at the bottom of the application window is for notifying you of certain events that 
+				occur (such as when a project was just saved or reverted). The message disappears after a few seconds or 
+				when the mouse is moved a short distance around the screen:</p>
+				<img alt="" src="images\PIC-00a.png">
+			</div>
 			</li>
 			<li class="li2">
 				<hr />
 				<a><b>File</b> menu</a>
 				<div class="t1">
-					This is the <b>File</b> menu
+					This is the <b>File</b> menu:
 				</div>
 				<img alt="" src="images\PIC-01.png">
 				<div class="t2">
@@ -92,6 +102,12 @@
 						<li><b>Delete</b> the selected text from the current textbox.</li>
 						<li><b>Select</b> all the text in the current textbox and highlight it.</li>
 					</ul>
+				</div>
+				<div class="t1">
+				All text fields located elsewhere on the window, also have available a right-click 'Edit' context menu : 
+				</div>
+				<img alt="" src="images\PIC-03.png">
+				<div class="t2">
 				</div>
 			</li>
 			<li class="li2">
@@ -185,7 +201,13 @@
 				</div>
 				<img alt="" src="images\PIC-08.png">
 				<div class="t2">
-					texttexttexttext <span class="sp2">span2span2span2</span> texttexttexttext.
+					You can execute the following menu items:
+					<ul>
+					<li> View Help - which essentially opens this help file.</li>
+					<li> Check for a new version of this application.</li>
+					<li> Show a help dialog with some minimal information about this application.</li>
+					<li> Perform a Test which is mainly for debug purposes.</li>
+					</ul>
 				</div>
 			</li>
 			<li class="li2">
@@ -199,7 +221,6 @@
 				</div>
 				<img alt="" src="images\PIC-10.png">
 				<div class="t2">
-					texttexttexttext <span class="sp2">span2span2span2</span> texttexttexttext.
 				</div>
 			</li>
 			<li class="li2">
@@ -232,7 +253,13 @@
 						<li>The <i>amount of time</i> the action last took to run.</li>
 					</ul>
 				</div>
-				All the actions will display a tooltip
+				<div>
+				Some tooltips such as those available when hovering over the ‘Build’ action lists, show the 
+				‘description’ assigned to the particular action being hovered over. Descriptions are assigned 
+				at the time the action is created, but can be modified at any time. Since all actions must have 
+				a ‘name’, when a description has not been assigned to a particular action, the 
+				tooltip content is simply the same as the ‘name’ given to the action.
+				</div>
 			</li>
 			<li class="li2">
 				<hr />
@@ -266,6 +293,11 @@
 				</div>
 				<img alt="" src="images\PIC-16.png">
 				<div class="t2">
+				<p>In addition to the ability to check or uncheck all the checkboxes pertaining to ‘all’ the actions 
+				lists at once by clicking either the '<b>Check All</b>' or '<b>Uncheck All</b>' button, you can also 
+				check all or uncheck all items in a specific actions list by right-clicking the list and choosing the 
+				corresponding menu item:</p>
+				<img alt="" src="images\PIC-16a.png">
 				</div>
 			</li>
 			<li class="li2">
@@ -287,6 +319,13 @@
 				</div>
 				<img alt="" src="images\PIC-19.png">
 				<div class="t2">
+				Email is normally sent out immediately following a successful run to the email addresses defined 
+				in two separately maintained lists (or groups of users). You can choose to send email to either 
+				one or both of the groups by using the corresponding checkboxes located to the left of each. 
+				In fact, at any time during a run, you can change these email settings before the email gets sent. 
+				Separate emails are sent out for each destination (i.e., ‘Local’ or ‘Remote’) that gets published to. 
+				Whenever publishing to a local destination, email is sent out immediately after the local destination 
+				is published to. 
 				</div>
 			</li>
 			<li class="li2">
@@ -296,8 +335,78 @@
 					Contains the list of remote email addresses to send a message to when a job has successfully
 					completed and has been published to the remote archive.
 				</div>
+				<img alt="" src="images\PIC-18.png">
+				<div class="t2">
+				Because publishing to a remote location takes a significant amount of time to perform, whenever a 
+				remote destination is published to, email is not sent out to the remote location until the very end 
+				of the run.
+				</div>
+			</li>
+			<li class="li2">
+				<hr />
+				<a><b>'Email Addresses'</b> control </a>
+				<div class="t1">
+				<p>Although you can resize (stretch the window) to see more email addresses at a glance, you can also
+				click the down arrow located to the right of the email addresses field to display the information in 
+				an easy to view list form as shown here</p>
+				</div>
 				<img alt="" src="images\PIC-20.png">
 				<div class="t2">
+				<p>Append an asterisk to any email addresses that you only want to have email sent to if and when a run 
+				should fail. Email addresses are normally delimited by a semicolon, but you can also use a space.</p>
+				</div>
+			</li>
+			<li class="li2">
+				<hr />
+				<a><b>'Email Message'</b> indicating Success</a>
+				<div class="t1">
+				This is an example email sent out to all users in the list of email addresses showing that the run completed
+				successfully:
+				</div>
+				<img alt="" src="images\PIC-20A.png">
+				<div class="t2">
+				What got published to the archive and a hypertext link to the archive is included in the message.
+				</div>
+			</li>
+			<li class="li2">
+				<hr />
+				<a><b>'Email Message'</b> indicating Failure</a>
+				<div class="t1">
+					This is an example email sent out to only users having an asterisk beside their email address
+					showing that the run failed:
+				</div>
+				<img alt="" src="images\PIC-20C.png">
+				<div class="t2">
+				The general cause of the failure is part of the email message.
+				</div>
+			</li>
+			<li class="li2">
+				<hr />
+				<a><b>'Acknowledge Exception'</b> indicating failure</a>
+				<div class="t1">
+					When a run fails a red message immediately becomes visible in the middle of the main application 
+					window:
+				</div>
+				<img alt="" src="images\PIC-20D.png">
+				<div class="t2">
+				<p>Hover the mouse over the red area to show a tooltip describing the error in general terms.</p> 
+				<p>It must be acknowledged (i.e., the red rectangle clicked on) before you can proceed.</p> 				
+				<p>You should examine the log file for further explanation as to the cause for the error.</p>
+				</div>
+			</li>
+			<li class="li2">
+				<hr />
+				<a><b>'View Log'</b> button</a>
+				<div class="t1">
+				Click the <b>'View Log'</b> button at any time during or after a run to open the log file containing more 
+				detailed information regarding the run.
+				</div>
+				<img alt="" src="images\PIC-20E.png">
+				<div>
+				<p>Under the <b>View Log</b> button is an <b>Append Log</b> checkbox that when checked, causes information 
+				to be appended to the current log file during the next run instead of the log file being overwritten 
+				(which is the default).</p>
+				<p>Note that there is an item in the 'Options' dialog you can set to always override the value of this checkbox.</p>
 				</div>
 			</li>
 			<li class="li2">
@@ -308,6 +417,12 @@
 				</div>
 				<img alt="" src="images\PIC-21.png">
 				<div class="t2">
+				<p> You can perform edit commands (i.e., 'Cut', 'Copy' 'Paste' and 'Delete') on individual actions 
+				the same as you edit standard text.</p>
+				<p>If you want to rearrange the order of actions in a particular action list, right-click the action 
+				to display its context menu and select either the 'Move Up' or 'Move Down' menu item.</p>
+				<p>Right-click an action in the list and select the '<b>Edit Selected Action...</b>' menu item to open the 
+				'Edit Action' dialog coinciding with the selected action or just simply double-click an action in the list.</p>
 				</div>
 			</li>
 			<li class="li2">
@@ -322,24 +437,41 @@
 			</li>
 			<li class="li2">
 				<hr />
-				<a>'Edit Action' dialog - <b>Macros</b> button</a>
+				<a>'Edit Action' dialog - <b>&lt;&lt; Macros</b> button</a>
 				<div class="t1">
-					Click the <b>Macros</b> button on the 'Edit Action' dialog to expand or collapse the list of macros:
+					Click the <b>&lt;&lt; Macros</b> button on the 'Edit Action' dialog to expand or collapse the list of macros:
 				</div>
 				<img alt="" src="images\PIC-23.png">
 				<div class="t2">
+				<p>A macro is helpful for several possible reasons:</p>
+				<ul>
+				<li>Provides information (such as the build number) which would otherwise not be readily available.</li>
+				<li>Condenses the text displayed often by a considerable amount.</li>
+				<li>All references are automatically updated if the value corresponding to a macro changes.</li>
+				</ul>
+				<p>Click the <b>&lt;&lt; Macros</b> button to hide the macro grids.</p>
+				<p>You can also just manually resize the dialog to show or hide the two macro grids.</p>
+				<p>The left column of each grid contains the name of the macro and the right column contains the value 
+				it corresponds to.</p>
+				<p>From a UI standpoint, the currently active macro field (i.e., the <b>Command</b> textbox or the
+				<b>Arguments</b> textbox), is shown highlighted in yellow.</p>
+				<p>Similarly, the active row in the active macro grid (i.e., a row in the Command Macro grid or the 
+				Variable Macro grid), is highlighted in yellow.</p>
+				<p>Click the Insert button to copy the macro name from the highlighted row of the macro grid into the 
+				highlighted macro field’s current selection.</p>
+				<p>Alternatively you can just double-click a row in either macro grid to place the macro name into the 
+				highlighted macro field’s selection.</p>
 				</div>
 			</li>
 			<li class="li2">
 				<hr />
 				<a>'Edit Action' dialog - <b>Command</b> button</a>
 				<div class="t1">
-					CLick the <b>Command</b> button just to the right of the Command field and hold the mouse down
+					Click the <b>Command</b> button just to the right of the Command field and hold the mouse down
 					to display a context menu:
 				</div>
 				<img alt="" src="images\PIC-24.png">
 				<div class="t2">
-					You can <span class="sp2">span2span2span2</span> texttexttexttext.
 				</div>
 			</li>
 			<li class="li2">
@@ -501,6 +633,49 @@
 				<div class="t2">
 					<p>Click the <span class="sp2">Yes</span> button to run the action.</p>
 					<p>Click the <span class="sp2">No</span> button to not run the action.</p>
+				</div>
+			</li>
+				<li class="li2">
+				<hr />
+				<a>'<b>Post-Build Actions</b>'</a>
+				<div class="t1">
+				<p><b>Post-Build Actions</b> has three separate (non-editable) actions associated with it that 
+				are always available for all projects at all times. </p>
+				<p>These three fields are located at the bottom of the <b>Post-Build Actions</b> list:</p>
+				</div>
+				<img alt="" src="images\PIC-42.png">
+				<div class="t2">
+				<p><b>Increment Build Number</b> when checked, automatically increments the current build number 
+				following a successful run. </p>
+				<p><b>Save Project</b> when checked, will automatically save the project when the run finishes. </p>
+				<p><b>Commit Project</b> when checked, will automatically commit the project to Subversion.</p>
+				
+				<p>Placing a checkmark into the <b>Commit Project</b> action will automatically place a checkmark 
+				into <b>Save Project</b> action. Likewise, removing the checkmark from the <b>Save Project</b> 
+				action will automatically remove the checkmark from the <b>Commit Project</b> action.</p>
+				</div>
+			</li>
+			<li class="li2">
+				<hr />
+				<a>'Main' window - <b>Stop</b> button</a>
+				<div class="t1">
+				Click the <b>Stop</b> button any time during a run to halt the execution of any more actions following the 
+				currently running action. The run stops only after the currently running action finishes.
+				</div>
+				<img alt="" src="images\PIC-42a.png">
+				<div class="t2">
+				</div>
+			</li>
+			<li class="li2">
+				<hr />
+				<a>'Main' window - <b>Force Stop</b> button</a>
+				<div class="t1">
+				<p>Click the <b>Force Stop</b> button to halt a run immediately no matter what, even if in the middle of running 
+				an action.</p> 
+				<p>Before this request is carried out, a dialog is displayed providing you an opportunity to change your mind:</p>
+				</div>
+				<img alt="" src="images\PIC-42b.png">
+				<div class="t2">
 				</div>
 			</li>
 			<li class="li2">
@@ -680,6 +855,25 @@
 				<div class="t2">
 					This dialog provides information about the current PC such as the version of Windows installed
 					and all of the versions of .Net installed on the PC, among many other things.
+				</div>
+			</li>
+			<li class="li2">
+				<hr />
+				<a><b>Publish To Archive</b></a>
+				<div class="t1">
+					<p>For publishing to an archive, there are special ‘publish files’ which contain a tab-delimited 
+					list of files to be published. These special files are designated by a ‘.cbp’ extension. 
+					</p>
+					<p>The default text editor is used by this application for editing these Publish files.</p> <p>
+					The text on each line contains two items delimited by one or more tabs. 
+					The first item defines ‘what is to be copied’ and the second item ‘the sub-folder to copy to’ 
+					at the destination.</p>
+					<p>If the second item is left blank, the file is copied to the root folder of the destination.</p>
+				</div>
+				<img alt="" src="images\PIC-59.png">
+				<div class="t2">
+					Note that you can 'comment out' (i.e., designate data inside the publish file to be ignored), by 
+					simply prefacing the line with a double colon (“::”).
 				</div>
 			</li>
 
