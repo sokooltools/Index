@@ -101,6 +101,7 @@ li.li2>a:hover {
 	font-weight: 700;
 	width: 95%;
 	padding: 10px 10px 5px 10px;
+	white-space: nowrap;
 }
 
 .hh{
