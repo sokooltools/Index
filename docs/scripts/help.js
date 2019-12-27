@@ -104,7 +104,7 @@ $(document).ready(function() {
 		if ($("div").hasClass("centered"))
 			return;
 		const sel1 = $("img");
-		const sel2 = $("[src$='.png'],[src$='.jpg']");
+		const sel2 = $("[src$='.png'],[src$='.jpg'],[src$='.gif']");
 		for (let i = 0; i < sel1.length; i++) {
 			sel1[i].outerHTML += `<div class='centered'> [${sel2[i].src.substring(sel2[i].src.lastIndexOf("/") + 1)}]</div>`;
 		}
