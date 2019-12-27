@@ -50,7 +50,6 @@ h2 {
     mso-style-link: "Heading 2 Char";
     margin-top: 2.0pt;
     margin-right: 0in;
-    margin-bottom: 0in;
     margin-left: 12pt;
     margin-bottom: .0001pt;
     line-height: 107%;
@@ -65,7 +64,6 @@ h3 {
     mso-style-link: "Heading 3 Char";
     margin-top: 2.0pt;
     margin-right: 0in;
-    margin-bottom: 0in;
     margin-left: 12pt;
     margin-bottom: .0001pt;
     line-height: 107%;
@@ -249,7 +247,7 @@ p {
     margin-right: 0in;
     margin-left: 12pt;
     font-size: 12.0pt;
-    font-family: "Times New Roman", serif;
+    font-family: "Calibri", sans-serif;
 }
 
 code {
@@ -430,6 +428,7 @@ div.Picture {
     mso-style-name: Picture;
     mso-style-link: "Picture Char";
     margin: 0in;
+    margin-top: 6pt;
     margin-left: 12pt;
     line-height: 107%;
     page-break-after: avoid;
