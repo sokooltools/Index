@@ -20,7 +20,7 @@
 	<table id="help_Toolbar">
 		<tr>
 			<td class="title">
-				Parker CodeBuilder Help
+				CodeBuilder Help
 			</td>
 			<td style="vertical-align: middle;">
 				<button type="button" id="help_btnScrollToTop">
@@ -40,17 +40,34 @@
 	</table>
 	<div id="help_Frame">
 		<ol>
-			<li class="li2"><a><b>Main</b> window</a>
+			<li class="li2">
+				<a><b>About Code Builder</b></a>
 				<div class="t1">
-					Shown here is a typical main window displayed when the <span class="sp1">Parker Code Builder</span> application
+					This Microsoft Windows-based application was developed to aid in the management of the entire code build process  
+					from its initial compilation through deployment and notification.
+				</div>
+				<div class="t2">
+					This project was constructed mostly in my spare time. It was based on a very crude version constructed years 
+					before my arrival to Parker. Aside from a very clumsy and difficult to use interface, its underlying structure
+					was based on the SOAP protocol. Overtime I have converted it to use standard XML which makes it much easier to 
+					maintain as	well as enable end-user's to have the ability to more easily read and/or modify it directly.
+				</div>
+			</li>
+
+			<li class="li2">
+				<hr />
+				<a><b>Main</b> window</a>
+				<div class="t1">
+					Shown here is a typical main window displayed when the <span class="sp1">Code Builder</span> application
 					starts up:
 				</div>
 				<img alt="" src="images\PIC-00.png">
 				<p>The first time the application is opened, the fields will contain default values.</p>
 				<p>From then on, whenever the application is opened, the most recent project file 
-					saved will be opened automatically.</p>
+					saved will be opened automatically. You'll see later in this document, that each project file is
+					also automatically added to a most recently used menu.</p>
 				<div class="t2">
-					The Parker Code Builder application has a main menu bar containing File, Edit, Project, Build, Tools,
+					The Code Builder application has a main menu bar containing File, Edit, Project, Build, Tools,
 					SVN, and Help along with a full range of sub-menu items for each:
 				</div>
 				<div>
@@ -59,10 +76,10 @@
 				it up or down. Double-clicking either of the dividers automatically sets it back to its default location which 
 				is roughly midway between the two panes.</p>		
 				<p>A status bar located at the bottom of the application window is for notifying you of certain events that 
-				occur (such as when a project was just saved or reverted). The message disappears after a few seconds or 
-				when the mouse is moved a short distance around the screen:</p>
+				occur (such as when a project was saved, reverted, or in the process of being run). The message disappears 
+				automatically after a few seconds or when the mouse is moved a short distance around the screen:</p>
 				<img alt="" src="images\PIC-00a.png">
-			</div>
+				</div>
 			</li>
 			<li class="li2">
 				<hr />
@@ -118,7 +135,7 @@
 				</div>
 				<img alt="" src="images\PIC-04.png">
 				<div class="t2">
-					The Project menu contains commands for working with <i>project</i>-specific items among them being:
+					The 'Project' menu contains commands for working with <i>project</i>-specific items among them being:
 					<ul>
 						<li><b>New FIle List...</b> -</li>
 						<li><b>View Log</b> - performs the same function as when clicking the <b>View Log</b> button on the main window.
@@ -141,7 +158,7 @@
 							</p>
 						</li>
 						<li><b>Append Log</b> - performs the same function as when clicking the <b>Append Log</b> checkmark on the main window..</li>
-						Unless this control contains a checkmark, the log file is automatically overwritten every time a Run is performed
+						Unless this control contains a checkmark, the log file is automatically overwritten every time a 'Run' is performed
 					</ul>
 				</div>
 			</li>
