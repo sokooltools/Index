@@ -97,15 +97,16 @@
             "RegistryJump",
             "SwitchTo",
             "VsClearMrus",
+			"Sokool.Net.Mvc.Core",
             "Sokool.Net.Mvc.Standard",
-            "Sokool.Net.Mvc.Core"
+			"Sokool.Net.WebForms"
         ];
         createList(0);
         createList(1);
 
         function createList(listNum) {
             const ul = document.createElement("ul");
-            var att = document.createAttribute("class");
+            const att = document.createAttribute("class");
             att.value = "listclass";
             ul.setAttributeNode(att);
             for (let i = 0; i < repos.length; i++) {
