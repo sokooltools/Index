@@ -1,0 +1,3 @@
+Open this solution to make modifications and to more easily check-in to GITHub.
+
+Open in Chrome the index.html located inside of the 'docs' folder to see what the page will look like in Github.IO
